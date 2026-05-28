@@ -17,6 +17,7 @@ import json
 import re
 import sqlite3
 import sys
+import ptvsd
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
@@ -172,127 +173,239 @@ def run_model_stub(text: str) -> list:
     return filtered
 
 
-# ── Visualisierung ────────────────────────────────────────────────────────────
+# ── Visualisierung via displaCy ───────────────────────────────────────────────
 
-def highlight_text(text: str, spans: list) -> str:
-    """HTML mit Zeilennummern und farbigen Spans für scrollbare Box."""
-    lines = text.splitlines()
-    line_starts = []
+def spans_to_displacy_manual(text: str, spans: list) -> str:
+    """
+    Konvertiert unsere Span-Liste in displaCy's Manual-Format und rendert
+    das Ergebnis als HTML-String (style='span').
+
+    Das Manual-Format erlaubt displaCy ohne ein geladenes spaCy-Modell zu
+    nutzen. Sobald das echte GBERT-Modell vorliegt, kann diese Funktion durch
+    einen direkten displacy.render(doc, style='span') Aufruf ersetzt werden.
+    """
+    import spacy
+    from spacy import displacy
+
+    # Tokenisierung mit dem deutschen Blank-Modell (kein ML nötig)
+    nlp = spacy.blank("de")
+    doc = nlp(text)
+
+    # Span-Dicts → spaCy Span-Objekte unter doc.spans["sc"]
+    spacy_spans = []
+    for s in spans:
+        span = doc.char_span(s["start"], s["end"],
+                             label=s["label"], alignment_mode="expand")
+        if span is not None:
+            spacy_spans.append(span).append(" ")
+    doc.spans["sc"] = spacy_spans
+
+    html = displacy.render(
+        doc,
+        style="span",
+        options={
+            "colors": TAP_COLORS,
+            "spans_key": "sc",
+        },
+        page=False,
+        minify=True,
+    )
+    return html
+
+
+def render_displacy_view(text: str, spans: list) -> None:
+    """
+    Rendert die displaCy-Span-Visualisierung in einer scrollbaren Box.
+    Lange Texte werden satzweise aufgeteilt für bessere Lesbarkeit.
+    """
+    import spacy
+    from spacy import displacy
+
+    nlp = spacy.blank("de")
+
+    # Satzweise aufteilen: displaCy wird bei sehr langen Texten unlesbar
+    # wenn alles in einer Zeile dargestellt wird.
+    # Wir splitten an Absätzen (Leerzeilen) oder alle ~800 Zeichen.
+    breakpoint()
+    paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
+    if not paragraphs:
+        paragraphs = [text]
+
+    # Zeichenoffsets der Absätze berechnen
+    para_offsets = []
     pos = 0
-    for line in lines:
-        line_starts.append(pos)
-        pos += len(line) + 1
+    for para in text.split("\n\n"):
+        para_offsets.append(pos)
+        pos += len(para) + 2   # +2 für \n\n
 
-    sorted_spans = sorted(spans, key=lambda x: x["start"])
+    all_html = ""
+    for para_idx, para in enumerate(paragraphs):
+        para_start = para_offsets[para_idx] if para_idx < len(para_offsets) else 0
 
-    rows = ""
-    for line_idx, line in enumerate(lines):
-        line_start = line_starts[line_idx]
-        line_end = line_start + len(line)
+        doc = nlp(para)
 
-        relevant = [s for s in sorted_spans
-                    if s["start"] < line_end and s["end"] > line_start]
+        # Spans die in diesen Absatz fallen herausfiltern und Offsets anpassen
+        local_spans = []
+        for s in spans:
+            # Span muss sich mit dem Absatz überlappen
+            s_end_adj   = s["end"]
+            s_start_adj = s["start"]
+            para_end    = para_start + len(para)
 
-        lnum = (f"<td style='color:#bbb;text-align:right;padding-right:12px;"
-                f"user-select:none;font-size:0.8rem;vertical-align:top;"
-                f"padding-top:3px;min-width:36px'>{line_idx + 1}</td>")
+            if s_start_adj >= para_end or s_end_adj <= para_start:
+                continue
 
-        if not relevant:
-            rows += f"<tr>{lnum}<td style='padding-bottom:4px'>{line or '&nbsp;'}</td></tr>"
-            continue
+            local_start = max(s_start_adj - para_start, 0)
+            local_end   = min(s_end_adj   - para_start, len(para))
 
-        cell, cursor = "", line_start
-        for span in relevant:
-            s_start = max(span["start"], line_start)
-            s_end   = min(span["end"],   line_end)
-            label   = span["label"]
-            color   = TAP_COLORS.get(label, "#999")
-            if cursor < s_start:
-                cell += line[cursor - line_start: s_start - line_start]
-            fragment = line[s_start - line_start: s_end - line_start]
-            cell += (f"<mark style='background:{color}22;border-bottom:2.5px solid {color};"
-                     f"border-radius:3px;padding:1px 3px;margin:0 1px;'>"
-                     f"<span style='color:{color};font-weight:700;font-size:0.68rem;"
-                     f"vertical-align:super;margin-right:2px'>{label}</span>"
-                     f"{fragment}</mark>")
-            cursor = s_end
-        if cursor < line_end:
-            cell += line[cursor - line_start:]
+            sp = doc.char_span(local_start, local_end,
+                               label=s["label"], alignment_mode="expand")
+            if sp is not None:
+                local_spans.append(sp)
 
-        rows += f"<tr>{lnum}<td style='padding-bottom:4px'>{cell or '&nbsp;'}</td></tr>"
+        doc.spans["sc"] = local_spans
 
-    return f"<table style='border-collapse:collapse;width:100%;line-height:1.9'>{rows}</table>"
+        para_html = displacy.render(
+            doc,
+            style="span",
+            options={"colors": TAP_COLORS, "spans_key": "sc"},
+            page=False,
+            minify=True,
+        )
+        # Absatz-Trennlinie zwischen Abschnitten
+        if para_idx > 0:
+            all_html += "<hr style='border:none;border-top:1px solid #eee;margin:8px 0'>"
+        all_html += para_html
+
+    # Scrollbare Box
+    wrapped = f"""
+    <div style="
+        height: 520px;
+        overflow-y: auto;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        padding: 16px 20px;
+        background: #ffffff;
+        font-family: 'Georgia', serif;
+        font-size: 0.92rem;
+        line-height: 1.8;
+    ">
+        {all_html}
+    </div>
+    """
+    components.html(wrapped, height=540, scrolling=False)
 
 
-# ── Annotation-Editor (Text markieren → Label zuweisen) ──────────────────────
+# ── Annotation-Editor (editierbare Karten mit Zeichengrenzen) ────────────────
 
 def render_annotation_editor(text: str, spans: list) -> list:
     """
-    Zeigt einen interaktiven Annotationsbereich:
-    - Markierter Text + Label-Button → neue Span
-    - Bestehende Spans als löschbare Karten
-    Gibt die aktualisierte Spans-Liste zurück.
+    Variante: Jede Span als vollständig editierbare Karte.
+    - Start/End-Zeichen direkt anpassbar → Span wächst/schrumpft live
+    - Label per Dropdown änderbar
+    - Neue Span per Zeichenbereich oder Texteingabe
+    - Span löschen per ✕-Button
     """
     st.markdown("### ✏️ Spans bearbeiten")
     st.caption(
-        "**Neue Span hinzufügen:** Text im Feld unten markieren, "
-        "dann Label-Button klicken. "
-        "**Span löschen:** ✕-Button an der jeweiligen Karte."
+        "Jede Span kann direkt über ihre **Zeichenpositionen** (Start/End) "
+        "vergrößert oder verkleinert werden. Die Vorschau aktualisiert sich sofort."
     )
 
-    # ── Neue Span per Texteingabe + Suche ────────────────────────────────────
-    with st.expander("➕ Neue Span manuell hinzufügen", expanded=True):
-        st.caption(
-            "Markiere den gewünschten Text im Vorschaubereich oben. "
-            "Da Browser-Textauswahl nicht direkt an Streamlit übertragen werden kann, "
-            "tippe den exakten Textausschnitt hier ein oder füge ihn ein:"
-        )
-        col_inp, col_lbl, col_add = st.columns([4, 2, 1])
-        with col_inp:
-            new_text = st.text_input(
-                "Textausschnitt:",
-                key="new_span_text",
-                placeholder="Exakter Text aus dem Dokument...",
-                label_visibility="collapsed",
-            )
-        with col_lbl:
-            new_label = st.selectbox(
-                "Label:",
-                TAP_LABELS,
-                key="new_span_label",
-                label_visibility="collapsed",
-            )
-        with col_add:
-            add_btn = st.button("➕", help="Span hinzufügen", use_container_width=True)
+    # ── Neue Span hinzufügen ──────────────────────────────────────────────────
+    with st.expander("➕ Neue Span hinzufügen", expanded=False):
+        tab_pos, tab_txt = st.tabs(["📍 Per Zeichenposition", "🔤 Per Textsuche"])
 
-        if add_btn and new_text.strip():
-            # Alle Vorkommen im Text finden
-            matches = [m for m in re.finditer(re.escape(new_text.strip()), text)]
-            if not matches:
-                st.error("Textausschnitt nicht im Dokument gefunden.")
-            else:
-                # Erstes Vorkommen nehmen das noch nicht annotiert ist
-                existing_starts = {s["start"] for s in spans}
-                added = False
-                for m in matches:
-                    if m.start() not in existing_starts:
-                        spans.append({
-                            "start": m.start(),
-                            "end":   m.end(),
-                            "label": new_label,
-                            "text":  new_text.strip(),
-                        })
-                        spans.sort(key=lambda x: x["start"])
-                        st.success(
-                            f"Span hinzugefügt: **{new_label}** "
-                            f"(Zeichen {m.start()}–{m.end()})"
-                        )
-                        added = True
-                        break
-                if not added:
-                    st.warning("Dieser Textausschnitt ist bereits als Span annotiert.")
+        with tab_pos:
+            st.caption(
+                "Trage Start- und Endposition (Zeichenindex) ein. "
+                f"Dokumentlänge: **{len(text)} Zeichen**."
+            )
+            col_s, col_e, col_l, col_btn = st.columns([2, 2, 2, 1])
+            with col_s:
+                new_start = st.number_input(
+                    "Start", min_value=0, max_value=len(text) - 1,
+                    value=0, key="new_start", label_visibility="visible"
+                )
+            with col_e:
+                new_end = st.number_input(
+                    "End", min_value=1, max_value=len(text),
+                    value=min(50, len(text)), key="new_end", label_visibility="visible"
+                )
+            with col_l:
+                new_label_pos = st.selectbox(
+                    "Label", TAP_LABELS, key="new_label_pos"
+                )
+            with col_btn:
+                st.markdown("<br>", unsafe_allow_html=True)
+                add_pos_btn = st.button("➕", key="add_pos", use_container_width=True)
 
-    # ── Bestehende Spans als Karten ───────────────────────────────────────────
+            if new_start < new_end:
+                preview_pos = text[int(new_start):int(new_end)]
+                st.markdown(
+                    f"**Vorschau:** `{preview_pos[:120]}{'…' if len(preview_pos)>120 else ''}`"
+                )
+
+            if add_pos_btn:
+                if new_start >= new_end:
+                    st.error("Start muss kleiner als End sein.")
+                else:
+                    fragment = text[int(new_start):int(new_end)]
+                    spans.append({
+                        "start": int(new_start),
+                        "end":   int(new_end),
+                        "label": new_label_pos,
+                        "text":  fragment,
+                    })
+                    spans.sort(key=lambda x: x["start"])
+                    st.success(
+                        f"Span hinzugefügt: **{new_label_pos}** "
+                        f"({int(new_start)}–{int(new_end)}): `{fragment[:60]}`"
+                    )
+                    st.rerun()
+
+        with tab_txt:
+            st.caption("Textstelle eintippen oder einkopieren — Position wird automatisch ermittelt.")
+            col_t, col_l2, col_b2 = st.columns([4, 2, 1])
+            with col_t:
+                new_txt = st.text_input(
+                    "Textausschnitt", key="new_span_txt",
+                    placeholder="Exakter Text aus dem Dokument...",
+                    label_visibility="collapsed",
+                )
+            with col_l2:
+                new_label_txt = st.selectbox(
+                    "Label", TAP_LABELS, key="new_label_txt",
+                    label_visibility="collapsed",
+                )
+            with col_b2:
+                add_txt_btn = st.button("➕", key="add_txt", use_container_width=True)
+
+            if add_txt_btn and new_txt.strip():
+                matches = list(re.finditer(re.escape(new_txt.strip()), text))
+                if not matches:
+                    st.error("Textausschnitt nicht im Dokument gefunden.")
+                else:
+                    existing_starts = {s["start"] for s in spans}
+                    added = False
+                    for m in matches:
+                        if m.start() not in existing_starts:
+                            spans.append({
+                                "start": m.start(), "end": m.end(),
+                                "label": new_label_txt, "text": new_txt.strip(),
+                            })
+                            spans.sort(key=lambda x: x["start"])
+                            st.success(
+                                f"Span hinzugefügt: **{new_label_txt}** "
+                                f"({m.start()}–{m.end()})"
+                            )
+                            added = True
+                            break
+                    if not added:
+                        st.warning("Dieser Textausschnitt ist bereits annotiert.")
+                    st.rerun()
+
+    # ── Editierbare Span-Karten ───────────────────────────────────────────────
     st.markdown(f"**Erkannte / annotierte Spans** ({len(spans)})")
 
     if not spans:
@@ -300,38 +413,76 @@ def render_annotation_editor(text: str, spans: list) -> list:
         return spans
 
     to_delete = None
+    changed   = False
+
     for i, span in enumerate(spans):
         color = TAP_COLORS.get(span["label"], "#999")
-        col_card, col_lbl, col_del = st.columns([5, 2, 1])
 
-        with col_card:
-            preview = span["text"][:80] + ("…" if len(span["text"]) > 80 else "")
-            st.markdown(
-                f"<div style='background:{color}18;border-left:3px solid {color};"
-                f"border-radius:4px;padding:6px 10px;font-size:0.88rem;'>"
-                f"<span style='color:#666;font-size:0.75rem'>Z.{span['start']}–{span['end']}</span>"
-                f"<br>{preview}</div>",
-                unsafe_allow_html=True,
-            )
+        st.markdown(
+            f"<div style='background:{color}11;border:1px solid {color}44;"
+            f"border-radius:6px;padding:10px 14px;margin-bottom:8px'>",
+            unsafe_allow_html=True,
+        )
 
+        # Zeile 1: Label + Löschen
+        col_lbl, col_del = st.columns([6, 1])
         with col_lbl:
             new_lbl = st.selectbox(
                 "Label",
                 TAP_LABELS,
                 index=TAP_LABELS.index(span["label"]),
-                key=f"spanlbl_{i}",
+                key=f"lbl_{i}",
                 label_visibility="collapsed",
             )
-            spans[i]["label"] = new_lbl
-
+            if new_lbl != span["label"]:
+                spans[i]["label"] = new_lbl
+                changed = True
         with col_del:
-            st.markdown("<div style='margin-top:6px'>", unsafe_allow_html=True)
             if st.button("✕", key=f"del_{i}", help="Span löschen"):
                 to_delete = i
-            st.markdown("</div>", unsafe_allow_html=True)
+
+        # Zeile 2: Start / End als editierbare Zahlenfelder
+        col_s, col_e, col_apply = st.columns([2, 2, 2])
+        with col_s:
+            new_s = st.number_input(
+                "Start", min_value=0, max_value=len(text) - 1,
+                value=span["start"], key=f"start_{i}",
+            )
+        with col_e:
+            new_e = st.number_input(
+                "End", min_value=1, max_value=len(text),
+                value=span["end"], key=f"end_{i}",
+            )
+        with col_apply:
+            st.markdown("<br>", unsafe_allow_html=True)
+            if st.button("↩ Übernehmen", key=f"apply_{i}", use_container_width=True):
+                if int(new_s) < int(new_e):
+                    spans[i]["start"] = int(new_s)
+                    spans[i]["end"]   = int(new_e)
+                    spans[i]["text"]  = text[int(new_s):int(new_e)]
+                    spans.sort(key=lambda x: x["start"])
+                    changed = True
+                else:
+                    st.error("Start muss kleiner als End sein.")
+
+        # Zeile 3: Textvorschau des aktuellen Span-Inhalts
+        current_fragment = text[span["start"]:span["end"]]
+        preview = current_fragment[:120] + ("…" if len(current_fragment) > 120 else "")
+        st.markdown(
+            f"<div style='font-size:0.85rem;color:#555;margin-top:4px;"
+            f"font-family:Georgia,serif;padding:4px 6px;background:white;"
+            f"border-radius:3px;border-left:3px solid {color}'>"
+            f"{preview}</div>",
+            unsafe_allow_html=True,
+        )
+
+        st.markdown("</div>", unsafe_allow_html=True)
 
     if to_delete is not None:
         spans.pop(to_delete)
+        st.rerun()
+
+    if changed:
         st.rerun()
 
     return spans
@@ -540,14 +691,7 @@ def main():
                 f"({len(lines)} Zeilen, {len(spans)} Spans)</span>",
                 unsafe_allow_html=True,
             )
-            highlighted = highlight_text(text, spans)
-            st.markdown(
-                f"""<div style="height:520px;overflow-y:auto;border:1px solid #e0e0e0;
-                border-radius:6px;padding:16px 20px;background:#fafafa;
-                font-family:'Georgia',serif;font-size:0.95rem;line-height:2.2;
-                white-space:pre-wrap;word-break:break-word;">{highlighted}</div>""",
-                unsafe_allow_html=True,
-            )
+            render_displacy_view(text, spans)
 
         with col_stat:
             st.markdown("### 📊 Übersicht")
