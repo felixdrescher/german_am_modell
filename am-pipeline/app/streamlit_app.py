@@ -214,7 +214,7 @@ def highlight_text(text: str, spans: list) -> str:
                      f"border-radius:3px;padding:1px 3px;margin:0 1px;'>"
                      f"<span style='color:{color};font-weight:700;font-size:0.68rem;"
                      f"vertical-align:super;margin-right:2px'>{label}</span>"
-                     f"{fragment}</mark>")
+                     f"{fragment}</mark> ")
             cursor = s_end
         if cursor < line_end:
             cell += line[cursor - line_start:]
