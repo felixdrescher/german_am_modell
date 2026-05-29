@@ -1,0 +1,85 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-9	Hallooooo	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-2	9-10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-3	11-24	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-4	25-29	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-5	30-46	wiederaufladbare	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-6	47-63	elektrochemische	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-7	64-70	Zellen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-8	70-71	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-9	72-75	die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-10	76-83	aktuell	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-11	84-87	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-12	88-93	Basis	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-13	94-97	von	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-14	98-118	Lithium-Verbindungen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-15	119-130	hergestellt	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-16	131-137	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-17	137-138	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+
+2-1	140-153	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-2	154-160	können	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-3	161-168	geladen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-4	169-175	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-5	175-176	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-6	177-182	indem	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-7	183-186	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-8	187-189	an	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-9	190-193	das	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-10	194-203	Stromnetz	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-11	204-217	angeschlossen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-12	218-224	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-13	224-225	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+
+3-1	227-240	Akkumulatoren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-2	241-247	können	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-3	248-251	nur	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-4	252-254	in	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-5	255-263	speziell	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-6	264-276	konzipierten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-7	277-282	Autos	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-8	283-286	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-9	287-299	Elektromotor	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-10	300-307	genutzt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-11	308-314	werden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+3-12	314-315	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[6]	
+
+4-1	317-319	In	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-2	320-326	diesen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-3	327-332	Autos	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-4	333-339	werden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-5	340-353	Akkumulatoren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-6	354-358	fest	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-7	359-368	eingebaut	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-8	368-369	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-9	370-372	um	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-10	373-378	einen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-11	379-391	Elektromotor	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-12	392-394	zu	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-13	395-404	betreiben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+4-14	404-405	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[5]	2. Data[7]	
+
+5-1	407-410	Bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-2	411-414	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-3	415-425	chemischen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-4	426-434	Reaktion	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-5	434-435	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-6	436-439	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-7	440-442	im	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-8	443-454	Akkumulator	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-9	455-462	abläuft	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-10	462-463	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-11	464-468	wird	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-12	469-473	kein	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-13	474-479	Stoff	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-14	480-491	freigesetzt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+5-15	491-492	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[5]	2. Data[8]	
+
+6-1	494-502	Deswegen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Hauptteil[5]	5. Nicht zutreffend[9]	
+6-2	503-507	Gute	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Hauptteil[5]	5. Nicht zutreffend[9]	
+6-3	507-508	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Hauptteil[5]	5. Nicht zutreffend[9]	

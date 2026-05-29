@@ -1,0 +1,72 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Für	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-2	4-8	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-3	9-12	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-4	13-16	der	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-5	17-28	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-6	29-31	am	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-7	32-38	besten	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-8	38-39	,	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-9	40-42	da	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-10	43-45	es	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-11	46-48	im	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-12	49-58	Vergleich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-13	59-62	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-14	63-66	den	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-15	67-74	anderen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-16	75-89	Energieträgern	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-17	90-99	insgesamt	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-18	100-103	das	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-19	104-109	beste	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-20	110-118	Resultat	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-21	119-124	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-22	125-130	würde	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-23	130-131	.	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+
+2-1	133-139	Gerade	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-2	140-143	die	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-3	144-158	Massenbezogene	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-4	159-172	Energiedichte	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-5	173-179	spielt	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-6	180-184	eine	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-7	185-193	wichtige	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-8	194-199	Rolle	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+2-9	199-200	.	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[6]	
+
+3-1	202-204	Da	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-2	205-207	es	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-3	208-211	den	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-4	212-219	größten	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-5	220-226	Umfang	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-6	227-230	pro	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-7	231-233	kg	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-8	234-241	beträgt	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+3-9	241-242	.	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+
+4-1	244-247	Mit	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-2	248-251	der	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-3	252-258	großen	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-4	259-282	Speicherungsmöglichkeit	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-5	283-286	und	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-6	287-292	daher	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-7	293-297	eine	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-8	298-308	geringerer	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-9	309-318	Massewird	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-10	319-323	eine	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-11	324-332	größerer	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-12	333-343	Reichweite	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-13	344-354	ermöglicht	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+4-14	354-355	.	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[5]	1. Claim[8]	
+
+5-1	357-363	Jedoch	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+5-2	364-370	dauert	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+5-3	371-374	die	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+5-4	375-384	Tankdauer	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+5-5	385-390	nicht	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+5-6	391-398	solange	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	

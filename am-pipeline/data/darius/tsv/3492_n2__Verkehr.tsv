@@ -1,0 +1,161 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-4	ÜBer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	5-8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	9-20	Wirksamkeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	21-24	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	25-28	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	29-40	Fähigkeiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	41-54	verschiedener	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	55-67	Alternativen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	68-70	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-10	71-84	herkömmlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-11	85-94	Antrieben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-12	95-99	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-13	100-106	häufig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-14	107-117	diskutiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-15	117-118	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	120-126	Meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-2	127-134	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-3	135-139	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-4	140-144	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-5	145-149	etwa	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-6	150-157	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-7	158-162	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-8	163-180	zukunftstaugliche	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-9	181-187	Lösung	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-10	188-191	des	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-11	192-200	Problems	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-12	200-201	.	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Einleitung[5]	_	
+
+3-1	203-206	Die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-2	207-214	E-Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-3	215-219	sind	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-4	220-224	zwar	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-5	225-232	weniger	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-6	233-242	effizient	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-7	243-246	als	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-8	247-251	ihre	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-9	252-263	Mitstreiter	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-10	263-264	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-11	265-269	aber	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-12	270-279	lediglich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-13	280-282	um	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-14	283-286	max	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-15	286-287	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-16	289-291	8%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-17	292-299	Weniger	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-18	300-309	effizient	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-19	310-313	als	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-20	314-325	Wasserstoff	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-21	325-326	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[7]	
+
+4-1	328-333	Dafür	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-2	334-338	sind	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-3	339-342	sie	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-4	343-346	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-5	347-351	auch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-6	352-355	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-7	356-367	Akkumulator	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-8	368-372	aber	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-9	373-381	deutlich	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-10	382-393	verfügbarer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-11	394-397	als	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-12	398-409	Wasserstoff	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[8]	
+4-13	410-413	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-14	414-417	ein	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-15	418-422	Volk	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-16	423-427	kann	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-17	428-434	besser	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-18	435-442	mittels	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-19	443-458	Massenfertigung	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-20	459-462	mit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-21	463-468	ihnen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-22	469-477	versorgt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-23	478-484	werden	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+4-24	484-485	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Pro C[2]	_	_	Hauptteil[6]	3. Warrant[9]	
+
+5-1	487-490	Der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-2	491-496	Fokus	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-3	497-503	sollte	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-4	504-508	aber	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-5	509-518	besonders	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-6	519-522	auf	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-7	523-526	den	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-8	527-539	entstehenden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-9	540-543	CO2	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-10	543-544	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-11	544-554	Emmisionen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-12	555-561	liegen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+5-13	561-562	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[10]	
+
+6-1	564-569	Diese	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-2	570-574	sind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-3	575-578	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-4	579-582	den	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-5	583-590	E-Fuels	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-6	591-593	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-7	594-604	geringsten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-8	605-608	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-9	609-613	7,8t	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-10	614-617	CO2	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-11	617-618	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-12	618-628	Äquivalent	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-13	629-631	im	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-14	632-641	Vergleich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-15	642-645	zum	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-16	646-657	Wasserstoff	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-17	658-661	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-18	662-665	den	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-19	666-679	Akkumulatoren	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-20	680-683	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-21	684-689	13,6t	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-22	690-693	bzw	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-23	693-694	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-24	696-701	13,1T	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+6-25	701-702	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[11]	
+
+7-1	704-711	E-Fuels	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-2	712-718	können	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-3	719-723	auch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-4	724-726	in	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-5	727-730	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-6	731-747	Energieeffizienz	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-7	748-757	überboten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-8	758-764	werden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-9	765-768	von	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-10	769-780	Wasserstoff	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[12]	
+7-11	781-784	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-12	785-789	auch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-13	790-792	in	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-14	793-800	anderen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-15	801-811	Kategorien	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-16	812-821	eingeholt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-17	822-828	werden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-18	828-829	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-19	830-834	aber	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-20	835-838	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-21	839-844	Fokus	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-22	845-851	sollte	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-23	852-855	auf	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-24	856-859	den	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-25	860-870	Emmisionen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-26	871-877	liegen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-27	877-878	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-28	879-882	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-29	883-886	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-30	887-890	den	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-31	891-898	E-Fuels	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-32	899-904	immer	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-33	905-909	noch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-34	910-918	deutlich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-35	919-921	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-36	922-932	geringsten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-37	933-937	sind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+7-38	937-938	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	Wirkungsgrad vorhanden[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	

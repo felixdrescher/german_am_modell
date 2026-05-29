@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-5	Durch	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-2	6-9	den	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-3	10-21	Klimawandel	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-4	22-25	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-5	26-28	es	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-6	29-34	nötig	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-7	34-35	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-8	36-38	in	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-9	39-50	erneuerbare	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-10	51-58	Energie	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-11	59-61	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-12	62-73	investieren	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-13	73-74	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+2-1	76-79	Zur	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-2	80-87	Auswahl	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-3	88-94	stehen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-4	95-103	folgende	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-5	104-118	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-6	118-119	:	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-7	120-128	Windpark	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-8	128-129	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-9	130-139	Solarpark	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-10	140-143	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-11	144-161	Wasserkraftanlage	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-12	161-162	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+3-1	164-171	Wichtig	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-2	172-175	für	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-3	176-179	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-4	180-194	Inbetriebnahme	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-5	195-200	eines	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-6	201-216	Energiewandlers	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-7	217-220	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-8	221-224	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-9	225-230	Preis	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-10	231-235	hier	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-11	236-241	liegt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-12	242-246	zwar	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-13	247-250	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-14	251-260	Solarpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-15	261-266	vorne	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-16	266-267	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[5]	
+3-17	268-273	trägt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-18	274-278	aber	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-19	279-284	durch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-20	285-289	hohe	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-21	290-312	Treibhausgasemissionen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-22	313-316	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-23	317-320	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-24	321-331	Produktion	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-25	332-335	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-26	336-346	Solarparks	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-27	347-350	zum	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-28	351-362	Klimawandel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-29	363-366	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+3-30	366-367	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	4. Rebuttal[6]	
+
+4-1	369-376	Dadurch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-2	377-382	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-3	383-386	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-4	387-396	Windparks	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-5	397-402	einen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-6	403-409	großen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-7	410-417	Vorteil	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-8	418-422	auch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-9	423-432	gegenüber	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-10	433-436	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-11	437-453	Wasserparkanlage	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-12	453-454	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+4-13	455-457	da	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[8]	
+4-14	458-461	sie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[8]	
+4-15	462-466	auch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[8]	
+4-16	467-472	viele	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[8]	
+4-17	473-486	Treibhausgase	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[8]	
+4-18	487-496	emittiert	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[8]	
+4-19	496-497	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[8]	
+
+5-1	499-507	Außerdem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-2	508-511	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-3	512-515	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-4	516-528	Jahresertrag	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-5	529-533	beim	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-6	534-542	Windpark	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-7	543-548	höher	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-8	549-552	als	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-9	553-556	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-10	557-560	des	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-11	561-571	Solarparks	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-12	572-575	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-13	576-579	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-14	580-583	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-15	584-601	Wasserkraftanlage	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	
+5-16	601-602	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Contra B[2]	Pro C[2]	Hauptteil[4]	2. Data[9]	

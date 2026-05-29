@@ -1,0 +1,114 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-2	4-7	bin	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-3	8-11	der	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-4	12-19	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-5	19-20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-6	21-25	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-7	26-29	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-8	30-33	den	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-9	34-47	Energieträger	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-10	48-51	von	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-11	52-57	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-12	58-60	au	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-13	61-68	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-14	69-78	umsteigen	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-15	79-86	sollten	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-16	86-87	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[3]	Gesamtthese[3]	Einleitung[4]	_	
+
+2-1	89-93	Zwar	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-2	94-97	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-3	98-101	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-4	102-117	Geräuschemisson	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-5	118-121	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-6	122-125	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-7	126-133	E-Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-8	134-136	am	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-9	137-145	höchsten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-10	146-149	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-11	150-155	allen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-12	156-160	drei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-13	161-164	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-14	165-167	61	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-15	168-170	dB	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-16	171-174	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-17	175-177	30	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-18	178-180	km	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-19	180-181	/	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-20	181-182	h	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-21	183-186	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-22	187-190	hat	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-23	191-195	auch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-24	196-199	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-25	200-203	dem	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-26	204-222	Gesamtwirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-27	223-226	nur	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-28	227-229	15	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-29	229-230	-	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-30	230-233	20%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-31	234-238	aber	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-32	239-242	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-33	243-263	Treibhausgasemmision	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-34	264-267	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-35	268-271	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-36	272-282	Produktion	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-37	283-286	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-38	287-290	das	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-39	291-298	E-Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-40	299-302	nur	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-41	303-306	7,8	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-42	307-308	t	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-43	309-312	CO2	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-44	312-313	-	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-45	313-323	Äquivalent	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-46	324-327	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-47	328-331	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-48	332-335	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-49	336-345	Tankdauer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-50	346-353	beträgt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-51	354-358	auch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-52	359-362	nur	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-53	363-364	3	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-54	365-372	Minuten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-55	373-376	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-56	377-380	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-57	381-391	Reichweite	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-58	392-395	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-59	396-399	man	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-60	400-403	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-61	404-407	dem	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-62	408-414	E-Fuel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-63	415-424	erreichen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-64	425-429	kann	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-65	430-434	sind	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-66	435-440	700km	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-67	440-441	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+
+3-1	443-446	Die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-2	447-460	Verfügbarkeit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-3	461-464	des	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-4	465-472	E-Fuels	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-5	473-476	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-6	477-481	hoch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-7	481-482	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-8	483-485	da	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-9	486-488	es	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-10	489-493	eine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-11	494-509	Massenfertigung	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-12	510-513	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-13	513-514	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-14	515-518	als	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-15	519-522	zum	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-16	523-531	Beispiel	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-17	532-534	im	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-18	535-544	Vergleich	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-19	545-548	mit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-20	549-552	dem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-21	553-564	Wasserstoff	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-22	564-565	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	

@@ -1,0 +1,126 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-2	3-9	dieser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-3	10-23	Argumentation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-4	24-29	werde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-5	30-33	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-6	34-39	meine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-7	40-46	Meinug	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-8	47-54	darüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-9	55-62	abgeben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-10	62-63	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-11	64-71	welches	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-12	72-78	meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-13	79-86	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-14	87-91	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-15	92-95	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-16	96-107	effektivste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-17	108-114	ANlage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-18	115-118	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-19	118-119	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+2-1	121-127	Meiner	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-2	128-135	Ansicht	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-3	136-140	nach	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-4	141-147	sollte	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-5	148-151	auf	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-6	152-161	Windparks	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-7	162-172	geschaltet	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-8	173-179	werden	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-9	179-180	,	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[5]	
+2-10	181-183	da	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-11	184-187	der	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-12	188-200	wirkungsgrad	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-13	201-203	im	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-14	204-213	gegensatz	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-15	214-216	zu	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-16	217-220	den	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-17	221-231	Solarparks	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-18	232-236	fast	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-19	237-240	50%	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-20	241-248	beträgt	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	2. Data[6]	
+2-21	249-252	und	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[7]	
+2-22	253-262	Preislich	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[7]	
+2-23	263-266	her	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[7]	
+2-24	267-275	deutlich	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[7]	
+2-25	276-278	am	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[7]	
+2-26	279-285	besten	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[7]	
+2-27	286-297	abschneidet	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[7]	
+2-28	298-302	wenn	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+2-29	303-306	man	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+2-30	307-310	auf	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+2-31	311-317	nummer	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+2-32	318-324	sicher	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+2-33	325-330	gehen	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+2-34	331-337	möchte	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+2-35	337-338	.	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	2. Cut-off[2]	Gesamtthese[2]	Hauptteil[4]	1. Claim[8]	
+
+3-1	340-358	WAsserkraftanlagen	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[9]	
+3-2	359-364	haben	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[9]	
+3-3	365-369	eine	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[9]	
+3-4	370-379	deutliche	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[9]	
+3-5	380-386	höhere	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[9]	
+3-6	387-412	Wirkungswarscheinlichkeit	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[9]	
+3-7	412-413	,	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[9]	
+3-8	414-420	kostet	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	4. Rebuttal[10]	
+3-9	421-425	aber	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	4. Rebuttal[10]	
+3-10	426-430	auch	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	4. Rebuttal[10]	
+3-11	431-433	am	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	4. Rebuttal[10]	
+3-12	434-441	meisten	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	4. Rebuttal[10]	
+3-13	441-442	,	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	4. Rebuttal[10]	
+3-14	443-451	außerdem	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-15	452-462	verursacht	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-16	463-465	es	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-17	466-470	auch	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-18	471-475	viel	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-19	476-480	Lärm	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-20	481-483	im	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-21	484-493	gegensatz	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-22	494-496	zu	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-23	497-507	Solarparks	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+3-24	507-508	.	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	2. Data[11]	
+
+4-1	510-519	Abgesehen	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-2	520-523	vom	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-3	524-528	Lärm	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-4	529-538	entschede	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-5	539-542	ich	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-6	543-547	mich	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-7	548-551	für	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-8	552-555	das	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-9	556-564	Windpark	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-10	565-570	sytem	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-11	570-571	,	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[12]	
+4-12	572-574	da	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-13	575-577	es	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-14	578-587	Preislich	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-15	588-593	nicht	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-16	594-596	so	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-17	597-604	schlimm	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-18	605-609	wäre	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-19	610-614	wenn	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-20	615-617	es	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-21	618-623	nicht	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-22	624-637	funktionieren	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-23	638-643	würde	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+4-24	643-644	.	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[13]	
+
+5-1	646-650	Wenn	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-2	651-655	eine	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-3	656-673	Wasserkraftanlage	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-4	674-679	nicht	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-5	680-685	gehen	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-6	686-691	würde	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-7	692-696	wäre	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-8	697-699	es	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-9	700-709	preislich	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-10	710-714	eine	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-11	715-721	höhere	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-12	722-726	Last	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	
+5-13	727-729	an	1. Richtig[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Unklar B[1]	Pro C[1]	_	_	Hauptteil[4]	1. Claim[14]	

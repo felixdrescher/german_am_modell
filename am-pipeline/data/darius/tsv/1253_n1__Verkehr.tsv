@@ -1,0 +1,116 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	In	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-2	3-9	meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-3	10-23	Argumentation	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-4	24-31	befasse	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-5	32-35	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-6	36-40	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-7	41-44	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-8	45-48	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-9	49-54	Thema	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-10	55-62	welcher	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-11	63-66	der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-12	67-76	folgenden	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-13	77-90	Energieträger	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-14	91-93	am	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-15	94-100	besten	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-16	101-106	dafür	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-17	107-115	geeignet	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-18	116-119	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-19	120-123	das	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-20	124-128	Ziel	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-21	129-132	der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-22	133-149	Klimaneutralität	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-23	150-152	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-24	153-162	erreichen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-25	162-163	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+
+2-1	165-168	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-2	169-178	möglichen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-3	179-192	Energieträger	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-4	193-197	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-5	198-211	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-6	211-212	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-7	213-224	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-8	225-228	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-9	229-236	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-10	236-237	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+
+3-1	239-241	Es	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-2	242-246	gibt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-3	247-256	natürlich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-4	257-271	verschiedenste	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-5	272-281	Kriterien	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-6	282-284	in	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-7	285-290	denen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-8	291-295	sich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-9	296-299	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-10	300-304	drei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-11	305-318	Energieträger	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-12	319-330	vergleichen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-13	331-337	lassen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-14	337-338	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-15	339-340	z	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-16	340-341	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+
+4-1	342-343	B	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+4-2	343-344	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+
+5-1	346-350	Wäre	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-2	351-353	da	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-3	354-357	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-4	358-378	Treibhausgasemission	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-5	379-382	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-6	383-386	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-7	387-397	Produktion	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-8	397-398	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+5-9	399-405	welche	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-10	406-424	selbstverständlich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-11	425-428	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-12	429-432	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-13	433-445	Entscheidung	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-14	446-450	eine	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-15	451-455	sehr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-16	456-466	bedeutende	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-17	467-472	Rolle	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-18	473-479	spielt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-19	479-480	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	1. Claim[5]	
+5-20	481-485	dort	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-21	486-495	schneiden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-22	496-500	zwar	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-23	501-504	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-24	505-512	E-Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-25	513-516	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-26	517-522	einer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-27	523-533	Äquivalent	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-28	534-537	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-29	538-541	7,8	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-30	542-544	am	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-31	545-551	besten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-32	552-554	ab	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-33	554-555	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	2. Data[6]	
+5-34	556-559	was	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-35	560-564	aber	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-36	565-570	nicht	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-37	571-577	direkt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-38	578-583	heißt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-39	584-587	das	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-40	588-591	sie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-41	592-596	auch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-42	597-599	am	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-43	600-606	besten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-44	607-615	geeignet	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-45	616-620	sind	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-46	621-623	um	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-47	624-627	das	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-48	628-632	Ziel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-49	633-636	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-50	637-653	Klimaneutralität	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-51	654-656	zu	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-52	657-666	erreichen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	
+5-53	666-667	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[3]	4. Rebuttal[7]	

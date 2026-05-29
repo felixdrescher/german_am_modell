@@ -1,0 +1,157 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-6	Servus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-2	7-10	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-3	11-14	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-4	15-20	meine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-5	21-32	PERSÖNLICHE	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-6	33-40	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-7	41-43	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-8	44-47	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-9	48-53	Thema	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-10	53-54	!	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-11	54-55	!	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+2-1	56-59	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-2	60-63	bin	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-3	64-69	dafür	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-4	70-73	das	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-5	74-80	E-Auto	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-6	81-91	eingeführt	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-7	92-96	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-8	96-97	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+
+3-1	99-102	Wie	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-2	103-106	man	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-3	107-109	in	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-4	110-113	der	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-5	114-121	Tabelle	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-6	122-127	sieht	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-7	127-128	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-8	129-133	sind	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-9	134-136	da	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-10	137-142	viele	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-11	143-147	plus	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-12	148-154	Punkte	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-13	154-155	.	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	1. Claim[8]	
+
+4-1	157-161	Aber	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-2	162-164	es	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-3	165-168	ist	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-4	169-173	auch	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-5	174-182	schlecht	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-6	182-183	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-7	184-188	weil	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-8	189-191	in	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-9	192-195	der	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-10	196-206	Produktion	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-11	207-215	Giftgase	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-12	216-225	ausstoßen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+4-13	225-226	.	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar C[1]	_	_	Hauptteil[7]	4. Rebuttal[9]	
+
+5-1	228-230	Es	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[7]	1. Claim[10]	
+5-2	231-235	gibt	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[7]	1. Claim[10]	
+5-3	236-240	auch	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[7]	1. Claim[10]	
+5-4	241-252	Wasserstoff	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[7]	1. Claim[10]	
+5-5	252-253	.	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[7]	1. Claim[10]	
+
+6-1	255-258	Bei	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[11]	
+6-2	259-264	einem	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[11]	
+6-3	265-271	E-Auto	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[11]	
+6-4	272-275	ist	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[11]	
+6-5	276-280	kein	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[11]	
+6-6	281-288	Auspuff	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[11]	
+6-7	289-298	notwendig	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[11]	
+6-8	298-299	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	_	
+
+7-1	301-304	Der	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-2	305-310	Grund	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-3	311-314	ist	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-4	315-322	einfach	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-5	323-324	–	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-6	325-328	der	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-7	329-334	Motor	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-8	335-342	erzeugt	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-9	343-348	keine	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-10	349-355	Abgase	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+7-11	355-356	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[12]	
+
+8-1	358-366	Speziell	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-2	367-383	Elektrofahrzeuge	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-3	383-384	,	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-4	385-388	die	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-5	389-392	mit	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-6	393-398	Strom	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-7	399-402	aus	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-8	403-416	regenerativen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-9	417-431	Energiequellen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-10	432-443	angetrieben	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-11	444-450	werden	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-12	450-451	,	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-13	452-459	leisten	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-14	460-464	hier	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-15	465-470	einen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-16	471-477	großen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-17	478-485	Beitrag	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-18	486-489	zum	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-19	490-496	Schutz	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-20	497-500	der	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-21	501-507	Umwelt	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+8-22	507-508	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[7]	1. Claim[13]	
+
+9-1	510-513	Das	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-2	514-524	schnellste	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-3	525-526	E	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-4	527-531	Auto	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-5	531-532	¿	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-6	532-533	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-7	534-537	ein	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-8	538-543	Tesla	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-9	544-549	Model	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-10	550-551	S	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-11	552-557	Plaid	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-12	558-561	von	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-13	562-563	0	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-14	564-567	auf	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-15	568-571	100	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-16	572-574	km	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-17	574-575	/	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-18	575-576	h	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-19	577-579	in	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-20	580-583	2,1	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-21	584-592	Sekunden	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-22	592-593	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-23	594-597	der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-24	598-602	neue	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-25	603-608	Tesla	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-26	609-617	Roadster	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-27	618-622	soll	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-28	623-625	es	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-29	626-629	auf	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-30	630-633	1,9	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-31	634-642	Sekunden	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-32	643-650	bringen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-33	651-654	und	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-34	655-658	das	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-35	659-669	schnellste	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-36	670-681	elektrische	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-37	682-686	Auto	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-38	687-690	der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-39	691-695	Welt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-40	695-696	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-41	697-700	der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-42	701-706	Rimac	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-43	707-713	Nevera	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-44	713-714	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-45	715-723	sprintet	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-46	724-726	in	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-47	727-731	1,86	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-48	732-740	Sekunden	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-49	741-744	auf	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-50	745-748	100	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+9-51	748-749	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[7]	_	

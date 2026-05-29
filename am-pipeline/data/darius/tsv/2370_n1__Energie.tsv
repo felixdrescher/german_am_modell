@@ -1,0 +1,107 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	4-15	Klimawandel	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	16-19	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	20-25	heute	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	26-30	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	31-36	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	37-41	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	42-53	aufzuhalten	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	53-54	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	56-67	Deutschland	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-2	68-76	versucht	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-3	77-80	nun	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-4	80-81	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-5	82-85	bis	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-6	86-90	2045	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-7	91-103	Klimaneutral	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-8	104-106	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-9	107-113	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-10	114-117	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-11	118-123	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-12	124-128	drei	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-13	129-138	Argumente	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-14	138-139	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-15	140-142	um	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-16	143-147	dies	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-17	148-158	umzusetzen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+2-18	158-159	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+3-1	161-164	Das	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-2	165-170	erste	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-3	171-179	Argument	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-4	180-185	wären	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-5	186-195	Windparks	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-6	195-196	,	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-7	197-202	diese	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-8	203-207	sind	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-9	208-212	zwar	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-10	213-222	Effizient	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-11	222-223	,	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	1. Claim[7]	
+3-12	224-230	halten	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-13	231-235	aber	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-14	236-239	nur	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-15	240-242	20	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-16	243-248	Jahre	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-17	249-252	und	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-18	253-263	verringern	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-19	264-267	die	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-20	268-277	wenigsten	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-21	278-300	Treibhausgasemissionen	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+3-22	300-301	.	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Contra C[1]	Hauptteil[6]	4. Rebuttal[8]	
+
+4-1	303-306	Der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	5. Nicht zutreffend[9]	
+4-2	307-313	zweite	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	5. Nicht zutreffend[9]	
+4-3	314-322	Argument	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	5. Nicht zutreffend[9]	
+4-4	323-328	wären	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	5. Nicht zutreffend[9]	
+4-5	329-338	Solarpark	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	5. Nicht zutreffend[9]	
+4-6	338-339	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	5. Nicht zutreffend[9]	
+
+5-1	341-346	Diese	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	2. Data[10]	
+5-2	347-354	bringen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	2. Data[10]	
+5-3	355-359	zwar	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	2. Data[10]	
+5-4	360-365	wenig	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	2. Data[10]	
+5-5	366-371	Strom	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	2. Data[10]	
+5-6	371-372	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	2. Data[10]	
+5-7	373-379	halten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-8	380-385	dafür	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-9	386-390	aber	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-10	391-393	30	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-11	394-399	Jahre	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-12	400-403	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-13	404-410	kosten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-14	411-414	nur	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-15	415-416	6	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+5-16	417-420	Mio	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+
+6-1	420-421	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+
+7-1	423-424	€	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+7-2	424-425	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	Hauptteil[6]	4. Rebuttal[11]	
+
+8-1	427-435	Außerdem	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-2	436-446	verringern	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-3	447-450	sie	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-4	451-454	die	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-5	455-468	Treibhausgase	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-6	469-471	um	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-7	472-474	35	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-8	474-475	.	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-9	477-480	000	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-10	481-487	Tonnen	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+8-11	487-488	.	2. Falsch[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	*[3]	Pro B[3]	*[3]	Hauptteil[6]	1. Claim[12]	
+
+9-1	490-493	Der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	
+9-2	494-500	letzte	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	
+9-3	501-504	und	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	
+9-4	505-511	meiner	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	
+9-5	512-519	Meinung	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	
+9-6	520-524	nach	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	
+9-7	525-530	beste	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	
+9-8	531-536	Punkt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Hauptteil[6]	5. Nicht zutreffend[13]	

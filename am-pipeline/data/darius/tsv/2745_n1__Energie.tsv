@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-5	Jeder	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-2	6-14	einzelne	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-3	15-18	der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-4	19-20	3	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-5	21-30	genannten	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-6	31-45	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-7	46-49	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-8	50-57	gewisse	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-9	58-61	Vor	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-10	61-62	-	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-11	63-66	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-12	67-76	Nachteile	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-13	76-77	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-14	78-84	welche	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-15	85-88	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-16	89-91	in	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-17	92-105	verschiedenen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-18	106-117	Situationen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-19	118-127	möglichst	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-20	128-136	effektiv	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-21	137-140	bzw	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-22	140-141	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+2-1	143-153	Ineffektiv	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-2	154-160	machen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-3	160-161	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+3-1	163-166	Die	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-2	167-184	Wasserkraftanlage	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-3	185-189	gibt	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-4	190-193	bei	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-5	194-200	weitem	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-6	201-203	am	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-7	204-213	wenigsten	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-8	214-221	Energie	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-9	222-224	an	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-10	225-228	die	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-11	229-237	Umgebung	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-12	238-240	ab	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-13	241-242	(	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-14	242-244	30	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-15	244-245	-	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-16	245-248	10%	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-17	248-249	)	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[5]	
+3-18	250-253	und	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-19	254-257	hat	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-20	258-262	eine	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-21	263-274	Lebensdauer	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-22	275-278	von	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-23	279-281	80	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-24	282-288	Jahren	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-25	288-289	,	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	2. Data[6]	
+3-26	290-293	ist	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-27	294-299	dafür	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-28	300-306	jedoch	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-29	307-310	mit	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-30	311-316	einem	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-31	317-322	Preis	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-32	323-326	von	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-33	327-329	59	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+3-34	330-333	Mio	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+
+4-1	333-334	.	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+
+5-1	336-337	€	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-2	338-345	äUßerst	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-3	346-351	teuer	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-4	351-352	,	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-5	353-358	stößt	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-6	359-362	die	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-7	363-369	größte	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-8	370-375	Menge	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-9	376-378	an	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-10	379-382	Co²	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-11	383-386	aus	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-12	387-390	und	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-13	391-395	wird	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-14	396-401	durch	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-15	402-405	Hör	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-16	405-406	-	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-17	407-410	und	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-18	411-417	Schall	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-19	418-429	beeinflusst	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+5-20	429-430	.	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	Emissionen vorhanden[1]	Preis/Betrieb vorhanden[1]	*[1]	Treibhausgasemissionen vorhanden[1]	Wirkungsgrad vorhanden[1]	Unklar A[1]	*[1]	*[1]	Hauptteil[4]	4. Rebuttal[7]	
+
+6-1	432-435	Ich	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-2	436-442	glaube	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-3	443-446	das	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-4	447-450	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-5	451-459	Windpark	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-6	460-464	dank	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-7	465-478	niedrigereren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-8	479-485	Kosten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+6-9	486-488	be	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	Hauptteil[4]	5. Nicht zutreffend	

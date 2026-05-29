@@ -1,0 +1,177 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-6	Welche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-2	7-21	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-3	22-25	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-4	26-28	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-5	29-35	besten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-6	35-36	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+
+2-1	37-40	Aus	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-2	41-47	meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-3	48-53	Sicht	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-4	54-60	sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-5	61-64	man	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-6	65-69	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-7	70-72	in	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-8	73-88	Norddeutschland	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-9	89-92	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-10	93-96	den	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-11	97-100	Bau	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-12	101-104	von	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-13	105-110	neuen	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-14	111-120	Windparks	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-15	121-134	konzentrieren	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+2-16	134-135	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[6]	Gesamtthese[6]	Einleitung[8]	_	
+
+3-1	137-140	Ein	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-2	141-145	Wind	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-3	146-150	Park	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-4	151-154	hat	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-5	155-160	einen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-6	161-173	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-7	174-177	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-8	178-182	fast	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-9	183-186	50%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-10	186-187	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-11	188-190	es	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-12	191-196	würde	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-13	197-200	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-14	201-208	größten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-15	209-221	Jahresertrag	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-16	222-224	im	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-17	225-234	Vergleich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-18	235-237	zu	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-19	238-248	Solarparks	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-20	249-252	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-21	253-271	Wasserkraftanlagen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-22	272-281	erbringen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-23	281-282	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-24	283-286	ein	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-25	287-294	solcher	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-26	295-303	windpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-27	304-309	würde	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-28	310-312	40	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-29	313-316	GWh	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-30	317-320	pro	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-31	321-325	Jahr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-32	326-333	bringen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-33	334-337	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-34	338-342	4000	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-35	343-358	Volllaststunden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-36	359-364	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+3-37	364-365	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[9]	2. Data[13]	
+
+4-1	367-373	Lokale	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-2	374-384	Emissionen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-3	385-390	wären	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-4	391-394	Hör	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-5	394-395	—	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-6	396-399	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-7	400-411	Infraschall	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-8	412-415	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-9	416-428	Schattenwurf	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-10	428-429	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	2. Data[14]	
+4-11	430-435	diese	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-12	436-442	könnte	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-13	443-446	man	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-14	447-451	aber	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-15	452-459	umgehen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-16	460-465	indem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-17	466-469	man	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-18	470-473	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-19	474-483	Windparks	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-20	484-488	aufm	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-21	489-495	Wasser	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-22	496-505	errichtet	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+4-23	505-506	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	4. Rebuttal[15]	
+
+5-1	508-512	Oder	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-2	513-516	man	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-3	517-523	könnte	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-4	524-527	sie	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-5	528-532	auch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-6	533-536	auf	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-7	537-540	dem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-8	541-554	Norddeutschen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-9	555-564	Flachland	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-10	565-567	an	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-11	568-571	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-12	572-579	Nordsee	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-13	580-585	bauen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-14	585-586	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[16]	
+5-15	587-592	diese	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-16	593-597	sind	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-17	598-602	fast	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-18	603-606	gar	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-19	607-612	nicht	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-20	613-620	bewohnt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-21	621-624	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-22	625-628	sie	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-23	629-635	bieten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-24	636-641	große	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-25	642-647	freie	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-26	648-655	Flächen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+5-27	655-656	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[9]	1. Claim[17]	
+
+6-1	658-661	Ein	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-2	662-669	solcher	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-3	670-678	windpark	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-4	679-684	hätte	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-5	685-689	eine	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-6	690-701	Lebensdauer	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-7	702-705	von	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-8	706-708	ca	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-9	709-711	20	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-10	712-718	Jahren	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-11	718-719	,	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	2. Data[18]	
+6-12	720-724	nach	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-13	725-731	dieser	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-14	732-736	Zeit	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-15	737-743	könnte	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-16	744-747	man	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-17	748-751	sie	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-18	752-758	jedoch	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-19	759-766	einfach	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-20	767-775	erneuern	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+6-21	775-776	.	1. Richtig[3]	2. Unangemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Unklar C[3]	_	_	Hauptteil[9]	1. Claim[19]	
+
+7-1	778-781	Ein	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-2	782-790	Windpark	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-3	791-796	würde	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-4	797-800	dem	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-5	801-806	Staat	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-6	807-809	in	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-7	810-814	etwa	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-8	815-817	14	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-9	818-821	mio	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-10	822-826	Euro	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-11	827-833	kosten	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+7-12	833-834	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Unklar C[4]	_	_	Hauptteil[9]	2. Data[20]	
+
+8-1	836-839	Und	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+8-2	840-843	sie	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+8-3	844-848	Ären	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+8-4	849-858	Äqivalent	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+8-5	859-861	zu	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+8-6	862-868	8,800t	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+8-7	869-872	C02	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+8-8	872-873	.	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	2. Schwer verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Treibhausgasemissionen vorhanden[5]	*[5]	*[5]	*[5]	Unklar C[5]	_	_	Hauptteil[9]	1. Claim[21]	
+
+9-1	875-880	Wegen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-2	881-887	diesen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-3	888-895	Gründen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-4	896-900	wäre	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-5	901-904	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-6	905-908	der	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-7	909-916	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-8	917-919	in	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-9	920-929	Windparks	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-10	930-932	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-11	933-944	investieren	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	
+9-12	944-945	.	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[7]	Gesamtthese[7]	Schluss[10]	_	

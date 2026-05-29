@@ -1,0 +1,95 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-2	4-11	Umstieg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-3	12-15	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-4	16-21	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-5	22-25	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-6	26-39	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-7	39-40	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-8	41-52	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-9	53-56	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-10	57-64	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-11	65-71	sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-12	72-79	gezielt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-13	80-89	gefördert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-14	90-96	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-15	96-97	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-16	98-100	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-17	101-104	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-18	105-108	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-19	109-112	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-20	113-116	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-21	117-128	Klimawandel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-22	129-133	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-23	133-134	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+
+2-1	136-142	Meiner	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-2	143-150	meinung	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-3	151-155	nach	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-4	156-162	sollte	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-5	163-166	man	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-6	167-172	Autos	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-7	173-176	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-8	177-188	Wasserstoff	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-9	189-193	oder	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-10	194-201	E-Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-11	202-209	gezielt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-12	210-216	förden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-13	216-217	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-14	218-220	da	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-15	221-224	sie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-16	225-229	kaum	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-17	230-234	zeit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-18	235-238	zum	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-19	239-245	tanken	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-20	246-255	benötigen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-21	256-259	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-22	260-268	trotzdem	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-23	269-273	eine	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-24	274-279	große	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-25	280-290	Reichweite	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-26	291-296	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-27	296-297	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	*[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+
+3-1	299-307	Außerdem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-2	308-314	können	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-3	315-318	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-4	319-326	E-Fuels	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-5	327-330	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-6	331-335	fast	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-7	336-341	allen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-8	342-352	nahmhaften	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-9	353-364	Herstellern	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-10	365-381	weiterentwickelt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-11	381-382	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-12	383-393	produziert	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-13	394-397	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-14	398-406	verkauft	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-15	407-413	werden	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-16	414-418	auch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-17	419-423	wenn	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-18	424-427	das	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-19	428-432	Auto	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-20	433-438	zuvor	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-21	439-442	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-22	443-448	einem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-23	449-467	Verbrennungsmotter	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-24	468-477	betrieben	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-25	478-483	wurde	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-26	483-484	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[9]	
+
+4-1	486-491	Zudem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-2	492-498	können	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-3	499-503	auch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-4	504-511	bereits	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-5	512-520	gekaufte	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-6	521-526	Autos	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-7	527-542	weiterverwendet	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-8	543-549	werden	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-9	549-550	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	

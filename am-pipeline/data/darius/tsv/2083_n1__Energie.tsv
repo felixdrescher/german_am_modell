@@ -1,0 +1,133 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-5	Immer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-2	6-10	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-3	11-18	Bezirke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-4	19-25	sollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-5	26-34	komplett	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-6	35-38	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-7	39-50	erneuerbare	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-8	51-58	Energie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-9	59-68	umsteigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-10	69-71	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-11	72-76	dies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-12	77-86	möglichst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-13	87-95	effektiv	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-14	96-98	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-15	99-107	schaffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-16	108-115	schauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-17	116-119	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-18	120-123	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-19	124-129	heute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-20	130-135	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-21	136-150	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-22	151-153	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-23	153-154	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+
+2-1	156-159	Der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-2	160-169	Solarpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-3	170-174	soll	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-4	175-177	an	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-5	178-182	Land	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-6	183-192	entstehen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-7	193-196	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-8	197-204	umfasst	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-9	205-207	25	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-10	207-208	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-11	210-213	000	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-12	214-225	Solarmodule	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[7]	
+2-13	226-229	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+2-14	230-237	wandelt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+2-15	238-255	Strahlungsenergie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+2-16	256-258	in	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+2-17	259-270	elektrische	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+2-18	271-278	Energie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+2-19	279-281	um	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+2-20	281-282	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	2. Data[8]	
+
+3-1	284-289	Somit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-2	290-296	werden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-3	297-302	keine	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-4	303-318	Kernbrennstoffe	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-5	319-323	mehr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-6	324-332	benötigt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-7	333-336	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-8	337-339	es	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-9	340-348	entsteht	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-10	349-360	erneuerbare	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-11	361-368	Energie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+3-12	368-369	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[5]	3. Warrant[9]	
+
+4-1	371-374	Der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-2	375-384	Solarpark	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-3	385-388	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-4	389-392	hat	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-5	393-396	nur	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-6	397-401	eine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-7	402-411	effiziens	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-8	412-415	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-9	416-419	21%	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	2. Data[10]	
+4-10	419-422	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-11	423-428	somit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-12	429-433	wird	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-13	434-438	sehr	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-14	439-443	viel	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-15	444-451	energie	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-16	452-454	an	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-17	455-458	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-18	459-467	umgebung	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-19	468-477	abgegeben	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	3. Warrant[11]	
+4-20	478-483	dafür	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-21	484-487	hat	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-22	488-490	es	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-23	491-495	aber	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-24	496-501	keine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-25	502-508	lokale	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-26	509-517	emission	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-27	518-521	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-28	522-526	eine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-29	527-538	lebensdauer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-30	539-542	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-31	543-545	30	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-32	546-552	Jahren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-33	552-553	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-34	554-557	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-35	558-567	solarpark	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-36	568-574	kostet	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-37	575-576	6	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-38	577-580	mio	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-39	581-584	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-40	585-588	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-41	589-594	somit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-42	595-597	am	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-43	598-609	Günstigsten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+4-44	609-610	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	Emissionen vorhanden[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	4. Rebuttal[12]	
+
+5-1	612-614	Im	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-2	615-621	großen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-3	622-625	und	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-4	626-632	ganzen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-5	633-637	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-6	638-641	man	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-7	642-647	sagen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-8	648-651	das	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-9	652-655	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-10	656-665	Solarpark	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-11	666-669	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-12	670-675	dauer	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-13	676-678	am	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-14	679-693	effizientesten	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-15	694-697	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-16	698-701	und	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-17	702-706	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-18	707-716	preislich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-19	717-724	gesehen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-20	725-727	am	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-21	728-735	meisten	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-22	736-741	lohnt	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	
+5-23	741-742	.	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Schluss[6]	_	

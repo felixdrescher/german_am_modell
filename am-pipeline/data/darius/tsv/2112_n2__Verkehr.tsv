@@ -1,0 +1,80 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-2	4-7	bin	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-3	8-11	für	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-4	12-25	AKKUMULATOREN	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-5	26-30	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-6	31-34	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-7	35-40	beste	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-8	41-45	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-9	46-49	den	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-10	50-60	Argumenten	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-11	61-65	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-12	66-72	welche	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-13	73-76	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-14	77-82	jetzt	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-15	83-92	aufzählen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-16	92-93	:	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+1-17	93-94	.	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[3]	Gesamtthese[3]	Einleitung[4]	_	
+
+2-1	96-109	Akkumulatoren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-2	110-115	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-3	116-120	zwei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-4	121-124	ein	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-5	125-135	geringeren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-6	136-143	Energie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-7	144-152	Speicher	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-8	152-153	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	2. Data[6]	
+2-9	154-158	Aber	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-10	159-163	sind	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-11	164-168	aber	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-12	169-172	bis	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-13	173-176	50%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-14	177-188	effizienter	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-15	189-192	als	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-16	193-204	Wasserstoff	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-17	205-209	oder	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-18	210-217	e-fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+2-19	217-218	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[5]	4. Rebuttal[7]	
+
+3-1	220-225	Zudem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-2	226-230	sind	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-3	231-244	Akkumulatoren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-4	245-256	verfügbarer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-5	257-260	als	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-6	261-272	Wasserstoff	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-7	273-278	Autos	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[8]	
+3-8	279-282	Der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-9	283-290	Betrieb	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-10	291-294	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-11	295-308	Akkumulatoren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-12	309-312	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-13	313-317	zwar	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-14	318-326	geringer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-15	327-330	als	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-16	331-334	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-17	335-342	Anderen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[9]	
+3-18	343-347	aber	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-19	348-352	eine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-20	353-362	Autofahrt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-21	363-366	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-22	367-370	nur	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-23	371-373	1%	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-24	374-380	länger	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-25	381-384	als	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-26	385-390	100km	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	4. Rebuttal[10]	
+3-27	391-394	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-28	395-398	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-29	399-409	Reichweite	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-30	410-414	nach	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-31	415-417	30	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-32	418-421	min	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-33	422-427	laden	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-34	428-431	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	
+3-35	432-437	400km	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	Pro C[2]	_	_	Hauptteil[5]	2. Data[11]	

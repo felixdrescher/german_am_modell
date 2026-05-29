@@ -1,0 +1,250 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	Um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-2	3-18	Klimaneutalität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-3	19-21	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-4	22-31	erreichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-5	31-32	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-6	33-39	müssen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-7	40-43	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-8	44-66	Treibhasugasemissionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-9	67-76	drastisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-10	77-84	gesenkt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-11	85-91	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-12	91-92	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+2-1	94-99	Dabei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-2	100-105	fragt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-3	106-109	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-4	110-114	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-5	115-122	welcher	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-6	123-137	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-7	138-147	gefördert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-8	148-154	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-9	155-159	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-10	159-160	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+3-1	162-165	Ein	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-2	166-174	Windpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-3	175-178	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-4	179-182	vom	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-5	183-195	Jahresertrag	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-6	196-199	her	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-7	199-200	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-8	201-204	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-9	205-210	beste	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-10	211-215	Wahl	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-11	215-216	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-12	217-221	denn	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[10]	
+3-13	222-225	sie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[10]	
+3-14	226-236	produziert	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[10]	
+3-15	237-239	40	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[10]	
+3-16	240-243	GWh	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[10]	
+3-17	244-247	pro	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[10]	
+3-18	248-252	Jahr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[10]	
+3-19	253-256	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-20	257-267	produziert	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-21	268-273	somit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-22	274-281	doppelt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-23	282-284	so	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-24	285-289	viel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-25	290-293	wie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-26	294-297	ein	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-27	298-307	Solarpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-28	307-308	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[11]	
+3-29	309-315	jedoch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+3-30	316-319	nur	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+3-31	320-325	wenig	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+3-32	326-330	mehr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+3-33	331-334	als	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+3-34	335-339	eine	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+3-35	340-357	Wasserkraftanlage	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+3-36	357-358	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[12]	
+
+4-1	360-363	Bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-2	364-367	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-3	368-379	Lebensdauer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-4	380-385	liegt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-5	386-389	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-6	390-407	Wasserkraftanlage	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-7	408-411	mit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-8	412-417	einer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-9	418-429	Lebensdauer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-10	430-433	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-11	434-436	80	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-12	437-443	Jahren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-13	444-449	vorne	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-14	449-450	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[13]	
+4-15	451-456	wobei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-16	457-463	jedoch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-17	464-475	dieTurbinen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-18	476-481	schon	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-19	482-486	nach	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-20	487-491	etwa	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-21	492-494	40	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-22	495-501	Jahren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-23	502-510	erneuert	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-24	511-517	werden	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-25	518-524	müssen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+4-26	524-525	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	4. Rebuttal[14]	
+
+5-1	527-530	Die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-2	531-540	Windparks	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-3	541-546	haben	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-4	547-555	aufgrund	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-5	556-559	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-6	560-565	hohen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-7	566-578	mechanischen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-8	579-588	Belastung	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-9	589-593	eine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-10	594-602	deutlich	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-11	603-610	kürzere	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-12	611-622	Lebensdauer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-13	623-626	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-14	627-631	rund	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-15	632-634	20	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-16	635-641	Jahren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[15]	
+5-17	642-645	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-18	646-650	auch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-19	651-654	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-20	655-665	Solarparks	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-21	666-671	haben	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-22	672-675	nur	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-23	676-680	eine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-24	681-692	Lebensdauer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-25	693-696	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-26	697-699	30	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-27	700-706	Jahren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+5-28	706-707	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Contra B[2]	Contra C[2]	_	_	Hauptteil[7]	2. Data[16]	
+
+6-1	709-719	Solarparks	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-2	720-724	sind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-3	725-732	bringen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-4	733-737	wzar	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-5	738-740	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-6	741-750	wenigsten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-7	751-763	Jahresertrag	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-8	763-764	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[17]	
+6-9	765-771	jedoch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-10	772-776	sind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-11	777-780	sie	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-12	781-784	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-13	785-790	einem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-14	791-796	Preis	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-15	797-800	von	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-16	801-802	6	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-17	803-806	Mio	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+6-18	806-807	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+
+7-1	809-813	Euro	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+7-2	814-823	eindeutig	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+7-3	824-827	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+7-4	828-838	günstigste	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+7-5	839-842	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+7-6	843-852	Varianten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+7-7	852-853	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	4. Rebuttal[18]	
+
+8-1	855-858	Ein	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+8-2	859-867	Windpark	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+8-3	868-874	kostet	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+8-4	875-880	dabei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+8-5	881-884	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+8-6	885-887	14	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+8-7	888-891	Mio	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+8-8	891-892	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+
+9-1	894-898	Euro	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+9-2	899-903	mehr	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+9-3	904-907	als	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+9-4	908-915	doppelt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+9-5	916-918	so	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+9-6	919-923	viel	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[19]	
+9-7	924-927	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-8	928-931	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-9	932-949	Wasserkraftanlage	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-10	950-953	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-11	954-959	einem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-12	960-965	Preis	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-13	966-969	von	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-14	970-972	59	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-15	973-976	Mio	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+9-16	976-977	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+
+10-1	979-983	Eoro	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+10-2	984-988	fast	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+10-3	989-991	10	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+10-4	992-995	mal	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+10-5	996-998	so	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+10-6	999-1003	viel	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+10-7	1003-1004	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Unklar B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[20]	
+
+11-1	1006-1016	Zusätzlich	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-2	1017-1023	werden	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-3	1024-1027	bei	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-4	1028-1037	Windparks	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-5	1038-1041	die	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-6	1042-1050	wenigste	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-7	1051-1064	Treibhausgase	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-8	1065-1076	freigesetzt	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+11-9	1076-1077	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Treibhausgasemissionen vorhanden[4]	*[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[21]	
+
+12-1	1079-1091	Abschließend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-2	1092-1096	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-3	1097-1100	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-4	1101-1106	sagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-5	1106-1107	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-6	1108-1112	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-7	1113-1116	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-8	1117-1126	Kriterium	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-9	1127-1138	Jahresertag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-10	1139-1150	bedeutsamer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-11	1151-1154	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-12	1155-1158	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-13	1159-1168	Kriterium	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-14	1169-1180	Lebensdauer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-15	1181-1184	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+12-16	1184-1185	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+
+13-1	1187-1190	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-2	1191-1196	Preis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-3	1197-1203	sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-4	1204-1207	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-5	1208-1211	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-6	1212-1215	Weg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-7	1216-1219	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-8	1220-1236	Klimaneutralität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-9	1237-1242	keine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-10	1243-1248	große	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-11	1249-1254	Rolle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-12	1255-1262	spielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-13	1262-1263	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-14	1264-1266	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-15	1267-1269	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-16	1270-1279	wichtiger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-17	1280-1283	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-18	1284-1287	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-19	1288-1294	Umwelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-20	1295-1297	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-21	1298-1306	schützen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+13-22	1306-1307	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+
+14-1	1309-1314	Daher	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-2	1315-1318	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-3	1319-1322	die	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-4	1323-1329	Option	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-5	1330-1338	Windpark	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-6	1339-1341	am	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-7	1342-1348	besten	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-8	1349-1354	dafür	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-9	1355-1363	geeignet	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-10	1363-1364	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-11	1365-1368	die	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-12	1369-1391	Treibhausgasemissionen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-13	1392-1394	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-14	1395-1401	senken	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	
+14-15	1401-1402	.	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[5]	Gesamtthese[5]	Schluss[8]	_	

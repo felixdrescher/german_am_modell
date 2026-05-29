@@ -1,0 +1,203 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-2	4-9	Frage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-3	10-17	welcher	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-4	18-31	Energieträger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-5	32-35	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-6	36-43	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-7	44-47	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-8	48-57	Mobilität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-9	58-66	bestimmt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-10	66-67	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-11	68-71	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-12	72-79	aktuell	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-13	80-84	heiß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-14	85-96	disskusiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-15	96-97	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+2-1	99-102	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-2	103-106	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-3	107-114	spreche	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-4	115-119	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-5	120-122	in	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-6	123-129	dieser	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-7	130-140	Disskusion	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-8	141-144	für	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-9	145-148	den	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-10	149-160	Akkumulator	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-11	161-164	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+2-12	164-165	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+
+3-1	167-174	Hierbei	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-2	175-181	spielt	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-3	182-186	mich	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-4	187-190	vor	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-5	191-196	allem	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-6	197-202	große	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-7	203-216	Verfügbarkeit	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-8	217-221	eine	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-9	222-227	Rolle	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-10	227-228	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[8]	
+3-11	229-231	da	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-12	232-235	wir	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-13	236-241	schon	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-14	242-244	in	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-15	245-253	weniegen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-16	254-260	Jahren	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-17	261-264	mit	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-18	265-268	der	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-19	269-285	Massenproduktion	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-20	286-293	starten	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-21	294-300	müsste	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-22	300-301	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-23	302-304	um	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-24	305-311	unsere	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-25	312-322	Umweltziel	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-26	323-325	zu	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-27	326-335	erreichen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+3-28	335-336	.	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	_	_	Hauptteil[7]	1. Claim[9]	
+
+4-1	338-340	Da	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-2	341-344	wir	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-3	345-358	Akkumulatoren	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-4	359-364	schon	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-5	365-372	füreine	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-6	373-380	Gewisse	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-7	381-385	Zeit	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-8	386-392	nutzen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-9	392-393	,	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-10	394-399	haben	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-11	400-403	sie	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-12	404-408	auch	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-13	409-413	eine	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-14	414-418	hohe	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-15	419-430	Aktzeptantz	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-16	431-433	in	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-17	434-437	der	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-18	438-449	Geselschaft	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-19	449-450	,	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-20	451-454	die	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-21	455-461	helfen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-22	462-466	wird	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-23	467-471	eine	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-24	472-477	Große	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-25	478-491	Adoptionsrate	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-26	492-494	zu	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-27	495-504	erreichen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+4-28	504-505	.	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+
+5-1	507-511	Auch	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-2	512-515	das	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-3	516-523	Probelm	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-4	524-527	der	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-5	528-538	Reichweite	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-6	538-539	,	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-7	540-543	hat	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-8	544-548	gaum	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-9	549-557	relevanz	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-10	558-560	in	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-11	561-567	Alltag	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-12	567-568	,	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	1. Claim[11]	
+5-13	569-571	da	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-14	572-575	der	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-15	576-591	durchschniliche	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-16	592-600	Deutsche	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-17	601-604	nur	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-18	605-607	30	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-19	607-608	-	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-20	608-610	40	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-21	611-620	Kilometer	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-22	621-624	pro	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-23	625-628	Tag	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-24	629-634	fährt	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-25	634-635	,	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-26	636-641	wobei	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-27	642-646	sein	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-28	647-651	Auto	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-29	652-655	bis	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-30	656-658	zu	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-31	659-661	23	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-32	662-669	Stunden	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-33	670-672	am	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-34	673-676	Tag	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-35	677-680	auf	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-36	681-686	einen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-37	687-696	Parkplatz	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+5-38	696-697	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	_	_	Hauptteil[7]	2. Data[12]	
+
+6-1	699-704	Neben	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-2	705-711	diesen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-3	712-721	Vorteilen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-4	722-729	besitzt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-5	730-733	der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-6	734-745	Akkumulator	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-7	746-750	auch	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-8	751-755	noch	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-9	756-759	den	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-10	760-768	höchsten	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-11	769-787	Gesamtwirkungsgrad	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-12	788-790	im	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-13	791-800	Vergleich	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-14	801-803	zu	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-15	804-807	den	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-16	808-819	Wasserstoff	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-17	820-824	oder	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-18	825-828	den	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-19	829-836	E-Fuels	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+6-20	836-837	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[13]	
+
+7-1	839-844	Diese	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-2	845-848	ist	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-3	849-858	besonders	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-4	859-866	Wichtig	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-5	866-867	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-6	868-872	wenn	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-7	873-880	größere	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-8	881-886	Teile	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-9	887-890	der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-10	891-902	Geselschaft	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-11	903-906	auf	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-12	907-911	eine	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-13	912-925	Emissionsfrei	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-14	926-935	Mobilität	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-15	936-945	umsteigen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-16	945-946	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[14]	
+7-17	947-949	da	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-18	950-953	wir	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-19	954-956	in	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-20	957-968	Deutschland	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-21	969-972	nur	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-22	973-978	einen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-23	979-988	begrenezt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-24	989-994	Menge	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-25	995-1006	Erneuerbare	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-26	1007-1014	Energie	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-27	1015-1024	erzeuegen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-28	1025-1031	können	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+7-29	1031-1032	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[15]	
+
+8-1	1034-1041	Deshalb	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-2	1042-1048	müssen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-3	1049-1052	wir	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-4	1053-1056	auf	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-5	1057-1060	die	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-6	1061-1070	Effiziens	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-7	1071-1076	neuer	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-8	1077-1089	Technologien	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-9	1090-1099	aufpassen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-10	1099-1100	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-11	1101-1106	damit	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-12	1107-1109	es	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-13	1110-1112	in	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-14	1113-1124	Deutschland	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-15	1125-1127	zu	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-16	1128-1134	keinem	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-17	1135-1143	Blackout	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-18	1144-1149	kommt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	
+8-19	1149-1150	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	1. Claim[16]	

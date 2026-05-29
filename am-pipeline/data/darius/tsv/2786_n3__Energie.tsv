@@ -1,0 +1,160 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	4-13	Windparks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	13-14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	15-25	Solarparks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	26-29	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	30-48	wasserkraftanlagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	49-53	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	54-57	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	58-68	nachhaltig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-10	69-74	Strom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-11	75-86	produzieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-12	86-87	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	89-92	Mit	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-2	93-111	Wasserkraftanlagen	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-3	112-122	produziert	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-4	123-126	man	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-5	127-128	8	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-6	129-131	in	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-7	132-137	einem	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-8	138-142	Jahr	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-9	143-144	)	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-10	145-153	deutlich	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-11	154-156	am	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-12	157-166	wenigsten	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-13	167-170	GWh	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-14	171-174	und	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-15	175-191	volllaaststunden	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-16	191-192	.	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+
+3-1	194-198	Dies	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-2	199-205	könnte	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-3	206-211	daran	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-4	212-218	liegen	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-5	218-219	,	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-6	220-224	dass	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-7	225-231	Wasser	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-8	232-235	nie	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-9	236-242	stätig	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-10	243-249	fließt	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+3-11	249-250	.	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+
+4-1	252-260	Umgebung	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-2	260-261	,	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-3	262-271	witterung	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-4	272-275	und	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-5	276-280	Wind	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-6	281-286	haben	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-7	287-291	eine	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-8	292-297	große	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-9	298-308	einwirkung	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-10	309-312	auf	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-11	313-319	Wasser	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+4-12	319-320	.	2. Falsch[1]	2. Unangemessen[1]	2. Schwer verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Pro C[1]	_	_	Hauptteil[6]	1. Claim[10]	
+
+5-1	322-325	Bei	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-2	326-336	solarparks	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-3	337-340	ist	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-4	341-343	er	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-5	344-351	ähnlich	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-6	351-352	,	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-7	353-356	die	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-8	357-362	Sonne	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-9	363-370	scheint	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-10	371-376	nicht	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-11	377-379	an	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-12	380-385	jedem	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-13	386-389	Ort	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-14	390-396	gleich	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-15	396-397	.	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+
+6-1	399-403	Aber	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-2	404-410	dieser	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-3	411-424	Energieträger	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-4	425-428	ist	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-5	429-432	für	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-6	433-439	Länder	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-7	440-442	am	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-8	443-450	Equator	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-9	451-459	sindvoll	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+6-10	459-460	.	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[6]	1. Claim[12]	
+
+7-1	462-465	Bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-2	466-478	Europäischen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-3	479-486	Ländern	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-4	487-491	sind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-5	492-497	wegen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-6	498-501	den	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-7	502-519	Wetterwitterungen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-8	520-529	Windpaeks	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-9	530-532	zu	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-10	533-542	empfehlen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-11	542-543	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[13]	
+7-12	544-546	da	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-13	547-549	es	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-14	550-555	grade	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-15	556-558	im	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-16	559-565	Norden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-17	566-570	viel	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-18	571-575	land	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-19	576-579	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-20	580-585	Hoch7	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-21	585-586	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-22	586-589	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-23	590-594	Tief	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-24	595-599	Tale	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-25	600-604	gibt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+7-26	604-605	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[14]	
+
+8-1	607-615	Außerdem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-2	616-620	gibt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-3	621-623	es	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-4	624-628	dort	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-5	629-633	sehr	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-6	634-638	viel	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-7	639-643	Wind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-8	643-644	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[15]	
+
+9-1	646-651	Grade	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-2	652-654	an	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-3	655-658	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-4	659-664	küste	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-5	664-665	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-6	666-670	gibt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-7	671-673	es	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-8	674-680	starke	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-9	681-690	winströme	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-10	690-691	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+
+10-1	693-697	Dies	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-2	698-703	zeigt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-3	704-708	sich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-4	709-713	auch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-5	714-722	deutlich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-6	723-725	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-7	726-738	Jahresertrag	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-8	739-742	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-9	743-745	40	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-10	746-749	GWh	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-11	750-753	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-12	754-759	4,000	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-13	760-772	Vollastunden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-14	773-781	aufweist	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+10-15	781-782	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Pro C[3]	_	_	Hauptteil[6]	2. Data[17]	
+
+11-1	784-787	Aus	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	
+11-2	788-794	diesen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	
+11-3	795-804	genannten	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	
+11-4	805-812	gründen	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	
+11-5	813-821	empfähle	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	
+11-6	822-825	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	
+11-7	826-835	Windparks	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	
+11-8	835-836	.	_	_	_	_	_	_	_	_	_	_	_	_	_	2. Cut-off[4]	Gesamtthese[4]	Schluss[7]	_	

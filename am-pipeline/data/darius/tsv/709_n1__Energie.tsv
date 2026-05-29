@@ -1,0 +1,47 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-2	3-6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-3	7-16	diskution	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-4	17-21	geht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-5	22-25	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-6	26-31	darum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-7	32-35	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-8	36-42	welche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-9	43-54	erneuebaren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-10	55-63	energien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-11	64-67	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-12	68-77	umsteigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-13	78-84	sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-14	84-85	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+2-1	86-90	Eine	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-2	91-94	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-3	95-98	und	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-4	99-106	saubere	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-5	107-114	energie	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-6	115-118	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-7	119-122	die	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-8	123-135	Solarenergie	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+2-9	135-136	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+
+3-1	137-147	Solarparks	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+3-2	148-154	kosten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+3-3	155-156	6	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+3-4	157-160	Mio	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+3-5	161-165	Euro	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+3-6	166-169	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-7	170-175	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-8	176-180	eine	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-9	181-192	lebensdauer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-10	193-196	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-11	197-200	bis	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-12	201-203	zu	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-13	204-206	30	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-14	207-213	Jahren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	
+3-15	213-214	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[4]	2. Data[6]	

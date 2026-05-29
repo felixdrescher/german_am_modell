@@ -1,0 +1,108 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-2	3-9	dieser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-3	10-20	Diskussion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-4	21-29	vertrete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-5	30-33	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-6	34-40	meinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-7	41-49	Standort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-8	50-53	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-9	54-63	Förderung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-10	64-67	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-11	68-82	nachhaltigerer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-12	83-99	Energiegewinnung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-13	100-109	bezüglich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-14	110-113	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-15	114-126	Klimawandels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-16	126-127	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+2-1	128-131	Ich	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-2	132-137	finde	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-3	138-141	der	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-4	142-145	Bau	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-5	146-149	von	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-6	150-160	Solarparks	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-7	161-167	sollte	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-8	168-177	gefördert	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-9	178-184	werden	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-10	184-185	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[8]	
+2-11	186-188	da	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-12	189-194	diese	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-13	195-200	nicht	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-14	201-203	so	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-15	204-208	viel	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-16	209-214	Platz	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-17	215-224	einnehmen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-18	224-225	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-19	226-229	wie	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-20	230-233	zum	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-21	234-242	Beispiel	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-22	243-261	Wasserkraftanlagen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-23	262-266	oder	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-24	267-276	Windparks	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+2-25	276-277	.	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+
+3-1	278-286	Einzelne	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-2	287-299	Solarplatten	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-3	300-306	können	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-4	307-315	außerdem	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-5	316-320	auch	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-6	321-324	auf	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-7	325-332	Flächen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-8	333-336	wie	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-9	337-344	Dächern	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-10	345-355	angebracht	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-11	356-362	werden	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+3-12	362-363	.	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	_	_	Hauptteil[7]	1. Claim[10]	
+
+4-1	364-366	Im	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-2	367-376	Gegensatz	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-3	377-379	zu	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-4	380-398	Wasserkraftanlagen	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-5	399-403	oder	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-6	404-413	Windparks	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-7	414-420	sparen	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-8	421-431	Solarparks	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-9	432-437	nicht	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-10	438-441	nur	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-11	442-447	Platz	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-12	447-448	,	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-13	449-456	sondern	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-14	457-460	mit	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-15	461-467	35,000	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-16	468-469	t	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-17	469-470	.	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+
+5-1	473-476	CO2	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-2	476-477	-	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-3	477-488	Äquivalente	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-4	489-493	auch	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-5	494-496	am	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-6	497-504	meisten	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-7	505-518	Treibhausgase	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-8	519-522	ein	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+5-9	522-523	.	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	Treibhausgasemissionen vorhanden[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+
+6-1	524-527	Sie	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-2	528-534	kosten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-3	535-538	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-4	539-540	6	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-5	541-544	Mio	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-6	545-549	Euro	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-7	550-554	auch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-8	555-557	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-9	558-567	wenigsten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-10	568-572	Geld	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+6-11	572-573	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[7]	2. Data[12]	
+
+7-1	574-582	Negative	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	Contra B[4]	*[4]	_	_	Hauptteil[7]	5. Nicht zutreffend[13]	
+7-2	583-589	Punkte	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	Contra B[4]	*[4]	_	_	Hauptteil[7]	5. Nicht zutreffend[13]	
+7-3	590-592	an	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	Contra B[4]	*[4]	_	_	Hauptteil[7]	5. Nicht zutreffend[13]	
+7-4	593-603	Solarparks	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	Contra B[4]	*[4]	_	_	Hauptteil[7]	5. Nicht zutreffend[13]	
+7-5	604-608	sind	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	3. Unverständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	Contra B[4]	*[4]	_	_	Hauptteil[7]	5. Nicht zutreffend[13]	

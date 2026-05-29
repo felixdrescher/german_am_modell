@@ -1,0 +1,210 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	4-9	werde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	10-12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	13-19	meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	20-33	Argumentation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	34-37	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	38-46	Bereiche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	46-47	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	48-60	Jahresertrag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-10	60-61	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-11	62-67	Preis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-12	68-71	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-13	72-83	Lebensdauer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-14	84-92	beachten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-15	93-96	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-16	97-108	vergleichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-17	108-109	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	111-114	Der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-2	115-123	Windpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-3	124-131	erzeugt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-4	132-135	pro	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-5	136-140	Jahr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-6	141-145	4000	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-7	146-160	Vollaststunden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-8	161-164	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-9	165-167	40	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-10	168-171	GWh	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+2-11	171-172	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[6]	2. Data[8]	
+
+3-1	174-176	Er	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[9]	
+3-2	177-182	würde	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[9]	
+3-3	183-185	14	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[9]	
+3-4	186-189	mio	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[9]	
+3-5	190-194	Euro	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[9]	
+3-6	195-201	kosten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[9]	
+3-7	202-205	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[10]	
+3-8	206-210	etwa	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[10]	
+3-9	211-213	20	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[10]	
+3-10	214-219	Jahre	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[10]	
+3-11	220-226	halten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[10]	
+3-12	226-227	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar C[2]	_	_	Hauptteil[6]	2. Data[10]	
+
+4-1	229-232	Ein	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-2	233-242	Solarpark	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-3	243-250	erzeugt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-4	251-256	19gwh	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-5	257-260	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-6	261-265	1900	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-7	266-280	Vollaststunden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-8	280-281	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[11]	
+4-9	282-286	also	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-10	287-294	weniger	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-11	295-298	als	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-12	299-302	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-13	303-309	Hälfte	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-14	310-313	das	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-15	314-323	Windparks	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-16	323-324	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[12]	
+4-17	325-331	kostet	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-18	332-336	aber	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-19	337-341	auch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-20	342-349	weniger	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-21	350-353	als	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-22	354-357	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-23	358-364	Hälfte	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-24	365-366	(	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-25	366-370	6mio	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-26	371-375	Euro	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-27	375-376	)	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[13]	
+4-28	377-380	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-29	381-386	würde	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-30	387-390	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-31	391-393	30	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-32	394-400	Jahren	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-33	401-412	Lebensdauer	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-34	413-418	sogar	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-35	419-423	noch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-36	424-426	10	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-37	427-432	Jahre	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-38	433-439	länger	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-39	440-446	halten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-40	446-447	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-41	448-451	als	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-42	452-455	ein	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-43	456-464	Windpark	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+4-44	464-465	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[14]	
+
+5-1	467-471	Eine	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-2	472-489	Wasserkraftanlage	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-3	490-497	erzeugt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-4	498-501	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-5	502-522	39000Volllaststunden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-6	523-530	projahr	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-7	531-532	(	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-8	532-534	39	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-9	535-538	WGh	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-10	538-539	)	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-11	540-544	etwa	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-12	545-551	gnauso	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-13	552-556	viel	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-14	557-564	Energie	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-15	565-568	wie	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-16	569-572	ein	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-17	573-581	Windpark	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-18	581-582	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[15]	
+5-19	583-586	ist	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-20	587-590	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-21	591-593	59	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-22	594-597	mio	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-23	598-602	euro	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-24	603-609	kosten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-25	610-614	aber	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-26	615-618	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-27	619-626	Abstand	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-28	627-630	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-29	631-639	teuerste	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-30	640-648	Variante	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+5-31	648-649	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[16]	
+
+6-1	651-665	Allerdingshält	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[17]	
+6-2	666-669	sie	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[17]	
+6-3	670-674	auch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[17]	
+6-4	675-677	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[17]	
+6-5	678-686	längsten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[17]	
+6-6	686-687	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	4. Rebuttal[17]	
+
+7-1	689-693	Eine	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-2	694-711	Wasserkraftanlage	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-3	712-715	hat	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-4	716-720	eine	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-5	721-732	Lebensdauer	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-6	733-736	von	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-7	737-739	80	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-8	740-746	Jahren	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-9	746-747	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	Jahresertrag/Energiedichte Vorhanden[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	_	_	Hauptteil[6]	2. Data[18]	
+
+8-1	749-752	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-2	753-763	persönlich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-3	764-769	würde	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-4	770-774	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-5	775-778	für	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-6	779-783	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-7	784-801	Wasserkraftanlage	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-8	802-813	entscheiden	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-9	813-814	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-10	815-818	den	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-11	819-822	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-12	823-826	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-13	827-831	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-14	832-835	die	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-15	836-841	selbe	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-16	842-850	Leistung	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-17	851-854	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-18	855-858	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-19	859-867	Windpark	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-20	867-868	.	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+
+9-1	870-874	Auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-2	875-879	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-3	880-883	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-4	884-886	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-5	887-895	teuerten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-6	896-899	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-7	899-900	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-8	901-906	würde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-9	907-910	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-10	911-916	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-11	917-922	große	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-12	923-934	Investition	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-13	935-940	wagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-14	941-944	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-15	945-949	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-16	950-952	80	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-17	953-958	Jahre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-18	959-963	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-19	964-972	versorgt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-20	973-977	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-21	978-984	wollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-22	984-985	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-23	986-989	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-24	990-994	alle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-25	995-997	20	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-26	998-1001	bis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-27	1002-1004	30	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-28	1005-1010	Jahre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-29	1011-1014	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-30	1015-1019	Wind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-31	1020-1024	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-32	1025-1034	solarpark	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-33	1035-1043	neubauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-34	1044-1046	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-35	1047-1053	müssen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-36	1054-1057	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-37	1058-1061	ihn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-38	1062-1066	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-39	1067-1076	natürlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-40	1077-1081	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-41	1082-1090	jedesmal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-42	1091-1097	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-43	1098-1100	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-44	1101-1109	bezahlen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	
+9-45	1109-1110	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[7]	_	

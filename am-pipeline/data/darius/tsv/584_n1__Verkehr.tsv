@@ -1,0 +1,116 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-2	4-17	Argumentation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-3	18-22	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-4	23-27	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-5	28-30	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-6	31-34	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-7	35-40	Thema	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-8	41-44	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-9	45-52	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-10	53-56	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-11	57-66	Mobilität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-12	66-67	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-13	68-73	dafür	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-14	74-81	stehen3	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-15	82-91	Varianten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-16	92-95	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-17	96-102	Motors	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-18	103-105	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-19	106-115	Verfügung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-20	115-116	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-21	117-119	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-22	120-124	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-23	125-135	unterteilt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-24	136-138	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-25	139-140	3	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-26	141-151	Kategorien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-27	152-165	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-28	165-166	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-29	167-181	Wasserstoffund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-30	182-189	E—fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-31	189-190	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+2-1	191-196	Dabei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-2	197-201	kann	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-3	202-205	man	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-4	206-211	sehen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-5	211-212	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-6	213-216	das	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-7	217-218	e	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-8	219-224	fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-9	225-227	im	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-10	228-239	insgesamten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-11	240-242	am	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-12	243-249	besten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-13	250-261	abschneiden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	1. Claim[8]	
+2-14	262-270	vorallem	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-15	271-274	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-16	275-278	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-17	279-283	wert	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-18	284-287	für	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-19	288-291	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-20	292-312	treibhausgassimision	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-21	313-315	am	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-22	316-326	geringsten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+2-23	326-327	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[4]	Gesamtthese[4]	Hauptteil[7]	2. Data[9]	
+
+3-1	328-333	Dabei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-2	334-337	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-3	338-340	zu	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-4	341-349	beachten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-5	350-353	das	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-6	354-360	jedoch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-7	361-364	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-8	365-383	Gesamtwirkungsgrad	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-9	384-386	am	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-10	387-397	geringsten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-11	398-401	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+3-12	401-402	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Pro A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[7]	2. Data[10]	
+
+4-1	403-406	Ich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-2	407-412	finde	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-3	413-417	aber	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-4	418-421	das	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-5	422-425	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-6	426-432	meiste	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-7	433-438	fokus	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-8	439-442	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-9	443-446	dem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-10	447-459	umweltaspekt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-11	460-466	liegen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-12	467-473	sollte	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-13	474-477	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-14	478-485	deshalb	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-15	486-491	würde	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-16	492-495	ich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-17	496-500	mich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-18	501-509	trodzdem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-19	510-515	dafür	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-20	516-527	entscheiden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-21	527-528	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[11]	
+4-22	529-532	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-23	533-543	reichweite	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-24	544-549	liegt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-25	550-553	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-26	554-557	dem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-27	558-564	beiden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-28	565-571	besten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-29	572-575	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-30	576-578	im	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-31	579-586	bereich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-32	586-587	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-33	588-592	auch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-34	593-596	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-35	597-606	ladedauer	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-36	607-610	ist	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-37	611-614	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-38	615-617	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-39	618-628	geringsten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	
+4-40	628-629	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Unklar A[3]	Pro B[3]	Unklar C[3]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[12]	

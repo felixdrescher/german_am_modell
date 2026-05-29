@@ -1,0 +1,182 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	Im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	3-12	Folgenden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	13-17	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	18-28	diskutiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	28-29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	30-32	ob	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	33-36	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	37-44	Umstieg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	45-48	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-10	49-54	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-11	55-58	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-12	59-72	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-13	72-73	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-14	74-85	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-15	86-90	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-16	91-98	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-17	99-102	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-18	103-116	Energieträger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-19	117-124	gezielt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-20	125-134	gefördert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-21	135-141	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-22	142-146	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-23	146-147	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	151-154	Das	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-2	155-160	erste	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-3	161-169	wichtige	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-4	170-179	Kriterium	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-5	180-183	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-6	184-187	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-7	188-202	Massenbezogene	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-8	203-216	Energiedichte	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+2-9	216-217	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[8]	
+
+3-1	218-223	Diese	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-2	224-231	beträgt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-3	232-235	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-4	236-239	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-5	240-253	Akkumolatoren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-6	254-256	ca	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-7	256-257	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-8	258-262	0,88	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-9	263-265	MJ	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-10	265-266	/	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-11	266-268	kg	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-12	268-269	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[9]	
+3-13	270-274	beim	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-14	275-286	Wasserstoff	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-15	287-289	ca	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-16	289-290	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-17	291-294	120	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-18	295-297	MJ	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-19	297-298	/	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-20	298-300	kg	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+3-21	301-304	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-22	305-308	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-23	309-316	E-Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-24	317-319	ca	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-25	319-320	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-26	321-325	46,4	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-27	326-328	MJ	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-28	328-329	/	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-29	329-331	kg	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+3-30	331-332	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[11]	
+
+4-1	334-337	Das	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[12]	
+4-2	338-344	zweite	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[12]	
+4-3	345-354	Kriterium	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[12]	
+4-4	355-358	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[12]	
+4-5	359-362	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[12]	
+4-6	363-381	Gesamtwirkungsgrad	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[12]	
+4-7	381-382	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[12]	
+
+5-1	383-389	Dieser	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[13]	
+5-2	390-397	beträgt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[13]	
+5-3	398-401	bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[13]	
+5-4	402-405	den	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[13]	
+5-5	406-419	Akkumulatoren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[13]	
+5-6	420-423	70%	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[13]	
+5-7	423-424	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[13]	
+5-8	425-429	beim	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[14]	
+5-9	430-441	Wasserstoff	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[14]	
+5-10	442-444	25	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[14]	
+5-11	444-445	-	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[14]	
+5-12	445-448	28%	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[14]	
+5-13	449-452	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[15]	
+5-14	453-456	bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[15]	
+5-15	457-464	E-Fuels	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[15]	
+5-16	465-467	15	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[15]	
+5-17	467-468	-	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[15]	
+5-18	468-471	20%	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[15]	
+5-19	471-472	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	Contra A[2]	Contra B[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[15]	
+
+6-1	474-477	Ein	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-2	478-482	sehr	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-3	483-492	wichtiges	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-4	493-502	Kriterium	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-5	503-506	ist	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-6	507-510	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-7	511-528	Treibhausemmision	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-8	529-532	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-9	533-536	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-10	537-547	Produktion	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+6-11	547-548	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+
+7-1	549-554	Diese	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-2	555-562	beträgt	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-3	563-566	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-4	567-570	den	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-5	571-584	Akkumulatoren	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-6	585-589	13,1	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-7	590-591	t	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-8	592-595	CO2	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-9	595-596	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-10	596-606	Äquivalent	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-11	606-607	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+7-12	608-612	beim	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-13	613-624	Wasserstoff	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-14	625-629	13,6	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-15	630-631	t	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-16	632-635	CO2	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-17	635-636	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-18	636-646	Äquivalent	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+7-19	647-650	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-20	651-654	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-21	655-662	E-Fuels	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-22	663-666	7,8	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-23	667-668	t	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-24	669-672	CO2	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-25	672-673	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-26	673-683	Äquivalent	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+7-27	683-684	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+
+8-1	688-703	Zusammenfassend	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-2	704-709	lässt	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-3	710-714	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-4	715-720	sagen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-5	720-721	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-6	722-726	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-7	727-733	meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-8	734-741	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-9	742-746	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-10	747-750	die	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-11	751-758	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-12	759-761	am	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-13	762-768	besten	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-14	769-773	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-15	773-774	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-16	775-777	da	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-17	778-781	die	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-18	782-798	Treibhausemmison	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-19	799-801	am	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-20	802-813	niedrigsten	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-21	814-817	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-22	817-818	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-23	819-822	was	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-24	823-827	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-25	828-835	wichtig	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-26	836-839	für	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-27	840-843	den	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-28	844-855	Klimawandel	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-29	856-859	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-30	860-863	und	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-31	864-870	meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-32	871-878	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-33	879-883	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-34	884-890	sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-35	891-893	so	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-36	894-899	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-37	900-904	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-38	905-911	zählen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-39	912-915	als	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-40	916-919	die	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-41	920-928	Leistung	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	
+8-42	928-929	.	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[4]	Gesamtthese[4]	Schluss[7]	_	

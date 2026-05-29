@@ -1,0 +1,91 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-2	4-8	drei	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-3	9-22	verschiedenen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-4	23-37	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-5	37-38	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-6	39-43	über	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-7	44-47	die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-8	48-50	es	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-9	51-58	konkret	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-10	59-64	gehen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-11	65-69	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-12	69-70	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-13	71-75	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-14	76-85	Windparks	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-15	85-86	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-16	87-97	Solarparks	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-17	98-101	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-18	102-120	Wasserkraftanlagen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-19	120-121	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+
+2-1	123-126	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-2	127-137	jeweiligen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-3	138-141	Vor	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-4	141-142	-	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-5	143-146	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-6	147-156	Nachteile	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-7	157-163	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-8	164-175	beschrieben	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-9	176-179	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-10	180-184	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-11	185-195	verglichen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-12	195-196	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+
+3-1	198-201	Der	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-2	202-207	erste	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-3	208-213	Punkt	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-4	214-217	ist	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-5	218-221	der	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-6	222-234	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+3-7	234-235	.	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[4]	
+
+4-1	237-240	Der	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[5]	
+4-2	241-253	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[5]	
+4-3	254-258	kurz	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[5]	
+4-4	259-266	erklärt	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[5]	
+4-5	267-270	ist	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[5]	
+4-6	270-271	,	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[5]	
+4-7	272-274	je	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-8	275-280	höher	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-9	281-284	die	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-10	285-296	Prozentzahl	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-11	297-300	ist	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-12	301-306	desto	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-13	307-314	weniger	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-14	315-322	Energie	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-15	323-327	geht	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-16	328-335	während	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-17	336-339	des	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-18	340-349	Prozesses	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-19	350-358	verloren	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+4-20	358-359	.	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	2. Data[6]	
+
+5-1	361-365	Beim	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-2	366-374	Windpark	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-3	375-379	gibt	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-4	380-382	es	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-5	383-387	zwei	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-6	388-395	weitere	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-7	396-404	Bereiche	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-8	404-405	,	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-9	406-408	wo	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-10	409-412	die	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-11	413-420	Energie	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-12	421-431	verbraucht	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-13	432-435	bis	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-14	436-439	zum	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-15	440-444	Ende	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+5-16	444-445	.	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[7]	
+
+6-1	447-450	Der	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[8]	
+6-2	451-463	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[8]	
+6-3	464-469	liegt	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[8]	
+6-4	470-474	hier	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[8]	
+6-5	475-478	bei	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[8]	
+6-6	479-481	45	1. Richtig[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[8]	

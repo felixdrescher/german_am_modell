@@ -1,0 +1,65 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Ist	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-2	4-15	erneuerbare	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-3	16-23	Energie	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-4	24-32	wirklich	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-5	33-36	die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-6	37-44	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+1-7	44-45	?	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+
+2-1	46-57	Erneuerbare	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-2	58-65	Energie	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-3	66-69	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-4	70-74	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-5	75-82	wichtig	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-6	83-85	um	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-7	86-88	so	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-8	89-94	wenig	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-9	95-98	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-10	99-106	möglich	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-11	107-122	Treibhauseffekt	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-12	123-133	auszulösen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+2-13	133-134	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+
+3-1	136-143	Deshalb	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-2	144-148	muss	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-3	149-152	man	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-4	153-157	viel	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-5	158-161	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-6	162-176	Wind-Solar-und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-7	177-195	Wasserkraftenergie	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-8	196-205	zugreifen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+3-9	205-206	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[2]	_	
+
+4-1	208-213	Somit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-2	214-220	hätten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-3	221-224	wir	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-4	225-228	wie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-5	229-234	schon	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-6	235-242	erwähnt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-7	243-250	weniger	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-8	251-254	Co2	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-9	255-258	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-10	259-265	Methan	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-11	266-273	Ausstoß	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-12	273-274	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	1. Claim[4]	
+4-13	275-281	jedoch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-14	282-286	wäre	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-15	287-292	nicht	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-16	293-298	immer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-17	299-305	darauf	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-18	306-313	Verlass	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-19	313-314	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-20	315-319	denn	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-21	320-325	nicht	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-22	326-331	immer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-23	332-336	weht	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-24	337-340	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-25	341-345	Wind	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	4. Rebuttal[5]	
+4-26	346-349	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[6]	
+4-27	350-351	a	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	*[1]	Unklar C[1]	Hauptteil[3]	5. Nicht zutreffend[6]	

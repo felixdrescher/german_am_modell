@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-2	4-13	Mobilität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-3	14-16	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-4	17-20	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-5	21-28	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-6	28-29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-7	30-32	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-8	33-37	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-9	38-42	drei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-10	43-56	hauptsächlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-11	57-64	Motoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-12	65-68	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-13	69-72	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-14	73-78	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-15	79-89	diskutiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-16	90-96	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+1-17	96-97	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+2-1	99-101	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-2	102-108	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-3	109-113	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-4	114-127	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-5	127-128	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-6	128-139	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-7	140-143	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-8	144-151	E—Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-9	152-162	diskutiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+2-10	162-163	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[6]	_	
+
+3-1	165-169	Eher	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+3-2	170-178	sinnvoll	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+3-3	179-183	wäre	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+3-4	184-198	wahrscheinlich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+3-5	199-210	Wasserstoff	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+3-6	211-215	oder	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+3-7	216-223	E—Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	1. Claim[9]	
+3-8	224-228	weil	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-9	229-234	diese	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-10	235-244	schneller	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-11	245-253	ladenden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-12	254-266	gleichzeitig	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-13	267-271	mehr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-14	272-282	Reichweite	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-15	283-288	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+3-16	288-289	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	Pro A[1]	Pro B[1]	Contra C[1]	2. Cut-off[5]	Gesamtthese[5]	Hauptteil[7]	2. Data[10]	
+
+4-1	291-301	Allerdings	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-2	302-307	frage	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-3	308-311	ich	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-4	312-316	mich	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-5	317-319	ob	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-6	320-323	das	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-7	324-327	die	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-8	328-334	Umwelt	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-9	335-339	mehr	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-10	340-346	schont	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[11]	
+4-11	347-351	denn	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-12	352-356	wenn	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-13	357-360	man	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-14	361-364	zum	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-15	365-373	Beispiel	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-16	374-385	Akkumulator	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-17	386-391	nimmt	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-18	392-394	es	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-19	395-401	hätten	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-20	402-405	die	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-21	406-411	Leute	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-22	412-415	die	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-23	416-418	in	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-24	419-422	der	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-25	423-428	Stadt	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-26	429-435	wohnen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-27	436-439	und	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-28	440-443	ein	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-29	444-448	auto	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-30	449-454	haben	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-31	455-463	garnicht	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-32	464-467	die	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-33	468-474	Chance	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-34	475-480	diese	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-35	481-483	zu	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-36	484-489	laden	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[12]	
+4-37	490-493	das	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[13]	
+4-38	494-499	würde	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[13]	
+4-39	500-508	garnicht	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[13]	
+4-40	509-522	funktionieren	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[13]	
+4-41	522-523	.	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Contra C[2]	_	_	Hauptteil[7]	1. Claim[13]	
+
+5-1	525-533	Außerdem	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-2	534-537	ist	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-3	538-548	fragwürdig	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-4	549-551	ob	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-5	552-557	unser	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-6	558-563	Strom	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-7	564-570	System	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-8	571-574	das	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-9	575-578	aus	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-10	579-585	halten	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-11	586-591	würde	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-12	592-596	wenn	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-13	597-601	alle	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-14	602-605	ein	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-15	606-612	E—Auto	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-16	613-616	bzw	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+5-17	616-617	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+
+6-1	619-622	Ein	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+6-2	623-634	Akkumulator	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+6-3	635-641	fahren	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+6-4	642-648	würden	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+6-5	648-649	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[14]	
+
+7-1	651-659	Außerdem	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-2	660-665	wären	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-3	666-671	lange	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-4	672-677	Trips	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-5	678-681	mit	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-6	682-688	kurzer	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-7	689-693	Lade	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-8	693-694	/	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-9	694-698	Tank	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-10	699-704	Pause	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-11	705-713	garnicht	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-12	714-721	möglich	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[15]	
+7-13	722-725	und	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-14	726-728	wo	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-15	729-735	sollen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-16	736-738	so	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-17	739-744	viele	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-18	745-746	E	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-19	747-751	lade	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-20	752-761	Stationen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-21	762-772	hingesaust	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-22	773-779	werden	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+7-23	779-780	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	2. Schwer verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra C[3]	_	_	Hauptteil[7]	1. Claim[16]	
+
+8-1	782-785	Ich	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-2	786-789	bin	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-3	790-793	der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-4	794-801	Meinung	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-5	802-805	man	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-6	806-812	sollte	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-7	813-818	schon	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-8	819-824	etwas	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-9	825-831	ändern	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-10	832-834	in	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-11	835-838	der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-12	839-846	Zukunft	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[17]	
+8-13	847-851	aber	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-14	852-856	muss	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-15	857-861	noch	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-16	862-866	mehr	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-17	867-875	erfinden	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-18	876-880	oder	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-19	881-887	andere	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-20	888-893	Ideen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-21	894-904	entwickeln	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[18]	
+8-22	905-913	außerdem	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-23	914-917	was	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-24	918-921	mir	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-25	922-927	grade	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-26	928-932	noch	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-27	933-941	einfällt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-28	942-946	wenn	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-29	947-950	die	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-30	951-959	Batterie	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-31	960-963	von	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-32	964-965	z	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+8-33	965-966	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+
+9-1	968-969	B	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-2	970-975	einem	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-3	976-981	Tesla	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-4	982-988	kaputt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-5	989-993	geht	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-6	994-998	dann	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-7	999-1007	kostetet	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-8	1008-1011	das	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-9	1012-1014	so	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-10	1015-1019	viel	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-11	1020-1024	Geld	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-12	1025-1029	denn	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-13	1030-1032	zu	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-14	1033-1041	reparier	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-15	1042-1045	das	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-16	1046-1049	man	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-17	1050-1053	den	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-18	1054-1058	auch	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-19	1059-1065	gleich	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-20	1066-1078	wegschmeißen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-21	1079-1085	könnte	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+9-22	1085-1086	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	2. Schwer verständlich[4]	*[4]	*[4]	*[4]	*[4]	Sonstiges vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Contra C[4]	_	_	Hauptteil[7]	1. Claim[19]	
+
+10-1	1088-1090	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-2	1091-1095	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-3	1096-1102	sowohl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-4	1103-1109	Punkte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-5	1110-1113	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-6	1114-1119	dafür	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-7	1120-1128	sprechen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-8	1129-1132	las	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-9	1133-1137	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-10	1138-1145	dagegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+10-11	1145-1146	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+
+11-1	1148-1150	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-2	1151-1154	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-3	1155-1158	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-4	1159-1165	bleibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-5	1166-1169	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-6	1170-1181	schwieriges	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-7	1182-1187	Thema	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-8	1188-1195	worüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-9	1196-1199	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-10	1200-1203	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-11	1204-1215	diskutieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-12	1216-1220	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-13	1220-1221	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-14	1222-1226	denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-15	1227-1230	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-16	1231-1241	Reichweite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-17	1242-1245	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-18	1246-1255	Ladedauer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-19	1256-1260	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-20	1261-1269	wichtige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-21	1270-1278	Faktoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-22	1279-1282	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-23	1283-1288	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-24	1289-1293	Auto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-25	1294-1298	Kauf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	
+11-26	1298-1299	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[8]	_	

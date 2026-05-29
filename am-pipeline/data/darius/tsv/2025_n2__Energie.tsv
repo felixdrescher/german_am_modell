@@ -1,0 +1,152 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-2	4-9	finde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-3	10-13	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-4	14-23	Vorschlag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-5	24-27	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-6	28-30	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-7	31-38	gunsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-8	39-42	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-9	43-49	Klimas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-10	49-50	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+
+2-1	52-54	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-2	55-59	wäre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-3	60-63	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-4	64-72	weiterer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-5	73-80	Schritt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-6	81-83	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-7	84-92	richtung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-8	93-96	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-9	97-113	Klimaneutralität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-10	113-114	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+
+3-1	116-119	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-2	120-129	Kriterien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-3	130-134	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-4	135-138	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-5	139-148	Solarpark	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-6	148-149	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-7	150-154	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-8	155-172	Wasserkraftanlage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-9	173-176	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-10	177-180	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-11	181-189	Windpark	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+3-12	189-190	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+
+4-1	192-195	Ich	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-2	196-199	bin	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-3	200-203	für	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-4	204-209	einen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-5	210-219	Solarpark	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-6	219-220	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-7	221-224	als	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-8	225-239	Energiewandler	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-9	239-240	,	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[10]	
+4-10	241-245	weil	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-11	246-248	in	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-12	249-254	einem	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-13	255-264	Solarpark	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-14	265-271	stehen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-15	272-275	die	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-16	276-288	Solarplatten	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-17	289-293	ohne	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-18	294-301	Abstand	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-19	302-310	zusammen	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+4-20	310-311	.	3. Nicht zutreffend[1]	3. Nicht zutreffend[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	Sonstiges vorhanden[1]	*[1]	*[1]	*[1]	Pro B[1]	*[1]	2. Cut-off[7]	Gesamtthese[7]	Hauptteil[9]	1. Claim[11]	
+
+5-1	313-316	Die	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-2	317-319	UV	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-3	319-320	-	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-4	321-329	Strahlen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-5	330-336	werden	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-6	337-345	außerdem	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-7	346-351	immer	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-8	352-356	mehr	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-9	357-360	und	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-10	361-366	diese	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-11	367-373	werden	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-12	374-377	von	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-13	378-381	den	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-14	382-389	Platten	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-15	390-401	aufgefangen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+5-16	401-402	.	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	*[2]	_	_	Hauptteil[9]	1. Claim[12]	
+
+6-1	404-412	Außerdem	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-2	413-417	wäre	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-3	418-423	unter	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-4	424-427	den	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-5	428-435	Platten	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-6	436-440	noch	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-7	441-446	Platz	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-8	447-449	um	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-9	450-451	z	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+6-10	451-452	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+
+7-1	453-454	B	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+7-2	454-455	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+
+8-1	457-463	Schafe	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+8-2	464-472	darunter	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+8-3	473-479	Grasen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+8-4	480-482	zu	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+8-5	483-489	lassen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+8-6	489-490	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Pro B[3]	*[3]	_	_	Hauptteil[9]	1. Claim[13]	
+
+9-1	492-494	Es	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-2	495-501	kostet	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-3	502-504	im	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-4	505-514	Gegensatz	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-5	515-517	zu	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-6	518-523	einer	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-7	524-541	Wasserkraftanlage	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-8	542-546	viel	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-9	547-554	weniger	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+9-10	554-555	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Contra A[4]	Pro B[4]	*[4]	_	_	Hauptteil[9]	2. Data[14]	
+
+10-1	557-560	Die	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-2	561-572	Beschaffung	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-3	573-576	von	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-4	577-589	Solarplatten	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-5	590-593	und	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-6	594-597	zum	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-7	598-606	Beispiel	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-8	607-612	nicht	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-9	613-615	so	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-10	616-625	aufwendig	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-11	626-629	wie	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-12	630-633	die	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-13	634-645	Beschaffung	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-14	646-649	von	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-15	650-653	den	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-16	654-660	Teilen	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-17	661-666	eines	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-18	667-676	Windrades	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+10-19	676-677	.	3. Nicht zutreffend[5]	3. Nicht zutreffend[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	Sonstiges vorhanden[5]	*[5]	*[5]	*[5]	Pro B[5]	Contra C[5]	_	_	Hauptteil[9]	1. Claim[15]	
+
+11-1	679-687	Außerdem	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-2	688-694	müssen	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-3	695-704	Windräder	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-4	705-707	in	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-5	708-713	einem	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-6	714-724	Bestimmten	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-7	725-732	Abstand	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-8	733-735	zu	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-9	736-743	anderen	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-10	744-754	Windrädern	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-11	755-761	stehen	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-12	761-762	,	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-13	763-766	dem	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-14	767-770	ist	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-15	771-776	nicht	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-16	777-779	so	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-17	780-783	bei	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-18	784-789	einer	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-19	790-801	Solaranlage	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	
+11-20	801-802	.	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	1. Verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	*[6]	Pro B[6]	Contra C[6]	_	_	Hauptteil[9]	1. Claim[16]	

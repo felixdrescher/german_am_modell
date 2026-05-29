@@ -1,0 +1,375 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+1-2	4-11	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+1-3	12-15	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+1-4	16-25	Mobilität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+1-5	25-26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+
+2-1	28-30	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-2	31-38	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-3	39-43	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-4	44-46	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-5	47-65	klimafreundlichere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-6	66-71	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-7	72-77	geben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-8	77-78	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-9	79-82	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-10	83-86	zum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-11	87-95	Beispiel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-12	96-109	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-13	109-110	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-14	111-122	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-15	123-127	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-16	128-135	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+2-17	135-136	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+
+3-1	138-140	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+3-2	141-145	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+3-3	146-151	viele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+3-4	152-160	Vorteile	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+3-5	160-161	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[9]	_	
+
+4-1	163-166	Der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	2. Data[12]	
+4-2	167-178	Akkumulator	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	2. Data[12]	
+4-3	179-183	wird	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	2. Data[12]	
+4-4	184-201	Massenangefertigt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	2. Data[12]	
+4-5	201-202	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	2. Data[12]	
+
+5-1	204-206	Es	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-2	207-212	würde	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-3	213-218	viele	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-4	219-224	davon	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-5	225-230	geben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-6	230-231	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-7	232-239	weshalb	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-8	240-242	es	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-9	243-246	gut	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-10	247-250	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-11	251-253	um	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-12	254-258	alle	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-13	259-267	Menschen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-14	268-273	damit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-15	274-286	auszustatten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+5-16	286-287	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Pro C[1]	_	_	Hauptteil[10]	3. Warrant[13]	
+
+6-1	289-292	Der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-2	293-304	Akkumulator	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-3	305-308	hat	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-4	309-314	einen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-5	315-333	Gesamtwirkungsgrad	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-6	334-337	von	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-7	338-341	70%	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-8	341-342	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	2. Data[14]	
+6-9	343-346	was	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	1. Claim[15]	
+6-10	347-350	ihn	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	1. Claim[15]	
+6-11	351-355	sehr	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	1. Claim[15]	
+6-12	356-365	effizient	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	1. Claim[15]	
+6-13	366-371	macht	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	1. Claim[15]	
+6-14	371-372	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Wirkungsgrad vorhanden[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[10]	1. Claim[15]	
+
+7-1	374-384	Allerdings	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-2	385-389	muss	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-3	390-392	er	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-4	393-395	30	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-5	396-403	Minuten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-6	404-408	lang	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-7	409-419	aufgeladen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-8	420-426	werden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-9	427-430	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-10	431-433	er	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-11	434-437	hat	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-12	438-441	nur	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-13	442-446	eine	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-14	447-452	400km	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-15	453-463	Reichweite	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+7-16	463-464	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[16]	
+
+8-1	466-468	Im	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-2	469-478	Gegensatz	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-3	479-483	dazu	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-4	484-488	sind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-5	489-492	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-6	493-504	Wasserstoff	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-7	505-512	Antrieb	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-8	513-516	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-9	517-520	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-10	521-527	E-Fuel	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-11	528-535	Antrieb	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-12	536-552	leistungsfähiger	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+8-13	552-553	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	1. Claim[17]	
+
+9-1	555-560	Beide	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-2	561-567	müssen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-3	568-569	3	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-4	570-577	Minuten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-5	578-588	aufgeladen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-6	589-595	werden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-7	596-599	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-8	600-605	haben	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-9	606-610	eine	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-10	611-621	Reichweite	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-11	622-625	von	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-12	626-631	700km	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+9-13	631-632	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	Preis/Betrieb vorhanden[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[10]	2. Data[18]	
+
+10-1	634-644	Allerdings	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	1. Claim[19]	
+10-2	645-650	haben	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	1. Claim[19]	
+10-3	651-656	beide	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	1. Claim[19]	
+10-4	657-664	anderen	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	1. Claim[19]	
+10-5	665-669	auch	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	1. Claim[19]	
+10-6	670-679	Nachteile	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	1. Claim[19]	
+10-7	679-680	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	1. Claim[19]	
+
+11-1	682-685	Der	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-2	686-697	Wasserstoff	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-3	698-705	Antrieb	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-4	706-710	wird	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-5	711-714	nur	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-6	715-720	wenig	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-7	721-732	hergestellt	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-8	732-733	,	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[20]	
+11-9	734-741	weshalb	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-10	742-744	es	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-11	745-756	schwieriger	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-12	757-760	ist	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-13	760-761	,	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-14	762-766	alle	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-15	767-772	damit	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-16	773-785	auszustatten	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+11-17	785-786	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	3. Warrant[21]	
+
+12-1	788-791	Der	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[22]	
+12-2	792-798	E-Fuel	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[22]	
+12-3	799-803	wird	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[22]	
+12-4	804-808	auch	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[22]	
+12-5	809-826	Massenangefertigt	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[22]	
+12-6	826-827	,	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	2. Data[22]	
+12-7	828-831	ist	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+12-8	832-836	aber	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+12-9	837-842	dafür	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+12-10	843-861	Leistungsschwächer	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+12-11	862-865	als	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+12-12	866-869	der	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+12-13	870-881	Wasserstoff	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+12-14	881-882	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	Lebensdauer/Verfügbarkeit vorhanden[4]	*[4]	*[4]	*[4]	*[4]	Wirkungsgrad vorhanden[4]	Contra A[4]	Unklar B[4]	*[4]	_	_	Hauptteil[10]	4. Rebuttal[23]	
+
+13-1	884-887	Der	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-2	888-899	Wasserstoff	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-3	900-907	Antrieb	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-4	908-911	hat	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-5	912-917	einen	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-6	918-936	Gesamtwirkungsgrad	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-7	937-940	von	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-8	941-943	25	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-9	943-944	-	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-10	944-947	28%	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-11	948-951	und	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-12	952-955	der	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-13	956-962	E-Fuel	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-14	963-970	Antrieb	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-15	971-974	nur	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-16	975-977	15	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-17	977-978	-	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-18	978-981	20%	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[24]	
+13-19	982-985	Auf	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-20	986-989	dem	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-21	990-999	Kriterium	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-22	1000-1018	Gesamtwirkungsgrad	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-23	1019-1028	schneidet	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-24	1029-1032	der	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-25	1033-1044	Akkumulator	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-26	1045-1047	am	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-27	1048-1054	besten	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-28	1055-1057	ab	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-29	1057-1058	,	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[25]	
+13-30	1059-1070	Wasserstoff	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[26]	
+13-31	1071-1074	und	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[26]	
+13-32	1075-1081	E-Fuel	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[26]	
+13-33	1082-1086	sind	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[26]	
+13-34	1087-1092	beide	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[26]	
+13-35	1093-1097	viel	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[26]	
+13-36	1098-1108	schlechter	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[26]	
+13-37	1109-1114	wobei	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-38	1115-1118	der	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-39	1119-1130	Wasserstoff	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-40	1131-1136	etwas	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-41	1137-1143	besser	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-42	1144-1147	ist	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-43	1147-1148	,	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-44	1149-1152	als	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-45	1153-1156	der	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-46	1157-1163	E-Fuel	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+13-47	1163-1164	.	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	*[5]	*[5]	*[5]	*[5]	Wirkungsgrad vorhanden[5]	Contra A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[10]	2. Data[27]	
+
+14-1	1166-1169	Auf	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-2	1170-1173	dem	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-3	1174-1183	Kriterium	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-4	1184-1197	Verfügbarkeit	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-5	1198-1202	sind	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-6	1203-1206	der	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-7	1207-1218	Akkumulator	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-8	1219-1222	und	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-9	1223-1226	der	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-10	1227-1233	E-Fuel	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-11	1234-1236	am	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-12	1237-1243	besten	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+14-13	1243-1244	.	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[28]	
+
+15-1	1246-1251	Beide	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[29]	
+15-2	1252-1258	werden	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[29]	
+15-3	1259-1275	Massenproduziert	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[29]	
+15-4	1275-1276	,	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[29]	
+15-5	1277-1280	der	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+15-6	1281-1292	Wasserstoff	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+15-7	1293-1300	Antrieb	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+15-8	1301-1309	hingegen	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+15-9	1310-1314	wird	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+15-10	1315-1318	nur	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+15-11	1319-1340	Kleinserien-Gefertigt	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+15-12	1340-1341	.	1. Richtig[6]	1. Angemessen[6]	1. Verständlich[6]	*[6]	Lebensdauer/Verfügbarkeit vorhanden[6]	*[6]	*[6]	*[6]	*[6]	*[6]	Contra A[6]	Pro B[6]	Pro C[6]	_	_	Hauptteil[10]	2. Data[30]	
+
+16-1	1343-1346	Auf	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-2	1347-1350	dem	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-3	1351-1360	Kriterium	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-4	1361-1368	Betrieb	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-5	1369-1372	ist	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-6	1373-1376	der	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-7	1377-1388	Akkumulator	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-8	1389-1391	am	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-9	1392-1405	schlechtesten	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+16-10	1405-1406	.	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	1. Claim[31]	
+
+17-1	1408-1410	Er	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-2	1411-1415	muss	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-3	1416-1418	30	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-4	1419-1426	Minuten	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-5	1427-1434	geladen	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-6	1435-1441	werden	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-7	1441-1442	,	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-8	1443-1446	und	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-9	1447-1450	hat	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-10	1451-1455	bloß	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-11	1456-1460	eine	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-12	1461-1471	Reichweite	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-13	1472-1475	von	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-14	1476-1481	400km	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+17-15	1481-1482	.	1. Richtig[7]	1. Angemessen[7]	1. Verständlich[7]	*[7]	*[7]	*[7]	Preis/Betrieb vorhanden[7]	*[7]	*[7]	*[7]	*[7]	*[7]	Contra C[7]	_	_	Hauptteil[10]	2. Data[32]	
+
+18-1	1484-1487	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-2	1488-1494	Wasser	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-3	1495-1498	unf	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-4	1499-1505	E-Fuel	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-5	1506-1513	Antrieb	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-6	1514-1520	müssen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-7	1521-1524	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-8	1525-1526	3	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-9	1527-1534	Minuten	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-10	1535-1542	geladen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-11	1543-1549	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-12	1550-1553	und	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-13	1554-1559	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-14	1560-1564	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-15	1565-1575	Reichweite	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-16	1576-1579	von	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-17	1580-1585	700km	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-18	1586-1590	Alle	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-19	1591-1599	Antriebe	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-20	1600-1605	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-21	1606-1609	Vor	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-22	1609-1610	-	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-23	1611-1614	und	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-24	1615-1624	Nachteile	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-25	1624-1625	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-26	1626-1631	wobei	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-27	1632-1635	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-28	1636-1641	finde	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-29	1641-1642	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-30	1643-1647	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-31	1648-1651	der	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-32	1652-1663	Akkumulator	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-33	1664-1666	am	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-34	1667-1681	effizientesten	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-35	1682-1685	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+18-36	1685-1686	.	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[8]	Gesamtthese[8]	Schluss[11]	_	
+
+19-1	1688-1690	Er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-2	1691-1694	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-3	1695-1700	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-4	1701-1719	Gesamtwirkungsgrad	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-5	1720-1723	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-6	1724-1727	70%	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-7	1728-1731	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-8	1732-1736	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-9	1737-1747	Reichweite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-10	1748-1751	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-11	1752-1757	700km	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+19-12	1757-1758	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+
+20-1	1760-1762	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-2	1763-1766	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-3	1767-1777	Kategorien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-4	1778-1782	hebt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-5	1783-1785	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-6	1786-1790	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-7	1791-1796	stark	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-8	1797-1800	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-9	1801-1804	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-10	1805-1812	anderen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-11	1813-1815	ab	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+20-12	1815-1816	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+
+21-1	1818-1821	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-2	1822-1829	einzige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-3	1830-1836	Mangel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-4	1837-1840	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-5	1840-1841	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-6	1842-1846	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-7	1847-1849	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-8	1850-1852	30	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-9	1853-1860	Minuten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-10	1861-1871	aufgeladen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-11	1872-1878	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-12	1879-1883	muss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-13	1883-1884	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-14	1885-1890	wobei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-15	1891-1893	30	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-16	1894-1901	Minuten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-17	1902-1910	wirklich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-18	1911-1916	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-19	1917-1921	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-20	1922-1925	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+21-21	1925-1926	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+
+22-1	1928-1931	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-2	1932-1937	denke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-3	1938-1942	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-4	1943-1949	diesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-5	1950-1955	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-6	1956-1962	Mangel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-7	1963-1967	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-8	1968-1971	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-9	1972-1978	hinweg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-10	1979-1984	sehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+22-11	1984-1985	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+
+23-1	1987-1991	Also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-2	1992-2001	Politiker	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-3	2002-2005	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-4	2006-2020	Politikerinnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-5	2020-2021	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-6	2022-2025	ihr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-7	2026-2030	habt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-8	2031-2035	alle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-9	2036-2049	Energieträger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-10	2050-2052	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-11	2053-2058	ihrer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-12	2059-2071	Entscheidung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-13	2072-2083	ausreichend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-14	2084-2091	bedacht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	
+23-15	2091-2092	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[11]	_	

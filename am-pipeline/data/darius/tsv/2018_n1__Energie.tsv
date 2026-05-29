@@ -1,0 +1,97 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-13	Argumentation	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+1-2	14-17	für	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+1-3	18-34	Windkraftanlagen	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+1-4	35-40	statt	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+1-5	41-51	Solarparks	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+1-6	52-56	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+1-7	57-75	Wasserkraftanlagen	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+1-8	75-76	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[5]	Gesamtthese[5]	Einleitung[6]	_	
+
+2-1	78-94	Windkraftanlagen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-2	95-102	bringen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-3	103-111	Jährlich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-4	112-118	höhere	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-5	119-126	Erträge	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-6	127-129	in	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-7	130-133	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-8	134-143	Bereichen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-9	144-147	GWh	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-10	148-151	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-11	152-166	Vollaststunden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+2-12	166-167	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	Jahresertrag/Energiedichte Vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Contra A[1]	Contra B[1]	Pro C[1]	_	_	Hauptteil[7]	2. Data[8]	
+
+3-1	169-172	Ein	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-2	173-181	Windpark	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-3	182-188	kostet	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-4	189-198	ausserdem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-5	199-204	nicht	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-6	205-207	zu	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-7	208-212	viel	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-8	212-213	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[9]	
+3-9	214-220	bringt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+3-10	221-227	jedoch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+3-11	228-232	hohe	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+3-12	233-243	leistungen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+3-13	243-244	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro C[2]	_	_	Hauptteil[7]	1. Claim[10]	
+
+4-1	246-249	Die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-2	250-272	Treibhausgasemissionen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-3	273-278	haben	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-4	279-288	ausserdem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-5	289-293	noch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-6	294-298	viel	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-7	299-309	niedrigere	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-8	310-313	CO2	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-9	314-325	Äquivalente	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-10	326-329	als	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-11	330-333	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-12	334-341	anderen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-13	342-348	beiden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-14	349-356	Anlagen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+4-15	356-357	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	Contra B[3]	Pro C[3]	_	_	Hauptteil[7]	2. Data[11]	
+
+5-1	359-361	Es	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-2	362-366	gibt	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-3	367-370	das	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-4	371-376	ganze	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-5	377-381	Jahr	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-6	382-386	über	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-7	387-391	Wind	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-8	391-392	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	2. Data[12]	
+5-9	393-397	also	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-10	398-402	kann	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-11	403-406	man	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-12	407-411	auch	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-13	412-417	einen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-14	418-425	höheren	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-15	426-433	Energie	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-16	434-440	Anteil	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-17	441-444	aus	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-18	445-448	dem	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-19	449-453	Wind	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-20	454-460	ziehen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-21	461-464	als	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-22	465-468	aus	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-23	469-470	z	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+5-24	470-471	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+
+6-1	472-473	B	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+6-2	473-474	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+
+7-1	476-479	Der	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-2	480-485	Sonne	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-3	485-486	,	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-4	487-490	die	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-5	491-494	nur	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-6	495-497	in	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-7	498-508	bestimmten	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-8	509-522	Zeitbereichen	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-9	523-530	scheint	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	
+7-10	530-531	.	3. Nicht zutreffend[4]	3. Nicht zutreffend[4]	1. Verständlich[4]	Jahresertrag/Energiedichte Vorhanden[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	*[4]	Contra B[4]	Pro C[4]	_	_	Hauptteil[7]	3. Warrant[13]	

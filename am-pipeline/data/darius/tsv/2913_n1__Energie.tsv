@@ -1,0 +1,84 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-13	Argumentation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-2	13-14	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-3	15-18	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-4	19-23	Ziel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-5	24-27	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-6	28-44	Klimaneutralität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-7	45-49	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-8	50-58	mithilfe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-9	59-62	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-10	63-67	Baus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-11	68-71	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-12	72-83	sogenannten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-13	84-85	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-14	85-86	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-15	86-101	Energiewandlern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-16	101-102	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-17	103-111	erreicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-18	112-118	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-19	118-119	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+2-1	121-124	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-2	125-134	genannten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-3	135-149	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-4	150-154	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-5	155-171	Windenergieparks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-6	171-172	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-7	173-183	Solarparks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-8	184-187	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-9	188-206	Wasserkraftanlagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+2-10	206-207	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+3-1	209-215	Meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-2	216-223	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-3	224-228	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-4	229-232	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-5	233-236	der	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-6	237-240	Bau	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-7	241-244	von	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-8	245-264	Wasserekraftanlagen	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-9	265-267	am	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-10	268-280	effektivsten	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-11	280-281	,	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-12	282-284	um	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-13	285-288	das	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-14	289-293	Ziel	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-15	294-296	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-16	297-306	erreichen	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+3-17	306-307	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[2]	Gesamtthese[2]	Einleitung[3]	_	
+
+4-1	309-321	Hinsichtlich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-2	322-325	des	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-3	326-332	ersten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-4	333-343	Kriteriums	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-5	344-345	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-6	345-346	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-7	346-358	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-8	358-359	"	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-9	360-368	erreicht	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-10	369-372	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-11	373-390	Wasserkraftanlage	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-12	391-396	einen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-13	397-409	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-14	410-413	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-15	414-416	70	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-16	416-417	-	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-17	417-420	90%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+4-18	420-421	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	2. Data[5]	
+
+5-1	423-438	Dementsprechend	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	1. Claim[6]	
+5-2	439-442	hat	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	1. Claim[6]	
+5-3	443-445	es	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	1. Claim[6]	
+5-4	446-449	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	1. Claim[6]	
+5-5	450-458	höchsten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	1. Claim[6]	
+5-6	459-471	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	1. Claim[6]	
+5-7	472-475	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	5. Nicht zutreffend[7]	
+5-8	476-479	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	5. Nicht zutreffend[7]	
+5-9	480-481	g	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[4]	5. Nicht zutreffend[7]	

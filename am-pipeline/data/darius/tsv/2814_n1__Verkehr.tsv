@@ -1,0 +1,89 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	Um	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-2	3-6	bis	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-3	7-11	2035	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-4	12-15	die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-5	16-32	Klimaneutralität	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-6	33-35	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-7	36-45	erreichen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-8	45-46	,	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-9	47-53	sollen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-10	54-57	die	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-11	58-80	Treibhausgasemissionen	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-12	81-90	drastisch	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-13	91-100	reduziert	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-14	101-107	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-15	107-108	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+2-1	110-113	Die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+2-2	114-127	Akkumulatoren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+2-3	128-133	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+2-4	134-139	einen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+2-5	140-144	sehr	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+2-6	145-156	effizienten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+2-7	157-175	Gesamtwirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+2-8	175-176	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[5]	
+
+3-1	178-181	Sie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-2	182-190	benutzen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-3	191-194	70%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-4	195-198	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-5	199-211	erneuerbaren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-6	212-220	Energien	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-7	221-224	zum	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-8	225-229	Auto	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-9	230-236	fahren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-10	236-237	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	2. Data[6]	
+3-11	238-241	was	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-12	242-245	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-13	246-251	allen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-14	252-258	dreien	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-15	259-262	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-16	263-268	beste	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-17	269-276	nutzung	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-18	277-280	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+3-19	280-281	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Contra A[1]	Contra B[1]	Pro C[1]	Hauptteil[4]	1. Claim[7]	
+
+4-1	283-286	Mit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-2	287-290	dem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-3	291-302	Wasserstoff	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-4	303-310	Antrieb	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-5	311-314	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-6	315-318	den	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-7	319-326	E-Fuels	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-8	327-335	erreicht	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-9	336-339	man	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-10	340-343	mit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-11	344-349	wenig	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-12	350-359	Tankdauer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-13	360-363	bis	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-14	364-366	zu	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-15	367-370	700	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-16	371-373	km	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+4-17	373-374	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[8]	
+
+5-1	376-386	Dahingegen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-2	387-392	laden	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-3	393-396	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-4	397-410	Akkumolatoren	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-5	411-413	30	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-6	414-417	min	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-7	418-421	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-8	422-428	können	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-9	429-432	nur	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-10	433-436	400	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-11	437-439	km	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-12	440-444	weit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-13	445-451	kommen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-14	451-452	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	2. Data[9]	
+5-15	453-456	was	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	1. Claim[10]	
+5-16	457-460	ein	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	1. Claim[10]	
+5-17	461-468	grosser	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	1. Claim[10]	
+5-18	469-477	Nachteil	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	1. Claim[10]	
+5-19	478-481	ist	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	1. Claim[10]	
+5-20	481-482	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Contra C[2]	Hauptteil[4]	1. Claim[10]	

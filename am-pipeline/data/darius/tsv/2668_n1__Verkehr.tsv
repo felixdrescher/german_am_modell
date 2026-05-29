@@ -1,0 +1,107 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-6	Sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	7-10	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	11-16	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	17-20	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	21-32	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	33-39	fahren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	39-40	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	41-52	Wasserstoff	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-2	53-56	ist	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-3	57-65	deutlich	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-4	66-72	Umwelt	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-5	73-83	schonender	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-6	83-84	,	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-7	85-88	als	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-8	89-95	Benzin	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-9	96-99	zum	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-10	100-106	tanken	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-11	106-107	.	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	3. Unbegründet[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+
+3-1	109-114	Durch	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-2	115-118	das	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-3	119-125	fahren	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-4	126-129	von	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-5	130-135	Autos	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-6	135-136	,	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-7	137-140	die	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-8	141-144	mit	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-9	145-151	Benzin	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-10	152-159	getankt	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-11	160-166	werden	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-12	166-167	,	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-13	168-172	wird	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-14	173-181	deutlich	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-15	182-184	zu	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-16	185-189	viel	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-17	190-193	CO2	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-18	194-205	ausgestoßen	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+3-19	205-206	.	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[8]	
+
+4-1	208-219	Wasserstoff	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-2	220-223	als	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-3	224-231	Antrieb	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-4	232-240	hingegen	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-5	241-244	hat	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-6	245-252	weniger	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-7	253-256	CO2	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-8	257-267	Ausstoßung	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-9	268-271	und	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	2. Data[10]	
+4-10	272-276	eine	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	2. Data[10]	
+4-11	277-282	13,6t	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	2. Data[10]	
+4-12	283-286	CO2	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	2. Data[10]	
+4-13	286-287	-	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	2. Data[10]	
+4-14	287-297	Äquivalenz	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	2. Data[10]	
+4-15	297-298	.	2. Falsch[1]	1. Angemessen[1]	2. Schwer verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Pro A[1]	*[1]	*[1]	_	_	Hauptteil[6]	2. Data[10]	
+
+5-1	300-311	Wasserstoff	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-2	312-317	durch	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-3	318-329	elektrische	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-4	330-337	Energie	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-5	338-341	zum	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-6	342-352	Autofahren	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-7	353-360	genutzt	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+5-8	360-361	.	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	1. Claim[11]	
+
+6-1	363-368	Diese	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-2	369-376	Energie	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-3	377-381	kann	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-4	382-387	durch	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-5	388-399	erneuerbare	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-6	400-408	Energien	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-7	409-412	wie	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-8	413-415	zB	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+6-9	415-416	.	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+
+7-1	418-436	Windenergieanlagen	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+7-2	437-448	hergestellt	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+7-3	449-455	werden	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+7-4	455-456	.	3. Nicht zutreffend[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	Unklar A[2]	*[2]	*[2]	_	_	Hauptteil[6]	2. Data[12]	
+
+8-1	458-461	Der	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+8-2	462-480	Gesamtwirkungsgrad	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+8-3	481-488	beträgt	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+8-4	489-492	25%	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+8-5	492-493	-	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+8-6	493-496	28%	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+8-7	497-504	dadurch	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[14]	
+8-8	505-509	wird	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[14]	
+8-9	510-514	mehr	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[14]	
+8-10	515-526	elektrische	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[14]	
+8-11	527-534	Energie	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[14]	
+8-12	535-549	bereitgestellt	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[14]	
+8-13	550-553	bzw	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[15]	
+8-14	553-554	.	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[15]	
+
+9-1	556-560	Muss	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[15]	
+9-2	561-567	bereit	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[15]	
+9-3	568-576	gestellt	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[15]	
+9-4	577-583	werden	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[15]	
+9-5	583-584	.	2. Falsch[3]	2. Unangemessen[3]	3. Unverständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Wirkungsgrad vorhanden[3]	Unklar A[3]	*[3]	*[3]	_	_	Hauptteil[6]	1. Claim[15]	

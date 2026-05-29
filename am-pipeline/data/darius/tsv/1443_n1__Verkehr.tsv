@@ -1,0 +1,97 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	Ab	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-2	3-7	2035	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-3	8-14	sollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-4	15-23	Neuwagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-5	24-27	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-6	28-34	Benzin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-7	34-35	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-8	36-39	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-9	40-51	Dieselmotor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-10	52-60	verboten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-11	61-67	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-12	67-68	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+
+2-1	70-75	Jetzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-2	76-79	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-3	80-83	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-4	84-89	Frage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-5	90-93	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-6	94-100	welche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-7	101-106	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-8	107-118	umgestiegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-9	119-125	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-10	126-130	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-11	130-131	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-12	132-145	Akkumulatoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-13	145-146	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-14	147-158	Wasserstoff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-15	159-163	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-16	164-171	E-Fuels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-17	172-177	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+2-18	177-178	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+
+3-1	180-186	Meiner	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-2	187-194	Meinung	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-3	195-199	wäre	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-4	200-202	es	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-5	203-211	Sinnvoll	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-6	212-215	auf	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-7	216-223	E-Fuels	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-8	224-229	Autos	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-9	230-241	umzusteigen	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+3-10	242-244	da	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-11	245-249	erst	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-12	250-256	einmal	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-13	257-264	alleine	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-14	265-268	bei	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-15	269-272	der	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-16	273-283	Produktion	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-17	284-286	am	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-18	287-296	wenigsten	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-19	297-319	Treibhausgasemissionen	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-20	320-328	benötigt	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-21	329-335	werden	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-22	336-339	als	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-23	340-343	bei	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-24	344-347	den	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-25	348-361	Akkumulatoren	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-26	362-365	und	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-27	366-379	Wasserstoffen	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+3-28	380-386	unzwar	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[8]	
+3-29	387-392	ganze	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[8]	
+3-30	393-394	5	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[8]	
+3-31	394-395	-	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[8]	
+3-32	395-396	6	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[8]	
+3-33	397-403	Tonnen	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[8]	
+3-34	403-404	.	2. Falsch[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[8]	
+
+4-1	406-414	Außerdem	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-2	415-419	wäre	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-3	420-422	es	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-4	423-431	ziemlich	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-5	432-441	schwierig	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-6	442-445	bis	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-7	446-451	dahin	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-8	452-459	soviele	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-9	460-471	Wasserstoff	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-10	472-482	betriebene	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-11	483-488	Autos	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-12	489-501	herzustellen	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-13	502-506	denn	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-14	507-510	die	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-15	511-524	Verfügbarkeit	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-16	525-528	ist	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-17	529-533	eher	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-18	534-544	kleinwegig	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-19	545-553	hingegen	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-20	554-565	Wasserstoff	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-21	566-569	und	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-22	570-577	E-Fuels	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	
+4-23	577-578	.	2. Falsch[2]	2. Unangemessen[2]	2. Schwer verständlich[2]	*[2]	Lebensdauer/Verfügbarkeit vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Unklar A[2]	Pro B[2]	*[2]	_	_	Hauptteil[5]	1. Claim[9]	

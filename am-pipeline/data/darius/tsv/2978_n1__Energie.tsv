@@ -1,0 +1,184 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	Um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	3-6	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	7-23	Klimaneutralität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	24-26	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	27-36	erreichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	36-37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	38-41	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	42-44	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	45-54	notwenidg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-10	55-58	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-11	59-64	enorm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-12	65-72	wichtig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-13	73-76	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-14	77-88	erneuerbare	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-15	89-97	Energien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-16	98-109	umzusteigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-17	109-110	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	112-119	Hierfür	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-2	120-125	setze	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-3	126-129	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-4	130-134	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-5	135-138	für	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-6	139-142	die	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-7	143-152	Förderung	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-8	153-158	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-9	159-170	Solaranlage	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-10	171-174	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-11	174-175	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+
+3-1	177-186	Solarpark	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[7]	
+3-2	187-192	beste	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[7]	
+3-3	192-193	,	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[7]	
+3-4	194-199	trotz	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-5	200-202	5%	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-6	203-215	modulausfall	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-7	216-227	lebensdauer	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-8	228-231	von	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-9	232-234	30	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-10	235-240	jahre	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-11	240-241	.	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[8]	
+
+4-1	243-246	Das	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-2	247-249	is	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-3	250-254	mehr	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-4	255-258	als	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-5	259-267	windpark	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-6	268-271	mit	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-7	272-275	20%	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+4-8	275-276	.	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[9]	
+
+5-1	278-282	Zwar	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-2	283-286	hat	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-3	287-304	wasserkraftanlage	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-4	305-307	80	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-5	308-313	jahre	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-6	314-325	lebensdauer	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-7	326-329	uns	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-8	330-334	omit	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-9	335-337	50	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-10	338-343	jahre	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-11	344-348	mehr	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-12	348-349	,	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	2. Data[10]	
+5-13	350-360	allerdings	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+5-14	361-367	müssen	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+5-15	368-379	elektirsche	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+5-16	380-387	anlagen	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+5-17	388-391	wie	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+5-18	392-393	z	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+5-19	393-394	.	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+
+6-1	396-397	B	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-2	398-401	die	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-3	402-410	turbinen	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-4	411-416	schon	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-5	417-421	nach	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-6	422-424	40	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-7	425-431	jahren	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-8	432-444	ausgetauscht	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-9	445-451	werden	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+6-10	451-452	.	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	4. Rebuttal[11]	
+
+7-1	454-459	Somit	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[12]	
+7-2	460-465	macht	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[12]	
+7-3	466-470	dies	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[12]	
+7-4	471-477	keinen	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[12]	
+7-5	478-484	großen	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[12]	
+7-6	485-496	unterschied	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[12]	
+7-7	496-497	.	2. Falsch[1]	2. Unangemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Unklar A[1]	Contra B[1]	Contra C[1]	_	_	Hauptteil[6]	1. Claim[12]	
+
+8-1	498-510	LLEBENSDAUER	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend	
+8-2	511-521	Solarpunkt	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-3	522-524	is	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-4	525-528	mit	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-5	529-530	6	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-6	531-534	mio	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-7	535-544	günstiger	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-8	545-548	als	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-9	549-552	der	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-10	553-557	etwa	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-11	558-563	etwas	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-12	564-568	mehr	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-13	569-572	als	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-14	573-580	doppelt	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-15	581-583	so	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-16	584-589	teure	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-17	590-598	windpark	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-18	599-602	mit	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-19	603-605	14	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-20	606-610	muio	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-21	611-615	oder	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-22	616-619	die	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-23	620-628	deutlich	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-24	629-636	teurere	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-25	637-654	wasserkraftanlage	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-26	655-658	mit	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-27	659-664	59mio	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[13]	
+8-28	664-665	-	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[14]	
+8-29	666-671	PREIS	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	5. Nicht zutreffend[14]	
+8-30	672-675	Ein	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-31	676-685	kleinerer	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-32	685-686	,	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-33	687-691	aber	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-34	692-699	dennoch	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-35	700-709	wichtiger	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-36	710-715	Punkt	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-37	716-720	sind	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-38	721-724	die	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-39	725-731	lokale	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-40	732-742	Emissionen	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+8-41	742-743	.	1. Richtig[2]	1. Angemessen[2]	2. Schwer verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[15]	
+
+9-1	745-750	Diese	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-2	751-757	können	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-3	758-761	als	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-4	762-769	störend	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-5	770-779	empfunden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-6	780-786	werden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-7	786-787	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	1. Claim[16]	
+9-8	788-793	daher	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-9	794-797	ist	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-10	798-800	es	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-11	801-804	von	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-12	805-812	Vorteil	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-13	813-817	dass	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-14	818-823	diese	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-15	824-827	bei	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-16	828-831	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-17	832-843	Solaranlage	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-18	844-849	nicht	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-19	850-859	vorhanden	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-20	860-864	sind	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+9-21	864-865	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[17]	
+
+10-1	867-873	Anders	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-2	874-879	sieht	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-3	880-882	es	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-4	883-889	jedoch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-5	890-893	zum	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-6	894-903	Vergleich	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-7	904-908	beim	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-8	909-917	Windpark	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-9	918-921	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-10	922-925	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-11	926-943	Wasserkraftanlage	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-12	944-947	aus	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-13	947-948	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[18]	
+10-14	949-951	wo	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-15	952-955	Hör	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-16	955-956	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-17	957-960	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-18	961-972	Infraschall	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-19	973-978	einen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-20	979-985	großen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-21	986-996	Störfaktor	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-22	997-1007	darstellen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	
+10-23	1007-1008	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	Emissionen vorhanden[3]	*[3]	*[3]	*[3]	*[3]	Contra A[3]	Pro B[3]	Contra C[3]	_	_	Hauptteil[6]	2. Data[19]	

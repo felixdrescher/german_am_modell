@@ -1,0 +1,100 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	3-6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	7-16	diskution	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	17-21	geht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	22-25	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	26-31	darum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	32-35	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	36-42	welche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	43-54	erneuebaren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-10	55-63	energien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-11	64-67	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-12	68-77	umsteigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-13	78-84	sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-14	84-85	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	86-90	Eine	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-2	91-94	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-3	95-98	und	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-4	99-106	saubere	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-5	107-114	energie	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-6	115-118	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-7	119-122	die	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-8	123-135	Solarenergie	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+2-9	135-136	.	_	_	_	_	_	_	_	_	_	_	_	_	_	3. Unbegründet[4]	Gesamtthese[4]	Einleitung[5]	_	
+
+3-1	137-147	Solarparks	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-2	148-154	kosten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-3	155-156	6	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-4	157-160	Mio	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-5	161-165	Euro	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[7]	
+3-6	166-169	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-7	170-175	haben	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-8	176-180	eine	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-9	181-192	lebensdauer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-10	193-196	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-11	197-200	bis	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-12	201-203	zu	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-13	204-206	30	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-14	207-213	Jahren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+3-15	213-214	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	Preis/Betrieb vorhanden[1]	*[1]	*[1]	*[1]	*[1]	Unklar B[1]	*[1]	_	_	Hauptteil[6]	2. Data[8]	
+
+4-1	215-225	Solarparks	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[9]	
+4-2	226-231	haben	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[9]	
+4-3	232-238	keinen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[9]	
+4-4	239-248	Emotionen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	1. Claim[9]	
+4-5	249-255	sommit	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-6	256-260	sind	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-7	261-264	sie	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-8	265-271	besser	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-9	272-275	als	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-10	276-293	windkraftanlagern	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-11	294-298	dise	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-12	299-307	schatten	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-13	308-314	wärfen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-14	315-325	Solarparks	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-15	326-331	haben	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-16	332-337	einen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-17	338-343	hohen	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-18	344-350	gewinn	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+4-19	350-351	.	3. Nicht zutreffend[2]	3. Nicht zutreffend[2]	2. Schwer verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	Emissionen vorhanden[2]	*[2]	Sonstiges vorhanden[2]	*[2]	*[2]	*[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[6]	2. Data[10]	
+
+5-1	352-357	Viele	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[11]	
+5-2	358-366	Menschen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[11]	
+5-3	367-371	sind	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[11]	
+5-4	372-382	allerdings	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[11]	
+5-5	383-390	dagegen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[11]	
+5-6	390-391	,	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[11]	
+5-7	392-396	weil	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-8	397-407	Solarparks	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-9	408-411	auf	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-10	412-419	Feldern	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-11	420-427	gebeaut	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-12	428-434	werden	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-13	435-438	und	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-14	439-442	die	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-15	443-457	Landwirtschaft	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-16	458-471	beindrächtigt	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+5-17	471-472	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[12]	
+
+6-1	473-478	Veiel	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-2	479-487	Bewohner	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-3	488-494	denken	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-4	495-499	auch	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-5	500-503	das	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-6	504-507	das	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-7	508-512	Geld	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-8	513-515	in	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-9	516-522	Firmen	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-10	523-525	im	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-11	526-533	Ausland	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-12	534-542	gesteckt	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-13	543-547	wird	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	
+6-14	547-548	.	3. Nicht zutreffend[3]	3. Nicht zutreffend[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	Sonstiges vorhanden[3]	*[3]	*[3]	*[3]	Contra B[3]	*[3]	_	_	Hauptteil[6]	1. Claim[13]	

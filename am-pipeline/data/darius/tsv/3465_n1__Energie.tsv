@@ -1,0 +1,116 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-2	3-9	meiner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-3	10-19	folgenden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-4	20-33	Argumentation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-5	34-39	werde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-6	40-43	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-7	44-48	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-8	49-52	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-9	53-62	genannten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-10	63-77	Energiewandler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-11	78-81	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-12	82-85	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-13	86-97	Hintergrund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-14	98-109	Klimawandel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-15	110-121	diskutieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+1-16	121-122	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[5]	_	
+
+2-1	124-127	Ich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-2	128-133	würde	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-3	134-138	mich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-4	139-147	zwischen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-5	148-151	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-6	152-156	drei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-7	157-172	Energiewandlern	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-8	173-176	für	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-9	177-180	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-10	181-192	Kombination	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-11	193-196	von	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-12	197-207	Solarparks	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-13	208-211	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-14	212-230	Wasserkraftanlagen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-15	231-242	entscheiden	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-16	242-243	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	1. Claim[7]	
+2-17	244-246	da	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-18	247-250	zum	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-19	251-256	einen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-20	257-260	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-21	261-278	Wasserkraftanlage	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-22	279-282	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-23	283-285	70	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-24	285-286	-	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-25	286-289	90%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-26	289-292	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-27	293-300	größten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-28	301-313	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-29	314-317	hat	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-30	317-318	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[8]	
+2-31	319-323	auch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-32	324-328	wenn	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-33	329-332	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-34	333-343	Solarparks	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-35	344-347	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-36	348-358	geringsten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-37	359-371	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-38	372-375	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-39	376-379	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-40	380-383	21%	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-41	384-392	besitzen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	2. Data[9]	
+2-42	393-399	tragen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-43	400-403	sie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-44	404-410	jedoch	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-45	411-413	zu	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-46	414-417	gar	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-47	418-424	keinen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-48	425-432	Lokalen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-49	433-443	Emissionen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-50	444-447	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+2-51	447-448	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	Emissionen vorhanden[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Pro B[1]	*[1]	1. Trade-off[4]	Gesamtthese[4]	Hauptteil[6]	4. Rebuttal[10]	
+
+3-1	450-453	Der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-2	454-466	Jahresertrag	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-3	467-470	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-4	471-488	Wasserkraftanlage	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-5	489-494	liegt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-6	495-498	bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-7	499-501	39	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-8	502-505	GWh	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-9	506-509	pro	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-10	510-514	Jahr	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-11	514-515	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	2. Data[11]	
+3-12	516-519	was	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	1. Claim[12]	
+3-13	520-525	knapp	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	1. Claim[12]	
+3-14	526-532	hinter	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	1. Claim[12]	
+3-15	533-536	den	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	1. Claim[12]	
+3-16	537-546	Windparks	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	1. Claim[12]	
+3-17	547-552	liegt	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	1. Claim[12]	
+3-18	552-553	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	*[2]	Pro C[2]	_	_	Hauptteil[6]	1. Claim[12]	
+
+4-1	555-558	Vor	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-2	559-564	allem	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-3	565-568	ist	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-4	569-572	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-5	573-584	Lebensdauer	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-6	585-588	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-7	589-601	Solaranlagen	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-8	602-603	(	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-9	603-610	30Jahre	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-10	610-611	)	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-11	612-615	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-12	616-619	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-13	620-623	der	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-14	624-641	Wasserkraftanlage	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-15	641-642	(	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-16	642-644	80	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-17	645-650	Jahre	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-18	650-651	)	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-19	652-654	am	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-20	655-663	Höchsten	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	2. Data[13]	
+4-21	664-665	u	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	Lebensdauer/Verfügbarkeit vorhanden[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Pro A[3]	Pro B[3]	*[3]	_	_	Hauptteil[6]	5. Nicht zutreffend	

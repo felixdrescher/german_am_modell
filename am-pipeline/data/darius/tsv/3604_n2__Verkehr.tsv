@@ -1,0 +1,134 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-3	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-2	4-9	finde	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-3	10-13	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-4	14-21	sollten	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-5	22-25	den	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-6	26-32	Benzin	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-7	32-33	-	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-8	34-37	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-9	38-49	Dieselmotor	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-10	50-55	schon	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-11	56-58	ab	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-12	59-63	2030	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-13	64-73	verbieten	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-14	74-76	da	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-15	77-80	der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-16	81-84	CO2	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-17	85-92	Ausstoß	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-18	93-96	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-19	97-100	der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-20	101-111	Produktion	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-21	112-115	und	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-22	116-119	der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-23	120-123	der	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-24	124-134	Verwendung	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-25	135-139	viel	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-26	140-142	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-27	143-147	hoch	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-28	148-151	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+1-29	151-152	.	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[3]	_	
+
+2-1	154-161	Alleine	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-2	162-164	in	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-3	165-168	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-4	169-179	Produktion	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-5	180-186	könnte	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-6	187-190	man	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-7	191-195	viel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-8	196-199	CO2	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-9	200-206	sparen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+2-10	206-207	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	1. Claim[5]	
+
+3-1	209-212	Die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-2	213-235	Treibhausgasemissionen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-3	236-239	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-4	240-243	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-5	244-254	Produktion	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-6	255-262	beträgt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-7	263-266	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-8	267-270	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-9	271-284	Akkumulatoren	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-10	285-289	rund	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-11	290-293	13t	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-12	294-295	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[6]	
+3-13	296-299	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-14	300-311	Wasserstoff	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-15	312-316	rund	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-16	317-322	13,6t	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-17	323-326	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-18	327-330	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-19	331-338	E-Fuels	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-20	339-343	rund	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-21	344-347	7,8	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-22	348-349	t	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+3-23	349-350	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	Contra A[1]	Pro B[1]	Contra C[1]	Hauptteil[4]	2. Data[7]	
+
+4-1	352-360	Außerdem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-2	361-367	könnte	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-3	368-371	man	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-4	372-375	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-5	376-386	Lautstärke	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-6	387-393	sinken	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-7	394-396	da	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-8	397-400	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-9	401-417	Geräuschemission	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-10	418-421	bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-11	422-425	dem	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-12	426-437	Akkumulator	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-13	438-441	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-14	442-453	Wasserstoff	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-15	454-457	nur	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-16	458-462	noch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-17	463-467	rund	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-18	468-470	57	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-19	471-473	dB	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-20	474-477	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-21	478-481	bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-22	482-489	E-Fuels	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-23	490-493	nur	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-24	494-498	noch	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-25	499-501	61	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-26	502-504	dB	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-27	505-508	bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-28	509-513	30km	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-29	513-514	/	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-30	514-515	h	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+4-31	515-516	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	2. Data[8]	
+
+5-1	518-520	So	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-2	521-527	könnte	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-3	528-531	man	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-4	532-535	bei	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-5	536-539	den	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-6	540-548	Menschen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-7	549-552	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-8	553-555	zu	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-9	556-561	Hause	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-10	562-570	arbeiten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-11	571-574	den	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-12	575-586	Stresspegel	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-13	587-602	runterschrauben	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-14	603-605	da	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-15	606-610	eine	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-16	611-615	hohe	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-17	616-626	Lautstärke	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-18	627-629	zu	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-19	630-636	Stress	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-20	637-643	führen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-21	644-648	kann	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-22	649-652	und	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-23	653-657	dies	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-24	658-662	kann	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-25	663-665	zu	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-26	666-672	Fehler	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-27	673-675	im	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-28	676-681	Beruf	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-29	682-688	führen	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-30	689-693	kann	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	
+5-31	693-694	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	Emissionen vorhanden[2]	*[2]	*[2]	*[2]	*[2]	Pro A[2]	Pro B[2]	Pro C[2]	Hauptteil[4]	3. Warrant[9]	

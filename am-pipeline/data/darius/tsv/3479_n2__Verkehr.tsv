@@ -1,0 +1,257 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-2	Ab	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-2	3-7	2035	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-3	8-14	sollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-4	15-20	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-5	21-24	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-6	25-31	Diesel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-7	31-32	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-8	32-33	&	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-9	33-36	amp	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-10	36-37	;	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-11	37-50	Benzinmotoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-12	51-59	verboten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-13	60-66	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+1-14	66-67	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+
+2-1	69-73	Doch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-2	74-77	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-3	78-83	wären	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-4	84-87	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-5	88-100	Alternativen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+2-6	100-101	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[8]	_	
+
+3-1	102-105	Der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-2	106-112	E-Fuel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-3	113-116	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-4	117-120	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-5	121-126	einer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-6	127-147	Treibhausgasemmision	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-7	148-151	bei	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-8	152-155	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-9	156-166	Produktion	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-10	167-170	mit	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-11	171-174	nur	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-12	175-179	7,8t	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-13	180-183	CO2	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-14	183-184	-	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-15	184-194	Äquivalenz	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-16	195-198	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-17	199-204	einer	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-18	205-210	hohen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-19	211-221	Produktion	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-20	221-222	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	2. Data[11]	
+3-21	223-226	ist	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-22	227-233	dieser	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-23	234-236	am	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-24	237-249	sinnvollsten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	1. Claim[12]	
+3-25	249-250	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	Lebensdauer/Verfügbarkeit vorhanden[1]	*[1]	*[1]	*[1]	Treibhausgasemissionen vorhanden[1]	*[1]	*[1]	Pro B[1]	*[1]	_	_	Hauptteil[9]	1. Claim[12]	
+
+4-1	252-256	Dazu	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-2	257-260	hat	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-3	261-263	er	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-4	264-267	die	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-5	268-275	höchste	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-6	276-286	Reichweite	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-7	287-290	mit	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-8	291-294	der	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-9	295-304	kürzesten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-10	305-314	Tankdauer	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-11	314-315	,	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	2. Data[13]	
+4-12	316-318	so	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-13	319-323	dass	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-14	324-326	es	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-15	327-329	am	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-16	330-343	praktischsten	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-17	344-346	im	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-18	347-353	Alltag	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-19	354-358	wäre	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+4-20	358-359	.	1. Richtig[2]	1. Angemessen[2]	1. Verständlich[2]	*[2]	*[2]	*[2]	Preis/Betrieb vorhanden[2]	*[2]	*[2]	*[2]	Contra A[2]	Pro B[2]	Contra C[2]	_	_	Hauptteil[9]	3. Warrant[14]	
+
+5-1	361-363	Im	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-2	364-373	Gegensatz	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-3	374-376	zu	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-4	377-383	dieser	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-5	384-395	Alternative	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-6	396-401	würde	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-7	402-404	es	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-8	405-409	noch	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-9	410-413	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-10	414-427	Akkumulatoren	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-11	428-431	und	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-12	432-435	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-13	436-447	Wasserstoff	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-14	448-455	Motoren	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-15	456-461	geben	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-16	461-462	,	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	1. Claim[15]	
+5-17	463-466	die	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-18	467-476	allerding	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-19	477-480	mit	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-20	481-486	einer	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-21	487-495	Emmision	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-22	496-499	von	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-23	500-505	13,1t	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-24	505-506	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-25	506-511	13,6t	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-26	512-515	CO2	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-27	515-516	-	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-28	516-526	Äquivalenz	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-29	527-531	eine	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-30	532-536	sehr	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-31	537-541	hohe	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-32	542-546	Rate	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-33	547-552	haben	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+5-34	552-553	.	1. Richtig[3]	1. Angemessen[3]	1. Verständlich[3]	*[3]	*[3]	*[3]	*[3]	*[3]	Treibhausgasemissionen vorhanden[3]	*[3]	Contra A[3]	*[3]	Contra C[3]	_	_	Hauptteil[9]	2. Data[16]	
+
+6-1	555-561	Jedoch	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-2	562-569	braucht	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-3	570-573	der	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-4	574-585	Wasserstoff	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-5	586-591	Motor	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-6	592-599	genauso	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-7	600-604	kurz	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-8	605-608	wie	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-9	609-612	der	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-10	613-619	E-Fuel	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-11	620-623	und	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-12	624-627	hat	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-13	628-631	die	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-14	632-639	gleiche	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-15	640-650	Reichweite	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+6-16	650-651	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[17]	
+
+7-1	653-656	Die	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-2	657-670	Akkumulatoren	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-3	671-677	fallen	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-4	678-681	bei	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-5	682-685	der	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-6	686-695	Katekorie	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-7	696-700	raus	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-8	700-701	,	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	1. Claim[18]	
+7-9	702-704	da	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-10	705-708	sie	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-11	709-712	das	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-12	713-715	10	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-13	716-721	fache	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-14	722-724	an	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-15	725-729	zeit	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-16	730-739	benötigen	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-17	740-743	und	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-18	744-747	nur	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-19	748-753	knapp	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-20	754-757	die	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-21	758-764	Hälfte	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-22	765-768	der	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-23	769-776	Strecke	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-24	777-788	zurücklegen	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-25	789-795	können	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+7-26	795-796	.	1. Richtig[4]	1. Angemessen[4]	1. Verständlich[4]	*[4]	*[4]	*[4]	Preis/Betrieb vorhanden[4]	*[4]	*[4]	*[4]	Pro A[4]	Pro B[4]	Contra C[4]	_	_	Hauptteil[9]	2. Data[19]	
+
+8-1	798-802	Doch	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-2	803-806	mit	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-3	807-811	61dB	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-4	812-815	bei	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-5	816-820	30km	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-6	820-821	/	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-7	821-822	h	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-8	823-826	ist	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-9	827-829	es	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-10	830-833	das	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-11	834-842	lauteste	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-12	843-847	Auto	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+8-13	847-848	.	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+
+9-1	850-853	Mit	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-2	854-858	57dB	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-3	859-862	pro	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-4	863-869	30km7h	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-5	870-879	schneiden	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-6	880-883	die	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-7	884-891	anderen	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-8	892-893	b	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-9	894-899	eiden	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-10	900-913	Altwernativen	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-11	914-920	besser	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-12	921-923	ab	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+9-13	923-924	.	1. Richtig[5]	1. Angemessen[5]	1. Verständlich[5]	*[5]	*[5]	Emissionen vorhanden[5]	*[5]	*[5]	*[5]	*[5]	Pro A[5]	Contra B[5]	Pro C[5]	_	_	Hauptteil[9]	2. Data[20]	
+
+10-1	926-934	Außerdem	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-2	935-939	sind	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-3	940-943	die	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-4	944-954	Emmisionen	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-5	955-958	bei	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-6	959-962	der	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-7	963-973	Entsorgung	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-8	974-977	der	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-9	978-986	Batterie	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-10	987-991	sehr	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-11	992-996	hoch	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-12	996-997	,	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-13	998-1001	das	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-14	1002-1007	heißt	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-15	1007-1008	,	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-16	1009-1013	dass	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-17	1014-1017	das	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-18	1018-1022	Auto	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-19	1023-1026	nur	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-20	1027-1030	bei	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-21	1031-1039	Gebrauch	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-22	1040-1043	und	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-23	1044-1047	der	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-24	1048-1059	Herstellung	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-25	1060-1077	klimafreundlicher	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-26	1078-1081	ist	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+10-27	1081-1082	.	3. Nicht zutreffend[6]	3. Nicht zutreffend[6]	2. Schwer verständlich[6]	*[6]	*[6]	*[6]	*[6]	Sonstiges vorhanden[6]	*[6]	*[6]	Unklar A[6]	Unklar B[6]	Unklar C[6]	_	_	Hauptteil[9]	1. Claim[21]	
+
+11-1	1084-1087	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-2	1088-1098	persönlich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-3	1099-1104	würde	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-4	1105-1109	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-5	1110-1115	trotz	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-6	1116-1119	der	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-7	1120-1130	Entsorgung	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-8	1131-1134	und	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-9	1135-1138	der	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-10	1139-1149	Lautstärke	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-11	1150-1154	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-12	1155-1158	für	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-13	1159-1162	den	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-14	1163-1169	E-Fuel	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-15	1170-1181	entscheiden	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-16	1181-1182	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-17	1183-1185	da	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-18	1186-1189	die	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-19	1190-1200	Emmisionen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-20	1201-1204	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-21	1205-1208	der	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-22	1209-1219	Entsorgung	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-23	1220-1223	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-24	1224-1227	den	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-25	1228-1235	anderen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-26	1236-1241	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-27	1242-1249	genauso	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-28	1250-1257	steigen	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-29	1258-1261	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-30	1262-1265	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-31	1266-1269	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-32	1270-1276	E-Fuel	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-33	1276-1277	,	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-34	1278-1285	welcher	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-35	1286-1289	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-36	1290-1293	der	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-37	1294-1304	Produktion	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-38	1305-1307	ca	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+11-39	1307-1308	.	_	_	_	_	_	_	_	_	_	_	_	_	_	1. Trade-off[7]	Gesamtthese[7]	Schluss[10]	_	
+
+12-1	1310-1313	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[10]	_	
+12-2	1314-1320	Hälfte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[10]	_	
+12-3	1321-1323	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[10]	_	
+12-4	1324-1334	Emmisionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[10]	_	
+12-5	1335-1341	bringt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[10]	_	
+12-6	1341-1342	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Schluss[10]	_	

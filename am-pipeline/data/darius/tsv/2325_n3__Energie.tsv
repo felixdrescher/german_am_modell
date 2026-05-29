@@ -1,0 +1,77 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Argument|Accuracy|Adequacy|Clarity|KriteriumJahresertragEnergiedichte|KriteriumLebensdauerVerfgbarkeit|KriteriumLokaleEmissionenGeruschemissionen|KriteriumPreisBetrieb|KriteriumSonstiges|KriteriumTreibhausgasemissionen|KriteriumWirkungsgrad|OptionA|OptionB|OptionC
+#T_SP=webanno.custom.DecisionMakingStrategies|Decision|Gesamtthese
+#T_SP=webanno.custom.Struktur|Struktur
+#T_SP=webanno.custom.StrukturTAP|TAPArgumente
+
+
+1-1	0-4	Sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-2	5-12	geehrte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-3	13-18	Damen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-4	19-22	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-5	23-29	Herren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-6	29-30	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-7	31-34	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-8	35-43	schreibe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-9	44-49	heute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-10	50-57	darüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-11	57-58	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-12	59-62	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-13	63-66	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-14	67-70	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-15	71-82	erneuerbare	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-16	83-91	Energien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-17	92-100	benutzen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-18	101-107	sollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+1-19	107-108	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	Einleitung[4]	_	
+
+2-1	110-113	Ich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-2	114-118	habe	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-3	119-123	mich	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-4	124-133	belesenen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-5	134-139	finde	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-6	139-140	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-7	141-145	dass	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-8	146-149	man	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-9	150-153	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-10	154-171	Wasserkraftanlage	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-11	172-180	benutzen	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-12	181-187	sollte	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-13	187-188	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-14	189-191	da	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-15	192-195	sie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-16	196-198	in	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-17	199-202	den	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-18	203-210	meisten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-19	211-218	Punkten	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-20	219-228	überzeugt	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-21	228-229	,	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	1. Claim[6]	
+2-22	230-233	wie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-23	234-237	zum	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-24	238-246	Beispiel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-25	247-251	beim	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-26	252-264	Wirkungsgrad	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-27	265-268	hat	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-28	269-272	die	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-29	273-290	Wasserkraftanlage	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-30	291-292	2	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-31	292-293	-	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-32	293-294	3	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-33	295-298	mal	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-34	299-305	soviel	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-35	306-309	wie	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-36	310-313	der	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-37	314-322	Windpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-38	323-326	und	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-39	327-336	Solarpark	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+2-40	336-337	.	1. Richtig[1]	1. Angemessen[1]	1. Verständlich[1]	*[1]	*[1]	*[1]	*[1]	*[1]	*[1]	Wirkungsgrad vorhanden[1]	Pro A[1]	Contra B[1]	Contra C[1]	2. Cut-off[3]	Gesamtthese[3]	Hauptteil[5]	2. Data[7]	
+
+3-1	339-343	Oder	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-2	344-348	beim	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-3	349-360	Jahresertag	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-4	361-367	sticht	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-5	368-371	die	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-6	372-389	Wasserkraftanlage	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-7	390-395	nicht	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-8	396-405	besonders	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
+3-9	406-410	raus	2. Falsch[2]	2. Unangemessen[2]	1. Verständlich[2]	Jahresertrag/Energiedichte Vorhanden[2]	*[2]	*[2]	*[2]	*[2]	*[2]	*[2]	Contra A[2]	*[2]	*[2]	_	_	Hauptteil[5]	1. Claim[8]	
