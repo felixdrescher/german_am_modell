@@ -3,56 +3,30 @@ model.py
 --------
 Definiert die zweistufige AM-Pipeline:
 
-  Stufe 1 — Claim Detection (SpanCategorizer, binär)
-    Eingabe: beliebiger Text
-    Ausgabe: Sätze die mindestens einen CLAIM enthalten
+  Stufe 1 — Claim Detection (SpanCategorizer)
+  Stufe 2 — TAP Component Detection (SpanCategorizer)
 
-  Stufe 2 — TAP Component Detection (SpanCategorizer, multi-label)
-    Eingabe: nur die Sätze aus Stufe 1
-    Ausgabe: CLAIM / DATA / WARRANT / REBUTTAL Spans
+Beide nutzen Transformer Backbone.
 
-Beide Stufen nutzen GBERT (deepset/gbert-large) als Transformer-Backbone.
-Das Modell wird lokal betrieben — kein Cloud-Zugriff.
-
-Verwendung:
-  # Training:       python pipeline/training.py
-  # Inferenz:       from pipeline.model import predict
-  # Streamlit-App:  wird von app/streamlit_app.py importiert
+Zusätzlich:
+- Support für "resume-last" über model-last als Initialisierung
 """
 
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Tuple
 import spacy
 from spacy.language import Language
 
-
 # ── Konstanten ────────────────────────────────────────────────────────────────
 
-LABELS_STAGE1 = ["CLAIM"]                              # Stufe 1: binäre Claim-Detektion
-LABELS_STAGE2 = ["CLAIM", "DATA", "WARRANT", "REBUTTAL"]  # Stufe 2: alle TAP-Elemente
-
-# Pfade (relativ zum Projektordner)
 MODEL_DIR_STAGE1 = Path("models/stage1_claim")
 MODEL_DIR_STAGE2 = Path("models/stage2_tap")
 
-# GBERT Modell-Name (HuggingFace)
-GBERT_MODEL = "deepset/gbert-large"
+CONFIG_DIR = Path("configs")
 
-
-# ── Pipeline-Konfiguration ────────────────────────────────────────────────────
+# ── CONFIG WRITING ────────────────────────────────────────────────────────────
 
 def create_stage1_config() -> str:
-    """
-    spaCy config.cfg für Stufe 1: Claim Detection.
-
-    Fixes gegenüber vorheriger Version:
-    - [nlp] Pflichtfelder (disabled, tokenizer, before/after_creation) ergänzt
-    - sentence_suggester statt ngram (Claims sind satzlang)
-    - Lernrate 5e-5 statt 1e-3 (BERT-typisch, schützt vortrainierte Gewichte)
-    - warmup_cosine statt warmup_linear
-    - shuffle = true in corpora.train
-    - batch_size = 4 (für Colab T4 mit distilbert; für gbert-large auf 2 setzen)
-    """
     return """
 [nlp]
 lang = "de"
@@ -134,7 +108,7 @@ L2 = 0.01
 grad_clip = 1.0
 use_averages = false
 eps = 0.00000001
-learn_rate = 5e-5
+learn_rate = 5e-6
 
 [training.batcher]
 @batchers = "spacy.batch_by_words.v1"
@@ -197,15 +171,7 @@ after_init = null
 [initialize.components.spancat]
 """
 
-
 def create_stage2_config() -> str:
-    """
-    spaCy config.cfg für Stufe 2: TAP Component Detection.
-
-    Unterschiede zu Stufe 1:
-    - ngram_suggester mit sizes (flexiblere Span-Grenzen für Data/Warrant/Rebuttal)
-    - Alle 4 Labels (CLAIM, DATA, WARRANT, REBUTTAL)
-    """
     return """
 [nlp]
 lang = "de"
@@ -351,164 +317,163 @@ after_init = null
 
 
 def write_configs() -> None:
-    """Schreibt beide Config-Dateien in configs/."""
-    Path("configs").mkdir(exist_ok=True)
-    Path("configs/stage1_claim.cfg").write_text(create_stage1_config())
-    Path("configs/stage2_tap.cfg").write_text(create_stage2_config())
-    print("Config-Dateien geschrieben: configs/stage1_claim.cfg, configs/stage2_tap.cfg")
+    CONFIG_DIR.mkdir(exist_ok=True)
+
+    (CONFIG_DIR / "stage1_claim.cfg").write_text(create_stage1_config())
+    (CONFIG_DIR / "stage2_tap.cfg").write_text(create_stage2_config())
+
+    print("Standard-Configs geschrieben.")
 
 
-# ── Modell laden ──────────────────────────────────────────────────────────────
+# ── RESUME CONFIG GENERATION ──────────────────────────────────────────────────
+
+def _inject_resume_path(cfg: str, model_last: Path) -> str:
+    """
+    spaCy-konforme Warm-Start Injection über init_tok2vec.
+    """
+
+    return cfg.replace(
+        "init_tok2vec = null",
+        f'init_tok2vec = "{model_last.as_posix()}"'
+    )
+
+
+def write_resume_configs() -> None:
+    """
+    Erzeugt Resume-Configs basierend auf model-last (falls vorhanden).
+    """
+
+    CONFIG_DIR.mkdir(exist_ok=True)
+
+    s1_last = MODEL_DIR_STAGE1 / "model-last"
+    s2_last = MODEL_DIR_STAGE2 / "model-last"
+
+    if s1_last.exists():
+        cfg = _inject_resume_path(create_stage1_config(), s1_last)
+        (CONFIG_DIR / "stage1_claim_resume.cfg").write_text(cfg)
+        print("Resume-Config Stufe 1 geschrieben")
+
+    if s2_last.exists():
+        cfg = _inject_resume_path(create_stage2_config(), s2_last)
+        (CONFIG_DIR / "stage2_tap_resume.cfg").write_text(cfg)
+        print("Resume-Config Stufe 2 geschrieben")
+
+
+# ── PIPELINE LOADING ──────────────────────────────────────────────────────────
 
 def load_pipeline(
     stage1_path: Path = MODEL_DIR_STAGE1,
     stage2_path: Path = MODEL_DIR_STAGE2,
-) -> tuple:
-    """
-    Lädt beide trainierten Modell-Stufen.
-    Gibt (nlp_stage1, nlp_stage2) zurück.
-    Wirft FileNotFoundError wenn Modelle noch nicht trainiert wurden.
-    """
-    if not stage1_path.exists():
-        raise FileNotFoundError(
-            f"Stufe-1-Modell nicht gefunden: {stage1_path}\n"
-            "Bitte zuerst python pipeline/training.py ausführen."
-        )
-    if not stage2_path.exists():
-        raise FileNotFoundError(
-            f"Stufe-2-Modell nicht gefunden: {stage2_path}\n"
-            "Bitte zuerst python pipeline/training.py ausführen."
-        )
+) -> Tuple[Language, Language]:
 
-    print(f"Lade Stufe 1: {stage1_path}")
+    if not stage1_path.exists():
+        raise FileNotFoundError(f"Stufe 1 fehlt: {stage1_path}")
+    if not stage2_path.exists():
+        raise FileNotFoundError(f"Stufe 2 fehlt: {stage2_path}")
+
+    print(f"Lade Stage 1: {stage1_path}")
     nlp1 = spacy.load(str(stage1_path))
-    print(f"Lade Stufe 2: {stage2_path}")
+
+    print(f"Lade Stage 2: {stage2_path}")
     nlp2 = spacy.load(str(stage2_path))
+
     return nlp1, nlp2
 
 
-# ── Inferenz ──────────────────────────────────────────────────────────────────
+# ── INFERENCE ────────────────────────────────────────────────────────────────
 
 def predict(
-    text:        str,
-    nlp_stage1:  Language,
-    nlp_stage2:  Language,
-    threshold1:  float = 0.5,
-    threshold2:  float = 0.5,
+    text: str,
+    nlp_stage1: Language,
+    nlp_stage2: Language,
+    threshold1: float = 0.5,
+    threshold2: float = 0.5,
 ) -> List[Dict]:
-    """
-    Zweistufige Inferenz auf einem Text.
 
-    Stufe 1: Satz-Segmentierung + Claim-Detection.
-             Nur Sätze mit CLAIM-Score >= threshold1 kommen weiter.
-
-    Stufe 2: TAP-Element-Detection in den gefilterten Sätzen.
-             Spans mit Score >= threshold2 werden zurückgegeben.
-
-    Rückgabe: Liste von Span-Dicts:
-      {
-        "start": int,   # Zeichenposition im Originaltext
-        "end":   int,
-        "label": str,   # CLAIM / DATA / WARRANT / REBUTTAL
-        "text":  str,   # Span-Text
-        "score": float, # Modell-Konfidenz
-      }
-    """
     result_spans = []
 
-    # ── Stufe 1: Sätze mit Claims finden ─────────────────────────────────────
     doc1 = nlp_stage1(text)
 
-    # Satz-Segmentierung via spaCy (de_core_news_sm oder sentencizer)
     claim_sentences = []
+
     for sent in doc1.sents:
-        sent_doc = nlp_stage1.make_doc(sent.text)
-        # Spans aus Stufe 1 prüfen
         for span in doc1.spans.get("sc", []):
-            if (span.start >= sent.start and
-                span.end <= sent.end and
-                span.label_ == "CLAIM" and
-                span._.score >= threshold1):
+            if span.label_ == "CLAIM" and span.start >= sent.start and span.end <= sent.end:
                 claim_sentences.append({
-                    "text":       sent.text,
-                    "sent_start": sent.start_char,
+                    "text": sent.text,
+                    "start_char": sent.start_char
                 })
                 break
 
     if not claim_sentences:
-        # Kein Claim gefunden → alle Sätze durch Stufe 2 schicken
-        # (konservative Fallback-Strategie für OHI-Texte)
         claim_sentences = [
-            {"text": sent.text, "sent_start": sent.start_char}
-            for sent in doc1.sents
+            {"text": s.text, "start_char": s.start_char}
+            for s in doc1.sents
         ]
 
-    # ── Stufe 2: TAP-Elemente in Claim-Sätzen finden ─────────────────────────
-    for sent_info in claim_sentences:
-        sent_text  = sent_info["text"]
-        sent_start = sent_info["sent_start"]
-
-        doc2 = nlp_stage2(sent_text)
+    for sent in claim_sentences:
+        doc2 = nlp_stage2(sent["text"])
 
         for span in doc2.spans.get("sc", []):
             score = getattr(span._, "score", 1.0)
+
             if score < threshold2:
                 continue
+
             result_spans.append({
-                "start": sent_start + span.start_char,
-                "end":   sent_start + span.end_char,
+                "start": sent["start_char"] + span.start_char,
+                "end": sent["start_char"] + span.end_char,
                 "label": span.label_,
-                "text":  span.text,
+                "text": span.text,
                 "score": round(score, 3),
             })
 
-    # Nach Startposition sortieren
-    result_spans.sort(key=lambda x: x["start"])
-    return result_spans
+    return sorted(result_spans, key=lambda x: x["start"])
 
 
-# ── Stub für Entwicklung ohne trainiertes Modell ──────────────────────────────
+# ── STUB ─────────────────────────────────────────────────────────────────────
 
 def predict_stub(text: str) -> List[Dict]:
-    """
-    Gibt synthetische Spans zurück solange kein trainiertes Modell vorliegt.
-    Wird von der Streamlit-App genutzt (run_model_stub in streamlit_app.py).
-    Nach dem Training durch predict() ersetzen.
-    """
     import re
-    spans   = []
+
     patterns = {
-        "CLAIM":    [r"Ich (?:denke|meine|glaube|finde)[^.]*\.", r"sollte[^.]*\.",
-                     r"(?:bin|bleibe) ich[^.]*\."],
-        "DATA":     [r"Mit [^.]*\d+%[^.]*\.", r"\d+[^.]*(?:GWh|Jahre|km|€)[^.]*\."],
-        "WARRANT":  [r"(?:bedeutet|weil|deshalb|daher)[^.]*\.",
-                     r"Verantwortung[^.]*\."],
-        "REBUTTAL": [r"Obwohl[^.]*\.", r"obwohl[^.]*\.", r"[Jj]edoch[^.]*\."],
+        "CLAIM": [r"Ich .*?\.", r"sollte .*?\."] ,
+        "DATA": [r"\d+%.*?\."] ,
+        "WARRANT": [r"weil .*?\."] ,
+        "REBUTTAL": [r"Obwohl .*?\."] ,
     }
-    for label, plist in patterns.items():
-        for pat in plist:
-            for m in re.finditer(pat, text):
+
+    spans = []
+
+    for label, pats in patterns.items():
+        for p in pats:
+            for m in re.finditer(p, text):
                 spans.append({
-                    "start": m.start(), "end": m.end(),
-                    "label": label, "text": m.group(), "score": 0.0,
+                    "start": m.start(),
+                    "end": m.end(),
+                    "label": label,
+                    "text": m.group(),
+                    "score": 0.0
                 })
-    spans.sort(key=lambda x: x["start"])
-    # Überlappungen entfernen
-    filtered, last_end = [], -1
-    for s in spans:
-        if s["start"] >= last_end:
-            filtered.append(s)
-            last_end = s["end"]
-    return filtered
+
+    return sorted(spans, key=lambda x: x["start"])
 
 
-# ── Direktaufruf ──────────────────────────────────────────────────────────────
+# ── CLI ENTRY ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    write_configs()
-    print("\nModell-Stub Test:")
-    test = ("Ich denke, dass Windkraftanlagen gefördert werden sollten. "
-            "Mit einem Wirkungsgrad von 45% sind sie effizienter. "
-            "Obwohl sie Lärm erzeugen, überwiegen die Vorteile.")
-    for span in predict_stub(test):
-        print(f"  [{span['label']}] \"{span['text'][:60]}\"")
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--write-configs", action="store_true")
+    parser.add_argument("--write-resume-configs", action="store_true")
+
+    args = parser.parse_args()
+
+    if args.write_configs:
+        write_configs()
+
+    if args.write_resume_configs:
+        write_resume_configs()
+
+    print("model.py fertig ausgeführt")
