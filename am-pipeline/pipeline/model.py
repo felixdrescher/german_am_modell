@@ -44,14 +44,25 @@ GBERT_MODEL = "deepset/gbert-large"
 def create_stage1_config() -> str:
     """
     spaCy config.cfg für Stufe 1: Claim Detection.
-    SpanCategorizer mit GBERT-Backbone, trainiert auf Satzebene.
-    Suggestor: sentence-basiert (jeder Satz ist ein Kandidat).
+
+    Fixes gegenüber vorheriger Version:
+    - [nlp] Pflichtfelder (disabled, tokenizer, before/after_creation) ergänzt
+    - sentence_suggester statt ngram (Claims sind satzlang)
+    - Lernrate 5e-5 statt 1e-3 (BERT-typisch, schützt vortrainierte Gewichte)
+    - warmup_cosine statt warmup_linear
+    - shuffle = true in corpora.train
+    - batch_size = 4 (für Colab T4 mit distilbert; für gbert-large auf 2 setzen)
     """
     return """
 [nlp]
 lang = "de"
 pipeline = ["transformer", "spancat"]
-batch_size = 128
+batch_size = 4
+disabled = []
+before_creation = null
+after_creation = null
+after_pipeline_creation = null
+tokenizer = {"@tokenizers": "spacy.Tokenizer.v1"}
 
 [components]
 
@@ -60,8 +71,9 @@ factory = "transformer"
 
 [components.transformer.model]
 @architectures = "spacy-transformers.TransformerModel.v3"
-name = "deepset/gbert-large"
+name = "distilbert/distilbert-base-german-cased"
 tokenizer_config = {"use_fast": true}
+mixed_precision = false
 
 [components.transformer.model.get_spans]
 @span_getters = "spacy-transformers.strided_spans.v1"
@@ -93,7 +105,9 @@ grad_factor = 1.0
 @layers = "reduce_mean.v1"
 
 [components.spancat.suggester]
-@misc = "spacy.sentence_suggester.v1"
+@misc = "spacy.ngram_range_suggester.v1"
+min_size = 1
+max_size = 40
 
 [training]
 train_corpus = "corpora.train"
@@ -101,8 +115,15 @@ dev_corpus = "corpora.dev"
 seed = 42
 gpu_allocator = "pytorch"
 patience = 1600
-max_epochs = 20
+max_steps = 20000
+max_epochs = 30
 eval_frequency = 200
+dropout = 0.1
+accumulate_gradient = 3
+frozen_components = []
+annotating_components = []
+before_to_disk = null
+before_update = null
 
 [training.optimizer]
 @optimizers = "Adam.v1"
@@ -111,22 +132,31 @@ beta2 = 0.999
 L2_is_weight_decay = true
 L2 = 0.01
 grad_clip = 1.0
-
-[training.optimizer.learn_rate]
-@schedules = "warmup_cosine.v1"
-warmup_steps = 250
-total_steps = 20000
-min_rate = 0.0
+use_averages = false
+eps = 0.00000001
+learn_rate = 5e-5
 
 [training.batcher]
-@batchers = "spacy.batch_by_padded.v1"
-discard_oversize = true
-size = 2000
-buffer = 256
+@batchers = "spacy.batch_by_words.v1"
+discard_oversize = false
+tolerance = 0.2
+get_length = null
+
+[training.batcher.size]
+@schedules = "compounding.v1"
+start = 100
+stop = 1000
+compound = 1.001
+t = 0.0
 
 [training.logger]
 @loggers = "spacy.ConsoleLogger.v1"
 progress_bar = true
+
+[training.score_weights]
+spans_sc_f = 1.0
+spans_sc_p = 0.0
+spans_sc_r = 0.0
 
 [corpora]
 
@@ -134,40 +164,58 @@ progress_bar = true
 @readers = "spacy.Corpus.v1"
 path = ${paths.train}
 max_length = 0
-shuffle = true
+gold_preproc = false
+limit = 0
+augmenter = null
 
 [corpora.dev]
 @readers = "spacy.Corpus.v1"
 path = ${paths.dev}
 max_length = 0
+gold_preproc = false
+limit = 0
+augmenter = null
 
 [paths]
 train = "data/darius/train.spacy"
 dev   = "data/darius/dev.spacy"
 
+[system]
+gpu_allocator = "pytorch"
+seed = 42
+
 [initialize]
+vectors = null
+init_tok2vec = null
+vocab_data = null
+lookups = null
+before_init = null
+after_init = null
 
 [initialize.components]
 
 [initialize.components.spancat]
-[initialize.components.spancat.labels]
-@readers = "spacy.read_labels.v1"
-path = ${paths.train}
-require = false
 """
 
 
 def create_stage2_config() -> str:
     """
     spaCy config.cfg für Stufe 2: TAP Component Detection.
-    Identische Architektur wie Stufe 1, aber mit allen 4 Labels.
-    Suggestor: ngram-basiert (flexiblere Span-Grenzen).
+
+    Unterschiede zu Stufe 1:
+    - ngram_suggester mit sizes (flexiblere Span-Grenzen für Data/Warrant/Rebuttal)
+    - Alle 4 Labels (CLAIM, DATA, WARRANT, REBUTTAL)
     """
     return """
 [nlp]
 lang = "de"
 pipeline = ["transformer", "spancat"]
-batch_size = 128
+batch_size = 4
+disabled = []
+before_creation = null
+after_creation = null
+after_pipeline_creation = null
+tokenizer = {"@tokenizers": "spacy.Tokenizer.v1"}
 
 [components]
 
@@ -176,8 +224,9 @@ factory = "transformer"
 
 [components.transformer.model]
 @architectures = "spacy-transformers.TransformerModel.v3"
-name = "deepset/gbert-large"
+name = "distilbert/distilbert-base-german-cased"
 tokenizer_config = {"use_fast": true}
+mixed_precision = false
 
 [components.transformer.model.get_spans]
 @span_getters = "spacy-transformers.strided_spans.v1"
@@ -218,8 +267,15 @@ dev_corpus = "corpora.dev"
 seed = 42
 gpu_allocator = "pytorch"
 patience = 1600
-max_epochs = 20
+max_steps = 20000
+max_epochs = 30
 eval_frequency = 200
+dropout = 0.1
+accumulate_gradient = 3
+frozen_components = []
+annotating_components = []
+before_to_disk = null
+before_update = null
 
 [training.optimizer]
 @optimizers = "Adam.v1"
@@ -228,22 +284,31 @@ beta2 = 0.999
 L2_is_weight_decay = true
 L2 = 0.01
 grad_clip = 1.0
-
-[training.optimizer.learn_rate]
-@schedules = "warmup_cosine.v1"
-warmup_steps = 250
-total_steps = 20000
-min_rate = 0.0
+use_averages = false
+eps = 0.00000001
+learn_rate = 5e-5
 
 [training.batcher]
-@batchers = "spacy.batch_by_padded.v1"
-discard_oversize = true
-size = 2000
-buffer = 256
+@batchers = "spacy.batch_by_words.v1"
+discard_oversize = false
+tolerance = 0.2
+get_length = null
+
+[training.batcher.size]
+@schedules = "compounding.v1"
+start = 100
+stop = 1000
+compound = 1.001
+t = 0.0
 
 [training.logger]
 @loggers = "spacy.ConsoleLogger.v1"
 progress_bar = true
+
+[training.score_weights]
+spans_sc_f = 1.0
+spans_sc_p = 0.0
+spans_sc_r = 0.0
 
 [corpora]
 
@@ -251,26 +316,37 @@ progress_bar = true
 @readers = "spacy.Corpus.v1"
 path = ${paths.train}
 max_length = 0
-shuffle = true
+gold_preproc = false
+limit = 0
+augmenter = null
 
 [corpora.dev]
 @readers = "spacy.Corpus.v1"
 path = ${paths.dev}
 max_length = 0
+gold_preproc = false
+limit = 0
+augmenter = null
 
 [paths]
 train = "data/darius/train.spacy"
 dev   = "data/darius/dev.spacy"
 
+[system]
+gpu_allocator = "pytorch"
+seed = 42
+
 [initialize]
+vectors = null
+init_tok2vec = null
+vocab_data = null
+lookups = null
+before_init = null
+after_init = null
 
 [initialize.components]
 
 [initialize.components.spancat]
-[initialize.components.spancat.labels]
-@readers = "spacy.read_labels.v1"
-path = ${paths.train}
-require = false
 """
 
 
