@@ -53,10 +53,10 @@ def parse_webanno_tsv(filepath: str) -> List[Dict]:
     """
     Parst eine DARIUS TSV-Datei.
     Gibt Liste von Satz-Dicts zurück:
-      text    – rekonstruierter Text
-      tokens  – Token-Texte
-      offsets – (start, end) dokumentweit
-      tap     – (label|None, arg_id|None) pro Token
+      text    - rekonstruierter Text
+      tokens  - Token-Texte
+      offsets - (start, end) dokumentweit
+      tap     - (label|None, arg_id|None) pro Token
     """
     sentences    = []
     current_toks = []

@@ -70,13 +70,8 @@ def check_prerequisites() -> bool:
             gpu = torch.cuda.get_device_name(0)
             vram = torch.cuda.get_device_properties(0).total_memory / 1e9
             print(f"  🎮 GPU: {gpu} ({vram:.1f} GB VRAM)")
-            print(f"     GBERT-large benötigt ~6 GB VRAM.")
-            print(f"     Falls nicht genug VRAM: in config.cfg"
-                  f" 'deepset/gbert-large' → 'deepset/gbert-base' ändern.")
         else:
             print(f"  ⚠️  Keine GPU gefunden — Training auf CPU.")
-            print(f"     Das kann bei GBERT-large sehr lange dauern (Stunden).")
-            print(f"     Empfehlung: in config.cfg auf 'deepset/gbert-base' wechseln.")
     except ImportError:
         pass
 
@@ -235,8 +230,6 @@ def main():
     print(f"   Modelle gespeichert in:")
     print(f"   {MODEL_DIR_S1}/model-best")
     print(f"   {MODEL_DIR_S2}/model-best")
-    print(f"\n   Streamlit-App starten:")
-    print(f"   streamlit run app/streamlit_app.py")
 
 
 if __name__ == "__main__":
