@@ -82,36 +82,40 @@ def check_prerequisites() -> bool:
 
 def run_spacy_train(
     config_path: Path,
-    output_dir:  Path,
-    stage_name:  str,
-    use_gpu:     bool = True,
+    output_dir: Path,
+    stage_name: str,
+    use_gpu: bool = True,
+    resume: bool = False,
 ) -> bool:
-    """
-    Startet spaCy-Training via subprocess.
-    Gibt True zurück wenn erfolgreich.
-    """
-    output_dir.mkdir(parents=True, exist_ok=True)
 
-    gpu_flag = "--gpu-id 0" if use_gpu else "--gpu-id -1"
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     cmd = [
         sys.executable, "-m", "spacy", "train",
         str(config_path),
         "--output", str(output_dir),
         "--paths.train", str(TRAIN_DATA),
-        "--paths.dev",   str(DEV_DATA),
+        "--paths.dev", str(DEV_DATA),
     ]
+
     if use_gpu:
         cmd += ["--gpu-id", "0"]
     else:
         cmd += ["--gpu-id", "-1"]
 
-    print(f"\n{'='*60}")
-    print(f"🚀 Starte Training: {stage_name}")
-    print(f"   Config:  {config_path}")
-    print(f"   Output:  {output_dir}")
-    print(f"   GPU:     {'ja' if use_gpu else 'nein (CPU)'}")
-    print(f"{'='*60}\n")
+    # 👉 RESUME LOGIC
+    if resume:
+        resume_path = output_dir / "model-last"
+        if resume_path.exists():
+            cmd += ["--resume-path", str(resume_path)]
+            print(f"🔁 Resume from: {resume_path}")
+        else:
+            print("⚠️ Kein Checkpoint gefunden – starte neu")
+
+    print("\n" + "=" * 60)
+    print(f"🚀 Training: {stage_name}")
+    print(f"   Resume: {'ja' if resume else 'nein'}")
+    print("=" * 60 + "\n")
 
     result = subprocess.run(cmd, cwd=str(Path.cwd()))
     return result.returncode == 0
@@ -157,21 +161,30 @@ def main():
     parser = argparse.ArgumentParser(
         description="AM-Pipeline Training auf DARIUS-Daten"
     )
+
     parser.add_argument(
         "--stage", type=int, choices=[1, 2],
         help="Nur eine Stufe trainieren (1 oder 2). Standard: beide."
     )
+
     parser.add_argument(
         "--eval", action="store_true",
         help="Nur Evaluation der vorhandenen Modelle."
     )
+
     parser.add_argument(
         "--cpu", action="store_true",
-        help="Training auf CPU erzwingen (langsamer, kein VRAM nötig)."
+        help="Training auf CPU erzwingen."
     )
+
+    parser.add_argument(
+        "--resume", action="store_true",
+        help="Training aus model-last fortsetzen."
+    )
+
     args = parser.parse_args()
 
-    # GPU-Verfügbarkeit prüfen
+    # GPU check
     try:
         import torch
         use_gpu = torch.cuda.is_available() and not args.cpu
@@ -185,49 +198,50 @@ def main():
     if not check_prerequisites():
         sys.exit(1)
 
-    print(f"\n{'='*60}")
-    print(f"AM-Pipeline Training")
+    print("\n" + "=" * 60)
+    print("AM-Pipeline Training")
     print(f"Modus: {'GPU' if use_gpu else 'CPU'}")
-    print(f"{'='*60}")
+    print(f"Resume: {'ja' if args.resume else 'nein'}")
+    print("=" * 60)
 
+    def run_stage(stage_fn, model_dir, stage_name):
+        try:
+            success = stage_fn(use_gpu, resume=args.resume)
+            if success:
+                evaluate_model(model_dir, stage_name)
+            return success
+        except Exception as e:
+            print(f"❌ Fehler bei {stage_name}: {e}")
+            return False
+
+    # -------------------
+    # Stage selection
+    # -------------------
     if args.stage == 1:
-        try:
-            success = train_stage1(use_gpu)
-            if success:
-                evaluate_model(MODEL_DIR_S1, "Stufe 1")
-        except Exception as e:
-            print(f"❌ Fehler beim Training von Stufe 1: {e}")
-    elif args.stage == 2:
-        try:
-            success = train_stage2(use_gpu)
-            if success:
-                
-                evaluate_model(MODEL_DIR_S2, "Stufe 2")
-        except Exception as e:
-            print(f"❌ Fehler beim Training von Stufe 2: {e}")
-    else:
-        # Beide Stufen
-        print("\n⚠️  Hinweis: Stufe 1 und Stufe 2 sind voneinander unabhängig")
-        print("   und können parallel trainiert werden (zwei Terminals):\n")
-        print("   Terminal 1:  python pipeline/training.py --stage 1")
-        print("   Terminal 2:  python pipeline/training.py --stage 2\n")
-
-        s1_ok = train_stage1(use_gpu)
-        if s1_ok:
-            evaluate_model(MODEL_DIR_S1, "Stufe 1")
-        else:
-            print("❌ Stufe 1 fehlgeschlagen — breche ab.")
+        success = run_stage(train_stage1, MODEL_DIR_S1, "Stufe 1")
+        if not success:
             sys.exit(1)
 
-        s2_ok = train_stage2(use_gpu)
-        if s2_ok:
-            evaluate_model(MODEL_DIR_S2, "Stufe 2")
-        else:
+    elif args.stage == 2:
+        success = run_stage(train_stage2, MODEL_DIR_S2, "Stufe 2")
+        if not success:
+            sys.exit(1)
+
+    else:
+        print("\n⚠️ Beide Stufen laufen sequentiell\n")
+
+        s1_ok = run_stage(train_stage1, MODEL_DIR_S1, "Stufe 1")
+        if not s1_ok:
+            print("❌ Stufe 1 fehlgeschlagen — Abbruch.")
+            sys.exit(1)
+
+        s2_ok = run_stage(train_stage2, MODEL_DIR_S2, "Stufe 2")
+        if not s2_ok:
             print("❌ Stufe 2 fehlgeschlagen.")
             sys.exit(1)
 
     print("\n✅ Training abgeschlossen.")
-    print(f"   Modelle gespeichert in:")
+    print("Modelle gespeichert in:")
     print(f"   {MODEL_DIR_S1}/model-best")
     print(f"   {MODEL_DIR_S2}/model-best")
 
