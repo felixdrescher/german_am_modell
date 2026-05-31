@@ -119,7 +119,7 @@ max_steps = 20000
 max_epochs = 30
 eval_frequency = 200
 dropout = 0.1
-accumulate_gradient = 3
+accumulate_gradient = 6
 frozen_components = []
 annotating_components = []
 before_to_disk = null
@@ -144,8 +144,8 @@ get_length = null
 
 [training.batcher.size]
 @schedules = "compounding.v1"
-start = 100
-stop = 1000
+start = 50
+stop = 500
 compound = 1.001
 t = 0.0
 
@@ -226,12 +226,12 @@ factory = "transformer"
 @architectures = "spacy-transformers.TransformerModel.v3"
 name = "distilbert/distilbert-base-german-cased"
 tokenizer_config = {"use_fast": true}
-mixed_precision = false
+mixed_precision = true
 
 [components.transformer.model.get_spans]
 @span_getters = "spacy-transformers.strided_spans.v1"
-window = 128
-stride = 96
+window = 64
+stride = 32
 
 [components.spancat]
 factory = "spancat"
