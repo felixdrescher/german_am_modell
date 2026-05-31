@@ -103,7 +103,7 @@ def run_spacy_train(
             # spaCy 3.8: kein resume-path Flag!
             # cmd += ["--resume"]
         else:
-            print("⚠️ Kein model-last gefunden → Neustart")
+            print(f"⚠️ Kein model-last gefunden → Neustart {resume_path}")
 
     print("\n" + "=" * 60)
     print(f"🚀 Training: {stage_name}")
