@@ -140,14 +140,14 @@ def evaluate_model(model_dir: Path, stage_name: str) -> None:
 
 # ── Haupt-Training ────────────────────────────────────────────────────────────
 
-def train_stage1(use_gpu: bool = True) -> bool:
+def train_stage1(use_gpu: bool = True, resume: bool = False) -> bool:
     """Stufe 1: Claim Detection."""
-    return run_spacy_train(CONFIG_S1, MODEL_DIR_S1, "Stufe 1 — Claim Detection", use_gpu)
+    return run_spacy_train(CONFIG_S1, MODEL_DIR_S1, "Stufe 1 — Claim Detection", use_gpu, resume)
 
 
-def train_stage2(use_gpu: bool = True) -> bool:
+def train_stage2(use_gpu: bool = True, resume: bool = False) -> bool:
     """Stufe 2: TAP Component Detection."""
-    return run_spacy_train(CONFIG_S2, MODEL_DIR_S2, "Stufe 2 — TAP Components", use_gpu)
+    return run_spacy_train(CONFIG_S2, MODEL_DIR_S2, "Stufe 2 — TAP Components", use_gpu, resume)
 
 
 def evaluate_all() -> None:
