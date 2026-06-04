@@ -324,41 +324,7 @@ def write_configs() -> None:
     (CONFIG_DIR / "stage1_claim.cfg").write_text(create_stage1_config())
     (CONFIG_DIR / "stage2_tap.cfg").write_text(create_stage2_config())
 
-    print("Standard-Configs geschrieben.")
-
-
-# ── RESUME CONFIG GENERATION ──────────────────────────────────────────────────
-
-def _inject_resume_path(cfg: str, model_last: Path) -> str:
-    """
-    spaCy-konforme Warm-Start Injection über init_tok2vec.
-    """
-
-    return cfg.replace(
-        "init_tok2vec = null",
-        f'init_tok2vec = "{model_last.as_posix()}"'
-    )
-
-
-def write_resume_configs() -> None:
-    """
-    Erzeugt Resume-Configs basierend auf model-last (falls vorhanden).
-    """
-
-    CONFIG_DIR.mkdir(exist_ok=True)
-
-    s1_last = MODEL_DIR_STAGE1 / "model-last"
-    s2_last = MODEL_DIR_STAGE2 / "model-last"
-
-    if s1_last.exists():
-        cfg = _inject_resume_path(create_stage1_config(), s1_last)
-        (CONFIG_DIR / "stage1_claim_resume.cfg").write_text(cfg)
-        print("Resume-Config Stufe 1 geschrieben")
-
-    if s2_last.exists():
-        cfg = _inject_resume_path(create_stage2_config(), s2_last)
-        (CONFIG_DIR / "stage2_tap_resume.cfg").write_text(cfg)
-        print("Resume-Config Stufe 2 geschrieben")
+    print("Configs geschrieben.")
 
 
 # ── PIPELINE LOADING ──────────────────────────────────────────────────────────
@@ -468,14 +434,10 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--write-configs", action="store_true")
-    parser.add_argument("--write-resume-configs", action="store_true")
 
     args = parser.parse_args()
 
     if args.write_configs:
         write_configs()
-
-    if args.write_resume_configs:
-        write_resume_configs()
 
     print("model.py fertig ausgeführt")
