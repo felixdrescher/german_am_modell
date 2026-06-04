@@ -20,7 +20,6 @@ TAP-Labels (Spalte 19):
 """
 
 import re
-import os
 import random
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
@@ -53,10 +52,10 @@ def parse_webanno_tsv(filepath: str) -> List[Dict]:
     """
     Parst eine DARIUS TSV-Datei.
     Gibt Liste von Satz-Dicts zurück:
-      text    - rekonstruierter Text
-      tokens  - Token-Texte
-      offsets - (start, end) dokumentweit
-      tap     - (label|None, arg_id|None) pro Token
+      text    – rekonstruierter Text
+      tokens  – Token-Texte
+      offsets – (start, end) dokumentweit
+      tap     – (label|None, arg_id|None) pro Token
     """
     sentences    = []
     current_toks = []
@@ -185,13 +184,13 @@ def load_and_convert(
     input_dir:    str,
     output_train: str,
     output_dev:   str,
-    dev_split:    float = 0.2,
+    dev_split:    float = 0.05,   # 5% statt 20%: spaCy evaluiert Dev als
+                                   # einen GPU-Batch → OOM bei großem Dev-Set
     shuffle:      bool  = True,
     seed:         int   = 42,
 ) -> None:
     tsv_files = sorted(Path(input_dir).glob("*.tsv"))
     if not tsv_files:
-        print(os.getcwd())
         print(f"❌ Keine TSV-Dateien in '{input_dir}'.")
         return
 
@@ -239,7 +238,7 @@ if __name__ == "__main__":
                 print(f"  [{lbl}] \"{s['text'][start:end]}\"")
     else:
         load_and_convert(
-            input_dir    = "data/darius/tsv",
+            input_dir    = "data/darius",
             output_train = "data/darius/train.spacy",
             output_dev   = "data/darius/dev.spacy",
         )
