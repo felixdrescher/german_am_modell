@@ -1,0 +1,20 @@
+@startuml Anwendungskontext
+left to right direction
+
+actor "Forschender" as Researcher
+
+rectangle "AM-Modell / NLP-Pipeline" as Pipeline
+
+rectangle "DARIUS-Korpus" as Darius
+rectangle "OHI-Text" as OHI
+rectangle "Evaluierungsumgebung" as EvalUI
+
+Researcher --> Pipeline : trainiert /\nkonfiguriert
+
+Darius --> Pipeline : Trainingsdaten
+
+OHI --> Pipeline : zu analysierender Text
+
+Pipeline --> EvalUI : erkannte\nTAP-Elemente
+
+@enduml

@@ -147,28 +147,72 @@ def read_text_file(path: Path) -> str:
         return path.read_text(encoding="latin-1")
 
 
-# ── Modell-Stub ───────────────────────────────────────────────────────────────
+# ── Modell laden ─────────────────────────────────────────────────────────────
 
-def run_model_stub(text: str) -> list:
-    spans = []
-    patterns = {
-        "CLAIM":    [r"Ich (denke|meine|glaube|finde)[^.]*\.", r"sollte[^.]*\.", r"bin ich[^.]*\."],
-        "DATA":     [r"Mit [^.]*\d+%[^.]*\.", r"Die \w+ war[^.]*\.", r"\d+[^.]*\."],
-        "WARRANT":  [r"bedeutet[^.]*\.", r"weil[^.]*\.", r"Verantwortung[^.]*\."],
-        "REBUTTAL": [r"Obwohl[^.]*\.", r"obwohl[^.]*\.", r"stimmt schon[^.]*\."],
-    }
-    for label, pattern_list in patterns.items():
-        for pattern in pattern_list:
-            for match in re.finditer(pattern, text):
-                spans.append({"start": match.start(), "end": match.end(),
-                               "label": label, "text": match.group()})
-    spans.sort(key=lambda x: x["start"])
-    filtered, last_end = [], -1
-    for span in spans:
-        if span["start"] >= last_end:
-            filtered.append(span)
-            last_end = span["end"]
-    return filtered
+MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "stage1_claim" / "model-last"
+MODEL_DIR_S2 = Path(__file__).parent.parent / "models" / "stage2_tap"   / "model-last"
+
+
+@st.cache_resource(show_spinner="Lade AM-Modell (einmalig)...")
+def load_models():
+    """
+    Lädt beide spaCy-Modellstufen einmalig und cached sie.
+    Gibt (nlp1, nlp2) zurück, oder (None, None) wenn noch nicht trainiert.
+    """
+    try:
+        import spacy
+        from pipeline.model import load_pipeline
+        nlp1, nlp2 = load_pipeline(MODEL_DIR_S1, MODEL_DIR_S2)
+        return nlp1, nlp2
+    except FileNotFoundError:
+        return None, None
+    except Exception as e:
+        st.warning(f"Modell konnte nicht geladen werden: {e}")
+        return None, None
+
+
+def run_model(text: str) -> list:
+    """
+    Führt die zweistufige AM-Pipeline auf dem Text aus.
+    Fällt auf den Stub zurück wenn kein trainiertes Modell vorhanden ist.
+
+    Output: Liste von Span-Dicts:
+      {"start": int, "end": int, "label": str, "text": str, "score": float}
+    Die Streamlit-App konsumiert start/end/label/text direkt für
+    Visualisierung (highlight_text) und Bearbeitung (render_annotation_editor).
+    """
+    nlp1, nlp2 = load_models()
+
+    if nlp1 is not None and nlp2 is not None:
+        from pipeline.model import predict
+        return predict(text, nlp1, nlp2)
+    else:
+        # Stub: regelbasierte Demo-Erkennung bis Modell trainiert ist
+        spans = []
+        patterns = {
+            "CLAIM":    [r"Ich (denke|meine|glaube|finde)[^.]*\.",
+                         r"sollte[^.]*\.", r"bin ich[^.]*\."],
+            "DATA":     [r"Mit [^.]*\d+%[^.]*\.", r"Die \w+ war[^.]*\.",
+                         r"\d+[^.]*\."],
+            "WARRANT":  [r"bedeutet[^.]*\.", r"weil[^.]*\.",
+                         r"Verantwortung[^.]*\."],
+            "REBUTTAL": [r"Obwohl[^.]*\.", r"obwohl[^.]*\.",
+                         r"stimmt schon[^.]*\."],
+        }
+        for label, pattern_list in patterns.items():
+            for pattern in pattern_list:
+                for match in re.finditer(pattern, text):
+                    spans.append({
+                        "start": match.start(), "end": match.end(),
+                        "label": label, "text": match.group(), "score": 0.0,
+                    })
+        spans.sort(key=lambda x: x["start"])
+        filtered, last_end = [], -1
+        for span in spans:
+            if span["start"] >= last_end:
+                filtered.append(span)
+                last_end = span["end"]
+        return filtered
 
 
 # ── Visualisierung ────────────────────────────────────────────────────────────
@@ -458,7 +502,15 @@ def main():
 
         st.divider()
         st.markdown("**Modell-Status**")
-        st.info("🔧 Demo-Modus\n\nEchtes GBERT-Modell wird nach dem Training eingebunden.")
+        nlp1, nlp2 = load_models()
+        if nlp1 is not None:
+            st.success("✅ AM-Modell geladen")
+        else:
+            st.warning(
+                "⚙️ Demo-Modus\n\n"
+                "Kein trainiertes Modell gefunden.\n"
+                f"Erwartet in:\n`models/stage1_claim/model-best`"
+            )
 
         st.divider()
         st.markdown("**💾 Gespeicherte Sessions**")
@@ -577,7 +629,7 @@ def main():
 
     if analyze_btn and input_text.strip():
         with st.spinner("Analysiere Text..."):
-            spans = run_model_stub(input_text)
+            spans = run_model(input_text)
         st.session_state.current_spans = spans
         st.session_state.current_text  = input_text
         st.session_state.current_file  = (
@@ -619,15 +671,20 @@ def main():
         with col_stat:
             st.markdown("### 📊 Übersicht")
             counts = {}
+            scores = {}
             for s in spans:
-                counts[s["label"]] = counts.get(s["label"], 0) + 1
+                lbl = s["label"]
+                counts[lbl] = counts.get(lbl, 0) + 1
+                scores.setdefault(lbl, []).append(s.get("score", 0.0))
             for label in TAP_LABELS:
                 count = counts.get(label, 0)
                 color = TAP_COLORS[label]
+                avg_score = sum(scores.get(label, [0])) / max(len(scores.get(label, [1])), 1)
+                score_str = f" · ⌀ {avg_score:.0%}" if count > 0 and avg_score > 0 else ""
                 st.markdown(
                     f"<div style='background:{color}22;border-left:3px solid {color};"
                     f"padding:6px 10px;border-radius:4px;margin-bottom:6px'>"
-                    f"<b>{label}</b>: {count}</div>",
+                    f"<b>{label}</b>: {count}{score_str}</div>",
                     unsafe_allow_html=True,
                 )
 

@@ -1,0 +1,22 @@
+@startuml Anwendungskontext
+left to right direction
+
+actor "Forschender" as Researcher
+
+rectangle "Test- und\nEvaluierungsumgebung" as EvalSystem
+
+rectangle "AM-Modell /\nNLP-Pipeline" as Pipeline
+rectangle "OHI-Datenbestand" as OHI
+rectangle "Feedback-Datenbank" as Feedback
+
+Researcher --> EvalSystem : analysiert\nInterviews
+
+OHI --> EvalSystem : Interviewtexte
+
+EvalSystem --> Pipeline : Klassifikation\nanfordern
+
+Pipeline --> EvalSystem : TAP-Elemente
+
+EvalSystem --> Feedback : Korrekturen\nspeichern
+
+@enduml
