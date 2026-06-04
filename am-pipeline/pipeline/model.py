@@ -112,14 +112,14 @@ learn_rate = 5e-5
 
 [training.batcher]
 @batchers = "spacy.batch_by_words.v1"
-discard_oversize = false
+discard_oversize = true
 tolerance = 0.2
 get_length = null
 
 [training.batcher.size]
 @schedules = "compounding.v1"
 start = 50
-stop = 500
+stop = 200
 compound = 1.001
 t = 0.0
 
@@ -137,7 +137,7 @@ spans_sc_r = 0.0
 [corpora.train]
 @readers = "spacy.Corpus.v1"
 path = ${paths.train}
-max_length = 0
+max_length = 128
 gold_preproc = false
 limit = 0
 augmenter = null
@@ -169,6 +169,7 @@ after_init = null
 [initialize.components]
 
 [initialize.components.spancat]
+
 """
 
 def create_stage2_config() -> str:
@@ -225,7 +226,7 @@ grad_factor = 1.0
 
 [components.spancat.suggester]
 @misc = "spacy.ngram_suggester.v1"
-sizes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20]
+sizes = [1, 2, 3, 4, 5]
 
 [training]
 train_corpus = "corpora.train"
@@ -256,14 +257,14 @@ learn_rate = 5e-5
 
 [training.batcher]
 @batchers = "spacy.batch_by_words.v1"
-discard_oversize = false
+discard_oversize = true
 tolerance = 0.2
 get_length = null
 
 [training.batcher.size]
 @schedules = "compounding.v1"
 start = 50
-stop = 500
+stop = 200
 compound = 1.001
 t = 0.0
 
@@ -281,7 +282,7 @@ spans_sc_r = 0.0
 [corpora.train]
 @readers = "spacy.Corpus.v1"
 path = ${paths.train}
-max_length = 0
+max_length = 128
 gold_preproc = false
 limit = 0
 augmenter = null

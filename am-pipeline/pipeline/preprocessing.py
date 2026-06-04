@@ -238,7 +238,7 @@ if __name__ == "__main__":
                 print(f"  [{lbl}] \"{s['text'][start:end]}\"")
     else:
         load_and_convert(
-            input_dir    = "data/darius",
+            input_dir    = "data/darius/tsv",
             output_train = "data/darius/train.spacy",
             output_dev   = "data/darius/dev.spacy",
         )
