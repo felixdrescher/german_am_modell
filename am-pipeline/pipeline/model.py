@@ -13,14 +13,15 @@ Zusätzlich:
 """
 
 from pathlib import Path
+from turtle import st
 from typing import List, Dict, Tuple
 import spacy
 from spacy.language import Language
 
 # ── Konstanten ────────────────────────────────────────────────────────────────
 
-MODEL_DIR_STAGE1 = Path("models/stage1_claim")
-MODEL_DIR_STAGE2 = Path("models/stage2_tap")
+MODEL_DIR_STAGE1 = Path("models/stage1_claim/model-best")
+MODEL_DIR_STAGE2 = Path("models/stage2_tap/model-best")
 
 CONFIG_DIR = Path("configs")
 
@@ -339,10 +340,7 @@ def load_pipeline(
     if not stage2_path.exists():
         raise FileNotFoundError(f"Stufe 2 fehlt: {stage2_path}")
 
-    print(f"Lade Stage 1: {stage1_path}")
     nlp1 = spacy.load(str(stage1_path))
-
-    print(f"Lade Stage 2: {stage2_path}")
     nlp2 = spacy.load(str(stage2_path))
 
     return nlp1, nlp2

@@ -1,20 +1,21 @@
-@startuml Anwendungskontext
+@startuml Context-Diagrammkaggle kernels output felixdrescher/am-modell-1 -p /path/to/dest
 left to right direction
 
-actor "Forschender" as Researcher
+actor "Data Scientist" as DS
+actor "End User / Pipeline" as EU
 
-rectangle "AM-Modell / NLP-Pipeline" as Pipeline
+rectangle "Argumentation Mining Modell" as AMM
 
-rectangle "DARIUS-Korpus" as Darius
-rectangle "OHI-Text" as OHI
-rectangle "Evaluierungsumgebung" as EvalUI
+database "TSV Dataset (Annotated Data)" as DATA
+database "Configuration Files" as CFG
 
-Researcher --> Pipeline : trainiert /\nkonfiguriert
+DS --> AMM : train / test / configure
+EU --> AMM : predict (inference)
 
-Darius --> Pipeline : Trainingsdaten
+DATA --> AMM : training data input
+CFG --> AMM : training configuration
 
-OHI --> Pipeline : zu analysierender Text
-
-Pipeline --> EvalUI : erkannte\nTAP-Elemente
+AMM --> EU : annotated JSON output
+AMM --> DS : evaluation results
 
 @enduml

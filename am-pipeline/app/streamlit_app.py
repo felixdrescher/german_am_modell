@@ -149,8 +149,8 @@ def read_text_file(path: Path) -> str:
 
 # ── Modell laden ─────────────────────────────────────────────────────────────
 
-MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "stage1_claim" / "model-last"
-MODEL_DIR_S2 = Path(__file__).parent.parent / "models" / "stage2_tap"   / "model-last"
+MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "stage1_claim" / "model-best" / ""
+MODEL_DIR_S2 = Path(__file__).parent.parent / "models" / "stage2_tap"   / "model-best" / ""
 
 
 @st.cache_resource(show_spinner="Lade AM-Modell (einmalig)...")
@@ -165,6 +165,7 @@ def load_models():
         nlp1, nlp2 = load_pipeline(MODEL_DIR_S1, MODEL_DIR_S2)
         return nlp1, nlp2
     except FileNotFoundError:
+        st.warning(f"Modell nicht gefunden: {MODEL_DIR_S1} oder {MODEL_DIR_S2}")
         return None, None
     except Exception as e:
         st.warning(f"Modell konnte nicht geladen werden: {e}")

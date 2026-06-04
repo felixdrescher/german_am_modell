@@ -1,0 +1,23 @@
+@startuml Use-Case
+left to right direction
+
+actor "Programmierer" as FE
+actor "Forschende" as FO
+
+rectangle "Argumentation Mining Modell" {
+
+  usecase "Train Model" as UC1
+  usecase "Preprocess Data" as UC2
+  usecase "Configure Training" as UC3
+  usecase "Predict Argument Structure" as UC4
+
+  UC1 --> UC2 : <<include>>
+}
+
+FE --> UC1
+FE --> UC3
+FE --> UC2
+
+FO --> UC4
+
+@enduml
