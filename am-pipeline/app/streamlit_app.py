@@ -464,9 +464,8 @@ def main():
         )
         st.session_state.analyzed = True
         st.rerun()
-
-    else:
-        st.warning("Bitte wähle zuerst einen Text aus.")
+    elif analyze_btn:
+        st.warning("Bitte zuerst eine Textdatei auswählen.")
 
     # ── Ergebnisbereich ───────────────────────────────────────────────────────
     if st.session_state.analyzed and st.session_state.current_text:
