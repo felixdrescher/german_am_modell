@@ -149,7 +149,7 @@ def read_text_file(path: Path) -> str:
 
 # ── Modell laden ─────────────────────────────────────────────────────────────
 
-MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "stage1_claim" / "model-best"
+MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "spacy_output" / "model-best"
 
 
 @st.cache_resource(show_spinner="Lade AM-Modell (einmalig)...")
@@ -494,7 +494,7 @@ def main():
             st.warning(
                 "⚙️ Demo-Modus\n\n"
                 "Kein trainiertes Modell gefunden.\n"
-                f"Erwartet in:\n`models/stage1_claim/model-best`"
+                f"Erwartet in:\n`models/spacy_output/model-best`"
             )
 
         st.divider()

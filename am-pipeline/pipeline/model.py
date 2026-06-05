@@ -97,9 +97,9 @@ train_corpus = "corpora.train"
 dev_corpus = "corpora.dev"
 seed = 42
 gpu_allocator = "pytorch"
-patience = 1600
+patience = 6400
 max_epochs = 30
-eval_frequency = 200
+eval_frequency = 800
 
 [training.optimizer]
 @optimizers = "Adam.v1"
