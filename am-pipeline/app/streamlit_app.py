@@ -149,46 +149,30 @@ def read_text_file(path: Path) -> str:
 
 # ── Modell laden ─────────────────────────────────────────────────────────────
 
-MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "stage1_claim" / "model-best" / ""
-MODEL_DIR_S2 = Path(__file__).parent.parent / "models" / "stage2_tap"   / "model-best" / ""
+MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "stage1_claim" / "model-best"
 
 
 @st.cache_resource(show_spinner="Lade AM-Modell (einmalig)...")
 def load_models():
-    """
-    Lädt beide spaCy-Modellstufen einmalig und cached sie.
-    Gibt (nlp1, nlp2) zurück, oder (None, None) wenn noch nicht trainiert.
-    """
     try:
         import spacy
         from pipeline.model import load_pipeline
-        nlp1, nlp2 = load_pipeline(MODEL_DIR_S1, MODEL_DIR_S2)
-        return nlp1, nlp2
+        nlp = load_pipeline(MODEL_DIR_S1)
+        return nlp
     except FileNotFoundError:
-        st.warning(f"Modell nicht gefunden: {MODEL_DIR_S1} oder {MODEL_DIR_S2}")
-        return None, None
+        return None
     except Exception as e:
         st.warning(f"Modell konnte nicht geladen werden: {e}")
-        return None, None
+        return None
 
 
 def run_model(text: str) -> list:
-    """
-    Führt die zweistufige AM-Pipeline auf dem Text aus.
-    Fällt auf den Stub zurück wenn kein trainiertes Modell vorhanden ist.
-
-    Output: Liste von Span-Dicts:
-      {"start": int, "end": int, "label": str, "text": str, "score": float}
-    Die Streamlit-App konsumiert start/end/label/text direkt für
-    Visualisierung (highlight_text) und Bearbeitung (render_annotation_editor).
-    """
-    nlp1, nlp2 = load_models()
-
-    if nlp1 is not None and nlp2 is not None:
+    nlp = load_models()
+    if nlp is not None:
         from pipeline.model import predict
-        return predict(text, nlp1, nlp2)
+        return predict(text, nlp)
     else:
-        # Stub: regelbasierte Demo-Erkennung bis Modell trainiert ist
+        # Stub bis Modell trainiert ist
         spans = []
         patterns = {
             "CLAIM":    [r"Ich (denke|meine|glaube|finde)[^.]*\.",
@@ -503,8 +487,8 @@ def main():
 
         st.divider()
         st.markdown("**Modell-Status**")
-        nlp1, nlp2 = load_models()
-        if nlp1 is not None:
+        nlp = load_models()
+        if nlp is not None:
             st.success("✅ AM-Modell geladen")
         else:
             st.warning(
@@ -739,7 +723,7 @@ def main():
     st.markdown("---")
     st.caption(
         "Fachpraktikum NLP-IER · FernUniversität in Hagen · "
-        "Entwicklung: Felix Drescher · Betreuer: Dr. Nawroth, Prof. Hemmje"
+        "Entwicklung: Felix Drescher · Betreuer: Dr. Christian Nawroth"
     )
 
 
