@@ -157,15 +157,10 @@ def load_models():
     try:
         from pipeline.model import load_pipeline
         nlp = load_pipeline(MODEL_DIR)
-
         if not nlp.get_pipe("spancat").labels:
-            print("Warning: Labels were not auto-loaded. Patching...")
-            labels = ["CLAIM", "DATA", "REBUTTAL", "WARRANT"]
-            for label in labels:
+            for label in TAP_LABELS:
                 nlp.get_pipe("spancat").add_label(label)
-
         return nlp
-    
     except FileNotFoundError:
         return None
     except Exception as e:
@@ -529,14 +524,14 @@ def main():
 
     # ── Textauswahl ───────────────────────────────────────────────────────────
     st.markdown("---")
-    st.markdown("### 📄 Text auswählen oder eingeben")
+    st.markdown("### 📄 Textdatei auswählen")
 
     col_dir, col_reload = st.columns([5, 1])
     with col_dir:
         directory = st.text_input(
             "Verzeichnis mit Textdateien:",
-            value=str(Path("data/ohi").resolve()),
-            placeholder="z.B. C:\\Users\\Felix\\Dokumente\\OHI",
+            value=str(Path("data/testdata").resolve()),
+            placeholder="z.B. C:\\Users\\Dein Name\\Dokumente\\Oral History Interviews",
         )
     with col_reload:
         st.markdown("<br>", unsafe_allow_html=True)
@@ -581,30 +576,18 @@ def main():
                             st.session_state["resume_checked_" + selected_file] = True
                             st.rerun()
 
-            st.text_area(
-                f"Inhalt: {selected_file} (schreibgeschützt)",
-                value=file_content,
+            st.subheader(f"Inhalt: {selected_file}")
+            st.code(
+                body=file_content,
+                language="plaintext",
                 height=150,
-                disabled=True,
             )
             input_text = file_content
-
-        else:
-            input_text = st.text_area(
-                "Oder Text direkt eingeben:",
-                height=150,
-                placeholder="Gib hier einen deutschen Text ein...",
-            )
     else:
         if directory and not Path(directory).is_dir():
             st.warning(f"Verzeichnis nicht gefunden: `{directory}`")
         elif directory:
             st.info("Keine Textdateien (.txt, .md, .text) im Verzeichnis gefunden.")
-        input_text = st.text_area(
-            "Text direkt eingeben:",
-            height=150,
-            placeholder="Gib hier einen deutschen Text ein...",
-        )
 
     # ── Analysieren ───────────────────────────────────────────────────────────
     col_btn1, col_btn2 = st.columns(2)
