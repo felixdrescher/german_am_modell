@@ -14,18 +14,18 @@ Starten mit:
 """
 
 import json
-import re
-import sqlite3
 import sys
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Optional
 
 import streamlit as st
+import utils as utils
+import database as db
+
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-# ── Konfiguration ─────────────────────────────────────────────────────────────
+# ── KONSTANTEN ─────────────────────────────────────────────────────────────
 
 TAP_LABELS = ["CLAIM", "DATA", "WARRANT", "REBUTTAL"]
 
@@ -43,116 +43,12 @@ TAP_DESCRIPTIONS = {
     "REBUTTAL": "Rebuttal – Einschränkung oder Gegenargument",
 }
 
-DB_PATH = Path(__file__).parent / "progress.db"
-
-
-# ── Datenbank ─────────────────────────────────────────────────────────────────
-
-def db_connect() -> sqlite3.Connection:
-    conn = sqlite3.connect(str(DB_PATH))
-    conn.row_factory = sqlite3.Row
-    return conn
-
-
-def db_init():
-    """Erstellt Tabellen falls noch nicht vorhanden."""
-    with db_connect() as conn:
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS sessions (
-                id          INTEGER PRIMARY KEY AUTOINCREMENT,
-                filename    TEXT NOT NULL,
-                filepath    TEXT NOT NULL,
-                text        TEXT NOT NULL,
-                spans_json  TEXT NOT NULL DEFAULT '[]',
-                status      TEXT NOT NULL DEFAULT 'in_progress',
-                created_at  TEXT NOT NULL,
-                updated_at  TEXT NOT NULL
-            )
-        """)
-        conn.commit()
-
-
-def db_save_session(filename: str, filepath: str, text: str,
-                    spans: list, status: str = "in_progress") -> int:
-    now = datetime.now().isoformat()
-    with db_connect() as conn:
-        # Bestehende Session für diese Datei aktualisieren oder neu anlegen
-        row = conn.execute(
-            "SELECT id FROM sessions WHERE filepath = ?", (filepath,)
-        ).fetchone()
-        if row:
-            conn.execute(
-                "UPDATE sessions SET spans_json=?, status=?, updated_at=? WHERE id=?",
-                (json.dumps(spans, ensure_ascii=False), status, now, row["id"])
-            )
-            conn.commit()
-            return row["id"]
-        else:
-            cur = conn.execute(
-                "INSERT INTO sessions (filename, filepath, text, spans_json, status, created_at, updated_at) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?)",
-                (filename, filepath, text,
-                 json.dumps(spans, ensure_ascii=False), status, now, now)
-            )
-            conn.commit()
-            return cur.lastrowid
-
-
-def db_load_session(filepath: str) -> Optional[dict]:
-    with db_connect() as conn:
-        row = conn.execute(
-            "SELECT * FROM sessions WHERE filepath = ?", (filepath,)
-        ).fetchone()
-        if row:
-            d = dict(row)
-            d["spans"] = json.loads(d["spans_json"])
-            return d
-    return None
-
-
-def db_list_sessions() -> list:
-    with db_connect() as conn:
-        rows = conn.execute(
-            "SELECT filename, filepath, status, updated_at FROM sessions ORDER BY updated_at DESC"
-        ).fetchall()
-        return [dict(r) for r in rows]
-
-
-def db_delete_session(filepath: str):
-    with db_connect() as conn:
-        conn.execute("DELETE FROM sessions WHERE filepath = ?", (filepath,))
-        conn.commit()
-
-
-# ── Datei-Hilfsfunktionen ─────────────────────────────────────────────────────
-
-def scan_text_directory(directory: str) -> Dict[str, Path]:
-    supported = {".txt", ".md", ".text"}
-    result = {}
-    try:
-        p = Path(directory)
-        if p.is_dir():
-            for f in sorted(p.iterdir()):
-                if f.is_file() and f.suffix.lower() in supported:
-                    result[f.name] = f
-    except PermissionError:
-        pass
-    return result
-
-
-def read_text_file(path: Path) -> str:
-    try:
-        return path.read_text(encoding="utf-8")
-    except UnicodeDecodeError:
-        return path.read_text(encoding="latin-1")
-
 
 # ── Modell laden ─────────────────────────────────────────────────────────────
 
 MODEL_DIR = Path(__file__).parent.parent / "models" / "spacy_output" / "model-best"
 
-
-@st.cache_resource(show_spinner="Lade AM-Modell (einmalig)...")
+@st.cache_resource(show_spinner="Lade AM-Modell ...")
 def load_models():
     try:
         from pipeline.model import load_pipeline
@@ -173,34 +69,6 @@ def run_model(text: str) -> list:
     if nlp is not None:
         from pipeline.model import predict
         return predict(text, nlp)
-    else:
-        # Stub bis Modell trainiert ist
-        spans = []
-        patterns = {
-            "CLAIM":    [r"Ich (denke|meine|glaube|finde)[^.]*\.",
-                         r"sollte[^.]*\.", r"bin ich[^.]*\."],
-            "DATA":     [r"Mit [^.]*\d+%[^.]*\.", r"Die \w+ war[^.]*\.",
-                         r"\d+[^.]*\."],
-            "WARRANT":  [r"bedeutet[^.]*\.", r"weil[^.]*\.",
-                         r"Verantwortung[^.]*\."],
-            "REBUTTAL": [r"Obwohl[^.]*\.", r"obwohl[^.]*\.",
-                         r"stimmt schon[^.]*\."],
-        }
-        for label, pattern_list in patterns.items():
-            for pattern in pattern_list:
-                for match in re.finditer(pattern, text):
-                    spans.append({
-                        "start": match.start(), "end": match.end(),
-                        "label": label, "text": match.group(), "score": 0.0,
-                    })
-        spans.sort(key=lambda x: x["start"])
-        filtered, last_end = [], -1
-        for span in spans:
-            if span["start"] >= last_end:
-                filtered.append(span)
-                last_end = span["end"]
-        return filtered
-
 
 # ── Visualisierung ────────────────────────────────────────────────────────────
 
@@ -434,25 +302,9 @@ def render_annotation_editor(text: str, spans: list) -> list:
 
     return spans
 
-
-# ── Export ────────────────────────────────────────────────────────────────────
-
-def export_feedback(text: str, spans: list) -> dict:
-    return {
-        "text": text,
-        "spans": spans,
-        "meta": {
-            "timestamp": datetime.now().isoformat(),
-            "source": "streamlit_eval",
-            "span_count": len(spans),
-        }
-    }
-
-
 # ── Hauptlayout ───────────────────────────────────────────────────────────────
-
 def main():
-    db_init()
+    db.init()
 
     st.set_page_config(
         page_title="AM-Evaluierungsumgebung",
@@ -501,7 +353,7 @@ def main():
 
         st.divider()
         st.markdown("**💾 Gespeicherte Sessions**")
-        sessions = db_list_sessions()
+        sessions = db.list_sessions()
         if sessions:
             for s in sessions[:8]:
                 status_icon = "✅" if s["status"] == "done" else "🔄"
@@ -537,7 +389,7 @@ def main():
         st.markdown("<br>", unsafe_allow_html=True)
         st.button("🔄", help="Verzeichnis neu einlesen")
 
-    files = scan_text_directory(directory)
+    files = utils.scan_text_directory(directory)
     input_text = ""
 
     if files:
@@ -549,10 +401,10 @@ def main():
 
         if selected_file != "— Datei wählen —":
             file_path = str(files[selected_file].resolve())
-            file_content = read_text_file(files[selected_file])
+            file_content = utils.read_text_file(files[selected_file])
 
             # Gespeicherten Fortschritt prüfen
-            saved = db_load_session(file_path)
+            saved = db.load_session(file_path)
             if saved and not st.session_state.get("resume_checked_" + selected_file):
                 col_r1, col_r2 = st.columns(2)
                 with col_r1:
@@ -613,8 +465,8 @@ def main():
         st.session_state.analyzed = True
         st.rerun()
 
-    elif analyze_btn:
-        st.warning("Bitte gib zuerst einen Text ein.")
+    else:
+        st.warning("Bitte wähle zuerst einen Text aus.")
 
     # ── Ergebnisbereich ───────────────────────────────────────────────────────
     if st.session_state.analyzed and st.session_state.current_text:
@@ -680,7 +532,7 @@ def main():
                 fname = (Path(st.session_state.current_file).name
                          if st.session_state.current_file else "manuell")
                 fpath = st.session_state.current_file or "manual_input"
-                db_save_session(fname, fpath, text,
+                db.save_session(fname, fpath, text,
                                 st.session_state.current_spans, "in_progress")
                 st.success("Fortschritt gespeichert ✓")
 
@@ -689,12 +541,12 @@ def main():
                 fname = (Path(st.session_state.current_file).name
                          if st.session_state.current_file else "manuell")
                 fpath = st.session_state.current_file or "manual_input"
-                db_save_session(fname, fpath, text,
+                db.save_session(fname, fpath, text,
                                 st.session_state.current_spans, "done")
                 st.success("Session als fertig markiert ✓")
 
         with col_s3:
-            export = export_feedback(text, st.session_state.current_spans)
+            export = utils.export_feedback(text, st.session_state.current_spans)
             export_json = json.dumps(export, ensure_ascii=False, indent=2)
             st.download_button(
                 label="⬇️ Als JSON exportieren",

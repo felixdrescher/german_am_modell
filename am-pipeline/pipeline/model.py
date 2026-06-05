@@ -183,7 +183,6 @@ after_init = null
 
 """
 
-
 def write_config() -> None:
     """Schreibt die Config-Datei in configs/."""
     Path("configs").mkdir(exist_ok=True)
@@ -220,7 +219,6 @@ def predict(
     Einstufige Inferenz: erkennt alle TAP-Elemente direkt im Text.
 
     DistilBERT klassifiziert CLAIM / DATA / WARRANT / REBUTTAL
-    in einem Durchgang — keine zweite Stufe nötig.
 
     Rückgabe: Liste von Span-Dicts:
       {"start": int, "end": int, "label": str, "text": str, "score": float}
