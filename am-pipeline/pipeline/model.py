@@ -40,7 +40,6 @@ def create_config() -> str:
     """
     return """
 [nlp]
-[nlp]
 lang = "de"
 pipeline = ["transformer", "spancat"]
 batch_size = 4
