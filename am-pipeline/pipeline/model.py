@@ -40,6 +40,7 @@ def create_config() -> str:
     """
     return """
 [nlp]
+[nlp]
 lang = "de"
 pipeline = ["transformer", "spancat"]
 batch_size = 4
@@ -58,12 +59,12 @@ factory = "transformer"
 @architectures = "spacy-transformers.TransformerModel.v3"
 name = "distilbert/distilbert-base-german-cased"
 tokenizer_config = {"use_fast": true}
-mixed_precision = false
+mixed_precision = true
 
 [components.transformer.model.get_spans]
 @span_getters = "spacy-transformers.strided_spans.v1"
-window = 128
-stride = 96
+window = 64
+stride = 32
 
 [components.spancat]
 factory = "spancat"
@@ -90,7 +91,9 @@ grad_factor = 1.0
 @layers = "reduce_mean.v1"
 
 [components.spancat.suggester]
-@misc = "spacy.sentence_suggester.v1"
+@misc = "spacy.ngram_range_suggester.v1"
+min_size = 1
+max_size = 40
 
 [training]
 train_corpus = "corpora.train"
@@ -98,8 +101,15 @@ dev_corpus = "corpora.dev"
 seed = 42
 gpu_allocator = "pytorch"
 patience = 6400
+max_steps = 20000
 max_epochs = 30
 eval_frequency = 800
+dropout = 0.1
+accumulate_gradient = 6
+frozen_components = []
+annotating_components = []
+before_to_disk = null
+before_update = null
 
 [training.optimizer]
 @optimizers = "Adam.v1"
@@ -108,53 +118,70 @@ beta2 = 0.999
 L2_is_weight_decay = true
 L2 = 0.01
 grad_clip = 1.0
-
-[training.optimizer.learn_rate]
-@schedules = "warmup_linear.v1"
-warmup_steps = 250
-total_steps = 30000
-initial_rate = 5e-5
+use_averages = false
+eps = 0.00000001
+learn_rate = 5e-5
 
 [training.batcher]
-@batchers = "spacy.batch_by_padded.v1"
+@batchers = "spacy.batch_by_words.v1"
 discard_oversize = true
-size = 2000
-buffer = 256
+tolerance = 0.2
+get_length = null
+
+[training.batcher.size]
+@schedules = "compounding.v1"
+start = 50
+stop = 200
+compound = 1.001
+t = 0.0
 
 [training.logger]
 @loggers = "spacy.ConsoleLogger.v1"
 progress_bar = true
+
+[training.score_weights]
+spans_sc_f = 1.0
+spans_sc_p = 0.0
+spans_sc_r = 0.0
 
 [corpora]
 
 [corpora.train]
 @readers = "spacy.Corpus.v1"
 path = ${paths.train}
-max_length = 0
-shuffle = true
+max_length = 128
+gold_preproc = false
+limit = 0
+augmenter = null
 
 [corpora.dev]
 @readers = "spacy.Corpus.v1"
 path = ${paths.dev}
 max_length = 0
-shuffle = false
+gold_preproc = false
+limit = 0
+augmenter = null
 
 [paths]
 train = "data/darius/train.spacy"
 dev   = "data/darius/dev.spacy"
 
+[system]
+gpu_allocator = "pytorch"
+seed = 42
+
 [initialize]
 vectors = null
 init_tok2vec = null
+vocab_data = null
+lookups = null
+before_init = null
+after_init = null
 
 [initialize.components]
 
 [initialize.components.spancat]
 
-[initialize.components.spancat.labels]
-@readers = "spacy.read_labels.v1"
-path = ${paths.train}
-require = false
 """
 
 

@@ -158,6 +158,7 @@ def load_models():
         import spacy
         from pipeline.model import load_pipeline
         nlp = load_pipeline(MODEL_DIR_S1)
+        print_model_info(nlp)
         return nlp
     except FileNotFoundError:
         return None
@@ -165,9 +166,20 @@ def load_models():
         st.warning(f"Modell konnte nicht geladen werden: {e}")
         return None
 
+def print_model_info(nlp):
+    print(nlp.pipe_names)
+
+    spancat = nlp.get_pipe("spancat")
+    print(f"Labels expected by spancat: {spancat.labels}")
+    print(f"Number of labels: {len(spancat.labels)}")
+
+    bert = nlp.get_pipe("transformer")
+    print(f"Labels expected by bert: {bert.labels}")
+    print(f"Number of labels: {len(bert.labels)}")
 
 def run_model(text: str) -> list:
     nlp = load_models()
+
     if nlp is not None:
         from pipeline.model import predict
         return predict(text, nlp)
