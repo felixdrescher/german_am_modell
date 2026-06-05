@@ -1,17 +1,12 @@
 """
 model.py
 --------
-Definiert die zweistufige AM-Pipeline:
+Definiert die einstufige AM-Pipeline mit einem einzigen spaCy-Spancat-Modell.
 
-  Stufe 1 — Claim Detection (SpanCategorizer, binär)
-    Eingabe: beliebiger Text
-    Ausgabe: Sätze die mindestens einen CLAIM enthalten
-
-  Stufe 2 — TAP Component Detection (SpanCategorizer, multi-label)
     Eingabe: nur die Sätze aus Stufe 1
     Ausgabe: CLAIM / DATA / WARRANT / REBUTTAL Spans
 
-Beide Stufen nutzen GBERT (deepset/gbert-large) als Transformer-Backbone.
+GBERT (deepset/gbert-large) als Transformer-Backbone.
 Das Modell wird lokal betrieben — kein Cloud-Zugriff.
 
 Verwendung:
@@ -28,12 +23,10 @@ from spacy.language import Language
 
 # ── Konstanten ────────────────────────────────────────────────────────────────
 
-LABELS_STAGE1 = ["CLAIM"]                              # Stufe 1: binäre Claim-Detektion
-LABELS_STAGE2 = ["CLAIM", "DATA", "WARRANT", "REBUTTAL"]  # Stufe 2: alle TAP-Elemente
+LABELS = ["CLAIM", "DATA", "WARRANT", "REBUTTAL"]  # Stufe 2: alle TAP-Elemente
 
 # Pfade (relativ zum Projektordner)
-MODEL_DIR_STAGE1 = Path("models/stage1_claim")
-MODEL_DIR_STAGE2 = Path("models/stage2_tap")
+MODEL_DIR = Path("models/spacy_output")
 
 # GBERT Modell-Name (HuggingFace)
 GBERT_MODEL = "deepset/gbert-large"
@@ -41,17 +34,9 @@ GBERT_MODEL = "deepset/gbert-large"
 
 # ── Pipeline-Konfiguration ────────────────────────────────────────────────────
 
-def create_stage1_config() -> str:
+def create_config() -> str:
     """
     spaCy config.cfg für Stufe 1: Claim Detection.
-
-    Fixes gegenüber vorheriger Version:
-    - [nlp] Pflichtfelder (disabled, tokenizer, before/after_creation) ergänzt
-    - sentence_suggester statt ngram (Claims sind satzlang)
-    - Lernrate 5e-5 statt 1e-3 (BERT-typisch, schützt vortrainierte Gewichte)
-    - warmup_cosine statt warmup_linear
-    - shuffle = true in corpora.train
-    - batch_size = 4 (für Colab T4 mit distilbert; für gbert-large auf 2 setzen)
     """
     return """
 [nlp]
@@ -173,147 +158,17 @@ require = false
 """
 
 
-def create_stage2_config() -> str:
-    """
-    spaCy config.cfg für Stufe 2: TAP Component Detection.
-
-    Unterschiede zu Stufe 1:
-    - ngram_suggester mit sizes (flexiblere Span-Grenzen für Data/Warrant/Rebuttal)
-    - Alle 4 Labels (CLAIM, DATA, WARRANT, REBUTTAL)
-    """
-    return """
-[nlp]
-lang = "de"
-pipeline = ["transformer", "spancat"]
-batch_size = 4
-disabled = []
-before_creation = null
-after_creation = null
-after_pipeline_creation = null
-tokenizer = {"@tokenizers": "spacy.Tokenizer.v1"}
-
-[components]
-
-[components.transformer]
-factory = "transformer"
-
-[components.transformer.model]
-@architectures = "spacy-transformers.TransformerModel.v3"
-name = "distilbert/distilbert-base-german-cased"
-tokenizer_config = {"use_fast": true}
-mixed_precision = false
-
-[components.transformer.model.get_spans]
-@span_getters = "spacy-transformers.strided_spans.v1"
-window = 128
-stride = 96
-
-[components.spancat]
-factory = "spancat"
-spans_key = "sc"
-threshold = 0.5
-
-[components.spancat.model]
-@architectures = "spacy.SpanCategorizer.v1"
-
-[components.spancat.model.reducer]
-@layers = "spacy.mean_max_reducer.v1"
-hidden_size = 128
-
-[components.spancat.model.scorer]
-@layers = "spacy.LinearLogistic.v1"
-nO = null
-nI = null
-
-[components.spancat.model.tok2vec]
-@architectures = "spacy-transformers.TransformerListener.v1"
-grad_factor = 1.0
-
-[components.spancat.model.tok2vec.pooling]
-@layers = "reduce_mean.v1"
-
-[components.spancat.suggester]
-@misc = "spacy.ngram_suggester.v1"
-sizes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20]
-
-[training]
-train_corpus = "corpora.train"
-dev_corpus = "corpora.dev"
-seed = 42
-gpu_allocator = "pytorch"
-patience = 1600
-max_epochs = 30
-eval_frequency = 200
-
-[training.optimizer]
-@optimizers = "Adam.v1"
-beta1 = 0.9
-beta2 = 0.999
-L2_is_weight_decay = true
-L2 = 0.01
-grad_clip = 1.0
-
-[training.optimizer.learn_rate]
-@schedules = "warmup_linear.v1"
-warmup_steps = 250
-total_steps = 30000
-initial_rate = 5e-5
-
-[training.batcher]
-@batchers = "spacy.batch_by_padded.v1"
-discard_oversize = true
-size = 2000
-buffer = 256
-
-[training.logger]
-@loggers = "spacy.ConsoleLogger.v1"
-progress_bar = true
-
-[corpora]
-
-[corpora.train]
-@readers = "spacy.Corpus.v1"
-path = ${paths.train}
-max_length = 0
-shuffle = true
-
-[corpora.dev]
-@readers = "spacy.Corpus.v1"
-path = ${paths.dev}
-max_length = 0
-shuffle = false
-
-[paths]
-train = "data/darius/train.spacy"
-dev   = "data/darius/dev.spacy"
-
-[initialize]
-vectors = null
-init_tok2vec = null
-
-[initialize.components]
-
-[initialize.components.spancat]
-
-[initialize.components.spancat.labels]
-@readers = "spacy.read_labels.v1"
-path = ${paths.train}
-require = false
-"""
-
-
-def write_configs() -> None:
-    """Schreibt beide Config-Dateien in configs/."""
+def write_config() -> None:
+    """Schreibt die Config-Datei in configs/."""
     Path("configs").mkdir(exist_ok=True)
-    Path("configs/stage1_claim.cfg").write_text(create_stage1_config())
-    Path("configs/stage2_tap.cfg").write_text(create_stage2_config())
-    print("Config-Dateien geschrieben: configs/stage1_claim.cfg, configs/stage2_tap.cfg")
+    Path("configs/model.cfg").write_text(create_config())
+    print("Config-Datei geschrieben: configs/model.cfg")
 
 
 # ── Modell laden ──────────────────────────────────────────────────────────────
 
 def load_pipeline(
-    model_path: Path = MODEL_DIR_STAGE1 / "model-best",
+    model_path: Path = MODEL_DIR / "model-best",
 ) -> Language:
     """
     Lädt das trainierte einstufige AM-Modell.
@@ -399,7 +254,7 @@ def predict_stub(text: str) -> List[Dict]:
 # ── Direktaufruf ──────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    write_configs()
+    write_config()
     print("\nModell-Stub Test:")
     test = ("Ich denke, dass Windkraftanlagen gefördert werden sollten. "
             "Mit einem Wirkungsgrad von 45% sind sie effizienter. "

@@ -5,16 +5,11 @@ Trainiert die AM-Pipeline (einstufig) auf den DARIUS-Daten.
 
 Design-Entscheidungen:
   - Einstufig: DistilBERT klassifiziert alle TAP-Elemente direkt
-    (CLAIM, DATA, WARRANT, REBUTTAL). Eine zweite Stufe ist unnötig,
-    da der Transformer Erkennung und Klassifikation gleichzeitig löst.
-  - Kein Resume: spaCy stellt Optimizer-State nicht her → F1 fällt auf 0.
-  - Dev-Split 5%: spaCy evaluiert Dev als einen GPU-Batch → OOM bei >5%.
-  - eval_frequency=400: seltener evaluieren reduziert OOM-Risiko.
-  - PYTORCH_ALLOC_CONF=expandable_segments:True: weniger Fragmentierung.
+    (CLAIM, DATA, WARRANT, REBUTTAL).
   - ZIP-Export: model-best wird nach dem Training gezippt für einfachen
     Download von Kaggle/Colab.
 
-Aufruf:
+CLI:
   python pipeline/training.py         # Training + Evaluation + ZIP
   python pipeline/training.py --eval  # nur Evaluation
   python pipeline/training.py --zip   # nur ZIP (Modell bereits trainiert)
@@ -34,8 +29,8 @@ from pathlib import Path
 
 TRAIN_DATA = Path("data/darius/train.spacy")
 DEV_DATA   = Path("data/darius/dev.spacy")
-CONFIG     = Path("configs/stage1_claim.cfg")
-MODEL_DIR  = Path("models/stage1_claim")
+CONFIG     = Path("configs/model.cfg")
+MODEL_DIR  = Path("models/spacy_output")
 MODEL_BEST = MODEL_DIR / "model-best"
 ZIP_DIR    = Path("models")
 
@@ -64,7 +59,7 @@ def zip_model(model_dir: Path = MODEL_BEST) -> Path | None:
         for file in model_dir.rglob("*"):
             if file.is_file():
                 # Pfad im ZIP relativ zu models/ — so kann man direkt
-                # nach models/stage1_claim/model-best/ entpacken
+                # nach models/spacy_output/model-best/ entpacken
                 arcname = file.relative_to(ZIP_DIR)
                 zf.write(file, arcname)
                 file_count += 1
@@ -73,7 +68,7 @@ def zip_model(model_dir: Path = MODEL_BEST) -> Path | None:
     print(f"   {file_count} Dateien · {size_mb:.1f} MB")
     print(f"   → {zip_path}")
     print(f"\n   Lokal entpacken:")
-    print(f"   Unzip nach: models/  (erzeugt stage1_claim/model-best/)")
+    print(f"   Unzip nach: models/  (erzeugt spacy_output/model-best/)")
 
     return zip_path
 
@@ -215,7 +210,7 @@ def main():
         print(f"   ZIP:       {zip_path}  ← dieser Download reicht")
     print(f"\n   Lokal einbinden:")
     print(f"   1. ZIP herunterladen")
-    print(f"   2. In Projektordner entpacken → models/stage1_claim/model-best/")
+    print(f"   2. In Projektordner entpacken → models/spacy_output/model-best/")
     print(f"   3. streamlit run app/streamlit_app.py")
     print(f"{'='*60}")
 
