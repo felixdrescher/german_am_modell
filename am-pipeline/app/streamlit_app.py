@@ -17,7 +17,10 @@ import json
 import sys
 from pathlib import Path
 from datetime import datetime
-
+import spacy
+import spacy_streamlit
+from spacy.tokens import Doc
+from spacy import displacy
 import streamlit as st
 import utils as utils
 import database as db
@@ -49,7 +52,7 @@ TAP_DESCRIPTIONS = {
 MODEL_DIR = Path(__file__).parent.parent / "models" / "spacy_output" / "model-best"
 
 @st.cache_resource(show_spinner="Lade AM-Modell ...")
-def load_models():
+def load_model():
     try:
         from pipeline.model import load_pipeline
         nlp = load_pipeline(MODEL_DIR)
@@ -61,98 +64,34 @@ def load_models():
         return None
 
 def run_model(text: str) -> list:
-    nlp = load_models()
+    nlp = load_model()
 
     if nlp is not None:
         from pipeline.model import predict
         return predict(text, nlp)
 
-# ── Visualisierung ────────────────────────────────────────────────────────────
-
-def highlight_text(text: str, spans: list) -> str:
-    """HTML mit Zeilennummern und farbigen Spans für scrollbare Box."""
-
-    lines = text.splitlines()
-
-    line_starts = []
-    pos = 0
-    for line in lines:
-        line_starts.append(pos)
-        pos += len(line) + 1
-
-    sorted_spans = sorted(spans, key=lambda x: x["start"])
-
-    rows = ""
-
-    for line_idx, line in enumerate(lines):
-        line_start = line_starts[line_idx]
-        line_end = line_start + len(line)
-
-        relevant = [
-            s for s in sorted_spans
-            if s["start"] < line_end and s["end"] > line_start
-        ]
-
-        if not relevant:
-            rows += (
-                f"<tr style='border:none'>"
-                f"<td style='border:none;padding-bottom:4px'>"
-                f"{line or '&nbsp;'}"
-                f"</td></tr>"
-            )
-            continue
-
-        cell = ""
-        cursor = line_start
-
-        for span in relevant:
-            s_start = max(span["start"], line_start)
-            s_end = min(span["end"], line_end)
-            label = span["label"]
-            color = TAP_COLORS.get(label, "#999")
-
-            if cursor < s_start:
-                cell += line[cursor - line_start: s_start - line_start]
-
-            fragment = line[s_start - line_start: s_end - line_start]
-
-            cell += (
-                f"<mark style='background:{color}22;"
-                f"border-bottom:2.5px solid {color};"
-                f"border-radius:3px;padding:1px 3px;margin:0 1px;'>"
-                f"<span style='color:{color};font-weight:700;"
-                f"font-size:0.75rem;vertical-align:super;margin-right:2px'>"
-                f"{label}</span>"
-                f"{fragment}</mark>"
-            )
-
-            cursor = s_end
-
-        if cursor < line_end:
-            cell += line[cursor - line_start:]
-
-        rows += (
-            f"<tr style='border:none'>"
-            f"<td style='border:none;padding-bottom:4px;font-size:1.2rem'>"
-            f"{cell or '&nbsp;'}"
-            f"</td></tr>"
-        )
-
-    return f"""
-    <table style="
-        border-collapse: separate;
-        border-spacing: 0 6px;
-        border: none;
-        width: 100%;
-        line-height: 2.7;
-    ">
-        {rows}
-    </table>
-    """
+def render_displacy(text: str, spans: list):
+    nlp = load_model()
+    doc = nlp.make_doc(text)
+    
+    span_objs = []
+    for s in spans:
+        span = doc.char_span(s["start"], s["end"], label=s["label"], alignment_mode="contract")
+        if span:
+            span_objs.append(span)
+    
+    doc.spans["sc"] = span_objs
+    
+    spacy_streamlit.visualize_spans(
+        doc,
+        title=f"🎨 Erkannte TAP-Elemente",
+        spans_key="sc",
+        displacy_options={"colors": TAP_COLORS},
+        show_table=True
+    )
 
 
 # ── Annotation-Editor (Einzelkarte mit Span-Auswahl) ─────────────────────────
-
 def render_annotation_editor(text: str, spans: list) -> list:
     """
     Zeigt immer nur eine editierbare Karte für die aktuell ausgewählte Span.
@@ -338,7 +277,7 @@ def main():
 
         st.divider()
         st.markdown("**Modell-Status**")
-        nlp = load_models()
+        nlp = load_model()
         if nlp is not None:
             st.success("✅ AM-Modell geladen")
         else:
@@ -378,7 +317,7 @@ def main():
     with col_dir:
         directory = st.text_input(
             "Verzeichnis mit Textdateien:",
-            value=str(Path("data/testdata").resolve()),
+            value=str(Path("am-pipeline/data/testdata").resolve()),
             placeholder="z.B. C:\\Users\\Dein Name\\Dokumente\\Oral History Interviews",
         )
     with col_reload:
@@ -474,21 +413,7 @@ def main():
         col_vis, col_stat = st.columns([3, 1])
 
         with col_vis:
-            lines = text.splitlines()
-            st.markdown(
-                f"### 🎨 Erkannte TAP-Elemente "
-                f"<span style='font-size:0.85rem;font-weight:normal;color:#888'>"
-                f"({len(lines)} Zeilen, {len(spans)} Spans)</span>",
-                unsafe_allow_html=True,
-            )
-            highlighted = highlight_text(text, spans)
-            st.markdown(
-                f"""<div style="height:520px;overflow-y:auto;border:1px solid #e0e0e0;
-                border-radius:6px;padding:16px 20px;background:#fafafa;
-                font-family:'Georgia',serif;font-size:0.95rem;line-height:2.2;
-                white-space:pre-wrap;word-break:break-word;">{highlighted}</div>""",
-                unsafe_allow_html=True,
-            )
+            render_displacy(text, spans)
 
         with col_stat:
             st.markdown("### 📊 Übersicht")

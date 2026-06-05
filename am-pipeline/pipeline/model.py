@@ -227,6 +227,10 @@ def predict(
     result = []
     for span in doc.spans.get("sc", []):
         score = getattr(span._, "score", 1.0)
+        if span._.has("score"):
+            print(f"Echter Score: {span._.get('score')}")
+        else:
+            print("Kein 'score' Attribut gefunden!")
         if score < threshold:
             continue
         result.append({
