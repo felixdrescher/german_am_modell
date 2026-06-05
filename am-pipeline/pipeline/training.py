@@ -1,39 +1,81 @@
 """
 training.py
 -----------
-Trainiert beide Stufen der AM-Pipeline auf den DARIUS-Daten.
+Trainiert die AM-Pipeline (einstufig) auf den DARIUS-Daten.
 
-Wichtige Design-Entscheidungen:
-  - Kein Resume: spaCy setzt Optimizer-State nicht fort → F1 fällt auf 0.
-    Stattdessen: Training läuft in einem Durchgang durch.
-  - Dev-Split 5% statt 20%: spaCy evaluiert das gesamte Dev-Set als einen
-    Batch → OOM bei großem Dev-Set. 5% reicht für Fortschrittsmessung.
-  - eval_frequency=400: seltener evaluieren reduziert OOM-Risiko weiter.
-  - PYTORCH_ALLOC_CONF=expandable_segments:True: reduziert Fragmentierung.
+Design-Entscheidungen:
+  - Einstufig: DistilBERT klassifiziert alle TAP-Elemente direkt
+    (CLAIM, DATA, WARRANT, REBUTTAL). Eine zweite Stufe ist unnötig,
+    da der Transformer Erkennung und Klassifikation gleichzeitig löst.
+  - Kein Resume: spaCy stellt Optimizer-State nicht her → F1 fällt auf 0.
+  - Dev-Split 5%: spaCy evaluiert Dev als einen GPU-Batch → OOM bei >5%.
+  - eval_frequency=400: seltener evaluieren reduziert OOM-Risiko.
+  - PYTORCH_ALLOC_CONF=expandable_segments:True: weniger Fragmentierung.
+  - ZIP-Export: model-best wird nach dem Training gezippt für einfachen
+    Download von Kaggle/Colab.
 
 Aufruf:
-  python pipeline/training.py              # beide Stufen
-  python pipeline/training.py --stage 1   # nur Stufe 1
-  python pipeline/training.py --stage 2   # nur Stufe 2
-  python pipeline/training.py --eval      # nur Evaluation
-  python pipeline/training.py --cpu       # CPU erzwingen
+  python pipeline/training.py         # Training + Evaluation + ZIP
+  python pipeline/training.py --eval  # nur Evaluation
+  python pipeline/training.py --zip   # nur ZIP (Modell bereits trainiert)
+  python pipeline/training.py --cpu   # CPU erzwingen
 """
 
 import os
 import sys
+import zipfile
 import subprocess
 import argparse
+from datetime import datetime
 from pathlib import Path
 
 
 # ── Pfade ─────────────────────────────────────────────────────────────────────
 
-TRAIN_DATA   = Path("data/darius/train.spacy")
-DEV_DATA     = Path("data/darius/dev.spacy")
-CONFIG_S1    = Path("configs/stage1_claim.cfg")
-CONFIG_S2    = Path("configs/stage2_tap.cfg")
-MODEL_DIR_S1 = Path("models/stage1_claim")
-MODEL_DIR_S2 = Path("models/stage2_tap")
+TRAIN_DATA = Path("data/darius/train.spacy")
+DEV_DATA   = Path("data/darius/dev.spacy")
+CONFIG     = Path("configs/stage1_claim.cfg")
+MODEL_DIR  = Path("models/stage1_claim")
+MODEL_BEST = MODEL_DIR / "model-best"
+ZIP_DIR    = Path("models")
+
+
+# ── ZIP-Export ────────────────────────────────────────────────────────────────
+
+def zip_model(model_dir: Path = MODEL_BEST) -> Path | None:
+    """
+    Zippt model-best in eine einzelne Datei für einfachen Download.
+    Enthält nur das Modell selbst — keine Trainingsdaten.
+
+    Gibt den ZIP-Pfad zurück.
+    """
+    if not model_dir.exists():
+        print(f"⚠️  Kein Modell zum Zippen: {model_dir}")
+        return None
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    zip_path  = ZIP_DIR / f"am_model_best_{timestamp}.zip"
+    ZIP_DIR.mkdir(parents=True, exist_ok=True)
+
+    print(f"\n📦 Erstelle ZIP: {zip_path}")
+    file_count = 0
+
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for file in model_dir.rglob("*"):
+            if file.is_file():
+                # Pfad im ZIP relativ zu models/ — so kann man direkt
+                # nach models/stage1_claim/model-best/ entpacken
+                arcname = file.relative_to(ZIP_DIR)
+                zf.write(file, arcname)
+                file_count += 1
+
+    size_mb = zip_path.stat().st_size / 1e6
+    print(f"   {file_count} Dateien · {size_mb:.1f} MB")
+    print(f"   → {zip_path}")
+    print(f"\n   Lokal entpacken:")
+    print(f"   Unzip nach: models/  (erzeugt stage1_claim/model-best/)")
+
+    return zip_path
 
 
 # ── Voraussetzungen ───────────────────────────────────────────────────────────
@@ -42,7 +84,7 @@ def check_prerequisites() -> bool:
     ok = True
     print("🔍 Voraussetzungen prüfen...\n")
 
-    for p in [TRAIN_DATA, DEV_DATA, CONFIG_S1, CONFIG_S2]:
+    for p in [TRAIN_DATA, DEV_DATA, CONFIG]:
         status = "✅" if p.exists() else "❌"
         print(f"  {status} {p}")
         if not p.exists():
@@ -76,56 +118,46 @@ def check_prerequisites() -> bool:
 
 # ── Training ──────────────────────────────────────────────────────────────────
 
-def run_spacy_train(
-    config_path: Path,
-    output_dir:  Path,
-    stage_name:  str,
-    use_gpu:     bool = True,
-) -> bool:
-    output_dir.mkdir(parents=True, exist_ok=True)
+def run_training(use_gpu: bool = True) -> bool:
+    MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Reduziert GPU-Speicherfragmentierung (empfohlen von PyTorch für T4)
     env = os.environ.copy()
     env["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 
     cmd = [
         sys.executable, "-m", "spacy", "train",
-        str(config_path),
-        "--output", str(output_dir),
+        str(CONFIG),
+        "--output", str(MODEL_DIR),
         "--paths.train", str(TRAIN_DATA),
         "--paths.dev",   str(DEV_DATA),
         "--gpu-id", "0" if use_gpu else "-1",
     ]
 
     print(f"\n{'='*60}")
-    print(f"🚀 Training: {stage_name}")
-    print(f"   Config:  {config_path}")
-    print(f"   Output:  {output_dir}")
+    print(f"🚀 Training: TAP-Element Detection (einstufig)")
+    print(f"   Modell:  distilbert-base-german-cased")
+    print(f"   Labels:  CLAIM · DATA · WARRANT · REBUTTAL")
+    print(f"   Config:  {CONFIG}")
+    print(f"   Output:  {MODEL_DIR}")
     print(f"   GPU:     {'ja' if use_gpu else 'nein (CPU)'}")
-    print(f"\n   Hinweis: kein --resume, da spaCy den Optimizer-State")
-    print(f"   nicht wiederherstellt → Training immer von Anfang.")
     print(f"{'='*60}\n")
 
     result = subprocess.run(cmd, cwd=str(Path.cwd()), env=env)
     return result.returncode == 0
 
 
-def evaluate_model(model_dir: Path, stage_name: str) -> None:
-    best = model_dir / "model-best"
-    if not best.exists():
-        print(f"⚠️  Kein Modell: {best}")
+def run_evaluation() -> None:
+    if not MODEL_BEST.exists():
+        print(f"⚠️  Kein Modell: {MODEL_BEST}")
         return
 
-    print(f"\n📊 Evaluation: {stage_name}")
-
-    # Evaluation auf kleinem Subset um OOM zu vermeiden
-    # (spaCy evaluiert alles auf einmal im GPU-Speicher)
+    print(f"\n📊 Evaluation auf Dev-Daten (CPU)")
     cmd = [
         sys.executable, "-m", "spacy", "evaluate",
-        str(best),
+        str(MODEL_BEST),
         str(DEV_DATA),
-        "--output", str(model_dir / "eval_results.json"),
-        "--gpu-id", "-1",   # CPU für Evaluation — vermeidet OOM
+        "--output", str(MODEL_DIR / "eval_results.json"),
+        "--gpu-id", "-1",
     ]
     subprocess.run(cmd, cwd=str(Path.cwd()))
 
@@ -134,16 +166,26 @@ def evaluate_model(model_dir: Path, stage_name: str) -> None:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="AM-Pipeline Training",
+        description="AM-Pipeline Training (einstufig)",
         formatter_class=argparse.RawTextHelpFormatter,
     )
-    parser.add_argument("--stage", type=int, choices=[1, 2],
-                        help="Nur Stufe 1 oder 2 trainieren")
-    parser.add_argument("--eval",  action="store_true",
-                        help="Nur Evaluation der vorhandenen Modelle")
-    parser.add_argument("--cpu",   action="store_true",
+    parser.add_argument("--eval", action="store_true",
+                        help="Nur Evaluation des vorhandenen Modells")
+    parser.add_argument("--zip",  action="store_true",
+                        help="Nur ZIP-Export des vorhandenen Modells")
+    parser.add_argument("--cpu",  action="store_true",
                         help="CPU erzwingen")
     args = parser.parse_args()
+
+    # Nur ZIP
+    if args.zip:
+        zip_model()
+        return
+
+    # Nur Evaluation
+    if args.eval:
+        run_evaluation()
+        return
 
     try:
         import torch
@@ -151,40 +193,31 @@ def main():
     except ImportError:
         use_gpu = False
 
-    if args.eval:
-        evaluate_model(MODEL_DIR_S1, "Stufe 1 — Claim Detection")
-        evaluate_model(MODEL_DIR_S2, "Stufe 2 — TAP Components")
-        return
-
     if not check_prerequisites():
         sys.exit(1)
 
+    # Training
+    ok = run_training(use_gpu)
+    if not ok:
+        print("❌ Training fehlgeschlagen.")
+        sys.exit(1)
+
+    # Evaluation
+    run_evaluation()
+
+    # ZIP-Export
+    zip_path = zip_model()
+
     print(f"\n{'='*60}")
-    print(f"AM-Pipeline Training · Modus: {'GPU' if use_gpu else 'CPU'}")
+    print(f"✅ Fertig.")
+    print(f"   Modell:    {MODEL_BEST}")
+    if zip_path:
+        print(f"   ZIP:       {zip_path}  ← dieser Download reicht")
+    print(f"\n   Lokal einbinden:")
+    print(f"   1. ZIP herunterladen")
+    print(f"   2. In Projektordner entpacken → models/stage1_claim/model-best/")
+    print(f"   3. streamlit run app/streamlit_app.py")
     print(f"{'='*60}")
-
-    def run(config, model_dir, name):
-        ok = run_spacy_train(config, model_dir, name, use_gpu)
-        if ok:
-            evaluate_model(model_dir, name)
-        else:
-            print(f"❌ {name} fehlgeschlagen.")
-            sys.exit(1)
-
-    if args.stage == 1:
-        run(CONFIG_S1, MODEL_DIR_S1, "Stufe 1 — Claim Detection")
-    elif args.stage == 2:
-        run(CONFIG_S2, MODEL_DIR_S2, "Stufe 2 — TAP Components")
-    else:
-        print("\n💡 Tipp: Beide Stufen können parallel laufen:")
-        print("   Terminal 1: python pipeline/training.py --stage 1")
-        print("   Terminal 2: python pipeline/training.py --stage 2\n")
-        run(CONFIG_S1, MODEL_DIR_S1, "Stufe 1 — Claim Detection")
-        run(CONFIG_S2, MODEL_DIR_S2, "Stufe 2 — TAP Components")
-
-    print("\n✅ Training abgeschlossen.")
-    print(f"   {MODEL_DIR_S1}/model-best")
-    print(f"   {MODEL_DIR_S2}/model-best")
 
 
 if __name__ == "__main__":
