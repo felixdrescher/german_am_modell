@@ -3,31 +3,56 @@ model.py
 --------
 Definiert die zweistufige AM-Pipeline:
 
-  Stufe 1 — Claim Detection (SpanCategorizer)
-  Stufe 2 — TAP Component Detection (SpanCategorizer)
+  Stufe 1 — Claim Detection (SpanCategorizer, binär)
+    Eingabe: beliebiger Text
+    Ausgabe: Sätze die mindestens einen CLAIM enthalten
 
-Beide nutzen Transformer Backbone.
+  Stufe 2 — TAP Component Detection (SpanCategorizer, multi-label)
+    Eingabe: nur die Sätze aus Stufe 1
+    Ausgabe: CLAIM / DATA / WARRANT / REBUTTAL Spans
 
-Zusätzlich:
-- Support für "resume-last" über model-last als Initialisierung
+Beide Stufen nutzen GBERT (deepset/gbert-large) als Transformer-Backbone.
+Das Modell wird lokal betrieben — kein Cloud-Zugriff.
+
+Verwendung:
+  # Training:       python pipeline/training.py
+  # Inferenz:       from pipeline.model import predict
+  # Streamlit-App:  wird von app/streamlit_app.py importiert
 """
 
 from pathlib import Path
-from turtle import st
-from typing import List, Dict, Tuple
+from typing import List, Dict, Optional
 import spacy
 from spacy.language import Language
 
+
 # ── Konstanten ────────────────────────────────────────────────────────────────
 
-MODEL_DIR_STAGE1 = Path("models/stage1_claim/model-best")
-MODEL_DIR_STAGE2 = Path("models/stage2_tap/model-best")
+LABELS_STAGE1 = ["CLAIM"]                              # Stufe 1: binäre Claim-Detektion
+LABELS_STAGE2 = ["CLAIM", "DATA", "WARRANT", "REBUTTAL"]  # Stufe 2: alle TAP-Elemente
 
-CONFIG_DIR = Path("configs")
+# Pfade (relativ zum Projektordner)
+MODEL_DIR_STAGE1 = Path("models/stage1_claim")
+MODEL_DIR_STAGE2 = Path("models/stage2_tap")
 
-# ── CONFIG WRITING ────────────────────────────────────────────────────────────
+# GBERT Modell-Name (HuggingFace)
+GBERT_MODEL = "deepset/gbert-large"
+
+
+# ── Pipeline-Konfiguration ────────────────────────────────────────────────────
 
 def create_stage1_config() -> str:
+    """
+    spaCy config.cfg für Stufe 1: Claim Detection.
+
+    Fixes gegenüber vorheriger Version:
+    - [nlp] Pflichtfelder (disabled, tokenizer, before/after_creation) ergänzt
+    - sentence_suggester statt ngram (Claims sind satzlang)
+    - Lernrate 5e-5 statt 1e-3 (BERT-typisch, schützt vortrainierte Gewichte)
+    - warmup_cosine statt warmup_linear
+    - shuffle = true in corpora.train
+    - batch_size = 4 (für Colab T4 mit distilbert; für gbert-large auf 2 setzen)
+    """
     return """
 [nlp]
 lang = "de"
@@ -48,12 +73,12 @@ factory = "transformer"
 @architectures = "spacy-transformers.TransformerModel.v3"
 name = "distilbert/distilbert-base-german-cased"
 tokenizer_config = {"use_fast": true}
-mixed_precision = true
+mixed_precision = false
 
 [components.transformer.model.get_spans]
 @span_getters = "spacy-transformers.strided_spans.v1"
-window = 64
-stride = 32
+window = 128
+stride = 96
 
 [components.spancat]
 factory = "spancat"
@@ -80,9 +105,7 @@ grad_factor = 1.0
 @layers = "reduce_mean.v1"
 
 [components.spancat.suggester]
-@misc = "spacy.ngram_range_suggester.v1"
-min_size = 1
-max_size = 40
+@misc = "spacy.sentence_suggester.v1"
 
 [training]
 train_corpus = "corpora.train"
@@ -90,15 +113,8 @@ dev_corpus = "corpora.dev"
 seed = 42
 gpu_allocator = "pytorch"
 patience = 1600
-max_steps = 20000
 max_epochs = 30
-eval_frequency = 400
-dropout = 0.1
-accumulate_gradient = 6
-frozen_components = []
-annotating_components = []
-before_to_disk = null
-before_update = null
+eval_frequency = 200
 
 [training.optimizer]
 @optimizers = "Adam.v1"
@@ -107,73 +123,64 @@ beta2 = 0.999
 L2_is_weight_decay = true
 L2 = 0.01
 grad_clip = 1.0
-use_averages = false
-eps = 0.00000001
-learn_rate = 5e-5
+
+[training.optimizer.learn_rate]
+@schedules = "warmup_linear.v1"
+warmup_steps = 250
+total_steps = 30000
+initial_rate = 5e-5
 
 [training.batcher]
-@batchers = "spacy.batch_by_words.v1"
+@batchers = "spacy.batch_by_padded.v1"
 discard_oversize = true
-tolerance = 0.2
-get_length = null
-
-[training.batcher.size]
-@schedules = "compounding.v1"
-start = 50
-stop = 200
-compound = 1.001
-t = 0.0
+size = 2000
+buffer = 256
 
 [training.logger]
 @loggers = "spacy.ConsoleLogger.v1"
 progress_bar = true
-
-[training.score_weights]
-spans_sc_f = 1.0
-spans_sc_p = 0.0
-spans_sc_r = 0.0
 
 [corpora]
 
 [corpora.train]
 @readers = "spacy.Corpus.v1"
 path = ${paths.train}
-max_length = 128
-gold_preproc = false
-limit = 0
-augmenter = null
+max_length = 0
+shuffle = true
 
 [corpora.dev]
 @readers = "spacy.Corpus.v1"
 path = ${paths.dev}
 max_length = 0
-gold_preproc = false
-limit = 0
-augmenter = null
+shuffle = false
 
 [paths]
 train = "data/darius/train.spacy"
 dev   = "data/darius/dev.spacy"
 
-[system]
-gpu_allocator = "pytorch"
-seed = 42
-
 [initialize]
 vectors = null
 init_tok2vec = null
-vocab_data = null
-lookups = null
-before_init = null
-after_init = null
 
 [initialize.components]
 
 [initialize.components.spancat]
 
+[initialize.components.spancat.labels]
+@readers = "spacy.read_labels.v1"
+path = ${paths.train}
+require = false
 """
 
+
 def create_stage2_config() -> str:
+    """
+    spaCy config.cfg für Stufe 2: TAP Component Detection.
+
+    Unterschiede zu Stufe 1:
+    - ngram_suggester mit sizes (flexiblere Span-Grenzen für Data/Warrant/Rebuttal)
+    - Alle 4 Labels (CLAIM, DATA, WARRANT, REBUTTAL)
+    """
     return """
 [nlp]
 lang = "de"
@@ -194,12 +201,12 @@ factory = "transformer"
 @architectures = "spacy-transformers.TransformerModel.v3"
 name = "distilbert/distilbert-base-german-cased"
 tokenizer_config = {"use_fast": true}
-mixed_precision = true
+mixed_precision = false
 
 [components.transformer.model.get_spans]
 @span_getters = "spacy-transformers.strided_spans.v1"
-window = 64
-stride = 32
+window = 128
+stride = 96
 
 [components.spancat]
 factory = "spancat"
@@ -227,7 +234,7 @@ grad_factor = 1.0
 
 [components.spancat.suggester]
 @misc = "spacy.ngram_suggester.v1"
-sizes = [1, 2, 3, 4, 5]
+sizes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20]
 
 [training]
 train_corpus = "corpora.train"
@@ -235,15 +242,8 @@ dev_corpus = "corpora.dev"
 seed = 42
 gpu_allocator = "pytorch"
 patience = 1600
-max_steps = 20000
 max_epochs = 30
-eval_frequency = 400
-dropout = 0.1
-accumulate_gradient = 6
-frozen_components = []
-annotating_components = []
-before_to_disk = null
-before_update = null
+eval_frequency = 200
 
 [training.optimizer]
 @optimizers = "Adam.v1"
@@ -252,190 +252,157 @@ beta2 = 0.999
 L2_is_weight_decay = true
 L2 = 0.01
 grad_clip = 1.0
-use_averages = false
-eps = 0.00000001
-learn_rate = 5e-5
+
+[training.optimizer.learn_rate]
+@schedules = "warmup_linear.v1"
+warmup_steps = 250
+total_steps = 30000
+initial_rate = 5e-5
 
 [training.batcher]
-@batchers = "spacy.batch_by_words.v1"
+@batchers = "spacy.batch_by_padded.v1"
 discard_oversize = true
-tolerance = 0.2
-get_length = null
-
-[training.batcher.size]
-@schedules = "compounding.v1"
-start = 50
-stop = 200
-compound = 1.001
-t = 0.0
+size = 2000
+buffer = 256
 
 [training.logger]
 @loggers = "spacy.ConsoleLogger.v1"
 progress_bar = true
-
-[training.score_weights]
-spans_sc_f = 1.0
-spans_sc_p = 0.0
-spans_sc_r = 0.0
 
 [corpora]
 
 [corpora.train]
 @readers = "spacy.Corpus.v1"
 path = ${paths.train}
-max_length = 128
-gold_preproc = false
-limit = 0
-augmenter = null
+max_length = 0
+shuffle = true
 
 [corpora.dev]
 @readers = "spacy.Corpus.v1"
 path = ${paths.dev}
 max_length = 0
-gold_preproc = false
-limit = 0
-augmenter = null
+shuffle = false
 
 [paths]
 train = "data/darius/train.spacy"
 dev   = "data/darius/dev.spacy"
 
-[system]
-gpu_allocator = "pytorch"
-seed = 42
-
 [initialize]
 vectors = null
 init_tok2vec = null
-vocab_data = null
-lookups = null
-before_init = null
-after_init = null
 
 [initialize.components]
 
 [initialize.components.spancat]
 
+[initialize.components.spancat.labels]
+@readers = "spacy.read_labels.v1"
+path = ${paths.train}
+require = false
 """
 
 
 def write_configs() -> None:
-    CONFIG_DIR.mkdir(exist_ok=True)
+    """Schreibt beide Config-Dateien in configs/."""
+    Path("configs").mkdir(exist_ok=True)
+    Path("configs/stage1_claim.cfg").write_text(create_stage1_config())
+    Path("configs/stage2_tap.cfg").write_text(create_stage2_config())
+    print("Config-Dateien geschrieben: configs/stage1_claim.cfg, configs/stage2_tap.cfg")
 
-    (CONFIG_DIR / "stage1_claim.cfg").write_text(create_stage1_config())
-    (CONFIG_DIR / "stage2_tap.cfg").write_text(create_stage2_config())
 
-    print("Configs geschrieben.")
-
-
-# ── PIPELINE LOADING ──────────────────────────────────────────────────────────
+# ── Modell laden ──────────────────────────────────────────────────────────────
 
 def load_pipeline(
-    stage1_path: Path = MODEL_DIR_STAGE1,
-    stage2_path: Path = MODEL_DIR_STAGE2,
-) -> Tuple[Language, Language]:
+    model_path: Path = MODEL_DIR_STAGE1 / "model-best",
+) -> Language:
+    """
+    Lädt das trainierte einstufige AM-Modell.
+    Wirft FileNotFoundError wenn noch nicht trainiert.
+    """
+    if not model_path.exists():
+        raise FileNotFoundError(
+            f"Modell nicht gefunden: {model_path}\n"
+            "Bitte zuerst python pipeline/training.py ausführen."
+        )
+    print(f"Lade Modell: {model_path}")
+    return spacy.load(str(model_path))
 
-    if not stage1_path.exists():
-        raise FileNotFoundError(f"Stufe 1 fehlt: {stage1_path}")
-    if not stage2_path.exists():
-        raise FileNotFoundError(f"Stufe 2 fehlt: {stage2_path}")
 
-    nlp1 = spacy.load(str(stage1_path))
-    nlp2 = spacy.load(str(stage2_path))
-
-    return nlp1, nlp2
-
-
-# ── INFERENCE ────────────────────────────────────────────────────────────────
+# ── Inferenz ──────────────────────────────────────────────────────────────────
 
 def predict(
-    text: str,
-    nlp_stage1: Language,
-    nlp_stage2: Language,
-    threshold1: float = 0.5,
-    threshold2: float = 0.5,
+    text:      str,
+    nlp:       Language,
+    threshold: float = 0.5,
 ) -> List[Dict]:
+    """
+    Einstufige Inferenz: erkennt alle TAP-Elemente direkt im Text.
 
-    result_spans = []
+    DistilBERT klassifiziert CLAIM / DATA / WARRANT / REBUTTAL
+    in einem Durchgang — keine zweite Stufe nötig.
 
-    doc1 = nlp_stage1(text)
-
-    claim_sentences = []
-
-    for sent in doc1.sents:
-        for span in doc1.spans.get("sc", []):
-            if span.label_ == "CLAIM" and span.start >= sent.start and span.end <= sent.end:
-                claim_sentences.append({
-                    "text": sent.text,
-                    "start_char": sent.start_char
-                })
-                break
-
-    if not claim_sentences:
-        claim_sentences = [
-            {"text": s.text, "start_char": s.start_char}
-            for s in doc1.sents
-        ]
-
-    for sent in claim_sentences:
-        doc2 = nlp_stage2(sent["text"])
-
-        for span in doc2.spans.get("sc", []):
-            score = getattr(span._, "score", 1.0)
-
-            if score < threshold2:
-                continue
-
-            result_spans.append({
-                "start": sent["start_char"] + span.start_char,
-                "end": sent["start_char"] + span.end_char,
-                "label": span.label_,
-                "text": span.text,
-                "score": round(score, 3),
-            })
-
-    return sorted(result_spans, key=lambda x: x["start"])
+    Rückgabe: Liste von Span-Dicts:
+      {"start": int, "end": int, "label": str, "text": str, "score": float}
+    """
+    doc = nlp(text)
+    result = []
+    for span in doc.spans.get("sc", []):
+        score = getattr(span._, "score", 1.0)
+        if score < threshold:
+            continue
+        result.append({
+            "start": span.start_char,
+            "end":   span.end_char,
+            "label": span.label_,
+            "text":  span.text,
+            "score": round(score, 3),
+        })
+    result.sort(key=lambda x: x["start"])
+    return result
 
 
-# ── STUB ─────────────────────────────────────────────────────────────────────
+# ── Stub für Entwicklung ohne trainiertes Modell ──────────────────────────────
 
 def predict_stub(text: str) -> List[Dict]:
+    """
+    Gibt synthetische Spans zurück solange kein trainiertes Modell vorliegt.
+    Wird von der Streamlit-App genutzt (run_model_stub in streamlit_app.py).
+    Nach dem Training durch predict() ersetzen.
+    """
     import re
-
+    spans   = []
     patterns = {
-        "CLAIM": [r"Ich .*?\.", r"sollte .*?\."] ,
-        "DATA": [r"\d+%.*?\."] ,
-        "WARRANT": [r"weil .*?\."] ,
-        "REBUTTAL": [r"Obwohl .*?\."] ,
+        "CLAIM":    [r"Ich (?:denke|meine|glaube|finde)[^.]*\.", r"sollte[^.]*\.",
+                     r"(?:bin|bleibe) ich[^.]*\."],
+        "DATA":     [r"Mit [^.]*\d+%[^.]*\.", r"\d+[^.]*(?:GWh|Jahre|km|€)[^.]*\."],
+        "WARRANT":  [r"(?:bedeutet|weil|deshalb|daher)[^.]*\.",
+                     r"Verantwortung[^.]*\."],
+        "REBUTTAL": [r"Obwohl[^.]*\.", r"obwohl[^.]*\.", r"[Jj]edoch[^.]*\."],
     }
-
-    spans = []
-
-    for label, pats in patterns.items():
-        for p in pats:
-            for m in re.finditer(p, text):
+    for label, plist in patterns.items():
+        for pat in plist:
+            for m in re.finditer(pat, text):
                 spans.append({
-                    "start": m.start(),
-                    "end": m.end(),
-                    "label": label,
-                    "text": m.group(),
-                    "score": 0.0
+                    "start": m.start(), "end": m.end(),
+                    "label": label, "text": m.group(), "score": 0.0,
                 })
+    spans.sort(key=lambda x: x["start"])
+    # Überlappungen entfernen
+    filtered, last_end = [], -1
+    for s in spans:
+        if s["start"] >= last_end:
+            filtered.append(s)
+            last_end = s["end"]
+    return filtered
 
-    return sorted(spans, key=lambda x: x["start"])
 
-
-# ── CLI ENTRY ───────────────────────────────────────────────────────────────
+# ── Direktaufruf ──────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--write-configs", action="store_true")
-
-    args = parser.parse_args()
-
-    if args.write_configs:
-        write_configs()
-
-    print("model.py fertig ausgeführt")
+    write_configs()
+    print("\nModell-Stub Test:")
+    test = ("Ich denke, dass Windkraftanlagen gefördert werden sollten. "
+            "Mit einem Wirkungsgrad von 45% sind sie effizienter. "
+            "Obwohl sie Lärm erzeugen, überwiegen die Vorteile.")
+    for span in predict_stub(test):
+        print(f"  [{span['label']}] \"{span['text'][:60]}\"")
