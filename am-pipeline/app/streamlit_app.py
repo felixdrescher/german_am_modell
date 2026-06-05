@@ -53,9 +53,6 @@ def load_models():
     try:
         from pipeline.model import load_pipeline
         nlp = load_pipeline(MODEL_DIR)
-        if not nlp.get_pipe("spancat").labels:
-            for label in TAP_LABELS:
-                nlp.get_pipe("spancat").add_label(label)
         return nlp
     except FileNotFoundError:
         return None
@@ -346,8 +343,7 @@ def main():
             st.success("✅ AM-Modell geladen")
         else:
             st.warning(
-                "⚙️ Demo-Modus\n\n"
-                "Kein trainiertes Modell gefunden.\n"
+                "Kein Modell gefunden oder Modell konnte nicht geladen werden.\n"
                 f"Erwartet in:\n`models/spacy_output/model-best`"
             )
 
