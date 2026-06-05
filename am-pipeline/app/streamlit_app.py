@@ -149,33 +149,28 @@ def read_text_file(path: Path) -> str:
 
 # ── Modell laden ─────────────────────────────────────────────────────────────
 
-MODEL_DIR_S1 = Path(__file__).parent.parent / "models" / "spacy_output" / "model-best"
+MODEL_DIR = Path(__file__).parent.parent / "models" / "spacy_output" / "model-best"
 
 
 @st.cache_resource(show_spinner="Lade AM-Modell (einmalig)...")
 def load_models():
     try:
-        import spacy
         from pipeline.model import load_pipeline
-        nlp = load_pipeline(MODEL_DIR_S1)
-        print_model_info(nlp)
+        nlp = load_pipeline(MODEL_DIR)
+
+        if not nlp.get_pipe("spancat").labels:
+            print("Warning: Labels were not auto-loaded. Patching...")
+            labels = ["CLAIM", "DATA", "REBUTTAL", "WARRANT"]
+            for label in labels:
+                nlp.get_pipe("spancat").add_label(label)
+
         return nlp
+    
     except FileNotFoundError:
         return None
     except Exception as e:
         st.warning(f"Modell konnte nicht geladen werden: {e}")
         return None
-
-def print_model_info(nlp):
-    print(nlp.pipe_names)
-
-    spancat = nlp.get_pipe("spancat")
-    print(f"Labels expected by spancat: {spancat.labels}")
-    print(f"Number of labels: {len(spancat.labels)}")
-
-    bert = nlp.get_pipe("transformer")
-    print(f"Labels expected by bert: {bert.labels}")
-    print(f"Number of labels: {len(bert.labels)}")
 
 def run_model(text: str) -> list:
     nlp = load_models()
