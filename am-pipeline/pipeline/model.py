@@ -91,8 +91,8 @@ grad_factor = 1.0
 
 [components.spancat.suggester]
 @misc = "spacy.ngram_range_suggester.v1"
-min_size = 4
-max_size = 25
+min_size = 8
+max_size = 40
 
 
 [training]
@@ -101,7 +101,7 @@ dev_corpus = "corpora.dev"
 seed = 42
 gpu_allocator = "pytorch"
 patience = 6400
-max_steps = 20000
+max_steps = 40000
 max_epochs = 30
 eval_frequency = 800
 dropout = 0.2
