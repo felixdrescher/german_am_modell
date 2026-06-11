@@ -42,7 +42,7 @@ def create_config() -> str:
 [nlp]
 lang = "de"
 pipeline = ["transformer", "spancat"]
-batch_size = 4
+batch_size = 2
 disabled = []
 before_creation = null
 after_creation = null
@@ -56,14 +56,14 @@ factory = "transformer"
 
 [components.transformer.model]
 @architectures = "spacy-transformers.TransformerModel.v3"
-name = "distilbert/distilbert-base-german-cased"
+name = "GeistBERT/GeistBERT_base"
 tokenizer_config = {"use_fast": true}
 mixed_precision = true
 
 [components.transformer.model.get_spans]
 @span_getters = "spacy-transformers.strided_spans.v1"
-window = 96
-stride = 48
+window = 64
+stride = 32
 
 [components.spancat]
 factory = "spancat"
@@ -84,7 +84,7 @@ nI = null
 
 [components.spancat.model.tok2vec]
 @architectures = "spacy-transformers.TransformerListener.v1"
-grad_factor = 1.0
+grad_factor = 0.5
 
 [components.spancat.model.tok2vec.pooling]
 @layers = "reduce_mean.v1"
@@ -117,10 +117,10 @@ beta1 = 0.9
 beta2 = 0.999
 L2_is_weight_decay = true
 L2 = 0.01
-grad_clip = 1.0
+grad_clip = 0.5
 use_averages = false
 eps = 0.00000001
-learn_rate = 5e-5
+learn_rate = 2e-5
 
 [training.batcher]
 @batchers = "spacy.batch_by_words.v1"
