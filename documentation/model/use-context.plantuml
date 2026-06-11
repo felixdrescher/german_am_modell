@@ -1,42 +1,78 @@
-@startuml Use-Case Modell
+@startuml FZ12_Anwendungskontext
 !theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
 skinparam actorStyle awesome
 
-skinparam usecase {
+skinparam rectangle {
     BackgroundColor #EEF4FB
     BorderColor #4A90D9
+    BorderThickness 2
+}
+skinparam actor {
+    BackgroundColor #FAFAFA
+    BorderColor #555
+}
+skinparam folder {
+    BackgroundColor #FFF8EC
+    BorderColor #E67E22
+}
+skinparam cloud {
+    BackgroundColor #F0FAF4
+    BorderColor #27AE60
 }
 
-left to right direction
+title Anwendungskontext: AM-Modell (FZ 1.2)
 
 ' ── Akteure ──────────────────────────────────────────────
 actor "Entwickler" as DEV #PaleGreen
 actor "Forscher:in" as RESEARCHER #LightSalmon
+actor "Kaggle Kernel .ipynb" as KAGGLE #LightBlue
 
-' ── Use Cases ─────────────────────────────────────────────
-rectangle "AM-Modell System" {
-    usecase "UC1: Korpus vorverarbeiten" as UC1
-    usecase "UC2: Modell trainieren" as UC2
-    usecase "UC3: Modell-Hyperparameter anpassen" as UC3
-    usecase "UC4: Modell interaktiv testen" as UC4
-    usecase "UC5: Modell-Performance analysieren" as UC5
-    usecase "UC6: Code versionieren" as UC6
+' ── Externes System im Fokus ─────────────────────────────
+rectangle "AM-Modell\n(NLP-Pipeline)" as AM {
+    folder "DARIUS-Korpus" as DARIUS
+    rectangle "preprocessing.py" as PRE
+    file "dev.spacy" as DTEST
+    file "train.spacy" as DTRAIN
+    rectangle "training.py" as TRAIN
+    file "model.cfg" as CFG 
+    rectangle "model.py" as INF
+    folder "model-best/\n(trainiertes Modell)" as MODEL
 }
 
+' ── Externe Datenquellen ──────────────────────────────────
+cloud "HuggingFace" as HF
+cloud "GIT-Repository" as GIT
+
+' ── Streamlit App (Nachbarsystem) ────────────────────────
+rectangle "Schnittstelle\n(Evaluierungsumgebung)" as UI
+>>>>>>> 10de73bc7479c4a80aeff9b7d8883e7184055106
+
 ' ── Beziehungen ───────────────────────────────────────────
-' Entwickler fokussiert auf Setup und Code
-DEV --> UC1
-DEV --> UC6
-DEV --> UC2
+' extern
+RESEARCHER  -down-> UI              : nutzt
+KAGGLE      -up-> GIT               : lädt Code       
+DEV         -left-> KAGGLE          : startet
 
-' Forscher fokussiert auf Anwendung und Analyse
-RESEARCHER --> UC3
-RESEARCHER --> UC4
-RESEARCHER --> UC5
+' extern <-> intern
+UI          -left-> INF             : ruft auf
+INF         -right-> UI             : Span-Liste
+AM          -[dashed]up-> GIT       : wird gespeichert\lund versioniert
+KAGGLE      -down-> PRE             : führt aus
+KAGGLE      -down-> TRAIN           : führt aus
+KAGGLE      -down-> CFG             : ändert
+TRAIN       -[dashed]left-> HF      : lädt vortrainiertes Modell
 
-' Logische Abhängigkeiten
-UC2 ..> UC1 : <<include>>
-UC3 ..> UC2 : <<extend>>
-UC5 ..> UC4 : <<extend>>
+' intern
+DARIUS      -down-> PRE             : .tsv-Dateien
+PRE         -down-> DTRAIN          : erzeugt
+PRE         -down-> DTEST           : erzeugt
+TRAIN       -up-> DTRAIN            : nutzt\l(Training)
+TRAIN       -up-> DTEST             : nutzt\l(Evalution)
+TRAIN       -right-> CFG            : liest
+INF         -left-> MODEL           : ruft auf
+TRAIN       -down-> MODEL           : speichert bestes\lModell
 
 @enduml
