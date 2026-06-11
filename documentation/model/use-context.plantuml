@@ -1,21 +1,77 @@
-@startuml Context-Diagrammkaggle kernels output felixdrescher/am-modell-1 -p /path/to/dest
-left to right direction
+@startuml FZ12_Anwendungskontext
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+skinparam actorStyle awesome
 
-actor "Data Scientist" as DS
-actor "End User / Pipeline" as EU
+skinparam rectangle {
+    BackgroundColor #EEF4FB
+    BorderColor #4A90D9
+    BorderThickness 2
+}
+skinparam actor {
+    BackgroundColor #FAFAFA
+    BorderColor #555
+}
+skinparam folder {
+    BackgroundColor #FFF8EC
+    BorderColor #E67E22
+}
+skinparam cloud {
+    BackgroundColor #F0FAF4
+    BorderColor #27AE60
+}
 
-rectangle "Argumentation Mining Modell" as AMM
+title Anwendungskontext: AM-Modell (FZ 1.2)
 
-database "TSV Dataset (Annotated Data)" as DATA
-database "Configuration Files" as CFG
+' ── Akteure ──────────────────────────────────────────────
+actor "Entwickler" as DEV #PaleGreen
+actor "Forscher:in" as RESEARCHER #LightSalmon
+actor "Kaggle Kernel .ipynb" as KAGGLE #LightBlue
 
-DS --> AMM : train / test / configure
-EU --> AMM : predict (inference)
+' ── Externes System im Fokus ─────────────────────────────
+rectangle "AM-Modell\n(NLP-Pipeline)" as AM {
+    folder "DARIUS-Korpus" as DARIUS
+    rectangle "preprocessing.py" as PRE
+    file "dev.spacy" as DTEST
+    file "train.spacy" as DTRAIN
+    rectangle "training.py" as TRAIN
+    file "model.cfg" as CFG 
+    rectangle "model.py" as INF
+    folder "model-best/\n(trainiertes Modell)" as MODEL
+}
 
-DATA --> AMM : training data input
-CFG --> AMM : training configuration
+' ── Externe Datenquellen ──────────────────────────────────
+cloud "HuggingFace" as HF
+cloud "GIT-Repository" as GIT
 
-AMM --> EU : annotated JSON output
-AMM --> DS : evaluation results
+' ── Streamlit App (Nachbarsystem) ────────────────────────
+rectangle "Schnittstelle\n(Evaluierungsumgebung)" as UI
+
+' ── Beziehungen ───────────────────────────────────────────
+' extern
+RESEARCHER  -down-> UI              : nutzt
+KAGGLE      -up-> GIT               : lädt Code       
+DEV         -left-> KAGGLE          : startet
+
+' extern <-> intern
+UI          -left-> INF             : ruft auf
+INF         -right-> UI             : Span-Liste
+AM          -[dashed]up-> GIT       : wird gespeichert\lund versioniert
+KAGGLE      -down-> PRE             : führt aus
+KAGGLE      -down-> TRAIN           : führt aus
+KAGGLE      -down-> CFG             : ändert
+TRAIN       -[dashed]left-> HF      : lädt vortrainiertes Modell
+
+' intern
+DARIUS      -down-> PRE             : .tsv-Dateien
+PRE         -down-> DTRAIN          : erzeugt
+PRE         -down-> DTEST           : erzeugt
+TRAIN       -up-> DTRAIN            : nutzt\l(Training)
+TRAIN       -up-> DTEST             : nutzt\l(Evalution)
+TRAIN       -right-> CFG            : liest
+INF         -left-> MODEL           : ruft auf
+TRAIN       -down-> MODEL           : speichert bestes\lModell
 
 @enduml
