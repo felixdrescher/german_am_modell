@@ -1,23 +1,49 @@
-@startuml Use-Case
-left to right direction
+@startuml Use-Case Modell
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+skinparam actorStyle awesome
 
-actor "Programmierer" as FE
-actor "Forschende" as FO
-
-rectangle "Argumentation Mining Modell" {
-
-  usecase "Train Model" as UC1
-  usecase "Preprocess Data" as UC2
-  usecase "Configure Training" as UC3
-  usecase "Predict Argument Structure" as UC4
-
-  UC1 --> UC2 : <<include>>
+skinparam usecase {
+    BackgroundColor #EEF4FB
+    BorderColor #4A90D9
+    ArrowColor #4A90D9
+}
+skinparam actor {
+    BackgroundColor #FAFAFA
+    BorderColor #555
 }
 
-FE --> UC1
-FE --> UC3
-FE --> UC2
+left to right direction
 
-FO --> UC4
+' ── Akteure ──────────────────────────────────────────────
+actor "Entwickler" as DEV #PaleGreen
+actor "Forscher:in" as RES #LightSalmon
+
+' ── Use Cases ─────────────────────────────────────────────
+rectangle "AM-Modell Pipeline" {
+    usecase "UC1: Modell trainieren" as UC1
+    usecase "UC2: Daten vorverarbeiten" as UC2
+    usecase "UC3: Modell evaluieren" as UC3
+    usecase "UC4: Modell über API nutzen" as UC4
+    
+    ' Layout-Stabilisierung (Hidden Links)
+    UC2 -[hidden]down-> UC1
+    UC1 -[hidden]down-> UC3
+    UC3 -[hidden]down-> UC4
+}
+
+' ── Beziehungen ───────────────────────────────────────────
+' Akteure mit ihren primären Zielen
+DEV --> UC1
+RES --> UC4
+
+' Fachliche Abhängigkeiten
+' UC1 benötigt zwingend UC2
+UC1 ..> UC2 : <<include>>
+
+' Optionale Erweiterungen (vom erweiternden UC zum Basis-UC)
+UC3 ..> UC1 : <<extend>>
 
 @enduml
