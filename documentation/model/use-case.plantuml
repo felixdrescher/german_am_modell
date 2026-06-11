@@ -1,5 +1,6 @@
 @startuml Use-Case Modell
 !theme plain
+
 skinparam defaultFontName Arial
 skinparam defaultFontSize 12
 skinparam roundcorner 8
@@ -21,31 +22,28 @@ left to right direction
 actor "Entwickler" as DEV #PaleGreen
 actor "Forscher:in" as RES #LightSalmon
 
-' ── Use Cases ─────────────────────────────────────────────
 rectangle "AM-Modell Pipeline" {
-    usecase "UC1: Modell-Training" as UC1
-    usecase "UC2: DARIUS Preprocessing" as UC2
-    usecase "UC3: Modell Evaluation" as UC3
-    usecase "UC4: Modell nutzen" as UC4
-    
-    ' Layout-Stabilisierung (Hidden Links)
-    UC2 -[hidden]down-> UC1
-    UC1 -[hidden]down-> UC3
-    UC3 -[hidden]down-> UC4
+    usecase "Modell auf TAP-Elemente\nin DARIUS trainieren" as UC1
+    usecase "Modell-Konfiguration\nfestlegen" as UC2
+    usecase "DARIUS-Korpus laden\nund Vorverarbeitung" as UC3
+    usecase "Modell evaluieren" as UC4
+    usecase "bestes Modell\nspeichern" as UC5
+    usecase "Modell laden" as UC6
 }
 
-' ── Beziehungen ───────────────────────────────────────────
-' Akteure mit ihren primären Zielen
+component "Evaluierungsumgebung" as EVAL_ENV <<system>> #LightYellow
+
+' Beziehungen
 DEV --> UC1
-RES --> UC4
+RES --> EVAL_ENV : <<uses>>
+EVAL_ENV --> UC6
 
-' Fachliche Abhängigkeiten
-' UC1 benötigt zwingend UC2
+' Hierarchien: Konfiguration ist Teil des Trainings-Workflows
 UC1 ..> UC2 : <<include>>
-
-' Optionale Erweiterungen (vom erweiternden UC zum Basis-UC)
-UC3 ..> UC1 : <<extend>>
-UC4 ..> UC1 : <<include>>
+UC1 ..> UC3 : <<include>>
+UC1 ..> UC4 : <<include>>
+UC5 .right.> UC1 : <<extend>>
+UC6 ..> UC5 : <<include>>
 
 
 @enduml

@@ -1,0 +1,31 @@
+@startuml Activity Diagram: Modell laden
+!theme plain
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+
+start
+
+partition "Test- und Evaluierungsumgebung" {
+
+    :Starten der App durch Benutzer:in;
+}
+
+
+partition "AM-Modell Pipeline" {
+
+    :iteratives Training starten;
+    :Evaluation auf Testdaten durchführen;
+    :Training stoppen sobald keine 
+    Verbesserungen mehr sichtbar sind;
+    :Bestes Modell auswählen und speichern;
+
+}
+
+
+:favorisiertes Modell im Projekt ablegen;
+
+stop
+
+@enduml
