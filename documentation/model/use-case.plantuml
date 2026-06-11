@@ -23,10 +23,10 @@ actor "Forscher:in" as RES #LightSalmon
 
 ' ── Use Cases ─────────────────────────────────────────────
 rectangle "AM-Modell Pipeline" {
-    usecase "UC1: Modell trainieren" as UC1
-    usecase "UC2: Daten vorverarbeiten" as UC2
-    usecase "UC3: Modell evaluieren" as UC3
-    usecase "UC4: Modell über API nutzen" as UC4
+    usecase "UC1: Modell-Training" as UC1
+    usecase "UC2: DARIUS Preprocessing" as UC2
+    usecase "UC3: Modell Evaluation" as UC3
+    usecase "UC4: Modell nutzen" as UC4
     
     ' Layout-Stabilisierung (Hidden Links)
     UC2 -[hidden]down-> UC1
@@ -45,5 +45,7 @@ UC1 ..> UC2 : <<include>>
 
 ' Optionale Erweiterungen (vom erweiternden UC zum Basis-UC)
 UC3 ..> UC1 : <<extend>>
+UC4 ..> UC1 : <<include>>
+
 
 @enduml
