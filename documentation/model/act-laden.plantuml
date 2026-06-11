@@ -1,9 +1,13 @@
 @startuml Activity Diagram: Modell laden
-!theme plain
+!theme mars
 
 skinparam defaultFontName Arial
 skinparam defaultFontSize 12
 skinparam roundcorner 8
+
+skinparam arrow {
+    Color #4A90D9
+}
 
 start
 
@@ -15,16 +19,10 @@ partition "Test- und Evaluierungsumgebung" {
 
 partition "AM-Modell Pipeline" {
 
-    :iteratives Training starten;
-    :Evaluation auf Testdaten durchführen;
-    :Training stoppen sobald keine 
-    Verbesserungen mehr sichtbar sind;
-    :Bestes Modell auswählen und speichern;
-
+    :Modell aus Projektverzeichnis laden;
+    :Über Methode Inferenz für die App bereitstellen;
 }
 
-
-:favorisiertes Modell im Projekt ablegen;
 
 stop
 
