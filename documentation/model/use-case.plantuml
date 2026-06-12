@@ -19,30 +19,31 @@ left to right direction
 
 ' ── Akteure ──────────────────────────────────────────────
 actor "Entwickler" as DEV #PaleGreen
-actor "Forscher:in" as RES #LightSalmon
 
 rectangle "AM-Modell Pipeline" {
+    
     usecase "Modell auf TAP-Elemente\nin DARIUS trainieren" as UC1
-    usecase "Modell-Konfiguration\nfestlegen" as UC2
-    usecase "DARIUS-Korpus laden\nund Vorverarbeitung" as UC3
-    usecase "Modell evaluieren" as UC4
-    usecase "bestes Modell\nspeichern" as UC5
-    usecase "Modell laden" as UC6
+    usecase "Modell-Konfiguration\ninitial festlegen" as UC1_1
+    usecase "DARIUS-Korpus laden\nund Vorverarbeitung" as UC1_2
+    usecase "Modell evaluieren" as UC1_3
+
+    usecase "Modellkonfiguration ändern" as UC2
+    
+    usecase "Modell\nspeichern" as UC5
 }
 
-component "Evaluierungsumgebung" as EVAL_ENV <<system>> #LightYellow
-
 ' Beziehungen
+DEV --> UC2
 DEV --> UC1
-RES --> EVAL_ENV : <<uses>>
-EVAL_ENV --> UC6
 
 ' Hierarchien: Konfiguration ist Teil des Trainings-Workflows
-UC1 ..> UC2 : <<include>>
-UC1 ..> UC3 : <<include>>
-UC1 ..> UC4 : <<include>>
-UC5 .right.> UC1 : <<extend>>
-UC6 ..> UC5 : <<include>>
+UC1 .down.> UC1_1 : <<include>>
+UC1 .down.> UC1_2 : <<include>>
+UC1 .down.> UC1_3 : <<include>>
+UC2 .left.> UC1 : <<extend>>
+
+UC5 .left.> UC1 : <<extend>>
+UC2 .down.> UC1_1 : <<include>>
 
 
 @enduml

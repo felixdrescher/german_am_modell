@@ -1,0 +1,34 @@
+@startuml Activity Diagram: OHI-Texte laden
+!theme mars
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+
+skinparam arrow {
+    Color #4A90D9
+}
+
+|Forscher:in|
+start
+:Oral History Interview laden;
+:Button-Klick "Analysieren";
+
+|Test- und Evaluierungsumgebung|
+:Inferenzmethode des AM-Modells mit\nOHI-Text als Parameter aufrufen;
+
+if (Spans mit Score über\ngewissem Treshold erkannt?) then (ja)
+
+    :Anzeige erkannter Spans mit\nLabels in Textfenster;
+
+else (nein)
+
+    :Text anzeigen mit Hinweis\nkeine Spans erkannt;
+
+endif
+
+
+
+stop
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml Activity Diagram: Konfiguration ändern
+!theme mars
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+
+skinparam arrow {
+    Color #4A90D9
+}
+
+start
+
+:Pipeline initial konfigurieren;
+
+if (Anpassung nötig?) then (ja)
+
+    fork
+        :Änderung an der Konfigurationsdatei für spaCy\n(Modell Hyperparameter und Pipeline-Aufbau);
+    fork again
+        :Änderungen am Postprocessing\n(nach Modellinferenz);
+    end fork
+
+    :Änderungen speichern;
+
+endif
+
+stop
+
+@enduml

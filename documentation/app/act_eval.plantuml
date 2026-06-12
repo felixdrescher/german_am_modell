@@ -1,0 +1,41 @@
+@startuml Activity Diagram: OHI-Texte laden
+!theme mars
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+
+skinparam arrow {
+    Color #4A90D9
+}
+
+start
+
+:TAP-Elemente in OHI mit AM-Modell klassifizieren;
+
+if (Bearbeitung nötig?) then (ja)
+
+    repeat
+
+        fork
+        :neue Span hinzufügen;
+        fork again
+        :erkannte Span bearbeiten;
+            fork
+            :Span löschen;
+            fork again
+            :Grenzen verschieben;
+            fork again
+            :Label ändern;
+            end fork
+        end fork
+
+    repeat while (weitere Bearbeitung?) is (ja)
+
+endif
+
+    :annotierte Datei exportieren;
+
+stop
+
+@enduml

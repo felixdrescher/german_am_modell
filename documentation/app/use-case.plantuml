@@ -9,6 +9,7 @@ skinparam usecase {
     BorderColor #4A90D9
     ArrowColor #4A90D9
 }
+
 skinparam actor {
     BackgroundColor #FAFAFA
     BorderColor #555
@@ -17,52 +18,43 @@ skinparam actor {
 left to right direction
 
 ' ── Akteure ──────────────────────────────────────────────
-actor "Forscher:in" as USER
-component "AM-Modell"  as MODEL
+actor "Forscher:in" as USER #LightSalmon
+component "AM-Modell"  as MODEL <<system>> #LightYellow
 
 ' ── Use Cases ─────────────────────────────────────────────
 rectangle "Test- und Evaluierungsumgebung" {
 
-    usecase "OHI-Textdateien laden/auswählen" as UC1
-    usecase "UC1\nVerzeichnis\nauswählen" as UC2
-    usecase "UC2\nTextdatei\nauswählen" as UC3
-    usecase "UC3\nText auf TAP-\nElemente analysieren" as UC4
-    usecase "UC4\nTAP-Elemente\nvisualisieren" as UC5
-    usecase "UC5\nSpan-Label\nkorrigieren" as UC6
-    usecase "UC6\nSpan-Grenzen\nanpassen" as UC7
-    usecase "UC7\nSpan löschen" as UC8
-    usecase "UC8\nNeue Span\nhinzufügen" as UC9
-    usecase "UC9\nFortschritt\nspeichern" as UC10
-    usecase "UC10\nSession\nfortsetzen" as UC11
-    usecase "UC11\nAnnotation als\nJSON exportieren" as UC12
-    usecase "UC12\nSession als\nfertig markieren" as UC13
+    usecase "Oral History Interviews laden" as UC1
+    usecase "Pfadangabe für Dateien machen" as UC1_1
+    usecase "Ordnerauswahl mit Anzeige\nenthaltener Textdateien" as UC1_1_1
+
+    usecase "TAP-Elemente in OHI-Texten\nklassifizieren" as UC2
+    usecase "Modellinferenz starten" as UC2_1
+    usecase "AM-Modell laden" as UC2_1_1
+
+    usecase "Klasifizierung durch das Modell\nbewerten" as UC3
+    usecase "grafische Anzeige erkannter\nSpans mit Label" as UC3_1
+    usecase "Manuell neue Spans hinzufügen" as UC3_2
+    usecase "Erkannte Spans bearbeiten/\nlöschen" as UC3_3
+    usecase "Bewertung abspeichern/\nexportieren" as UC3_4
 }
 
 ' ── Beziehungen Forscher:in ────────────────────────────────
-' USER --> UC1
-' USER --> UC2
-' USER --> UC3
-' USER --> UC5
-' USER --> UC6
-' USER --> UC7
-' USER --> UC8
-' USER --> UC9
-' USER --> UC10
-' USER --> UC11
-' USER --> UC12
-
-' ── Beziehungen AM-Modell ─────────────────────────────────
+USER --> UC1
+USER --> UC2
+USER --> UC3
 
 ' ── Include / Extend ──────────────────────────────────────
-' UC1  .> UC2  : <<include>>
-' UC2  .> UC3  : <<include>>
-' UC3  .> UC4  : <<include>>
-' UC5  .> UC4  : <<extend>>
-' UC6  .> UC4  : <<extend>>
-' UC7  .> UC4  : <<extend>>
-' UC8  .> UC4  : <<extend>>
-' UC9  .> UC10 : <<extend>>\nbei erneutem Laden
-' UC11 .> UC9  : <<extend>>
-' UC12 .> UC9  : <<include>>
+UC1         .right.>    UC1_1  : <<include>>
+UC1_1_1     .up.>       UC1_1 : <<extend>>
+UC2         .right.>    UC1  : <<include>>
+UC2         .down.>     UC2_1  : <<include>>
+UC2_1       .right.>    UC2_1_1 : <<include>>
+UC2_1_1     .down.>     MODEL : <<use>>
+UC3         .right.>    UC2 : <<include>>
+UC3         .left.>     UC3_1 : <<include>>
+UC3         .down.>     UC3_3 : <<include>>
+UC3_2       .up.>       UC3 : <<extend>>
+UC3         .down.>     UC3_4 : <<include>>
 
 @enduml

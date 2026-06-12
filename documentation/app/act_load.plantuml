@@ -1,0 +1,36 @@
+@startuml Activity Diagram: OHI-Texte laden
+!theme mars
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+
+skinparam arrow {
+    Color #4A90D9
+}
+
+|Forscher:in|
+start
+:OHI als Textdateien in ausgewähltes\nVerzeichnis ablegen;
+
+|Forscher:in|
+repeat :Ordnerpfad in Textfeld eingeben;
+
+|Test- und Evaluierungsumgebung|
+backward:Warnung: kein Verzeichnis mit\ndiesem Namen gefunden;
+
+|Forscher:in|
+:Button-Klick "Ordner durchsuchen"; 
+
+|Test- und Evaluierungsumgebung|
+repeat while (Verzeichnis gefunden?) is (nein)
+
+|Test- und Evaluierungsumgebung|
+:Alle gefundenen Textdateien mit\nName in Dropdown anzeigen;
+
+|Forscher:in|
+:eine Textdatei auswählen;
+
+stop
+
+@enduml
