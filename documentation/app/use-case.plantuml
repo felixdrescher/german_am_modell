@@ -1,22 +1,68 @@
-@startuml Anwendungskontext
+@startuml FZ22_UseCases
+!theme mars
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+skinparam actorStyle awesome
+
+skinparam usecase {
+    BorderColor #4A90D9
+    ArrowColor #4A90D9
+}
+skinparam actor {
+    BackgroundColor #FAFAFA
+    BorderColor #555
+}
+
 left to right direction
 
-actor "Forschender" as Researcher
+' ── Akteure ──────────────────────────────────────────────
+actor "Forscher:in" as USER
+component "AM-Modell"  as MODEL
 
-rectangle "Test- und\nEvaluierungsumgebung" as EvalSystem
+' ── Use Cases ─────────────────────────────────────────────
+rectangle "Test- und Evaluierungsumgebung" {
 
-rectangle "AM-Modell /\nNLP-Pipeline" as Pipeline
-rectangle "OHI-Datenbestand" as OHI
-rectangle "Feedback-Datenbank" as Feedback
+    usecase "OHI-Textdateien laden/auswählen" as UC1
+    usecase "UC1\nVerzeichnis\nauswählen" as UC2
+    usecase "UC2\nTextdatei\nauswählen" as UC3
+    usecase "UC3\nText auf TAP-\nElemente analysieren" as UC4
+    usecase "UC4\nTAP-Elemente\nvisualisieren" as UC5
+    usecase "UC5\nSpan-Label\nkorrigieren" as UC6
+    usecase "UC6\nSpan-Grenzen\nanpassen" as UC7
+    usecase "UC7\nSpan löschen" as UC8
+    usecase "UC8\nNeue Span\nhinzufügen" as UC9
+    usecase "UC9\nFortschritt\nspeichern" as UC10
+    usecase "UC10\nSession\nfortsetzen" as UC11
+    usecase "UC11\nAnnotation als\nJSON exportieren" as UC12
+    usecase "UC12\nSession als\nfertig markieren" as UC13
+}
 
-Researcher --> EvalSystem : analysiert\nInterviews
+' ── Beziehungen Forscher:in ────────────────────────────────
+' USER --> UC1
+' USER --> UC2
+' USER --> UC3
+' USER --> UC5
+' USER --> UC6
+' USER --> UC7
+' USER --> UC8
+' USER --> UC9
+' USER --> UC10
+' USER --> UC11
+' USER --> UC12
 
-OHI --> EvalSystem : Interviewtexte
+' ── Beziehungen AM-Modell ─────────────────────────────────
 
-EvalSystem --> Pipeline : Klassifikation\nanfordern
-
-Pipeline --> EvalSystem : TAP-Elemente
-
-EvalSystem --> Feedback : Korrekturen\nspeichern
+' ── Include / Extend ──────────────────────────────────────
+' UC1  .> UC2  : <<include>>
+' UC2  .> UC3  : <<include>>
+' UC3  .> UC4  : <<include>>
+' UC5  .> UC4  : <<extend>>
+' UC6  .> UC4  : <<extend>>
+' UC7  .> UC4  : <<extend>>
+' UC8  .> UC4  : <<extend>>
+' UC9  .> UC10 : <<extend>>\nbei erneutem Laden
+' UC11 .> UC9  : <<extend>>
+' UC12 .> UC9  : <<include>>
 
 @enduml

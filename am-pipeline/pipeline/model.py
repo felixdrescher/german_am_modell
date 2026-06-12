@@ -51,7 +51,7 @@ def load_pipeline(
 def predict(
     text:      str,
     nlp:       Language,
-    threshold: float = 0.5,
+    threshold: float = 0.6,
 ) -> List[Dict]:
     """
     Einstufige Inferenz: erkennt alle TAP-Elemente direkt im Text.
@@ -62,18 +62,45 @@ def predict(
       {"start": int, "end": int, "label": str, "text": str, "score": float}
     """
     doc = nlp(text)
-    result = []
+    
+    # 1. Alle validen Spans extrahieren
+    raw_spans = []
     for span in doc.spans.get("sc", []):
         score = getattr(span._, "score", 1.0)
-        if score < threshold:
-            continue
+        if score >= threshold:
+            raw_spans.append(span)
+            
+    # 2. Post-Processing: Label-aware NMS
+    # Sortiere nach Score absteigend
+    raw_spans.sort(key=lambda s: getattr(s._, "score", 1.0), reverse=True)
+    
+    final_spans = []
+    for span in raw_spans:
+        overlap = False
+        for accepted in final_spans:
+            # Check auf Überlappung
+            if span.start < accepted.end and accepted.start < span.end:
+                # NUR wenn die Labels gleich sind, löschen wir den schlechteren Span
+                if span.label_ == accepted.label_:
+                    overlap = True
+                    break
+                # Wenn die Labels unterschiedlich sind, lassen wir ihn drin 
+                # (kein break, kein overlap = True für das Löschen)
+        
+        if not overlap:
+            final_spans.append(span)
+            
+    # 3. Formatierung
+    result = []
+    for span in final_spans:
         result.append({
             "start": span.start_char,
             "end":   span.end_char,
             "label": span.label_,
             "text":  span.text,
-            "score": round(score, 3),
+            "score": round(getattr(span._, "score", 1.0), 3),
         })
+        
     result.sort(key=lambda x: x["start"])
     return result
 

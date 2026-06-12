@@ -1,0 +1,58 @@
+@startuml FZ22_Anwendungskontext
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+skinparam actorStyle awesome
+
+skinparam rectangle {
+    BackgroundColor #EEF4FB
+    BorderColor #4A90D9
+    BorderThickness 2
+}
+skinparam actor {
+    BackgroundColor #FAFAFA
+    BorderColor #555
+}
+skinparam database {
+    BackgroundColor #FFF8EC
+    BorderColor #E67E22
+}
+
+title Anwendungskontext: Test- und Evaluierungsumgebung (FZ 2.2)
+
+' ── Akteure ──────────────────────────────────────────────
+actor "Forscher:in\n(Nutzer)" as USER
+
+' ── System im Fokus ──────────────────────────────────────
+rectangle "Test- und Evaluierungsumgebung\n(Streamlit-App)" as APP {
+    rectangle "Dateiauswahl &\nTextanzeige" as VIEW
+    rectangle "Analyse-\nsteuerung" as CTRL
+    rectangle "Span-Visuali-\nsierung" as VIS
+    rectangle "Annotations-\nEditor" as EDIT
+    rectangle "Persistenz &\nExport" as SAVE
+}
+
+' ── Externe Systeme ───────────────────────────────────────
+database "OHI-Textdateien\n(.txt)" as OHI
+database "progress.db\n(SQLite)" as DB
+database "annotation_*.json\n(Fine-Tuning Export)" as JSON
+rectangle "AM-Modell\n(model.py)" as MODEL
+
+' ── Beziehungen ───────────────────────────────────────────
+USER  --> VIEW  : wählt Datei\nund Verzeichnis
+USER  --> CTRL  : startet Analyse
+USER  --> EDIT  : bewertet und\nkorrigiert Spans
+USER  --> SAVE  : speichert /\nexportiert
+
+OHI   --> VIEW  : liefert\nRohtext
+VIEW  --> CTRL  : übergibt Text
+CTRL  --> MODEL : ruft predict(text) auf
+MODEL --> VIS   : gibt Span-Liste zurück
+VIS   --> EDIT  : zeigt annotierter\nText
+
+SAVE  --> DB    : persistiert\nArbeitsfortschritt
+DB    --> EDIT  : lädt gespeicherte\nSession
+SAVE  --> JSON  : exportiert\nAnnotationen
+
+@enduml
