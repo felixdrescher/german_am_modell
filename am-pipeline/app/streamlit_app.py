@@ -87,7 +87,7 @@ def render_displacy(text: str, spans: list):
         title=f"🎨 Erkannte TAP-Elemente",
         spans_key="sc",
         displacy_options={"colors": TAP_COLORS},
-        show_table=True
+        show_table=False
     )
 
 
