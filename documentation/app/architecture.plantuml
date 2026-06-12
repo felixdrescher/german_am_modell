@@ -1,0 +1,78 @@
+@startuml FZ22_Architektur
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam roundcorner 8
+
+skinparam package {
+    BackgroundColor #F0FAF4
+    BorderColor #27AE60
+    FontColor #333
+    FontStyle bold
+}
+skinparam component {
+    BackgroundColor white
+    BorderColor #27AE60
+}
+skinparam database {
+    BackgroundColor #FFF8EC
+    BorderColor #E67E22
+}
+skinparam actor {
+    BackgroundColor #FAFAFA
+    BorderColor #333
+}
+
+title Systemarchitektur: Test- und Evaluierungsumgebung (FZ 2.2)
+
+actor "Forscher:in" as USER
+
+' ── Schicht 1: Präsentationsschicht ─────────────────────────────────────────
+package "Präsentationsschicht\n(Streamlit UI)" {
+    component "Dateiauswahl\n─────────────\nFileScanner\nTextvorschau" as FILEUI
+    component "Analyseergebnis\n─────────────\nhighlight_text()\nSpan-Visualisierung" as VISUI
+    component "Annotationseditor\n─────────────\nrender_annotation_\neditor()" as EDITUI
+    component "Persistenz-UI\n─────────────\nSpeichern\nExportieren" as SAVEUI
+}
+
+' ── Schicht 2: Anwendungslogik ───────────────────────────────────────────────
+package "Anwendungsschicht" {
+    component "Analysekontrolle\n─────────────\nrun_model()\nload_models()\n@cache_resource" as CTRL
+    component "Sessionverwaltung\n─────────────\ndb_save_session()\ndb_load_session()\ndb_list_sessions()" as SESS
+    component "Exportlogik\n─────────────\nexport_feedback()\nJSON-Serialisierung" as EXP
+}
+
+' ── Schicht 3: Datenzugriffsschicht ─────────────────────────────────────────
+package "Datenzugriffsschicht" {
+    component "AMModelAdapter\n─────────────\nmodel.py\nload_pipeline()\npredict()" as MODELADP
+    component "FileAdapter\n─────────────\nscan_text_directory()\nread_text_file()" as FILEADP
+    component "DBAdapter\n─────────────\nsqlite3\ndb_connect()\ndb_init()" as DBADP
+}
+
+' ── Schicht 4: Externe Ressourcen ────────────────────────────────────────────
+database "OHI-Textdateien\n(*.txt)" as OHI
+database "model-best/\n(AM-Modell)" as MODELFILES
+database "progress.db\n(SQLite)" as DB
+database "annotation_*.json\n(Fine-Tuning)" as JSON
+
+' ── Vertikale Abhängigkeiten ─────────────────────────────────────────────────
+USER     --> FILEUI
+USER     --> EDITUI
+USER     --> SAVEUI
+
+FILEUI   --> CTRL
+FILEUI   --> FILEADP
+VISUI    <-- CTRL
+EDITUI   --> CTRL
+SAVEUI   --> SESS
+SAVEUI   --> EXP
+
+CTRL     --> MODELADP
+SESS     --> DBADP
+EXP      --> JSON
+
+MODELADP --> MODELFILES
+FILEADP  --> OHI
+DBADP    --> DB
+
+@enduml

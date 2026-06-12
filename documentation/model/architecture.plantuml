@@ -1,0 +1,75 @@
+@startuml FZ12_Architektur
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam roundcorner 8
+
+skinparam package {
+    BackgroundColor #EEF4FB
+    BorderColor #4A90D9
+    FontColor #333
+    FontStyle bold
+}
+skinparam component {
+    BackgroundColor white
+    BorderColor #4A90D9
+}
+skinparam database {
+    BackgroundColor #FFF8EC
+    BorderColor #E67E22
+}
+skinparam cloud {
+    BackgroundColor #F0FAF4
+    BorderColor #27AE60
+}
+
+title Systemarchitektur: AM-Modell-Pipeline (FZ 1.2)
+
+' ── Schicht 1: Externe Daten ─────────────────────────────────────────────────
+package "Datenschicht" {
+    database "DARIUS-Korpus\n(*.tsv)" as DARIUS
+    database "train.spacy\ndev.spacy" as DOCBIN
+    database "model-best/\n(trainiertes Modell)" as MODELFILES
+    database "am_model_best_*.zip\n(Export)" as ZIP
+}
+
+' ── Schicht 2: Vorverarbeitung ───────────────────────────────────────────────
+package "Vorverarbeitungsschicht" {
+    component "preprocessing.py\n─────────────────\nparse_webanno_tsv()\nextract_spans()\nload_and_convert()" as PRE
+}
+
+' ── Schicht 3: Training ──────────────────────────────────────────────────────
+package "Trainingsschicht" {
+    component "training.py\n─────────────────\ncheck_prerequisites()\nrun_training()\nrun_evaluation()\nzip_model()" as TRAIN
+
+    component "stage1_claim.cfg\n─────────────────\nSpanCategorizer\nngram_suggester\nAdam lr=5e-5" as CFG
+}
+
+' ── Schicht 4: Modell ────────────────────────────────────────────────────────
+package "Modellschicht" {
+    component "model.py\n─────────────────\nload_pipeline()\npredict()\npredict_stub()" as MODEL
+}
+
+' ── Externe Abhängigkeiten ───────────────────────────────────────────────────
+cloud "HuggingFace Hub\ndistilbert-base-\ngerman-cased" as HF
+
+cloud "Kaggle / Colab\nGPU-Kernel\n(T4)" as GPU
+
+' ── Abhängigkeiten ────────────────────────────────────────────────────────────
+DARIUS      --> PRE    : liest TSV
+PRE         --> DOCBIN : schreibt DocBin
+DOCBIN      --> TRAIN  : Trainings-\nkorpus
+CFG         --> TRAIN  : konfiguriert
+HF          --> TRAIN  : lädt\nSprachmodell
+GPU         --> TRAIN  : führt aus
+TRAIN       --> MODELFILES : speichert
+MODELFILES  --> ZIP    : komprimiert
+MODELFILES  --> MODEL  : lädt
+
+note bottom of MODEL
+  Wird von der
+  Streamlit-App
+  importiert
+end note
+
+@enduml

@@ -1,0 +1,129 @@
+@startuml FZ12_Informationsmodell
+!theme mars
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam roundcorner 8
+skinparam classAttributeIconSize 0
+
+skinparam class {
+    BackgroundColor #EEF4FB
+    BorderColor #4A90D9
+    ArrowColor #333
+    HeaderBackgroundColor #4A90D9
+    HeaderFontColor white
+}
+
+title Informationsmodell: AM-Modell-Pipeline (FZ 1.2)
+
+' ── Klassen ───────────────────────────────────────────────────────────────────
+
+class DARIUSCorpus {
+    + input_dir : Path
+    + tsv_files : List[Path]
+    + essay_count : int
+    + dev_split : float
+}
+
+class DARIUSEssay {
+    + filepath : Path
+    + filename : str
+    + sentences : List[Sentence]
+}
+
+class Sentence {
+    + text : str
+    + tokens : List[str]
+    + offsets : List[Tuple[int,int]]
+    + tap_labels : List[str]
+    + tap_arg_ids : List[str]
+}
+
+class TAPAnnotation {
+    + label : str
+    + arg_id : str
+    + start_char : int
+    + end_char : int
+}
+
+class TrainingData {
+    + train_path : Path
+    + dev_path : Path
+    + train_doc_count : int
+    + dev_doc_count : int
+    + label_distribution : Dict[str,int]
+}
+
+class TrainingConfig {
+    + config_path : Path
+    + model_name : str
+    + batch_size : int
+    + max_steps : int
+    + eval_frequency : int
+    + patience : int
+    + learn_rate : float
+    + dropout : float
+    + spans_key : str
+    + suggester_type : str
+    + ngram_sizes : List[int]
+}
+
+class AMModel {
+    + model_path : Path
+    + model_name : str
+    + labels : List[str]
+    + threshold : float
+    + is_loaded : bool
+}
+
+class Span {
+    + start : int
+    + end : int
+    + label : str
+    + text : str
+    + score : float
+}
+
+class AnnotatedDocument {
+    + text : str
+    + source_file : str
+    + spans : List[Span]
+    + created_at : str
+}
+
+class TrainingResult {
+    + model_dir : Path
+    + best_score : float
+    + spans_f1 : float
+    + spans_precision : float
+    + spans_recall : float
+    + zip_path : Path
+}
+
+' ── Beziehungen ────────────────────────────────────────────────────────────────
+
+DARIUSCorpus "1" *-- "1..*" DARIUSEssay   : enthält
+DARIUSEssay  "1" *-- "1..*" Sentence      : besteht aus
+Sentence     "1" *-- "0..*" TAPAnnotation : trägt
+
+DARIUSCorpus "1" --> "1" TrainingData  : erzeugt
+TrainingData "1" --> "1" TrainingConfig : konfiguriert
+
+TrainingConfig "1" --> "1"    AMModel        : konfiguriert
+TrainingData   "1" --> "1"    TrainingResult : liefert
+TrainingResult "1" --> "1"    AMModel        : persistiert als
+
+AMModel "1" --> "0..*" Span             : erzeugt
+Span    "0..*" --* "1" AnnotatedDocument : aggregiert zu
+
+note bottom of TAPAnnotation
+  label ∈ {CLAIM, DATA,
+  WARRANT, REBUTTAL}
+end note
+
+note bottom of AMModel
+  Modell: distilbert-base-german-cased
+  fine-tuned auf DARIUS-Korpus
+  via spaCy SpanCategorizer
+end note
+
+@enduml
