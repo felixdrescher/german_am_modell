@@ -1,11 +1,11 @@
-@startuml FZ12_Informationsmodell
+@startuml Informationsmodell: AM-Modell
 !theme mars
 skinparam defaultFontName Arial
 skinparam defaultFontSize 11
 skinparam roundcorner 8
-skinparam classAttributeIconSize 0
+skinparam objectAttributeIconSize 0
 
-skinparam class {
+skinparam object {
     BackgroundColor #EEF4FB
     BorderColor #4A90D9
     ArrowColor #333
@@ -13,20 +13,36 @@ skinparam class {
     HeaderFontColor white
 }
 
-title Informationsmodell: AM-Modell-Pipeline (FZ 1.2)
+' ── Objekte ───────────────────────────────────────────────────────────────────
+file dev_spacy {
 
-' ── Klassen ───────────────────────────────────────────────────────────────────
+}
 
-class DARIUSCorpus {
+file train_spacy {
+    
+}
+
+file model_best {
+
+}
+
+file OHI {
+
+}
+
+class Training {
+
+}
+
+class Preprocessor {
     + input_dir : Path
-    + tsv_files : List[Path]
-    + essay_count : int
-    + dev_split : float
+    + output_train : Path
+    + output_dev : Path
+    + essays : List[DARIUSEssay]
 }
 
 class DARIUSEssay {
     + filepath : Path
-    + filename : str
     + sentences : List[Sentence]
 }
 
@@ -34,45 +50,20 @@ class Sentence {
     + text : str
     + tokens : List[str]
     + offsets : List[Tuple[int,int]]
-    + tap_labels : List[str]
-    + tap_arg_ids : List[str]
+    + tap : TAPAnnotation
 }
 
 class TAPAnnotation {
     + label : str
     + arg_id : str
-    + start_char : int
-    + end_char : int
 }
 
-class TrainingData {
-    + train_path : Path
-    + dev_path : Path
-    + train_doc_count : int
-    + dev_doc_count : int
-    + label_distribution : Dict[str,int]
-}
-
-class TrainingConfig {
-    + config_path : Path
-    + model_name : str
-    + batch_size : int
-    + max_steps : int
-    + eval_frequency : int
-    + patience : int
-    + learn_rate : float
-    + dropout : float
-    + spans_key : str
-    + suggester_type : str
-    + ngram_sizes : List[int]
+file model_config {
 }
 
 class AMModel {
     + model_path : Path
-    + model_name : str
     + labels : List[str]
-    + threshold : float
-    + is_loaded : bool
 }
 
 class Span {
@@ -80,50 +71,31 @@ class Span {
     + end : int
     + label : str
     + text : str
-    + score : float
 }
 
-class AnnotatedDocument {
+class ClassifiedText {
     + text : str
-    + source_file : str
     + spans : List[Span]
-    + created_at : str
 }
 
-class TrainingResult {
-    + model_dir : Path
-    + best_score : float
-    + spans_f1 : float
-    + spans_precision : float
-    + spans_recall : float
-    + zip_path : Path
-}
 
 ' ── Beziehungen ────────────────────────────────────────────────────────────────
+Preprocessor "1" o-- "1..*" DARIUSEssay : hält Liste
+Preprocessor "1" --> "1" dev_spacy : erzeugt
+Preprocessor "1" --> "1" train_spacy : erzeugt
+ 
+Training "1" -up-> "1" train_spacy : nutzt
+Training "1" -up-> "1" dev_spacy : nutzt
+Training "1" -down-> "1" model_best : erzeugt
+model_config "1" -up-> "1" Training : konfiguriert
 
-DARIUSCorpus "1" *-- "1..*" DARIUSEssay   : enthält
 DARIUSEssay  "1" *-- "1..*" Sentence      : besteht aus
 Sentence     "1" *-- "0..*" TAPAnnotation : trägt
 
-DARIUSCorpus "1" --> "1" TrainingData  : erzeugt
-TrainingData "1" --> "1" TrainingConfig : konfiguriert
+AMModel "1" -down-> "1..*" ClassifiedText : erzeugt
+ClassifiedText    "0..*" o-- "1" Span : enthält Liste
+AMModel "1" -down-> "1" model_best : ruft auf
+AMModel "1" -up-> "1..*" OHI : liest ein
 
-TrainingConfig "1" --> "1"    AMModel        : konfiguriert
-TrainingData   "1" --> "1"    TrainingResult : liefert
-TrainingResult "1" --> "1"    AMModel        : persistiert als
-
-AMModel "1" --> "0..*" Span             : erzeugt
-Span    "0..*" --* "1" AnnotatedDocument : aggregiert zu
-
-note bottom of TAPAnnotation
-  label ∈ {CLAIM, DATA,
-  WARRANT, REBUTTAL}
-end note
-
-note bottom of AMModel
-  Modell: distilbert-base-german-cased
-  fine-tuned auf DARIUS-Korpus
-  via spaCy SpanCategorizer
-end note
 
 @enduml

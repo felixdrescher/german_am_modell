@@ -25,8 +25,6 @@ from datetime import datetime
 from pathlib import Path
 
 
-# ── Pfade ─────────────────────────────────────────────────────────────────────
-
 TRAIN_DATA = Path("data/darius/train.spacy")
 DEV_DATA   = Path("data/darius/dev.spacy")
 CONFIG     = Path("configs/model.cfg")
@@ -35,133 +33,145 @@ MODEL_BEST = MODEL_DIR / "model-best"
 ZIP_DIR    = Path("models")
 
 
-# ── ZIP-Export ────────────────────────────────────────────────────────────────
-
-def zip_model(model_dir: Path = MODEL_BEST) -> Path | None:
+class Training:
     """
-    Zippt model-best in eine einzelne Datei für einfachen Download.
-    Enthält nur das Modell selbst — keine Trainingsdaten.
-
-    Gibt den ZIP-Pfad zurück.
+    statische Utility-Klasse zuum durchführen eines Trainings durch spacy.
+    Training ist konfigurierbar über configs/model.cfg. 
+    Ein volles Training beinhaltet:
+        1. Voraussetzungen prüfen
+        2. Training durchführen
+        3. Evaluation durchführen
+        4. model-best zippen 
     """
-    if not model_dir.exists():
-        print(f"⚠️  Kein Modell zum Zippen: {model_dir}")
-        return None
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-    zip_path  = ZIP_DIR / f"am_model_best_{timestamp}.zip"
-    ZIP_DIR.mkdir(parents=True, exist_ok=True)
+    @staticmethod
+    def zip_model(model_dir: Path = MODEL_BEST) -> Path | None:
+        """
+        Zippt model-best in eine einzelne Datei für einfachen Download.
+        Enthält nur das Modell selbst — keine Trainingsdaten.
 
-    print(f"\n📦 Erstelle ZIP: {zip_path}")
-    file_count = 0
+        Gibt den ZIP-Pfad zurück.
+        """
 
-    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-        for file in model_dir.rglob("*"):
-            if file.is_file():
-                # Pfad im ZIP relativ zu models/ — so kann man direkt
-                # nach models/spacy_output/model-best/ entpacken
-                arcname = file.relative_to(ZIP_DIR)
-                zf.write(file, arcname)
-                file_count += 1
+        if not model_dir.exists():
+            print(f"⚠️  Kein Modell zum Zippen: {model_dir}")
+            return None
 
-    size_mb = zip_path.stat().st_size / 1e6
-    print(f"   {file_count} Dateien · {size_mb:.1f} MB")
-    print(f"   → {zip_path}")
-    print(f"\n   Lokal entpacken:")
-    print(f"   Unzip nach: models/  (erzeugt spacy_output/model-best/)")
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+        zip_path  = ZIP_DIR / f"am_model_best_{timestamp}.zip"
+        ZIP_DIR.mkdir(parents=True, exist_ok=True)
 
-    return zip_path
+        print(f"\nErstelle ZIP: {zip_path}")
+        file_count = 0
+
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+            for file in model_dir.rglob("*"):
+                if file.is_file():
+                    arcname = file.relative_to(ZIP_DIR)
+                    zf.write(file, arcname)
+                    file_count += 1
+
+        size_mb = zip_path.stat().st_size / 1e6
+        print(f"\n{file_count} Dateien · {size_mb:.1f} MB")
+        print(f"\n{zip_path}")
+
+        return zip_path
 
 
-# ── Voraussetzungen ───────────────────────────────────────────────────────────
+    def check_prerequisites() -> bool:
+        """
+        Vorasussetzungen für ein sinnvolles Training vorab prüfen.
+        """
 
-def check_prerequisites() -> bool:
-    ok = True
-    print("🔍 Voraussetzungen prüfen...\n")
+        ok = True
+        print("Voraussetzungen prüfen...\n")
 
-    for p in [TRAIN_DATA, DEV_DATA, CONFIG]:
-        status = "✅" if p.exists() else "❌"
-        print(f"  {status} {p}")
-        if not p.exists():
-            ok = False
+        for p in [TRAIN_DATA, DEV_DATA, CONFIG]:
+            status = "✅" if p.exists() else "❌"
+            print(f"  {status} {p}")
+            if not p.exists():
+                ok = False
 
-    print()
-    for pkg in ["spacy", "spacy_transformers", "torch"]:
+        print()
+        for pkg in ["spacy", "spacy_transformers", "torch"]:
+            try:
+                __import__(pkg)
+                print(f"  ✅ {pkg}")
+            except ImportError:
+                print(f"  ❌ {pkg}  → pip install {pkg}")
+                ok = False
+
+        print()
         try:
-            __import__(pkg)
-            print(f"  ✅ {pkg}")
+            import torch
+            if torch.cuda.is_available():
+                name = torch.cuda.get_device_name(0)
+                vram = torch.cuda.get_device_properties(0).total_memory / 1e9
+                print(f"  🎮 GPU: {name} ({vram:.1f} GB VRAM)")
+            else:
+                print("Keine GPU — CPU-Modus (sehr langsam)")
         except ImportError:
-            print(f"  ❌ {pkg}  → pip install {pkg}")
-            ok = False
+            pass
 
-    print()
-    try:
-        import torch
-        if torch.cuda.is_available():
-            name = torch.cuda.get_device_name(0)
-            vram = torch.cuda.get_device_properties(0).total_memory / 1e9
-            print(f"  🎮 GPU: {name} ({vram:.1f} GB VRAM)")
-        else:
-            print("  ⚠️  Keine GPU — CPU-Modus (sehr langsam)")
-    except ImportError:
-        pass
-
-    if not ok:
-        print("\n❌ Bitte fehlende Voraussetzungen installieren.")
-    return ok
+        if not ok:
+            print("\nBitte fehlende Voraussetzungen installieren.")
+        return ok
 
 
-# ── Training ──────────────────────────────────────────────────────────────────
+    @staticmethod
+    def train(use_gpu: bool = True) -> bool:
+        """
+        vollständiges Training durchführen.
+        """
+        MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
-def run_training(use_gpu: bool = True) -> bool:
-    MODEL_DIR.mkdir(parents=True, exist_ok=True)
+        env = os.environ.copy()
+        env["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 
-    env = os.environ.copy()
-    env["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
+        cmd = [
+            sys.executable, "-m", "spacy", "train",
+            str(CONFIG),
+            "--output", str(MODEL_DIR),
+            "--paths.train", str(TRAIN_DATA),
+            "--paths.dev",   str(DEV_DATA),
+            "--gpu-id", "0" if use_gpu else "-1",
+        ]
 
-    cmd = [
-        sys.executable, "-m", "spacy", "train",
-        str(CONFIG),
-        "--output", str(MODEL_DIR),
-        "--paths.train", str(TRAIN_DATA),
-        "--paths.dev",   str(DEV_DATA),
-        "--gpu-id", "0" if use_gpu else "-1",
-    ]
+        print(f"\n{'='*60}")
+        print(f"   Config:  {CONFIG}")
+        print(f"   Output:  {MODEL_DIR}")
+        print(f"   GPU:     {'ja' if use_gpu else 'nein (CPU)'}")
+        print(f"{'='*60}\n")
 
-    print(f"\n{'='*60}")
-    print(f"🚀 Training: TAP-Element Detection (einstufig)")
-    print(f"   Modell:  distilbert-base-german-cased")
-    print(f"   Labels:  CLAIM · DATA · WARRANT · REBUTTAL")
-    print(f"   Config:  {CONFIG}")
-    print(f"   Output:  {MODEL_DIR}")
-    print(f"   GPU:     {'ja' if use_gpu else 'nein (CPU)'}")
-    print(f"{'='*60}\n")
+        result = subprocess.run(cmd, cwd=str(Path.cwd()), env=env)
+        return result.returncode == 0
 
-    result = subprocess.run(cmd, cwd=str(Path.cwd()), env=env)
-    return result.returncode == 0
+    @staticmethod
+    def evaluate() -> None:
+        """
+        Führt spacy evaluate im Terminal aus.
+        """
+        if not MODEL_BEST.exists():
+            print(f"Kein Modell: {MODEL_BEST}")
+            return
 
-
-def run_evaluation() -> None:
-    if not MODEL_BEST.exists():
-        print(f"⚠️  Kein Modell: {MODEL_BEST}")
-        return
-
-    print(f"\n📊 Evaluation auf Dev-Daten (CPU)")
-    cmd = [
-        sys.executable, "-m", "spacy", "evaluate",
-        str(MODEL_BEST),
-        str(DEV_DATA),
-        "--output", str(MODEL_DIR / "eval_results.json"),
-        "--gpu-id", "-1",
-    ]
-    subprocess.run(cmd, cwd=str(Path.cwd()))
+        print(f"\nEvaluation auf Dev-Daten (CPU)")
+        cmd = [
+            sys.executable, "-m", "spacy", "evaluate",
+            str(MODEL_BEST),
+            str(DEV_DATA),
+            "--output", str(MODEL_DIR / "eval_results.json"),
+            "--gpu-id", "-1",
+        ]
+        subprocess.run(cmd, cwd=str(Path.cwd()))
 
 
-# ── CLI ───────────────────────────────────────────────────────────────────────
-
-def main():
+def run_training_workflow():
+    """
+    Führt einen vollständigen Trainingslauf aus
+    """
     parser = argparse.ArgumentParser(
-        description="AM-Pipeline Training (einstufig)",
+        description="AM-Pipeline Training",
         formatter_class=argparse.RawTextHelpFormatter,
     )
     parser.add_argument("--eval", action="store_true",
@@ -174,12 +184,12 @@ def main():
 
     # Nur ZIP
     if args.zip:
-        zip_model()
+        Training.zip_model()
         return
 
     # Nur Evaluation
     if args.eval:
-        run_evaluation()
+        Training.evaluate()
         return
 
     try:
@@ -188,20 +198,20 @@ def main():
     except ImportError:
         use_gpu = False
 
-    if not check_prerequisites():
+    if not Training.check_prerequisites():
         sys.exit(1)
 
     # Training
-    ok = run_training(use_gpu)
+    ok = Training.train(use_gpu)
     if not ok:
         print("❌ Training fehlgeschlagen.")
         sys.exit(1)
 
     # Evaluation
-    run_evaluation()
+    Training.evaluate()
 
     # ZIP-Export
-    zip_path = zip_model()
+    zip_path = Training.zip_model()
 
     print(f"\n{'='*60}")
     print(f"✅ Fertig.")
@@ -216,4 +226,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run_training_workflow()
