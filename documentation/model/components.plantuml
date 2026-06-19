@@ -14,62 +14,59 @@ skinparam component {
     BackgroundColor white
     BorderColor #4A90D9
 }
-skinparam database {
-    BackgroundColor #FFF8EC
-    BorderColor #E67E22
+skinparam folder {
+    BackgroundColor #LightYellow
+}
+
+skinparam file {
+    BackgroundColor #LightYellow
 }
 skinparam cloud {
     BackgroundColor #F0FAF4
     BorderColor #27AE60
 }
 
-title Systemarchitektur: AM-Modell-Pipeline (FZ 1.2)
 
 ' ── Schicht 1: Externe Daten ─────────────────────────────────────────────────
 package "Datenschicht" {
-    database "DARIUS-Korpus\n(*.tsv)" as DARIUS
-    database "train.spacy\ndev.spacy" as DOCBIN
-    database "model-best/\n(trainiertes Modell)" as MODELFILES
-    database "am_model_best_*.zip\n(Export)" as ZIP
+    folder "DARIUS-Korpus\n(*.tsv)" as DARIUS
+    folder "train.spacy\ndev.spacy" as DOCBIN
+    folder "model-best\n(trainiertes Modell)" as MODELFILES
+    file "model-best.zip" as ZIP
 }
 
 ' ── Schicht 2: Vorverarbeitung ───────────────────────────────────────────────
 package "Vorverarbeitungsschicht" {
-    component "preprocessing.py\n─────────────────\nparse_webanno_tsv()\nextract_spans()\nload_and_convert()" as PRE
+    component "preprocessing.py\n─────────────────\nparse_tsv()\nextract_spans()\nconvert_to_bindoc()" as PRE
 }
 
 ' ── Schicht 3: Training ──────────────────────────────────────────────────────
 package "Trainingsschicht" {
-    component "training.py\n─────────────────\ncheck_prerequisites()\nrun_training()\nrun_evaluation()\nzip_model()" as TRAIN
+    component "training.py\n─────────────────\nrun_training()\nrun_evaluation()\nzip_model()" as TRAIN
 
-    component "stage1_claim.cfg\n─────────────────\nSpanCategorizer\nngram_suggester\nAdam lr=5e-5" as CFG
+    file "model.cfg" as CFG
 }
 
 ' ── Schicht 4: Modell ────────────────────────────────────────────────────────
 package "Modellschicht" {
-    component "model.py\n─────────────────\nload_pipeline()\npredict()\npredict_stub()" as MODEL
+    component "model.py\n─────────────────\nload()\npredict()" as MODEL
 }
 
 ' ── Externe Abhängigkeiten ───────────────────────────────────────────────────
-cloud "HuggingFace Hub\ndistilbert-base-\ngerman-cased" as HF
+cloud "HuggingFace Hub" as HF
 
-cloud "Kaggle / Colab\nGPU-Kernel\n(T4)" as GPU
+cloud "Kaggle Kernels .ipynb" as GPU
 
 ' ── Abhängigkeiten ────────────────────────────────────────────────────────────
-DARIUS      --> PRE    : liest TSV
-PRE         --> DOCBIN : schreibt DocBin
-DOCBIN      --> TRAIN  : Trainings-\nkorpus
-CFG         --> TRAIN  : konfiguriert
-HF          --> TRAIN  : lädt\nSprachmodell
-GPU         --> TRAIN  : führt aus
-TRAIN       --> MODELFILES : speichert
-MODELFILES  --> ZIP    : komprimiert
-MODELFILES  --> MODEL  : lädt
+TRAIN          -up-> HF  : lädt\nSprachmodell
+TRAIN         -left-> GPU  : Ausführung durch
+MODEL       -up-> MODELFILES  : lädt
+DARIUS      -->     PRE    : liest ein
+PRE         -->     DOCBIN : erzeugt
+TRAIN      -->    DOCBIN  : nutzt
+CFG         -->     TRAIN  : konfiguriert
+TRAIN       -->   MODELFILES : speichert
+MODELFILES  -->     ZIP    : komprimiert
 
-note bottom of MODEL
-  Wird von der
-  Streamlit-App
-  importiert
-end note
 
 @enduml

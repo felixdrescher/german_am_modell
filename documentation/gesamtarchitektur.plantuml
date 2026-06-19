@@ -1,0 +1,60 @@
+@startuml Gesamtarchitektur
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 13
+skinparam roundcorner 10
+skinparam actorStyle awesome
+
+skinparam package {
+    BackgroundColor #FAFAFA
+    FontStyle bold
+    FontSize 14
+}
+skinparam component {
+    BackgroundColor white
+    BorderThickness 1.5
+}
+
+skinparam folder {
+    BackgroundColor #LightYellow
+}
+
+skinparam actor {
+    BackgroundColor #FAFAFA
+    BorderColor #555
+}
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam roundcorner 8
+
+
+
+
+' ── Komponente 1: AM-Modell-Pipeline ─────────────────────────────────────────
+package "AM-Modell" as PIPELINE #EEF4FB {
+    folder "model-best" as MODELFILES
+    folder "DARIUS-Korpus" as DARIUS
+    component "preprocessing.py" as PRE <<subsystem>>
+    file "model.cfg" as CFG
+    component "training.py"  as TRAIN <<subsystem>>
+    component "model.py" as MODEL <<subsystem>>
+
+    MODEL <- MODELFILES
+    PRE <-- DARIUS
+    TRAIN <-- PRE
+    TRAIN <-- CFG
+    MODELFILES <- TRAIN
+}
+
+' ── Komponente 2: Evaluierungsumgebung ───────────────────────────────────────
+package "Test- und Evaluierungsumgebung" as APP #F0FAF4 {
+    folder "OHI-Textdateien" as OHI
+    component "streamlit_app.py" as STREAMLIT 
+    STREAMLIT <- OHI
+}
+
+STREAMLIT -- MODEL
+
+
+@enduml

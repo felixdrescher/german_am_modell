@@ -1,0 +1,61 @@
+@startuml FZ22_Architektur_v2
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam roundcorner 8
+
+skinparam package {
+    BackgroundColor #F0FAF4
+    BorderColor #27AE60
+    FontColor #333
+    FontStyle bold
+}
+skinparam component {
+    BackgroundColor white
+    BorderColor #27AE60
+}
+skinparam file {
+    BackgroundColor #LightYellow
+}
+skinparam folder {
+    BackgroundColor #LightYellow
+}
+
+' ── Präsentationsschicht ─────────────────────────────────────────────────────
+package "Präsentationsschicht\n(Streamlit UI)" {
+    component "Dateiauswahl\n─────────────\nFileScanner\nSelectbox" as FILEUI
+    component "Analyseergebnis\n─────────────\nrender_displacy()\nAnzeige-Textbox" as VISUI
+    component "Annotationseditor\n─────────────\nSpanEditor\nCard-Ansicht" as EDITUI
+    component "Export\n─────────────\nButton" as EXPUI
+}
+
+' ── Anwendungsschicht ─────────────────────────────────────────────────────────
+package "Anwendungsschicht" {
+    component "Analysekontrolle\n─────────────\nSessionState (Streamlit)\nKontroll-Logik" as CTRL
+}
+
+' ── Modellschicht ────────────────────────────────────────────────────────────
+package "Modellschicht" {
+    component "AMModelAdapter\n─────────────\nload_model()\npredict()" as MODELADP
+}
+
+' ── Dateisystem ──────────────────────────────────────────────────────────────
+file "ohi.txt" as OHI
+folder "model-best" as MODELFILES
+file "annotated_ohi.json" as JSON
+
+
+FILEUI    -down-> CTRL     : übergibt OHI-Text
+FILEUI    -up-> OHI      : liest 
+
+VISUI     --> EDITUI   : Spans bearbeitbar
+EXPUI     -up-> JSON     : schreibt
+EDITUI      -down-> CTRL : updates Spans
+
+MODELADP  --> VISUI    : gibt Spans zurück
+MODELADP  --> MODELFILES : lädt 
+
+CTRL      -up-> MODELADP : nutzt predict()
+CTRL        -up-> EDITUI : übergibt spans
+
+@enduml

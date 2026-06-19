@@ -1,4 +1,4 @@
-@startuml FZ22_Informationsmodell
+@startuml Information Model: App
 !theme plain
 skinparam defaultFontName Arial
 skinparam defaultFontSize 11
@@ -13,23 +13,30 @@ skinparam class {
     HeaderFontColor white
 }
 
-title Informationsmodell: Test- und Evaluierungsumgebung (FZ 2.2)
+skinparam file {
+    BackgroundColor #LightYellow
+}
 
-' ── Klassen ───────────────────────────────────────────────────────────────────
+skinparam folder {
+    BackgroundColor #LightYellow
+}
 
 class FileScanner {
     + directory : Path
-    + supported_extensions : List[str]
-    + files : Dict[str, Path]
+    ---
+    + scan(Path) : List[Path]
+    + load_file(Path) : str
 }
 
-class TextFile {
-    + filename : str
-    + filepath : Path
-    + content : str
-    + encoding : str
-    + line_count : int
-    + char_count : int
+folder model_best {
+
+}
+
+file ohi_text {
+}
+
+file export_json {
+
 }
 
 class Span {
@@ -37,72 +44,35 @@ class Span {
     + end : int
     + label : str
     + text : str
-    + score : float
 }
 
-class Session {
-    + id : int
-    + filename : str
-    + filepath : str
-    + text : str
+class SessionState {
     + spans : List[Span]
-    + status : str
-    + created_at : str
-    + updated_at : str
-}
-
-class SessionStore {
-    + db_path : Path
-    + connection : sqlite3.Connection
-}
-
-class AnnotationExport {
     + text : str
-    + spans : List[Span]
-    + timestamp : str
-    + source : str
-    + span_count : int
-    + export_path : Path
-}
-
-class AppState {
-    + current_text : str
-    + current_file : str
-    + current_spans : List[Span]
-    + analyzed : bool
-    + active_span_idx : int
+    + file : Path
 }
 
 class AMModelAdapter {
     + model_path : Path
-    + is_loaded : bool
-    + threshold : float
+    ---
+    + load() : AMModelAdapter
+    + predict(str) : List[Span]
+}
+
+class SpanEditor {
+    ---
+    + edit(Span) : Span
+    + create(int, int, str) : Span
 }
 
 ' ── Beziehungen ────────────────────────────────────────────────────────────────
 
-FileScanner  "1" --> "0..*" TextFile       : findet
-TextFile     "1" --> "0..*" Span           : erhält durch\nAnalyse
-Span        "0..*" --* "1"  Session        : gespeichert in
-Session      "0..*" --* "1" SessionStore   : verwaltet durch
-Session      "1"   --> "1"  AnnotationExport : exportiert als
-AppState     "1"   --> "0..*" Span         : hält aktuell
-AppState     "1"   --> "1"  TextFile       : referenziert
-AMModelAdapter "1" --> "0..*" Span         : erzeugt
-
-note right of Session
-  status ∈ {in_progress, done}
-end note
-
-note right of Span
-  label ∈ {CLAIM, DATA,
-  WARRANT, REBUTTAL}
-end note
-
-note bottom of SessionStore
-  Persistenz via SQLite
-  (progress.db)
-  lokal, kein Cloud-Zugriff
-end note
+FileScanner   "1"    -->  "0..*" ohi_text       : findet & lädt
+AMModelAdapter "1" --> "1" ohi_text             : Inferenz
+Span         "0..*"  --o  "1"   SessionState    : hält aktuell
+Span         "0..*"  -->  "1"   export_json     : exportiert als
+AMModelAdapter "1"   -->  "0..*" Span           : erzeugt
+AMModelAdapter "1" --> "1" model_best           : lädt
+SpanEditor "1" --> "1" SessionState       : greift auf Spans zu
 
 @enduml

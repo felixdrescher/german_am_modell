@@ -1,16 +1,24 @@
 @startuml Informationsmodell: AM-Modell
-!theme mars
+!theme plain
 skinparam defaultFontName Arial
 skinparam defaultFontSize 11
 skinparam roundcorner 8
 skinparam objectAttributeIconSize 0
 
-skinparam object {
+skinparam class {
     BackgroundColor #EEF4FB
     BorderColor #4A90D9
     ArrowColor #333
     HeaderBackgroundColor #4A90D9
     HeaderFontColor white
+}
+
+skinparam file {
+    BackgroundColor #LightYellow
+}
+
+skinparam folder {
+    BackgroundColor #LightYellow
 }
 
 ' ── Objekte ───────────────────────────────────────────────────────────────────
@@ -22,11 +30,11 @@ file train_spacy {
     
 }
 
-file model_best {
+folder model_best {
 
 }
 
-file OHI {
+file ohi_txt {
 
 }
 
@@ -58,7 +66,7 @@ class TAPAnnotation {
     + arg_id : str
 }
 
-file model_config {
+file model_cfg {
 }
 
 class AMModel {
@@ -87,7 +95,7 @@ Preprocessor "1" --> "1" train_spacy : erzeugt
 Training "1" -up-> "1" train_spacy : nutzt
 Training "1" -up-> "1" dev_spacy : nutzt
 Training "1" -down-> "1" model_best : erzeugt
-model_config "1" -up-> "1" Training : konfiguriert
+model_cfg "1" -up-> "1" Training : konfiguriert
 
 DARIUSEssay  "1" *-- "1..*" Sentence      : besteht aus
 Sentence     "1" *-- "0..*" TAPAnnotation : trägt
@@ -95,7 +103,7 @@ Sentence     "1" *-- "0..*" TAPAnnotation : trägt
 AMModel "1" -down-> "1..*" ClassifiedText : erzeugt
 ClassifiedText    "0..*" o-- "1" Span : enthält Liste
 AMModel "1" -down-> "1" model_best : ruft auf
-AMModel "1" -up-> "1..*" OHI : liest ein
+AMModel "1" -up-> "1..*" ohi_txt : liest ein
 
 
 @enduml
