@@ -43,7 +43,6 @@ UC1 .down.> UC1_3 : <<include>>
 UC2 .left.> UC1 : <<extend>>
 
 UC5 .left.> UC1 : <<extend>>
-UC2 .down.> UC1_1 : <<include>>
 
 
 @enduml

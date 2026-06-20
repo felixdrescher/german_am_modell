@@ -19,7 +19,6 @@ left to right direction
 
 ' ── Akteure ──────────────────────────────────────────────
 actor "Forscher:in" as USER #LightSalmon
-component "AM-Modell"  as MODEL <<system>> #LightYellow
 
 ' ── Use Cases ─────────────────────────────────────────────
 rectangle "Test- und Evaluierungsumgebung" {
@@ -50,7 +49,6 @@ UC1_1_1     .up.>       UC1_1 : <<extend>>
 UC2         .right.>    UC1  : <<include>>
 UC2         .down.>     UC2_1  : <<include>>
 UC2_1       .right.>    UC2_1_1 : <<include>>
-UC2_1_1     .down.>     MODEL : <<use>>
 UC3         .right.>    UC2 : <<include>>
 UC3         .left.>     UC3_1 : <<include>>
 UC3         .down.>     UC3_3 : <<include>>

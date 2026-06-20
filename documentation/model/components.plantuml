@@ -1,7 +1,7 @@
 @startuml FZ12_Architektur
 !theme plain
 skinparam defaultFontName Arial
-skinparam defaultFontSize 11
+skinparam defaultFontSize 12
 skinparam roundcorner 8
 
 skinparam package {
@@ -32,7 +32,6 @@ package "Datenschicht" {
     folder "DARIUS-Korpus\n(*.tsv)" as DARIUS
     folder "train.spacy\ndev.spacy" as DOCBIN
     folder "model-best\n(trainiertes Modell)" as MODELFILES
-    file "model-best.zip" as ZIP
 }
 
 ' ── Schicht 2: Vorverarbeitung ───────────────────────────────────────────────
@@ -42,7 +41,7 @@ package "Vorverarbeitungsschicht" {
 
 ' ── Schicht 3: Training ──────────────────────────────────────────────────────
 package "Trainingsschicht" {
-    component "training.py\n─────────────────\nrun_training()\nrun_evaluation()\nzip_model()" as TRAIN
+    component "training.py\n─────────────────\nrun_training()\nrun_evaluation()" as TRAIN
 
     file "model.cfg" as CFG
 }
@@ -59,14 +58,13 @@ cloud "Kaggle Kernels .ipynb" as GPU
 
 ' ── Abhängigkeiten ────────────────────────────────────────────────────────────
 TRAIN          -up-> HF  : lädt\nSprachmodell
-TRAIN         -left-> GPU  : Ausführung durch
-MODEL       -up-> MODELFILES  : lädt
+TRAIN         <-left- GPU  : führt aus
 DARIUS      -->     PRE    : liest ein
 PRE         -->     DOCBIN : erzeugt
 TRAIN      -->    DOCBIN  : nutzt
 CFG         -->     TRAIN  : konfiguriert
 TRAIN       -->   MODELFILES : speichert
-MODELFILES  -->     ZIP    : komprimiert
+MODEL       -up-> MODELFILES : lädt
 
 
 @enduml
