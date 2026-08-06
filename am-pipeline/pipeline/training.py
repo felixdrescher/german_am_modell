@@ -35,33 +35,38 @@ ZIP_DIR    = Path("models")
 
 class Training:
     """
-    statische Utility-Klasse zuum durchführen eines Trainings durch spacy.
-    Training ist konfigurierbar über configs/model.cfg. 
-    Ein volles Training beinhaltet:
-        1. Voraussetzungen prüfen
-        2. Training durchführen
-        3. Evaluation durchführen
-        4. model-best zippen 
+    Kapselt statische Hilfsmethoden für das Modelltraining.
+
+    Ein vollständiger Durchlauf prüft Voraussetzungen, trainiert das Modell,
+    evaluiert ``model-best`` und erstellt anschließend ein ZIP-Archiv.
+
+    Attributes:
+        Keine: Die Utility-Klasse verwaltet keinen Instanz- oder Klassenzustand.
+            Sie verwendet die auf Modulebene definierten Pfade und Konfigurationen.
     """
 
     @staticmethod
     def zip_model(model_dir: Path = MODEL_BEST) -> Path | None:
-        """
-        Zippt model-best in eine einzelne Datei für einfachen Download.
-        Enthält nur das Modell selbst — keine Trainingsdaten.
+        """Packt ein trainiertes Modell als ZIP-Archiv.
 
-        Gibt den ZIP-Pfad zurück.
-        """
+        Args:
+            model_dir (Path): Verzeichnis des zu archivierenden Modells.
 
+        Returns:
+            Path | None: Pfad zum ZIP-Archiv oder ``None`` ohne Modellverzeichnis.
+
+        Raises:
+            OSError: Wenn das Archiv nicht erstellt oder geschrieben werden kann.
+        """
         if not model_dir.exists():
-            print(f"⚠️  Kein Modell zum Zippen: {model_dir}")
+            print(f"kein Modell zum zippen gefunden unter: {model_dir}")
             return None
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M")
         zip_path  = ZIP_DIR / f"am_model_best_{timestamp}.zip"
         ZIP_DIR.mkdir(parents=True, exist_ok=True)
 
-        print(f"\nErstelle ZIP: {zip_path}")
+        print(f"erstelle .zip: {zip_path}")
         file_count = 0
 
         with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -71,57 +76,69 @@ class Training:
                     zf.write(file, arcname)
                     file_count += 1
 
-        size_mb = zip_path.stat().st_size / 1e6
-        print(f"\n{file_count} Dateien · {size_mb:.1f} MB")
-        print(f"\n{zip_path}")
+        print(f"{file_count} Dateien gezippt")
+        print(f"{zip_path}")
 
         return zip_path
 
 
     def check_prerequisites() -> bool:
-        """
-        Vorasussetzungen für ein sinnvolles Training vorab prüfen.
-        """
+        """Prüft Dateien, Python-Pakete und die GPU-Verfügbarkeit.
 
+        Returns:
+            bool: ``True``, wenn alle notwendigen Dateien und Pakete vorhanden sind.
+        """
         ok = True
-        print("Voraussetzungen prüfen...\n")
+        print("Voraussetzungen prüfen...")
 
         for p in [TRAIN_DATA, DEV_DATA, CONFIG]:
-            status = "✅" if p.exists() else "❌"
-            print(f"  {status} {p}")
+            status = "erfolgreich" if p.exists() else "fehlerhaft"
+            print(f"{status} {p}")
+
             if not p.exists():
                 ok = False
 
         print()
+
         for pkg in ["spacy", "spacy_transformers", "torch"]:
             try:
                 __import__(pkg)
-                print(f"  ✅ {pkg}")
+                print(f"{pkg} vorhanden")
             except ImportError:
-                print(f"  ❌ {pkg}  → pip install {pkg}")
+                print(f"{pkg} nicht vorhanden -> pip install {pkg}")
                 ok = False
 
         print()
+
         try:
             import torch
+
             if torch.cuda.is_available():
                 name = torch.cuda.get_device_name(0)
                 vram = torch.cuda.get_device_properties(0).total_memory / 1e9
-                print(f"  🎮 GPU: {name} ({vram:.1f} GB VRAM)")
-            else:
-                print("Keine GPU — CPU-Modus (sehr langsam)")
+                print(f"GPU: {name} ({vram:.1f} GB VRAM)")
+
         except ImportError:
             pass
 
         if not ok:
-            print("\nBitte fehlende Voraussetzungen installieren.")
+            print("Bitte fehlende Voraussetzungen installieren.")
+
         return ok
 
 
     @staticmethod
     def train(use_gpu: bool = True) -> bool:
-        """
-        vollständiges Training durchführen.
+        """Startet ein spaCy-Training mit den konfigurierten Daten.
+
+        Args:
+            use_gpu (bool): Ob die GPU mit der ID 0 verwendet werden soll.
+
+        Returns:
+            bool: ``True``, wenn der Trainingsprozess erfolgreich endet.
+
+        Raises:
+            OSError: Wenn der Trainingsprozess nicht gestartet werden kann.
         """
         MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -137,25 +154,25 @@ class Training:
             "--gpu-id", "0" if use_gpu else "-1",
         ]
 
-        print(f"\n{'='*60}")
-        print(f"   Config:  {CONFIG}")
-        print(f"   Output:  {MODEL_DIR}")
-        print(f"   GPU:     {'ja' if use_gpu else 'nein (CPU)'}")
-        print(f"{'='*60}\n")
+        print(f"Config: {CONFIG}")
+        print(f"Output: {MODEL_DIR}")
+        print(f"GPU: {'ja' if use_gpu else 'nein (CPU)'}")
 
         result = subprocess.run(cmd, cwd=str(Path.cwd()), env=env)
         return result.returncode == 0
 
     @staticmethod
     def evaluate() -> None:
-        """
-        Führt spacy evaluate im Terminal aus.
+        """Führt die spaCy-Evaluation für das beste Modell aus.
+
+        Raises:
+            OSError: Wenn der Evaluationsprozess nicht gestartet werden kann.
         """
         if not MODEL_BEST.exists():
             print(f"Kein Modell: {MODEL_BEST}")
             return
 
-        print(f"\nEvaluation auf Dev-Daten (CPU)")
+        print(f"Evaluation auf Dev-Daten")
         cmd = [
             sys.executable, "-m", "spacy", "evaluate",
             str(MODEL_BEST),
@@ -166,14 +183,18 @@ class Training:
         subprocess.run(cmd, cwd=str(Path.cwd()))
 
 
-def run_training_workflow():
-    """
-    Führt einen vollständigen Trainingslauf aus
+def run_training_workflow() -> None:
+    """Führt abhängig von den CLI-Argumenten Training, Evaluation oder Export aus.
+
+    Raises:
+        SystemExit: Wenn Voraussetzungen fehlen oder das Training fehlschlägt.
+        OSError: Wenn ein externer spaCy-Prozess nicht gestartet werden kann.
     """
     parser = argparse.ArgumentParser(
         description="AM-Pipeline Training",
         formatter_class=argparse.RawTextHelpFormatter,
     )
+
     parser.add_argument("--eval", action="store_true",
                         help="Nur Evaluation des vorhandenen Modells")
     parser.add_argument("--zip",  action="store_true",
@@ -204,7 +225,7 @@ def run_training_workflow():
     # Training
     ok = Training.train(use_gpu)
     if not ok:
-        print("❌ Training fehlgeschlagen.")
+        print("Training fehlgeschlagen.")
         sys.exit(1)
 
     # Evaluation
@@ -214,14 +235,12 @@ def run_training_workflow():
     zip_path = Training.zip_model()
 
     print(f"\n{'='*60}")
-    print(f"✅ Fertig.")
-    print(f"   Modell:    {MODEL_BEST}")
+    print(f"Training fertig.")
+    print(f"Modell unter: {MODEL_BEST}")
+
     if zip_path:
-        print(f"   ZIP:       {zip_path}  ← dieser Download reicht")
-    print(f"\n   Lokal einbinden:")
-    print(f"   1. ZIP herunterladen")
-    print(f"   2. In Projektordner entpacken → models/spacy_output/model-best/")
-    print(f"   3. streamlit run app/streamlit_app.py")
+        print(f"Modell-ZIP unter: {zip_path}")
+
     print(f"{'='*60}")
 
 

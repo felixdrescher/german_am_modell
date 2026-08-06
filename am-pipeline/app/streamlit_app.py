@@ -2,21 +2,10 @@
 streamlit_app.py
 ----------------
 Prototypische Test- und Evaluierungsumgebung für das AM-Modell.
+Implementierung mit Streamlit, spacy-streamlit und Bootstrap-ähnlichem Layout.
 
-Klassen (Informationsmodell FZ 2.2):
-  Span            – ein TAP-Element mit start/end/label/text/score
-  TextFile        – eine geladene Textdatei
-  FileScanner     – findet Textdateien in einem Verzeichnis
-  AMModelAdapter  – lädt spaCy-Modell, fällt auf Stub zurück
-  AppState        – typisierter Wrapper um st.session_state
-  AnnotationExport – JSON-Export für Fine-Tuning
-
-Bewusst weggelassen (Forschungsprototyp):
-  - Keine Datenbank / Session-Persistenz
-  - Kein Zwischenspeichern
-
-Starten mit:
-  streamlit run app/streamlit_app.py
+Starten mit CLI:
+    streamlit run app/streamlit_app.py
 """
 
 import json
@@ -39,20 +28,20 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 TAP_LABELS = ["CLAIM", "DATA", "WARRANT", "REBUTTAL"]
 
 TAP_COLORS = {
-    "CLAIM":    "#4A90D9",
-    "DATA":     "#27AE60",
-    "WARRANT":  "#E67E22",
+    "CLAIM": "#4A90D9",
+    "DATA": "#27AE60",
+    "WARRANT": "#E67E22",
     "REBUTTAL": "#E74C3C",
 }
 
 TAP_DESCRIPTIONS = {
-    "CLAIM":    "Behauptung – die zentrale These oder Position",
-    "DATA":     "Daten – stützende Fakten oder Belege",
-    "WARRANT":  "Warrant – Begründung, warum die Daten die Behauptung stützen",
-    "REBUTTAL": "Rebuttal – Einschränkung oder Gegenargument",
+    "CLAIM": "Behauptung - die zentrale These oder Position",
+    "DATA": "Daten - stützende Fakten oder Belege",
+    "WARRANT": "Warrant - Begründung, warum die Daten die Behauptung stützen",
+    "REBUTTAL": "Rebuttal - Einschränkung oder Gegenargument",
 }
 
-# Pfad zum trainierten Modell — relativ zum Projektordner
+# Pfad zum trainierten Modell relativ zum Projektordner
 MODEL_PATH = Path(__file__).parent.parent / "models" / "spacy_output" / "model-best"
 
 
@@ -60,7 +49,15 @@ MODEL_PATH = Path(__file__).parent.parent / "models" / "spacy_output" / "model-b
 
 @dataclass
 class Span:
-    """Ein einzelnes TAP-Element. label ∈ {CLAIM, DATA, WARRANT, REBUTTAL}."""
+    """Repräsentiert ein einzelnes TAP-Element im Text.
+
+    Attributes:
+        start (int): Inklusiver Startoffset im Originaltext.
+        end (int): Exklusiver Endoffset im Originaltext.
+        label (str): TAP-Kategorie, beispielsweise ``CLAIM`` oder ``DATA``.
+        text (str): Textausschnitt innerhalb der angegebenen Offsets.
+        score (float): Konfidenz der Modellvorhersage; ``0.0`` für Fallbacks.
+    """
     start: int
     end:   int
     label: str
@@ -68,10 +65,27 @@ class Span:
     score: float = 0.0
 
     def to_dict(self) -> dict:
+        """Serialisiert den Span in ein Dictionary.
+
+        Returns:
+            dict: Span-Attribute, die sich für die JSON-Serialisierung eignen.
+        """
         return asdict(self)
 
     @classmethod
     def from_dict(cls, d: dict) -> "Span":
+        """Erstellt einen Span aus serialisierten Annotationsdaten.
+
+        Args:
+            d (dict): Zuordnung mit ``start``, ``end`` und ``label``;
+                ``text`` und ``score`` sind optional.
+
+        Returns:
+            Span: Der rekonstruierte Span.
+
+        Raises:
+            KeyError: Wenn ein erforderliches Span-Feld in ``d`` fehlt.
+        """
         return cls(
             start=d["start"], end=d["end"],
             label=d["label"], text=d.get("text", ""),
@@ -81,7 +95,14 @@ class Span:
 
 @dataclass
 class TextFile:
-    """Eine geladene Textdatei."""
+    """Repräsentiert eine geladene Textdatei samt Metadaten.
+
+    Attributes:
+        filename (str): Name der Datei ohne Verzeichnispfad.
+        filepath (Path): Absoluter oder relativer Pfad der geladenen Datei.
+        content (str): Vollständiger dekodierter Dateiinhalt.
+        encoding (str): Beim Lesen verwendete Zeichenkodierung.
+    """
     filename: str
     filepath: Path
     content:  str
@@ -89,20 +110,43 @@ class TextFile:
 
     @property
     def line_count(self) -> int:
+        """Gibt die Anzahl der Zeilen im Dateiinhalt zurück.
+
+        Returns:
+            int: Anzahl der Zeilen bzw. null bei leerem Inhalt.
+        """
         return len(self.content.splitlines())
 
     @property
     def char_count(self) -> int:
+        """Gibt die Anzahl der Zeichen im Dateiinhalt zurück.
+
+        Returns:
+            int: Zeichenanzahl von ``content``.
+        """
         return len(self.content)
 
 
 @dataclass
 class AnnotationExport:
-    """Export-Objekt für JSON-Download (Fine-Tuning-Datensatz)."""
+    """Bereitet Annotationen für den JSON-Download auf.
+
+    Attributes:
+        text (str): Vollständiger Text, auf den sich die Spans beziehen.
+        spans (List[Span]): Zu exportierende Annotationen mit Zeichenoffsets.
+    """
     text:  str
     spans: List[Span]
 
     def to_json(self) -> str:
+        """Serialisiert den Annotationsexport als formatiertes JSON.
+
+        Returns:
+            str: UTF-8-sicheres JSON mit Text, Spans und Exportmetadaten.
+
+        Raises:
+            TypeError: Wenn ein Span einen nicht JSON-kodierbaren Wert enthält.
+        """
         return json.dumps({
             "text":  self.text,
             "spans": [s.to_dict() for s in self.spans],
@@ -117,15 +161,30 @@ class AnnotationExport:
 # ── FileScanner ───────────────────────────────────────────────────────────────
 
 class FileScanner:
-    """Findet und lädt Textdateien aus einem Verzeichnis."""
+    """Findet und lädt unterstützte Textdateien aus einem Verzeichnis.
+
+    Attributes:
+        directory (Path): Zu durchsuchendes Verzeichnis.
+        SUPPORTED (set[str]): Unterstützte Dateiendungen für Textdateien.
+    """
 
     SUPPORTED = {".txt", ".md", ".text"}
 
     def __init__(self, directory: str):
+        """Initialisiert den Scanner für ein Verzeichnis.
+
+        Args:
+            directory (str): Pfad des zu durchsuchenden Verzeichnisses.
+        """
         self.directory = Path(directory)
 
     def scan(self) -> Dict[str, Path]:
-        """Gibt {Dateiname: Path} für alle unterstützten Dateien zurück."""
+        """Sucht unterstützte Textdateien im konfigurierten Verzeichnis.
+
+        Returns:
+            Dict[str, Path]: Zuordnung von Dateinamen zu Pfaden oder eine leere
+                Zuordnung, wenn das Verzeichnis ungültig oder nicht zugreifbar ist.
+        """
         result = {}
         try:
             if self.directory.is_dir():
@@ -137,7 +196,19 @@ class FileScanner:
         return result
 
     def load(self, path: Path) -> TextFile:
-        """Lädt eine Datei als TextFile-Objekt."""
+        """Lädt eine Textdatei und versucht zuerst UTF-8, dann Latin-1.
+
+        Args:
+            path (Path): Pfad zur unterstützten Textdatei.
+
+        Returns:
+            TextFile: Dateimetadaten und dekodierter Inhalt.
+
+        Raises:
+            FileNotFoundError: Wenn ``path`` nicht existiert.
+            PermissionError: Wenn ``path`` nicht gelesen werden kann.
+            OSError: Wenn beim Lesen ein anderer Betriebssystemfehler auftritt.
+        """
         for encoding in ("utf-8", "latin-1"):
             try:
                 return TextFile(
@@ -146,9 +217,10 @@ class FileScanner:
                     content=path.read_text(encoding=encoding),
                     encoding=encoding,
                 )
+            
             except UnicodeDecodeError:
                 continue
-        # Fallback mit Fehlerersetzung
+
         return TextFile(
             filename=path.name, filepath=path,
             content=path.read_text(encoding="utf-8", errors="replace"),
@@ -159,67 +231,94 @@ class FileScanner:
 
 class AMModelAdapter:
     """
-    Lädt das trainierte spaCy-Modell und kapselt predict().
-    Fällt automatisch auf einen regelbasierten Stub zurück wenn
-    kein trainiertes Modell unter model_path existiert.
+    Kapselt das trainierte spaCy-Modell mit regelbasiertem Fallback.
 
-    Das spaCy-Modell wird direkt über spacy.load() geladen —
-    keine Abhängigkeit von pipeline/model.py nötig.
+    Attributes:
+        model_path (Path): Verzeichnis des trainierten spaCy-Modells.
+        threshold (float): Minimale Konfidenz für übernommene Modell-Spans.
+        is_loaded (bool): Gibt an, ob das trainierte Modell geladen wurde.
+        _nlp (Optional[Language]): Geladene spaCy-Pipeline oder ``None`` im
+            Fallback-Modus.
     """
 
     def __init__(self, model_path: Path = MODEL_PATH, threshold: float = 0.5):
+        """Initialisiert einen Adapter für ein trainiertes spaCy-Modell.
+
+        Args:
+            model_path (Path): Verzeichnis mit dem trainierten Modell.
+            threshold (float): Minimale Konfidenz für übernommene Vorhersagen.
+        """
         self.model_path = Path(model_path)
         self.threshold  = threshold
         self.is_loaded  = False
         self._nlp       = None   # spaCy Language-Objekt nach load()
 
     def load(self) -> "AMModelAdapter":
-        """
-        Lädt spaCy-Modell direkt via spacy.load().
-        Setzt is_loaded=True wenn erfolgreich, sonst Stub-Modus.
+        """Lädt das spaCy-Modell und konfiguriert dessen Span-Labels.
+
+        Returns:
+            AMModelAdapter: Dieser Adapter für Modell- oder Fallback-Inferenz.
+
+        Raises:
+            RuntimeError: Kann beim Zugriff auf den Streamlit-Sitzungszustand auftreten.
         """
         if not self.model_path.exists():
-            return self   # Stub-Modus, is_loaded bleibt False
+            return self  
 
         try:
             import spacy
             self._nlp = spacy.load(str(self.model_path))
 
-            # Labels sicherstellen — nötig wenn Config-Initialisierung
-            # die Labels nicht korrekt gesetzt hat
             spancat = self._nlp.get_pipe("spancat")
             existing = set(spancat.labels)
+            
             for label in TAP_LABELS:
                 if label not in existing:
                     spancat.add_label(label)
 
             self.is_loaded = True
+
         except Exception as e:
-            # Fehler beim Laden → Stub, Meldung in Sidebar
+            # Meldung in der sidebar anzeigen
             st.session_state["model_load_error"] = str(e)
 
         return self
 
     def predict(self, text: str) -> List[Span]:
-        """
-        Führt Inferenz durch. Verarbeitet satzweise für Robustheit
-        bei langen OHI-Texten.
+        """Extrahiert Argumentations-Spans aus einem Text.
+
+        Args:
+            text (str): Zu analysierender Ausgangstext.
+
+        Returns:
+            List[Span]: Vorhersagen oberhalb der Konfidenzschwelle oder
+                heuristische Fallback-Spans, wenn kein Modell geladen ist.
         """
         if self.is_loaded and self._nlp is not None:
             return self._predict_model(text)
-        else:
-            return self._predict_stub(text)
 
     def _predict_model(self, text: str) -> List[Span]:
-        """Inferenz mit echtem spaCy-Modell, satzweise."""
+        """Führt eine satzweise Inferenz mit dem geladenen spaCy-Modell aus.
+
+        Args:
+            text (str): Zu analysierender Ausgangstext.
+
+        Returns:
+            List[Span]: Sortierte Modellvorhersagen oberhalb der Schwelle.
+
+        Raises:
+            AttributeError: Wenn dem konfigurierten Modell die erwartete API fehlt.
+        """
         sentence_re = re.compile(r'(?<=[.!?])\s+')
         raw_sents   = sentence_re.split(text.strip())
 
         sents, cursor = [], 0
         for s in raw_sents:
+
             s = s.strip()
             if not s:
                 continue
+
             pos = text.find(s, cursor)
             if pos != -1:
                 sents.append((s, pos))
@@ -229,12 +328,16 @@ class AMModelAdapter:
         for sent_text, sent_start in sents:
             try:
                 doc = self._nlp(sent_text)
+
             except Exception:
                 continue
+
             for sp in doc.spans.get("sc", []):
                 score = getattr(sp._, "score", 1.0)
+
                 if score < self.threshold:
                     continue
+
                 spans.append(Span(
                     start = sent_start + sp.start_char,
                     end   = sent_start + sp.end_char,
@@ -246,48 +349,41 @@ class AMModelAdapter:
         spans.sort(key=lambda s: s.start)
         return spans
 
-    def _predict_stub(self, text: str) -> List[Span]:
-        """Regelbasierter Fallback ohne ML-Modell."""
-        patterns = {
-            "CLAIM":    [r"Ich (denke|meine|glaube|finde)[^.]*\.",
-                         r"sollte[^.]*\.", r"bin ich[^.]*\."],
-            "DATA":     [r"Mit [^.]*\d+%[^.]*\.", r"\d+[^.]*\."],
-            "WARRANT":  [r"bedeutet[^.]*\.", r"weil[^.]*\."],
-            "REBUTTAL": [r"Obwohl[^.]*\.", r"[Jj]edoch[^.]*\."],
-        }
-        raw = []
-        for label, plist in patterns.items():
-            for pat in plist:
-                for m in re.finditer(pat, text):
-                    raw.append(Span(m.start(), m.end(), label, m.group(), 0.0))
-
-        raw.sort(key=lambda s: s.start)
-        filtered, last_end = [], -1
-        for s in raw:
-            if s.start >= last_end:
-                filtered.append(s)
-                last_end = s.end
-        return filtered
-
 
 # ── AppState ──────────────────────────────────────────────────────────────────
 
 class AppState:
     """
-    Typisierter Wrapper um st.session_state.
-    Hält aktuellen Text, Datei-Pfad, Span-Liste und UI-Zustand.
+    Typisierter Wrapper um ``st.session_state`` für den UI-Zustand.
+
+    Attributes:
+        spans (List[Span]): Aktuelle Annotations-Spans der Sitzung.
+        text (str): Aktuell analysierter Text.
+        file (str): Pfad der aktuell analysierten Datei.
+        analyzed (bool): Gibt an, ob für den aktuellen Text Ergebnisse vorliegen.
+        active_span_idx (int): Index des im Editor ausgewählten Spans im
+            Streamlit-Sitzungszustand.
+        model_load_error (str): Fehlermeldung des letzten Modellladeversuchs im
+            Streamlit-Sitzungszustand.
+        _DEFAULTS (Dict[str, object]): Standardwerte, mit denen fehlende
+            Sitzungseinträge initialisiert werden.
     """
 
     _DEFAULTS = {
-        "current_spans":    [],
-        "current_text":     "",
-        "current_file":     "",
-        "analyzed":         False,
-        "active_span_idx":  0,
+        "current_spans": [],
+        "current_text": "",
+        "current_file": "",
+        "analyzed": False,
+        "active_span_idx": 0,
         "model_load_error": "",
     }
 
     def __init__(self):
+        """Initialisiert fehlende Werte im Streamlit-Sitzungszustand.
+
+        Raises:
+            RuntimeError: Wenn die Methode außerhalb eines Streamlit-Kontexts läuft.
+        """
         for key, default in self._DEFAULTS.items():
             if key not in st.session_state:
                 st.session_state[key] = default
@@ -295,41 +391,85 @@ class AppState:
     # Spans
     @property
     def spans(self) -> List[Span]:
+        """Gibt die aktuell gespeicherten Annotations-Spans zurück.
+
+        Returns:
+            List[Span]: Veränderbare Liste der Spans in der aktiven Sitzung.
+        """
         return st.session_state.current_spans
 
     @spans.setter
     def spans(self, value: List[Span]) -> None:
+        """Speichert Annotations-Spans in der aktiven Sitzung.
+
+        Args:
+            value (List[Span]): Ersatzliste der Annotations-Spans.
+        """
         st.session_state.current_spans = value
 
     # Text
     @property
     def text(self) -> str:
+        """Gibt den aktuell analysierten Ausgangstext zurück.
+
+        Returns:
+            str: In der aktiven Sitzung gespeicherter Text.
+        """
         return st.session_state.current_text
 
     @text.setter
     def text(self, value: str) -> None:
+        """Speichert Ausgangstext in der aktiven Sitzung.
+
+        Args:
+            value (str): Text der aktuellen Analyse.
+        """
         st.session_state.current_text = value
 
     # Datei-Pfad
     @property
     def file(self) -> str:
+        """Gibt den Pfad der aktuell analysierten Datei zurück.
+
+        Returns:
+            str: Gespeicherter Dateipfad bzw. leerer String, wenn nicht gesetzt.
+        """
         return st.session_state.current_file
 
     @file.setter
     def file(self, value: str) -> None:
+        """Speichert den Pfad der aktuell analysierten Datei.
+
+        Args:
+            value (str): Dateipfad der aktuellen Analyse.
+        """
         st.session_state.current_file = value
 
     # Analyse-Flag
     @property
     def analyzed(self) -> bool:
+        """Gibt zurück, ob die aktuelle Sitzung Analyseergebnisse enthält.
+
+        Returns:
+            bool: ``True``, wenn die Analyse abgeschlossen ist.
+        """
         return st.session_state.analyzed
 
     @analyzed.setter
     def analyzed(self, value: bool) -> None:
+        """Setzt das Kennzeichen für die abgeschlossene Analyse.
+
+        Args:
+            value (bool): Ob die Sitzung aktuelle Ergebnisse enthält.
+        """
         st.session_state.analyzed = value
 
     def reset(self) -> None:
-        """Setzt Analyse-Zustand zurück (Dateiauswahl bleibt erhalten)."""
+        """Leert Analysedaten, ohne die Dateiauswahl-Widgets zurückzusetzen.
+
+        Raises:
+            RuntimeError: If called outside an active Streamlit context.
+        """
         self.spans    = []
         self.text     = ""
         self.file     = ""
@@ -341,51 +481,89 @@ class AppState:
 
 @st.cache_resource(show_spinner="Lade AM-Modell...")
 def get_model() -> AMModelAdapter:
-    """Lädt AMModelAdapter einmalig und hält ihn im Cache."""
+    """Gibt den zwischengespeicherten Argumentation-Mining-Modelladapter zurück.
+
+    Returns:
+        AMModelAdapter: Geladener Adapter oder ein Adapter im Fallback-Modus.
+
+    Raises:
+        RuntimeError: Wenn der Ressourcen-Cache von Streamlit nicht verfügbar ist.
+    """
     return AMModelAdapter(MODEL_PATH).load()
 
 
 # ── Visualisierung ────────────────────────────────────────────────────────────
 
-def render_displacy(text: str, spans: list):
+def render_displacy(text: str, spans: List[Span]) -> None:
+    """Visualisiert vorhergesagte Spans mit spaCys displaCy-Komponente.
+
+    Args:
+        text (str): Vollständiger Text für die Zeichenoffsets.
+        spans (List[Span]): Zu visualisierende Annotations-Spans.
+
+    Raises:
+        AttributeError: Wenn der geladene Adapter keine spaCy-Pipeline enthält.
+        ValueError: Wenn ein Span-Offset für ``text`` ungültig ist.
+    """
     nlp = get_model()._nlp
     doc = nlp.make_doc(text)
     
     span_objs = []
     for s in spans:
-        span = doc.char_span(s["start"], s["end"], label=s["label"], alignment_mode="contract")
+        span = doc.char_span(s.start, s.end, label=s.label, alignment_mode="contract")
         if span:
             span_objs.append(span)
     
     doc.spans["sc"] = span_objs
-    
+
+    # Visualisierung mit spacy-streamlit (nutzt displaCy)
     spacy_streamlit.visualize_spans(
         doc,
         title=f"🎨 Erkannte TAP-Elemente",
         spans_key="sc",
         displacy_options={"colors": TAP_COLORS},
-        show_table=True
+        show_table=False
     )
 
 
 def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
+    """Rendert Steuerelemente zum Bearbeiten, Löschen und Hinzufügen von Spans.
+
+    Args:
+        text (str): Vollständiger Text für die Span-Grenzen.
+        spans (List[Span]): Veränderbare Liste der zu bearbeitenden Spans.
+
+    Returns:
+        List[Span]: Aktualisierte und nach Startoffset sortierte Span-Liste.
+
+    Raises:
+        RuntimeError: Wenn die Funktion außerhalb eines Streamlit-Kontexts läuft.
     """
-    Einzelkarte mit Span-Auswahl-Dropdown.
-    Erlaubt: Label ändern, Grenzen anpassen, löschen, neue Span hinzufügen.
-    """
-    st.markdown("### ✏️ Spans bearbeiten")
+    st.markdown("###Spans bearbeiten")
     st.markdown(f"**Span auswählen** ({len(spans)} erkannt)")
 
     if spans:
         dot = {"CLAIM": "🔵", "DATA": "🟢", "WARRANT": "🟠", "REBUTTAL": "🔴"}
 
         def option_label(i: int, s: Span) -> str:
+            """Erstellt eine kurze Beschriftung für eine Span-Auswahloption.
+
+            Args:
+                i (int): Nullbasierte Position des Spans.
+                s (Span): Durch die Option repräsentierter Span.
+
+            Returns:
+                str: Nummerierte Beschriftung mit Typ, Farbmarkierung und Vorschau.
+            """
             preview = s.text[:60].replace("\n", " ")
+
             if len(s.text) > 60:
-                preview += "…"
+                preview += "..."
+
             return f"#{i+1} {dot.get(s.label,'⚪')} {s.label} — {preview}"
 
         options = [option_label(i, s) for i, s in enumerate(spans)]
+
         st.session_state.active_span_idx = min(
             st.session_state.active_span_idx, len(spans) - 1
         )
@@ -396,6 +574,7 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
             key="span_selector",
             label_visibility="collapsed",
         )
+        
         idx   = options.index(selected)
         st.session_state.active_span_idx = idx
         span  = spans[idx]
@@ -416,9 +595,11 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
                 key=f"edit_label_{idx}_{span.start}",
                 label_visibility="collapsed",
             )
+
             if new_lbl != span.label:
                 spans[idx].label = new_lbl
                 st.rerun()
+
         with col_del:
             if st.button("✕", key="edit_del", help="Span löschen"):
                 spans.pop(idx)
@@ -432,21 +613,26 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
                 value=span.start,
                 key=f"edit_start_{idx}_{span.start}",
             )
+
         with col_e:
             new_e = st.number_input(
                 "End", min_value=1, max_value=len(text),
                 value=span.end,
                 key=f"edit_end_{idx}_{span.start}",
             )
+
         with col_apply:
             st.markdown("<br>", unsafe_allow_html=True)
-            if st.button("↩ Übernehmen", key="edit_apply", use_container_width=True):
+
+            if st.button("Übernehmen (Enter)", key="edit_apply", use_container_width=True):
+
                 if int(new_s) < int(new_e):
                     spans[idx].start = int(new_s)
                     spans[idx].end   = int(new_e)
                     spans[idx].text  = text[int(new_s):int(new_e)]
                     spans.sort(key=lambda s: s.start)
                     st.rerun()
+
                 else:
                     st.error("Start muss kleiner als End sein.")
 
@@ -464,7 +650,7 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
 
     # Neue Span hinzufügen
     st.markdown("---")
-    st.markdown("**➕ Neue Span hinzufügen**")
+    st.markdown("**Neue Span hinzufügen**")
     st.caption(f"Dokumentlänge: **{len(text)} Zeichen**")
 
     col_s, col_e, col_l, col_btn = st.columns([2, 2, 2, 1])
@@ -509,7 +695,12 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
 
 # ── Hauptlayout ───────────────────────────────────────────────────────────────
 
-def main():
+def main() -> None:
+    """Konfiguriert und rendert die vollständige Streamlit-Evaluierungsanwendung.
+
+    Raises:
+        RuntimeError: Wenn die Funktion außerhalb einer Streamlit-App läuft.
+    """
     st.set_page_config(
         page_title="AM-Evaluierungsumgebung",
         page_icon="🔍",
@@ -549,13 +740,12 @@ def main():
                 st.error(f"❌ Ladefehler:\n{err}")
             else:
                 st.warning(
-                    "⚙️ Demo-Modus\n\n"
                     "Kein trainiertes Modell gefunden.\n\n"
                     f"Erwartet unter:\n`{MODEL_PATH}`"
                 )
 
     # ── Hauptbereich ──────────────────────────────────────────────────────────
-    st.title("Argumentation Mining · Test & Evaluation")
+    st.title("Argumentation Mining - Test & Evaluation")
     st.markdown(
         "Analysiere Texte auf argumentative Strukturen nach dem "
         "**Toulmin-Argumentation-Pattern** und bewerte die Ergebnisse."
@@ -563,7 +753,7 @@ def main():
 
     # Textauswahl
     st.markdown("---")
-    st.markdown("### 📄 Textdatei auswählen")
+    st.markdown("### Textdatei auswählen")
 
     col_dir, col_reload = st.columns([5, 1])
     with col_dir:
@@ -632,7 +822,7 @@ def main():
 
         with col_vis:
             st.markdown(
-                f"### 🎨 Erkannte TAP-Elemente "
+                f"### Erkannte TAP-Elemente "
                 f"<span style='font-size:0.85rem;font-weight:normal;color:#888'>"
                 f"({text.count(chr(10))+1} Zeilen · {len(spans)} Spans)</span>",
                 unsafe_allow_html=True,
@@ -641,7 +831,7 @@ def main():
             render_displacy(text, spans)
 
         with col_stat:
-            st.markdown("### 📊 Übersicht")
+            st.markdown("### Übersicht")
             counts: Dict[str, int] = {}
             scores: Dict[str, list] = {}
             for s in spans:
@@ -677,15 +867,15 @@ def main():
             use_container_width=True,
         )
         st.caption(
-            "💡 Exportierte JSONs können dem Trainings-Datensatz "
-            "für Fine-Tuning hinzugefügt werden."
+            "💡 Exportierte JSONs können dem Trainings-Datensatz später "
+            "für verbesserte zukünftige Ergebnisse hinzugefügt werden."
         )
 
     # Footer
     st.markdown("---")
     st.caption(
-        "Fachpraktikum NLP-IER · FernUniversität in Hagen · "
-        "Felix Drescher · Betreuer: Dr. Christian Nawroth"
+        "Fachpraktikum NLP-IER - FernUniversität in Hagen - "
+        "Felix Drescher"
     )
 
 
