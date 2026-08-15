@@ -11,6 +11,7 @@ Starten mit CLI:
 import json
 import re
 import sys
+from html import escape
 from pathlib import Path
 from datetime import datetime
 from dataclasses import dataclass, field, asdict
@@ -519,15 +520,107 @@ def render_displacy(text: str, spans: List[Span]) -> None:
     # Visualisierung mit spacy-streamlit (nutzt displaCy)
     spacy_streamlit.visualize_spans(
         doc,
-        title=f"🎨 Erkannte TAP-Elemente",
+        title=None,
         spans_key="sc",
         displacy_options={"colors": TAP_COLORS},
         show_table=False
     )
 
 
+def render_span_preview(
+    text: str,
+    start: int,
+    end: int,
+    color: str,
+    context_chars: int,
+    max_height: Optional[int] = None,
+) -> None:
+    """Rendert einen hervorgehobenen Kontext für einen Span.
+
+    Args:
+        text (str): Vollständiger Text, auf den sich die Offsets beziehen.
+        start (int): Inklusiver Startoffset des hervorgehobenen Bereichs.
+        end (int): Exklusiver Endoffset des hervorgehobenen Bereichs.
+        color (str): CSS-Farbe für Hervorhebung und Rahmen.
+        context_chars (int): Anzahl der zusätzlich angezeigten Zeichen je Seite.
+        max_height (Optional[int]): Maximale Fensterhöhe in Pixeln. Bei ``None``
+            wird keine vertikale Begrenzung gesetzt.
+    """
+    context_start = max(0, start - context_chars)
+    context_end = min(len(text), end + context_chars)
+    before = escape(text[context_start:start]).replace("\r", " ").replace("\n", " ")
+    selected_text = escape(text[start:end]).replace("\r", " ").replace("\n", " ")
+    after = escape(text[end:context_end]).replace("\r", " ").replace("\n", " ")
+    height_style = ""
+    if max_height is not None:
+        height_style = f"max-height:{max_height}px;overflow-y:auto;"
+
+    st.markdown(
+        f"<div style='font-size:0.95rem;color:#333;margin-top:8px;"
+        f"font-family:Georgia,serif;padding:12px 14px;background:#fafafa;"
+        f"border:1px solid {color}66;border-radius:6px;line-height:1.7;"
+        f"white-space:normal;{height_style}'>"
+        f"{before}<mark style='background:{color}33;border-left:3px solid {color};"
+        f"border-right:3px solid {color};padding:1px 2px'>{selected_text}</mark>{after}"
+        f"</div>"
+        f"<div style='font-size:0.8rem;color:#666;margin-top:4px'>"
+        f"Vorschau: Zeichen {start}–{end}"
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+
+
+def render_exact_offset_editor(
+    text: str,
+    start: int,
+    end: int,
+    key_prefix: str,
+    submit_label: str,
+) -> Optional[tuple[int, int]]:
+    """Rendert die erweiterte Eingabe exakter Zeichenoffsets.
+
+    Args:
+        text (str): Vollständiger Text, der die zulässigen Offsets bestimmt.
+        start (int): Vorbelegter Startoffset.
+        end (int): Vorbelegter Endoffset.
+        key_prefix (str): Eindeutiger Präfix für die Streamlit-Widget-Schlüssel.
+        submit_label (str): Beschriftung der Schaltfläche zum Übernehmen.
+
+    Returns:
+        Optional[tuple[int, int]]: Gültige Start- und Endoffsets nach einem
+            Klick auf die Schaltfläche, sonst ``None``.
+    """
+    with st.expander("Erweiterte Bearbeitung: exakte Zeichenoffsets"):
+        advanced_start, advanced_end = st.columns(2)
+
+        with advanced_start:
+            exact_start = st.number_input(
+                "Exakter Startoffset",
+                min_value=0,
+                max_value=max(len(text) - 1, 0),
+                value=min(start, max(len(text) - 1, 0)),
+                key=f"{key_prefix}_start",
+            )
+
+        with advanced_end:
+            exact_end = st.number_input(
+                "Exakter Endoffset",
+                min_value=1,
+                max_value=len(text),
+                value=max(1, min(end, len(text))),
+                key=f"{key_prefix}_end",
+            )
+
+        if st.button(submit_label, key=f"{key_prefix}_apply"):
+            if int(exact_start) < int(exact_end):
+                return int(exact_start), int(exact_end)
+            st.error("Start muss kleiner als Ende sein.")
+
+    return None
+
+
 def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
-    """Rendert Steuerelemente zum Bearbeiten, Löschen und Hinzufügen von Spans.
+    """Rendert Steuerelemente zum Bearbeiten und Löschen vorhandener Spans.
 
     Args:
         text (str): Vollständiger Text für die Span-Grenzen.
@@ -539,35 +632,17 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
     Raises:
         RuntimeError: Wenn die Funktion außerhalb eines Streamlit-Kontexts läuft.
     """
-    st.markdown("###Spans bearbeiten")
+    st.markdown("### Spans bearbeiten")
     st.markdown(f"**Span auswählen** ({len(spans)} erkannt)")
 
     if spans:
-        dot = {"CLAIM": "🔵", "DATA": "🟢", "WARRANT": "🟠", "REBUTTAL": "🔴"}
-
-        def option_label(i: int, s: Span) -> str:
-            """Erstellt eine kurze Beschriftung für eine Span-Auswahloption.
-
-            Args:
-                i (int): Nullbasierte Position des Spans.
-                s (Span): Durch die Option repräsentierter Span.
-
-            Returns:
-                str: Nummerierte Beschriftung mit Typ, Farbmarkierung und Vorschau.
-            """
-            preview = s.text[:60].replace("\n", " ")
-
-            if len(s.text) > 60:
-                preview += "..."
-
-            return f"#{i+1} {dot.get(s.label,'⚪')} {s.label} — {preview}"
-
-        options = [option_label(i, s) for i, s in enumerate(spans)]
+        options = [_option_label(i, s) for i, s in enumerate(spans)]
 
         st.session_state.active_span_idx = min(
             st.session_state.active_span_idx, len(spans) - 1
         )
 
+        # Auswahlbox zu bearbeitende Span
         selected = st.selectbox(
             "Span:", options,
             index=st.session_state.active_span_idx,
@@ -575,19 +650,14 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
             label_visibility="collapsed",
         )
         
-        idx   = options.index(selected)
+        idx = options.index(selected)
         st.session_state.active_span_idx = idx
-        span  = spans[idx]
+        span = spans[idx]
         color = TAP_COLORS.get(span.label, "#999")
 
-        # Karte
-        st.markdown(
-            f"<div style='background:{color}11;border:1px solid {color}55;"
-            f"border-radius:8px;padding:14px 16px;margin-top:6px'>",
-            unsafe_allow_html=True,
-        )
-
         col_lbl, col_del = st.columns([6, 1])
+
+        # Auswahlbox zum Span-Label ändern
         with col_lbl:
             new_lbl = st.selectbox(
                 "Label", TAP_LABELS,
@@ -600,98 +670,408 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
                 spans[idx].label = new_lbl
                 st.rerun()
 
+        # Auswahlbox zum Span löschen
         with col_del:
             if st.button("✕", key="edit_del", help="Span löschen"):
                 spans.pop(idx)
                 st.session_state.active_span_idx = max(0, idx - 1)
                 st.rerun()
 
-        col_s, col_e, col_apply = st.columns([2, 2, 2])
+        st.caption(
+            "Lege die neue Auswahl über die Grenzen fest und gleiche sie mit dem Preview ab."
+        )
+
+        # Anpassen der Slider Range für nachfolgende Slider
+        with st.expander("Slider-Reichweite anpassen"):
+            slider_range = st.select_slider(
+                "Slider-Reichweite (Zeichen)",
+                options=list(range(50, 501, 50)),
+                value=100,
+                key=f"edit_slider_range_{idx}_{span.start}_{span.end}",
+            )
+
+        col_s, col_e = st.columns(2)
+
+        # Slider zum Verschieben der Start- und Endoffsets 
         with col_s:
-            new_s = st.number_input(
-                "Start", min_value=0, max_value=max(len(text) - 1, 0),
-                value=span.start,
-                key=f"edit_start_{idx}_{span.start}",
+            start_delta = st.slider(
+                "Start verschieben (Zeichen)",
+                min_value=-slider_range,
+                max_value=slider_range,
+                value=0,
+                key=f"start_delta_{idx}_{span.start}_{span.end}",
             )
 
         with col_e:
-            new_e = st.number_input(
-                "End", min_value=1, max_value=len(text),
-                value=span.end,
-                key=f"edit_end_{idx}_{span.start}",
+            end_delta = st.slider(
+                "Ende verschieben (Zeichen)",
+                min_value=-slider_range,
+                max_value=slider_range,
+                value=0,
+                key=f"end_delta_{idx}_{span.start}_{span.end}",
             )
 
-        with col_apply:
-            st.markdown("<br>", unsafe_allow_html=True)
+        proposed_start = min(max(0, span.start + start_delta), len(text))
+        proposed_end = min(max(0, span.end + end_delta), len(text))
+        boundaries_valid = proposed_start < proposed_end
 
-            if st.button("Übernehmen (Enter)", key="edit_apply", use_container_width=True):
+        context_start = max(0, proposed_start - 150)
+        context_end = min(len(text), proposed_end + 150)
 
-                if int(new_s) < int(new_e):
-                    spans[idx].start = int(new_s)
-                    spans[idx].end   = int(new_e)
-                    spans[idx].text  = text[int(new_s):int(new_e)]
+        before = (
+            escape(text[context_start:proposed_start])
+            .replace("\r", " ")
+            .replace("\n", " ")
+        )
+
+        selected_text = (
+            escape(text[proposed_start:proposed_end])
+            .replace("\r", " ")
+            .replace("\n", " ")
+        )
+
+        after = (
+            escape(text[proposed_end:context_end])
+            .replace("\r", " ")
+            .replace("\n", " ")
+        )
+
+        # Markdown-Vorschau des hervorgehobenen Textes mit CSS-Hervorhebung
+        st.markdown(
+            f"<div style='font-size:0.95rem;color:#333;margin-top:8px;"
+            f"font-family:Georgia,serif;padding:12px 14px;background:#fafafa;"
+            f"border:1px solid {color}66;border-radius:6px;line-height:1.7;"
+            f"white-space:normal'>"
+            f"{before}<mark style='background:{color}33;border-left:3px solid {color};"
+            f"border-right:3px solid {color};padding:1px 2px'>{selected_text}</mark>{after}"
+            f"</div>"
+            f"<div style='font-size:0.8rem;color:#666;margin-top:4px'>"
+            f"Vorschau: Zeichen {proposed_start}–{proposed_end}"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
+
+        if not boundaries_valid:
+            st.error("Start muss kleiner als Ende sein.")
+
+        apply_col, reset_col = st.columns(2)
+
+        # Button zum Übernehmen der relativen Offsets
+        with apply_col:
+            if st.button(
+                "Grenzen übernehmen",
+                key=f"apply_relative_{idx}_{span.start}_{span.end}",
+                use_container_width=True, type= "primary",
+                disabled=not boundaries_valid,
+            ):
+                spans[idx].start = proposed_start
+                spans[idx].end = proposed_end
+                spans[idx].text = text[proposed_start:proposed_end]
+                spans.sort(key=lambda s: s.start)
+                st.rerun()
+
+        # Button zum Zurücksetzen der relativen Offsets
+        with reset_col:
+            st.button(
+                "Zurücksetzen",
+                key=f"reset_relative_{idx}_{span.start}_{span.end}",
+                use_container_width=True,
+                on_click=lambda: _reset_editor_controls(idx, span),
+            )
+    
+        # Erwerterte Bearbeitung innerhalb eines Expanders
+        with st.expander("Erweiterte Bearbeitung: exakte Zeichenoffsets"):
+            advanced_start, advanced_end = st.columns(2)
+
+            with advanced_start:
+                exact_start = st.number_input(
+                    "Exakter Startoffset",
+                    min_value=0,
+                    max_value=max(len(text) - 1, 0),
+                    value=proposed_start,
+                    key=(
+                        f"exact_start_{idx}_{span.start}_{span.end}_"
+                        f"{start_delta}_{end_delta}"
+                    ),
+                )
+
+            with advanced_end:
+                exact_end = st.number_input(
+                    "Exakter Endoffset",
+                    min_value=1,
+                    max_value=len(text),
+                    value=proposed_end,
+                    key=(
+                        f"exact_end_{idx}_{span.start}_{span.end}_"
+                        f"{start_delta}_{end_delta}"
+                    ),
+                )
+
+            if st.button(
+                "Exakte Offsets übernehmen",
+                key=f"apply_exact_{idx}_{span.start}_{span.end}",
+            ):
+                if int(exact_start) < int(exact_end):
+                    spans[idx].start = int(exact_start)
+                    spans[idx].end = int(exact_end)
+                    spans[idx].text = text[int(exact_start):int(exact_end)]
                     spans.sort(key=lambda s: s.start)
                     st.rerun()
-
                 else:
-                    st.error("Start muss kleiner als End sein.")
-
-        fragment = text[span.start:span.end]
-        preview  = fragment[:160] + ("…" if len(fragment) > 160 else "")
-        st.markdown(
-            f"<div style='font-size:0.88rem;color:#444;margin-top:8px;"
-            f"font-family:Georgia,serif;padding:6px 10px;background:white;"
-            f"border-radius:4px;border-left:3px solid {color};line-height:1.6'>"
-            f"{preview}</div>", unsafe_allow_html=True,
-        )
-        st.markdown("</div>", unsafe_allow_html=True)
+                    st.error("Start muss kleiner als Ende sein.")
     else:
         st.info("Noch keine Spans vorhanden.")
 
-    # Neue Span hinzufügen
-    st.markdown("---")
-    st.markdown("**Neue Span hinzufügen**")
+    return spans
+
+def _reset_editor_controls(idx: int, span: Span) -> None:
+    """Setzt die temporären Steuerelemente des aktuellen Spans zurück.
+
+    Alle relativen Verschiebungen und exakten Offset-Eingaben werden
+    entfernt, sodass die Vorschau wieder die gespeicherten Grenzen zeigt.
+    """
+    key_prefixes = (
+        f"exact_start_{idx}_{span.start}_{span.end}_",
+        f"exact_end_{idx}_{span.start}_{span.end}_",
+    )
+
+    keys_to_reset = {
+        f"edit_slider_range_{idx}_{span.start}_{span.end}",
+        f"start_delta_{idx}_{span.start}_{span.end}",
+        f"end_delta_{idx}_{span.start}_{span.end}",
+    }
+
+    keys_to_reset.update(
+        key for key in st.session_state
+        if key.startswith(key_prefixes)
+    )
+
+    for widget_key in keys_to_reset:
+        st.session_state.pop(widget_key, None)
+
+def render_new_span_editor(text: str, spans: List[Span]) -> List[Span]:
+    """Rendert Steuerelemente zum Hinzufügen eines neuen Spans.
+
+    Args:
+        text (str): Vollständiger Text für die Span-Grenzen.
+        spans (List[Span]): Veränderbare Liste, der ein Span hinzugefügt wird.
+
+    Returns:
+        List[Span]: Aktualisierte und nach Startoffset sortierte Span-Liste.
+
+    Raises:
+        RuntimeError: Wenn die Funktion außerhalb eines Streamlit-Kontexts läuft.
+    """
+    st.markdown("### Neue Span hinzufügen")
     st.caption(f"Dokumentlänge: **{len(text)} Zeichen**")
 
-    col_s, col_e, col_l, col_btn = st.columns([2, 2, 2, 1])
+    new_label = st.selectbox("Span-Label", TAP_LABELS, key="new_label")
+
+    st.caption(
+        "Lege die neue Auswahl über die Grenzen fest und gleiche sie mit dem Preview ab."
+    )
+
+    # Slider zum anpassen der Slieder-RAnge fuer die End- und Startoffset-Slider
+    with st.expander("Slider-Reichweite anpassen"):
+        new_slider_range = st.select_slider(
+            "Slider-Reichweite für neue Span (Zeichen)",
+            options=list(range(50, 501, 50)),
+            value=100,
+            key="new_slider_range",
+        )
+
+    # Buttons zum Verschieben des Vorschaufensters
+    new_window_size = 150
+    max_window_start = max(0, len(text) - new_window_size)
+
+    if "new_span_window_start" not in st.session_state:
+        st.session_state.new_span_window_start = 0
+
+    previous_col, range_col, next_col = st.columns([1, 2, 1])
+    with previous_col:
+        st.button(
+            "← 50 Zeichen",
+            key="move_new_span_window_back",
+            use_container_width=True,
+            disabled=st.session_state.new_span_window_start == 0,
+            on_click=_move_new_span_window,
+            args=(max_window_start, -50),
+        )
+
+    with range_col:
+        window_start = st.session_state.new_span_window_start
+        window_end = min(len(text), window_start + new_window_size)
+        st.caption(f"Ausgangsbereich: Zeichen {window_start}–{window_end}")
+
+    with next_col:
+        st.button(
+            "50 Zeichen →",
+            key="move_new_span_window_forward",
+            use_container_width=True,
+            disabled=st.session_state.new_span_window_start >= max_window_start,
+            on_click=_move_new_span_window,
+            args=(max_window_start, 50),
+        )
+
+    # Slider zum Verschieben der Start- und Endoffsets innerhalb des Ausgangsbereichs
+    new_default_start = st.session_state.new_span_window_start
+    new_default_end = min(len(text), new_default_start + new_window_size)
+    col_s, col_e = st.columns(2)
+
     with col_s:
-        new_start = st.number_input(
-            "Start", min_value=0, max_value=max(len(text) - 1, 0),
-            value=0, key="new_start",
+        new_start_delta = st.slider(
+            "Start verschieben (Zeichen)",
+            min_value=-new_slider_range,
+            max_value=new_slider_range,
+            value=0,
+            key="new_start_delta",
         )
+
     with col_e:
-        new_end = st.number_input(
-            "End", min_value=1, max_value=len(text),
-            value=min(50, len(text)), key="new_end",
-        )
-    with col_l:
-        new_label = st.selectbox("Label", TAP_LABELS, key="new_label")
-    with col_btn:
-        st.markdown("<br>", unsafe_allow_html=True)
-        add_btn = st.button("➕", key="add_span", use_container_width=True)
-
-    if int(new_start) < int(new_end):
-        preview_txt = text[int(new_start):int(new_end)]
-        st.markdown(
-            f"**Vorschau:** `{preview_txt[:120]}{'…' if len(preview_txt) > 120 else ''}`"
+        new_end_delta = st.slider(
+            "Ende verschieben (Zeichen)",
+            min_value=-new_slider_range,
+            max_value=new_slider_range,
+            value=0,
+            key="new_end_delta",
         )
 
-    if add_btn:
-        if int(new_start) >= int(new_end):
-            st.error("Start muss kleiner als End sein.")
-        else:
-            spans.append(Span(
-                start=int(new_start), end=int(new_end),
-                label=new_label,
-                text=text[int(new_start):int(new_end)],
-            ))
-            spans.sort(key=lambda s: s.start)
-            st.success(f"Span hinzugefügt: **{new_label}** "
-                       f"({int(new_start)}–{int(new_end)})")
-            st.rerun()
+    new_start = min(max(0, new_default_start + new_start_delta), len(text))
+    new_end = min(max(0, new_default_end + new_end_delta), len(text))
+    new_boundaries_valid = new_start < new_end
+
+    new_context_start = max(0, new_start - 300)
+    new_context_end = min(len(text), new_end + 300)
+    new_before = (
+        escape(text[new_context_start:new_start])
+        .replace("\r", " ")
+        .replace("\n", " ")
+    )
+
+    new_selected_text = (
+        escape(text[new_start:new_end])
+        .replace("\r", " ")
+        .replace("\n", " ")
+    )
+
+    new_after = (
+        escape(text[new_end:new_context_end])
+        .replace("\r", " ")
+        .replace("\n", " ")
+    )
+
+    new_color = TAP_COLORS[new_label]
+    st.markdown(
+        f"<div style='font-size:0.95rem;color:#333;margin-top:8px;"
+        f"font-family:Georgia,serif;padding:12px 14px;background:#fafafa;"
+        f"border:1px solid {new_color}66;border-radius:6px;line-height:1.7;"
+        f"white-space:normal;max-height:260px;overflow-y:auto'>"
+        f"{new_before}<mark style='background:{new_color}33;border-left:3px solid {new_color};"
+        f"border-right:3px solid {new_color};padding:1px 2px'>{new_selected_text}</mark>{new_after}"
+        f"</div>"
+        f"<div style='font-size:0.8rem;color:#666;margin-top:4px'>"
+        f"Vorschau: Zeichen {new_start}–{new_end}"
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+
+    if not new_boundaries_valid:
+        st.error("Start muss kleiner als Ende sein.")
+
+    if st.button(
+        "Span hinzufügen",
+        type="primary",
+        key="add_span",
+        use_container_width=True,
+        disabled=not new_boundaries_valid,
+    ):
+        spans.append(Span(
+            start=new_start,
+            end=new_end,
+            label=new_label,
+            text=text[new_start:new_end],
+        ))
+        spans.sort(key=lambda s: s.start)
+        st.success(f"Span hinzugefügt: **{new_label}** "
+                   f"({new_start}–{new_end})")
+        st.rerun()
+
+    with st.expander("Erweiterte Bearbeitung: exakte Zeichenoffsets"):
+        advanced_start, advanced_end = st.columns(2)
+        with advanced_start:
+            exact_new_start = st.number_input(
+                "Exakter Startoffset",
+                min_value=0,
+                max_value=max(len(text) - 1, 0),
+                value=new_start,
+                key=f"exact_new_start_{new_start_delta}_{new_end_delta}",
+            )
+        with advanced_end:
+            exact_new_end = st.number_input(
+                "Exakter Endoffset",
+                min_value=1,
+                max_value=len(text),
+                value=new_end,
+                key=f"exact_new_end_{new_start_delta}_{new_end_delta}",
+            )
+        if st.button("Span mit exakten Offsets hinzufügen", key="add_exact_span"):
+            if int(exact_new_start) < int(exact_new_end):
+                spans.append(Span(
+                    start=int(exact_new_start),
+                    end=int(exact_new_end),
+                    label=new_label,
+                    text=text[int(exact_new_start):int(exact_new_end)],
+                ))
+                spans.sort(key=lambda s: s.start)
+                st.rerun()
+            else:
+                st.error("Start muss kleiner als Ende sein.")
 
     return spans
 
+def _move_new_span_window(max_window_start: int, amount: int) -> None:
+        """Verschiebt den Ausgangsbereich für eine neue Span.
+
+        Args:
+            max_window_start (int): Der maximale Startoffset des Fensters.
+            amount (int): Zeichenanzahl, um die der Bereich verschoben wird.
+        """
+        st.session_state.new_span_window_start = min(
+            max(0, st.session_state.new_span_window_start + amount),
+            max_window_start,
+        )
+
+        keys_to_reset = {
+            "new_start_delta",
+            "new_end_delta",
+            "new_slider_range",
+        }
+
+        keys_to_reset.update(
+            key for key in st.session_state if key.startswith("exact_new_")
+        )
+
+        for widget_key in keys_to_reset:
+            st.session_state.pop(widget_key, None)
+
+def _option_label(i: int, s: Span) -> str:
+        """Erstellt eine kurze Beschriftung für eine Span-Auswahloption.
+
+        Args:
+            i (int): Nullbasierte Position des Spans.
+            s (Span): Durch die Option repräsentierter Span.
+
+        Returns:
+            str: Nummerierte Beschriftung mit Typ, Farbmarkierung und Vorschau.
+        """
+
+        dot = {"CLAIM": "🔵", "DATA": "🟢", "WARRANT": "🟠", "REBUTTAL": "🔴"}
+        preview = s.text[:150].replace("\n", " ")
+
+        if len(s.text) > 150:
+            preview += "..."
+
+        return f"#{i+1} {dot.get(s.label,'⚪')} {s.label} — {preview}"
 
 # ── Hauptlayout ───────────────────────────────────────────────────────────────
 
@@ -711,8 +1091,7 @@ def main() -> None:
 
     # ── Sidebar ───────────────────────────────────────────────────────────────
     with st.sidebar:
-        st.title("🔍 Argumentation Mining")
-        st.caption("Prototypische Evaluierungsumgebung · FernUni Hagen")
+        st.caption("Prototypische Evaluierungsumgebung für ein deutsches Argumentation-Mining-Modell")
         st.divider()
 
         # TAP-Legende
@@ -778,7 +1157,7 @@ def main() -> None:
         if selected != "— Datei wählen —":
             text_file = scanner.load(files[selected])
             file_path = str(text_file.filepath.resolve())
-            st.subheader(f"Inhalt: {selected}")
+            st.subheader(f"Inhaltsvorschau: {selected}")
             st.code(body=text_file.content, language="plaintext", height=150)
             input_text = text_file.content
     else:
@@ -791,11 +1170,11 @@ def main() -> None:
     col_a, col_r = st.columns(2)
     with col_a:
         analyze_btn = st.button(
-            "🔍 Analysieren", type="primary", use_container_width=True
+            "Analysieren", type="primary", use_container_width=True
         )
     with col_r:
         if state.analyzed:
-            if st.button("🗑️ Zurücksetzen", use_container_width=True):
+            if st.button("Zurücksetzen", use_container_width=True):
                 state.reset()
                 st.rerun()
 
@@ -805,9 +1184,9 @@ def main() -> None:
         else:
             with st.spinner("Analysiere Text..."):
                 spans = model.predict(input_text)
-            state.spans    = spans
-            state.text     = input_text
-            state.file     = file_path
+            state.spans = spans
+            state.text = input_text
+            state.file = file_path
             state.analyzed = True
             st.rerun()
 
@@ -830,10 +1209,20 @@ def main() -> None:
             
             render_displacy(text, spans)
 
+            edit_tab, add_tab = st.tabs(["Span bearbeiten", "Neue Span hinzufügen"])
+            with edit_tab:
+                spans = render_annotation_editor(text, spans)
+
+            with add_tab:
+                spans = render_new_span_editor(text, spans)
+
+            state.spans = spans
+
         with col_stat:
             st.markdown("### Übersicht")
             counts: Dict[str, int] = {}
             scores: Dict[str, list] = {}
+
             for s in spans:
                 counts[s.label] = counts.get(s.label, 0) + 1
                 scores.setdefault(s.label, []).append(s.score)
@@ -844,6 +1233,7 @@ def main() -> None:
                 avg   = (sum(scores.get(label, [0])) /
                          max(len(scores.get(label, [1])), 1))
                 score_str = f" · ⌀ {avg:.0%}" if count > 0 and avg > 0 else ""
+
                 st.markdown(
                     f"<div style='background:{color}22;border-left:3px solid {color};"
                     f"padding:6px 10px;border-radius:4px;margin-bottom:6px'>"
@@ -851,23 +1241,21 @@ def main() -> None:
                     unsafe_allow_html=True,
                 )
 
-        # Annotation-Editor
-        st.markdown("---")
-        state.spans = render_annotation_editor(text, spans)
-
         # Export
         st.markdown("---")
-        st.markdown("### ⬇️ Export")
+        st.markdown("### Export")
         export = AnnotationExport(text=text, spans=state.spans)
+
         st.download_button(
-            label="Als JSON exportieren (Fine-Tuning)",
+            label="Als JSON exportieren",
             data=export.to_json(),
             file_name=f"annotation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
             mime="application/json",
             use_container_width=True,
         )
+
         st.caption(
-            "💡 Exportierte JSONs können dem Trainings-Datensatz später "
+            "exportierte JSON's können dem Trainings-Datensatz später "
             "für verbesserte zukünftige Ergebnisse hinzugefügt werden."
         )
 
