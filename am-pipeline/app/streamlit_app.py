@@ -655,12 +655,15 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
         span = spans[idx]
         color = TAP_COLORS.get(span.label, "#999")
 
-        col_lbl, col_del = st.columns([6, 1])
+        col_lbl, col_del = st.columns([5, 2])
 
-        # Auswahlbox zum Span-Label ändern
+        # Auswahlbox zum Span-Label ändern        
         with col_lbl:
+            st.caption(
+                "Ändere das Span-Label"
+            )
             new_lbl = st.selectbox(
-                "Label", TAP_LABELS,
+                "Label ändern", TAP_LABELS,
                 index=TAP_LABELS.index(span.label),
                 key=f"edit_label_{idx}_{span.start}",
                 label_visibility="collapsed",
@@ -672,7 +675,10 @@ def render_annotation_editor(text: str, spans: List[Span]) -> List[Span]:
 
         # Auswahlbox zum Span löschen
         with col_del:
-            if st.button("✕", key="edit_del", help="Span löschen"):
+            st.caption(
+                "Oder lösche die ausgewählte Span"
+            )
+            if st.button("Span löschen", key="edit_del", help="Span löschen"):
                 spans.pop(idx)
                 st.session_state.active_span_idx = max(0, idx - 1)
                 st.rerun()
@@ -865,7 +871,7 @@ def render_new_span_editor(text: str, spans: List[Span]) -> List[Span]:
     st.markdown("### Neue Span hinzufügen")
     st.caption(f"Dokumentlänge: **{len(text)} Zeichen**")
 
-    new_label = st.selectbox("Span-Label", TAP_LABELS, key="new_label")
+    new_label = st.selectbox("Span-Label wählen", TAP_LABELS, key="new_label")
 
     st.caption(
         "Lege die neue Auswahl über die Grenzen fest und gleiche sie mit dem Preview ab."
