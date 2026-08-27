@@ -9,6 +9,8 @@ from pathlib import Path
 from typing import List, Optional
 from dataclasses import dataclass, field
 
+from pipeline.postprocessing import SpanPostprocessor, postprocess_spans
+
 TAP_LABELS = ["CLAIM", "DATA", "WARRANT", "REBUTTAL"]
 
 @dataclass
@@ -77,29 +79,50 @@ class ClassifiedText:
 
 class AMModel:
     """
-    Kapselt das trainierte Argumentation-Mining-Modell.
+    Kapselt das trainierte Argumentation-Mining-Modell samt Postprocessing.
 
     Attributes:
         model_path (Path): Pfad zum Verzeichnis des trainierten spaCy-Modells.
         labels (List[str]): Unterstützte TAP-Labels.
-        threshold (float): Minimale Konfidenz für akzeptierte Spans.
+        threshold (float): Minimale Konfidenz für akzeptierte Spans (Standard: 0.65).
+        postprocessor (SpanPostprocessor): Filter- und Nachverarbeitungskomponente.
         is_loaded (bool): Gibt an, ob die spaCy-Pipeline geladen wurde.
         _nlp (Optional[Language]): Geladene spaCy-Pipeline oder ``None`` vor
             dem Laden des Modells.
     """
 
-    def __init__(self, 
-                 model_path: Path, 
-                 threshold: float = 0.5):
+    def __init__(
+        self, 
+        model_path: Path, 
+        threshold: float = 0.65,
+        min_words: int = 3,
+        min_chars: int = 12,
+        nms_iou_threshold: float = 0.3,
+        containment_threshold: float = 0.6,
+        clean_boundaries: bool = True,
+    ):
         """Initialisiert das Argumentation-Mining-Modell.
 
         Args:
             model_path (Path): Pfad zum trainierten spaCy-Modell.
-            threshold (float): Minimale Konfidenz akzeptierter Spans.
+            threshold (float): Minimale Konfidenz akzeptierter Spans (Standard: 0.65).
+            min_words (int): Minimale Wortanzahl pro Span (Standard: 3).
+            min_chars (int): Minimale Zeichenanzahl pro Span (Standard: 12).
+            nms_iou_threshold (float): NMS IoU-Grenzwert für Überlappungen.
+            containment_threshold (float): Überdeckungsanteil für Schachtelung.
+            clean_boundaries (bool): Ob Ränder bereinigt werden sollen.
         """
         self.model_path = Path(model_path)
         self.labels     = TAP_LABELS
         self.threshold  = threshold
+        self.postprocessor = SpanPostprocessor(
+            threshold=threshold,
+            min_words=min_words,
+            min_chars=min_chars,
+            nms_iou_threshold=nms_iou_threshold,
+            containment_threshold=containment_threshold,
+            clean_boundaries=clean_boundaries,
+        )
         self.is_loaded  = False
         self._nlp       = None 
 
@@ -129,17 +152,28 @@ class AMModel:
             for label in self.labels:
                 spancat.add_label(label)
 
+        # Synchronisiere internen spancat-Schwellenwert mit dem Modell-Schwellenwert
+        if "threshold" in spancat.cfg:
+            spancat.cfg["threshold"] = self.threshold
+
         self.is_loaded = True
         return self
 
-    def predict(self, text: str) -> ClassifiedText:
-        """Führt die Klassifikation von TAP-Elementen für einen Text aus.
+    def predict(
+        self, 
+        text: str, 
+        threshold: Optional[float] = None,
+        min_words: Optional[int] = None,
+    ) -> ClassifiedText:
+        """Führt die Klassifikation und Nachverarbeitung von TAP-Elementen aus.
 
         Args:
             text (str): Zu analysierender Text.
+            threshold (Optional[float]): Optionaler Überschreib-Schwellenwert.
+            min_words (Optional[int]): Optionale Überschreib-Mindestwortanzahl.
 
         Returns:
-            ClassifiedText: Text mit allen erkannten Spans.
+            ClassifiedText: Text mit gefilterten und nachverarbeiteten Spans.
 
         Raises:
             RuntimeError: Wenn das Modell vor der Vorhersage nicht geladen wurde.
@@ -147,8 +181,13 @@ class AMModel:
         if not self.is_loaded:
             raise RuntimeError("Modell nicht geladen. Zuerst load() aufrufen.")
 
+        eff_threshold = threshold if threshold is not None else self.threshold
+        spancat = self._nlp.get_pipe("spancat")
+        if "threshold" in spancat.cfg:
+            spancat.cfg["threshold"] = eff_threshold
+
         sentences = self._split_sentences(text)
-        spans: List[Span] = []
+        raw_spans: List[Span] = []
 
         for sent_text, sent_start in sentences:
             try:
@@ -158,19 +197,30 @@ class AMModel:
                 continue
 
             for span in doc.spans.get("sc", []):
-                score = getattr(span._, "score", 1.0)
-                if score < self.threshold:
-                    continue
-                spans.append(Span(
+                score = getattr(span._, "score", 0.0)
+                raw_spans.append(Span(
                     start = sent_start + span.start_char,
                     end   = sent_start + span.end_char,
                     label = span.label_,
                     text  = span.text,
-                    score = round(score, 3),
+                    score = round(score, 3) if score > 0 else round(eff_threshold, 3),
                 ))
 
-        spans.sort(key=lambda s: s.start)
-        return ClassifiedText(text=text, spans=spans)
+        # Postprocessing: Filtern nach Schwellenwert, Mindestlänge und NMS-Entfernung
+        if threshold is not None or min_words is not None:
+            postproc = SpanPostprocessor(
+                threshold=eff_threshold,
+                min_words=min_words if min_words is not None else self.postprocessor.min_words,
+                min_chars=self.postprocessor.min_chars,
+                nms_iou_threshold=self.postprocessor.nms_iou_threshold,
+                containment_threshold=self.postprocessor.containment_threshold,
+                clean_boundaries=self.postprocessor.clean_boundaries,
+            )
+            filtered_spans = postproc.process(raw_spans, full_text=text)
+        else:
+            filtered_spans = self.postprocessor.process(raw_spans, full_text=text)
+
+        return ClassifiedText(text=text, spans=filtered_spans)
 
     def _split_sentences(self, text: str) -> List[tuple]:
         """Teilt einen Text in Sätze mit ihren Zeichenpositionen.

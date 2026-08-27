@@ -21,7 +21,9 @@ import spacy_streamlit
 import streamlit as st
 
 # Pipeline-Imports ermöglichen (Projektstruktur: app/ liegt unter Projektroot)
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from pipeline.postprocessing import SpanPostprocessor, postprocess_spans
 
 
 # ── Konfiguration ─────────────────────────────────────────────────────────────
@@ -232,22 +234,22 @@ class FileScanner:
 
 class AMModelAdapter:
     """
-    Kapselt das trainierte spaCy-Modell mit regelbasiertem Fallback.
+    Kapselt das trainierte spaCy-Modell mit konfigurierbarem Postprocessing.
 
     Attributes:
         model_path (Path): Verzeichnis des trainierten spaCy-Modells.
-        threshold (float): Minimale Konfidenz für übernommene Modell-Spans.
+        threshold (float): Minimale Konfidenz für übernommene Modell-Spans (Standard: 0.65).
         is_loaded (bool): Gibt an, ob das trainierte Modell geladen wurde.
         _nlp (Optional[Language]): Geladene spaCy-Pipeline oder ``None`` im
             Fallback-Modus.
     """
 
-    def __init__(self, model_path: Path = MODEL_PATH, threshold: float = 0.5):
+    def __init__(self, model_path: Path = MODEL_PATH, threshold: float = 0.65):
         """Initialisiert einen Adapter für ein trainiertes spaCy-Modell.
 
         Args:
             model_path (Path): Verzeichnis mit dem trainierten Modell.
-            threshold (float): Minimale Konfidenz für übernommene Vorhersagen.
+            threshold (float): Minimale Konfidenz für übernommene Vorhersagen (Standard: 0.65).
         """
         self.model_path = Path(model_path)
         self.threshold  = threshold
@@ -277,6 +279,9 @@ class AMModelAdapter:
                 if label not in existing:
                     spancat.add_label(label)
 
+            if "threshold" in spancat.cfg:
+                spancat.cfg["threshold"] = self.threshold
+
             self.is_loaded = True
 
         except Exception as e:
@@ -285,37 +290,75 @@ class AMModelAdapter:
 
         return self
 
-    def predict(self, text: str) -> List[Span]:
-        """Extrahiert Argumentations-Spans aus einem Text.
+    def predict(
+        self, 
+        text: str, 
+        threshold: Optional[float] = None,
+        min_words: int = 3,
+        nms: bool = True,
+        clean_boundaries: bool = True,
+        **kwargs,
+    ) -> List[Span]:
+        """Extrahiert und filtert Argumentations-Spans aus einem Text.
 
         Args:
             text (str): Zu analysierender Ausgangstext.
+            threshold (Optional[float]): Minimaler Schwellenwert (überschreibt self.threshold).
+            min_words (int): Minimale Wortanzahl je Span.
+            nms (bool): Non-Maximum Suppression zur Entfernung von Überlappungen aktivieren.
+            clean_boundaries (bool): Ränder von Satzzeichen und Anführungszeichen befreien.
+            **kwargs: Zusätzliche Filter- oder Überschreib-Argumente.
 
         Returns:
-            List[Span]: Vorhersagen oberhalb der Konfidenzschwelle oder
-                heuristische Fallback-Spans, wenn kein Modell geladen ist.
+            List[Span]: Gefilterte und bereinigte Spans.
         """
+        if threshold is None and "threshold" in kwargs:
+            threshold = kwargs["threshold"]
+
         if self.is_loaded and self._nlp is not None:
-            return self._predict_model(text)
+            return self._predict_model(
+                text, 
+                threshold=threshold,
+                min_words=min_words,
+                nms=nms,
+                clean_boundaries=clean_boundaries,
+                **kwargs,
+            )
+        return []
 
-    def _predict_model(self, text: str) -> List[Span]:
-        """Führt eine satzweise Inferenz mit dem geladenen spaCy-Modell aus.
+    def _predict_model(
+        self, 
+        text: str,
+        threshold: Optional[float] = None,
+        min_words: int = 3,
+        nms: bool = True,
+        clean_boundaries: bool = True,
+        **kwargs,
+    ) -> List[Span]:
+        """Führt satzweise Inferenz und anschließendes Postprocessing aus.
 
         Args:
             text (str): Zu analysierender Ausgangstext.
+            threshold (Optional[float]): Mindest-Konfidenz (Standard: self.threshold).
+            min_words (int): Mindest-Wortanzahl.
+            nms (bool): NMS aktivieren.
+            clean_boundaries (bool): Ränder bereinigen.
+            **kwargs: Zusätzliche Argumente.
 
         Returns:
-            List[Span]: Sortierte Modellvorhersagen oberhalb der Schwelle.
-
-        Raises:
-            AttributeError: Wenn dem konfigurierten Modell die erwartete API fehlt.
+            List[Span]: Sortierte und gefilterte Modellvorhersagen.
         """
+        eff_threshold = threshold if threshold is not None else self.threshold
+
+        spancat = self._nlp.get_pipe("spancat")
+        if "threshold" in spancat.cfg:
+            spancat.cfg["threshold"] = eff_threshold
+
         sentence_re = re.compile(r'(?<=[.!?])\s+')
         raw_sents   = sentence_re.split(text.strip())
 
         sents, cursor = [], 0
         for s in raw_sents:
-
             s = s.strip()
             if not s:
                 continue
@@ -325,30 +368,32 @@ class AMModelAdapter:
                 sents.append((s, pos))
                 cursor = pos + len(s)
 
-        spans = []
+        raw_spans = []
         for sent_text, sent_start in sents:
             try:
                 doc = self._nlp(sent_text)
-
             except Exception:
                 continue
 
             for sp in doc.spans.get("sc", []):
-                score = getattr(sp._, "score", 1.0)
-
-                if score < self.threshold:
-                    continue
-
-                spans.append(Span(
+                score = getattr(sp._, "score", 0.0)
+                raw_spans.append(Span(
                     start = sent_start + sp.start_char,
                     end   = sent_start + sp.end_char,
                     label = sp.label_,
                     text  = sp.text,
-                    score = round(score, 3),
+                    score = round(score, 3) if score > 0 else round(eff_threshold, 3),
                 ))
 
-        spans.sort(key=lambda s: s.start)
-        return spans
+        # Postprocessing anwenden
+        postproc = SpanPostprocessor(
+            threshold=eff_threshold,
+            min_words=min_words,
+            filter_duplicates=nms,
+            clean_boundaries=clean_boundaries,
+        )
+        filtered_spans = postproc.process(raw_spans, full_text=text)
+        return filtered_spans
 
 
 # ── AppState ──────────────────────────────────────────────────────────────────
@@ -1129,6 +1174,38 @@ def main() -> None:
                     f"Erwartet unter:\n`{MODEL_PATH}`"
                 )
 
+        st.divider()
+
+        # Klassifikation & Postprocessing Filter
+        st.markdown("**Klassifikation & Filterung**")
+        selected_threshold = st.slider(
+            "Mindest-Konfidenz (Threshold):",
+            min_value=0.30,
+            max_value=0.95,
+            value=0.65,
+            step=0.05,
+            help="Höhere Werte filtern unsichere und falsch klassifizierte Spans heraus. Standard: 0.65",
+        )
+
+        with st.expander("Postprocessing-Filter", expanded=False):
+            min_words = st.slider(
+                "Min. Wörter pro Span:",
+                min_value=1,
+                max_value=10,
+                value=3,
+                help="Filtert kurze Fragmente mit weniger Wörtern heraus.",
+            )
+            nms_enabled = st.checkbox(
+                "Überlappungen filtern (NMS)",
+                value=True,
+                help="Entfernt überflüssige überlappende n-Gramm-Spans und behält den besten Span.",
+            )
+            clean_bounds = st.checkbox(
+                "Ränder bereinigen",
+                value=True,
+                help="Entfernt führende/nachfolgende Satzzeichen und Anführungszeichen.",
+            )
+
     # ── Hauptbereich ──────────────────────────────────────────────────────────
     st.title("Argumentation Mining - Test & Evaluation")
     st.markdown(
@@ -1188,8 +1265,14 @@ def main() -> None:
         if not input_text.strip():
             st.warning("Bitte zuerst eine Textdatei auswählen.")
         else:
-            with st.spinner("Analysiere Text..."):
-                spans = model.predict(input_text)
+            with st.spinner("Analysiere Text mit Postprocessing..."):
+                spans = model.predict(
+                    input_text,
+                    threshold=selected_threshold,
+                    min_words=min_words,
+                    nms=nms_enabled,
+                    clean_boundaries=clean_bounds,
+                )
             state.spans = spans
             state.text = input_text
             state.file = file_path
